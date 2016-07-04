@@ -1,0 +1,11 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+$baseUrl: "{{ site.baseurl }}";
+
+@charset "utf-8";
+
+// settings kanbasu
+@import "settings/kanbasu";
+@import "kanbasu";
