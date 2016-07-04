@@ -8,9 +8,17 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <link rel="stylesheet" href="{{ "/assets/main.css" | prepend: site.baseurl }}">
   </head>
-
   <body>
-    <header></header>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">{{ t.menu.home }}</a></li>
+          <li><a href="#">{{ t.menu.buy }}</a></li>
+          <li><a href="#">{{ t.menu.shipyard }}</a></li>
+          <li><a href="#">{{ t.menu.contact }}</a></li>
+        </ul>
+      </nav>
+    </header>
     <div class="master">
       {{ content }}
     </div>
