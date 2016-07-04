@@ -1,0 +1,10 @@
+# Site settings
+title: Aquaboat
+baseurl: ""
+url: "http://aquaboat.com" # the base hostname & protocol for your site
+email: "hello@aquaboat.ch"
+phone:
+
+# Build settings
+markdown: kramdown
+exclude: [node_modules]
