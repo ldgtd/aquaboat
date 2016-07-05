@@ -2,7 +2,7 @@
   <h2>{{ t.contact.title }}</h2>
     {% for news in site.data.news %}
       <h3>{{ news.title }}</h3>
-      <img src="assets/images/{{ news.images }}" style="width: 300px">
+      <img src="{{ news.images }}" style="width: 300px">
       <p>{{ news.content }}</p>
     {% endfor %}
 </section>
