@@ -43,11 +43,11 @@
 
 // @import '../node_modules/kanbasu/src/assets/scss/helpers/text';
 @import '../node_modules/kanbasu/src/assets/scss/helpers/float';
-// @import '../node_modules/kanbasu/src/assets/scss/helpers/spacings';
-// @import '../node_modules/kanbasu/src/assets/scss/helpers/spacings-responsive';
+@import '../node_modules/kanbasu/src/assets/scss/helpers/spacings';
+@import '../node_modules/kanbasu/src/assets/scss/helpers/spacings-responsive';
 // @import '../node_modules/kanbasu/src/assets/scss/helpers/images';
 // @import '../node_modules/kanbasu/src/assets/scss/helpers/positionning';
-// @import '../node_modules/kanbasu/src/assets/scss/helpers/display';
+@import '../node_modules/kanbasu/src/assets/scss/helpers/display';
 
 
 /**
@@ -63,7 +63,7 @@
 // @import '../node_modules/kanbasu/src/assets/scss/components/media-responsive';
 // @import '../node_modules/kanbasu/src/assets/scss/components/mosaic';
 // @import '../node_modules/kanbasu/src/assets/scss/components/mosaic-responsive';
-// @import '../node_modules/kanbasu/src/assets/scss/components/list';
-// @import '../node_modules/kanbasu/src/assets/scss/components/list-inline';
+@import '../node_modules/kanbasu/src/assets/scss/components/list';
+@import '../node_modules/kanbasu/src/assets/scss/components/list-inline';
 // @import '../node_modules/kanbasu/src/assets/scss/components/list-stacked';
 // @import '../node_modules/kanbasu/src/assets/scss/components/embed-responsive';

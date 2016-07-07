@@ -1,0 +1,32 @@
+/*----------------------------------------*\
+  NAV
+\*----------------------------------------*/
+
+.header-master {
+  width: 100vw;
+  height: 80px;
+  background-color: $brand-color;
+}
+
+  .nav {
+    display: none;
+
+    @extend .master;
+
+    a {
+      color: $white;
+    }
+  }
+
+  .nav--mobile {
+    @media(max-width: $screen-sm-min) {
+      display: block;
+    }
+  }
+
+  .nav--desktop {
+    @media(min-width: $screen-sm-min) {
+      display: block;
+    }
+  }
+

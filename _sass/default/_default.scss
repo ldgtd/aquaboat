@@ -1,0 +1,14 @@
+/*----------------------------------------*\
+  DEFAULT
+\*----------------------------------------*/
+
+.master {
+   width: auto;
+   max-width: 1280px;
+   margin: 0 auto;
+   padding: 0 $spacing-unit-default;
+}
+
+footer {
+  background-color: $alt-color-lighter;
+}
