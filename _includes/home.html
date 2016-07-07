@@ -1,9 +1,8 @@
 <section class="news">
-  <h2>{{ t.contact.title }}</h2>
+  <h4>{{ t.home.last_news }}</h4>
   {% for news in site.data.news %}
     <h3>{{ news.title }}</h3>
     <img src="{{ news.images }}" style="width: 300px">
     <p>{{ news.content }}</p>
-    <a href="{{ news.pdf }}">{{ news.pdf }}</a>
   {% endfor %}
 </section>
