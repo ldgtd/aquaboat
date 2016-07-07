@@ -1,8 +1,14 @@
 <section class="news">
   <h4>{{ t.home.last_news }}</h4>
-  {% for news in site.data.news %}
-    <h3>{{ news.title }}</h3>
-    <img src="{{ news.images }}" style="width: 300px">
-    <p>{{ news.content }}</p>
-  {% endfor %}
+  <div class="grid">
+    {% for news in site.data.news %}
+    <div class="grid__item w-1/1 sm-w-1/2 md-w-1/3">
+        <div class="tile box box--default mrgt">
+          <h3>{{ news.title }}</h3>
+          <img src="{{ news.images }}" class="tile__image">
+          <p>{{ news.content }}</p>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
 </section>
