@@ -11,7 +11,7 @@
   <body>
     <header class="header-master">
       <nav class="nav nav--mobile clearfix">
-        <h1 class="pull-left mrgt0">-</h1>
+        <h1 class="logo pull-left mrgt--">{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
 
         <button class="hamburger hamburger--collapse pull-right" type="button">
           <span class="hamburger-box">
@@ -28,7 +28,7 @@
       </nav>
 
       <nav class="nav nav--desktop clearfix">
-        <h1 class="pull-left">-</h1>
+        <h1 class="logo pull-left">{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
 
         <ul class="list-inline list-inline--tight pull-right">
           <li><a href="#">{{ t.menu.home }}</a></li>
