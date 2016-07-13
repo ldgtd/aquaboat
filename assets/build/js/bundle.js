@@ -74,13 +74,14 @@
 	  function Nav() {
 	    _classCallCheck(this, Nav);
 	
-	    this.testFunction();
+	    document.querySelector('.hamburger').addEventListener('click', this.toggleMobileNav.bind(this));
 	  }
 	
 	  _createClass(Nav, [{
-	    key: 'testFunction',
-	    value: function testFunction() {
-	      console.log('hello!!!');
+	    key: 'toggleMobileNav',
+	    value: function toggleMobileNav(node) {
+	      console.log(node.currentTarget);
+	      node.currentTarget.classList.toggle('is-active');
 	    }
 	  }]);
 	

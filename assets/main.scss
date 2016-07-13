@@ -12,6 +12,8 @@ $baseUrl: "{{ site.baseurl }}";
 
 // Hamburger & settings
 $hamburger-layer-color: $white;
+$hamburger-padding-y: 32px;
+$hamburger-hover-opacity: 1;
 @import "../node_modules/hamburgers/_sass/hamburgers/hamburgers";
 
 

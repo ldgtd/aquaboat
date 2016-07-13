@@ -1,10 +1,10 @@
 export default class Nav {
-
   constructor() {
-    this.testFunction();
+    document.querySelector('.hamburger').addEventListener('click', this.toggleMobileNav.bind(this));
   }
 
-  testFunction() {
-    console.log('hello!!!');
+  toggleMobileNav(node) {
+    console.log(node.currentTarget)
+    node.currentTarget.classList.toggle('is-active');
   }
 }

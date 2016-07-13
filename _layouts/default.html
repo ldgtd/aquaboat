@@ -12,13 +12,13 @@
   <body>
     <header class="header-master">
       <nav class="nav nav--mobile clearfix">
-        <h1 class="logo pull-left mrgt--">{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+        <img src="{{ "/assets/images/logo.png" | prepend: site.baseurl }}" class="logo pull-left">
 
-        <button class="hamburger hamburger--collapse pull-right" type="button">
+        <div class="hamburger hamburger--collapse pull-right">
           <span class="hamburger-box">
             <span class="hamburger-inner"></span>
           </span>
-        </button>
+        </div>
 
         <ul class="list-stacked list-stacked--tight hidden">
           <li><a href="#">{{ t.menu.home }}</a></li>
@@ -29,13 +29,13 @@
       </nav>
 
       <nav class="nav nav--desktop clearfix">
-        <h1 class="logo pull-left">{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+        <img src="{{ "/assets/images/logo.png" | prepend: site.baseurl }}" class="logo pull-left">
 
         <ul class="list-inline list-inline--tight pull-right">
-          <li><a href="#">{{ t.menu.home }}</a></li>
-          <li><a href="#">{{ t.menu.buy }}</a></li>
-          <li><a href="#">{{ t.menu.shipyard }}</a></li>
-          <li><a href="#">{{ t.menu.contact }}</a></li>
+          <li class="active pdgh- pdgv+"><a href="#" class="text-bold">{{ t.menu.home }}</a></li>
+          <li class="pdgh- pdgv+"><a href="#" class="text-bold">{{ t.menu.buy }}</a></li>
+          <li class="pdgh- pdgv+"><a href="#" class="text-bold">{{ t.menu.shipyard }}</a></li>
+          <li class="pdgh- pdgv+"><a href="#" class="text-bold">{{ t.menu.contact }}</a></li>
         </ul>
       </nav>
     </header>
@@ -44,7 +44,7 @@
       {{ content }}
     </div>
 
-    <footer class="pdgv- pdgh mrgt">
+    <footer class="master-footer pdgv- pdgh mrgt">
       <p class="mrg0">© 2016 Copyright Aquaboat</p>
     </footer>
   </body>
