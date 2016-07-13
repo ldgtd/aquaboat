@@ -1,0 +1,12 @@
+{
+  "src": {
+    "javascript": "assets/javascripts/**/*.js",
+    "webpack": "./assets/javascripts/aquaboat.js"
+  },
+  "dest": {
+    "webpack": {
+      "path": "assets/build/js",
+      "filename": "bundle.js"
+    }
+  }
+}
