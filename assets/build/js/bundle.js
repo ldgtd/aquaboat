@@ -80,7 +80,6 @@
 	  _createClass(Nav, [{
 	    key: 'toggleMobileNav',
 	    value: function toggleMobileNav(node) {
-	      console.log(node.currentTarget);
 	      node.currentTarget.classList.toggle('is-active');
 	    }
 	  }]);

@@ -4,7 +4,6 @@ export default class Nav {
   }
 
   toggleMobileNav(node) {
-    console.log(node.currentTarget)
     node.currentTarget.classList.toggle('is-active');
   }
 }
