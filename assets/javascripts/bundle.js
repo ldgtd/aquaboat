@@ -44,7 +44,7 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 	
 	var _nav = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"components/nav\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
 	
@@ -52,7 +52,7 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
-	document.addEventListener("DOMContentLoaded", function (event) {
+	document.addEventListener('DOMContentLoaded', function () {
 	  new _nav2.default();
 	});
 
