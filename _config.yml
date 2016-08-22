@@ -9,4 +9,4 @@ phone:
 
 # Build settings
 markdown: kramdown
-exclude: [node_modules]
+exclude: [node_modules, gulp-config.json, Gulpfile.js, package.json, webpack-config.js]
