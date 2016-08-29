@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <link rel="stylesheet" href="{{ "/assets/main.css" | prepend: site.baseurl }}">
-    <script type="text/javascript" src="{{ "/assets/javascripts/bundle.js" | prepend: site.baseurl }}"></script>
+    <script type="text/javascript" src="{{ '/assets/javascripts/bundle.js' | prepend: site.baseurl }}"></script>
   </head>
   <body>
     <header class="header-master">
@@ -32,13 +32,15 @@
         <img src="{{ "/assets/images/logo.png" | prepend: site.baseurl }}" class="logo pull-left">
 
         <ul class="list-inline list-inline--tight pull-right">
-          <li class="active pdgh- pdgv+"><a href="#" class="text-bold">{{ t.menu.home }}</a></li>
-          <li class="pdgh- pdgv+"><a href="#" class="text-bold">{{ t.menu.buy }}</a></li>
-          <li class="pdgh- pdgv+"><a href="#" class="text-bold">{{ t.menu.shipyard }}</a></li>
-          <li class="pdgh- pdgv+"><a href="#" class="text-bold">{{ t.menu.contact }}</a></li>
+          <li class="active pdgh- pdgv+"><a href="#" class="text-uppercase">{{ t.menu.home }}</a></li>
+          <li class="pdgh- pdgv+"><a href="#" class="text-uppercase">{{ t.menu.buy }}</a></li>
+          <li class="pdgh- pdgv+"><a href="#" class="text-uppercase">{{ t.menu.shipyard }}</a></li>
+          <li class="pdgh- pdgv+"><a href="#" class="text-uppercase">{{ t.menu.contact }}</a></li>
         </ul>
       </nav>
     </header>
+
+    <section class="herobanner"></section>
 
     <div class="master">
       {{ content }}

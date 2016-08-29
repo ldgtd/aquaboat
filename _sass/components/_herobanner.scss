@@ -1,0 +1,13 @@
+/*----------------------------------------*\
+  HEROBANNER
+\*----------------------------------------*/
+
+.herobanner {
+  width: 100vw;
+  height: 350px;
+  background: 
+  linear-gradient(to top, rgba(197, 223, 210, 0.1), $brand-color 125%),
+  url('images/herobanner-home.jpg');
+  background-position: center;
+  background-size: cover;
+}

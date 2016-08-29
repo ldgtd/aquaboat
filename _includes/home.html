@@ -1,14 +1,32 @@
-<section class="news">
-  <h4>{{ t.home.last_news }}</h4>
-  <div class="grid">
-    {% for news in site.data.news %}
-    <div class="grid__item w-1/1 sm-w-1/2 md-w-1/3">
-        <div class="tile box box--default mrgt">
-          <h3>{{ news.title }}</h3>
-          <img src="{{ news.images }}" class="tile__image">
-          <p>{{ news.content }}</p>
+<section class="grid">
+
+  <div class="grid__item w-1/1 md-w-3/4">
+    <article class="news">
+      <h2 class="text-uppercase">{{ t.home.last_news }}</h2>
+      {% for news in site.data.news %}
+        <h3>{{ news.title }}</h3>
+        <p>{{ news.content }}</p>
+      {% endfor %}
+    </article>
+
+    <h2 class="text-uppercase">{{ t.home.services }}</h2>
+    <article class="services grid">
+      {% for service in site.data.services %}
+        <div class="grid__item w-1/1 sm-w-1/2 md-w-1/3">
+            <div class="tile box box--default mrgt">
+              <img src="{{ service.image }}" class="tile__image">
+              <h3 class="text-uppercase mrgt-">{{ service.title }}</h3>
+              <p>{{ service.content }}</p>
+            </div>
         </div>
-      </div>
-    {% endfor %}
+      {% endfor %}
+    </article>
   </div>
+
+  <div class="grid__item w-1/1 md-w-1/4">
+    <article class="social">
+      <p>facebook stuff</p>
+    </article>
+  </div>
+
 </section>

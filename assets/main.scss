@@ -10,19 +10,21 @@ $baseUrl: "{{ site.baseurl }}";
 @import "settings/kanbasu";
 @import "kanbasu";
 
+
 // Hamburger & settings
-$hamburger-layer-color: $white;
+$hamburger-layer-color: darken($brand-color, 20%);
 $hamburger-padding-y: 32px;
 $hamburger-hover-opacity: 1;
 @import "../node_modules/hamburgers/_sass/hamburgers/hamburgers";
 
 
 // Fonts
-@import url(https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700);
+@import 'https://fonts.googleapis.com/css?family=Lato|Montserrat';
 
 
 // Default 
 @import "default/default";
+
 
 // Helpers
 
@@ -30,3 +32,4 @@ $hamburger-hover-opacity: 1;
 // Components
 @import "components/nav";
 @import "components/tile";
+@import "components/herobanner";

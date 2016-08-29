@@ -5,4 +5,6 @@ fr:
     shipyard: Chantier naval
     contact: Contact
   home:
-    last_news: Dernières actualités  
+    last_news: Dernières actualités
+    services: Services
+    
