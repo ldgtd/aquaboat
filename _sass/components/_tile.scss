@@ -2,7 +2,27 @@
   TILE
 \*----------------------------------------*/
 
-.tile {}
+.tile {
+  min-height: 400px;
+  overflow: hidden;
+  background-color: lighten($alt-color-lighter, 4%);
+}
+
+  .tile__image-container {
+    max-height: 140px;
+    overflow: hidden;
+  }
+
   .tile__image {
     width: 100%;
+    height: 100%;
+    transition: all 1s ease;
   }
+
+  .tile__text-content {
+    padding: 0 $spacing-unit-small;
+  }
+
+.tile--onhover .tile__image {
+  transform:scale(1.3);
+}
