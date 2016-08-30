@@ -3,11 +3,21 @@
 \*----------------------------------------*/
 
 .herobanner {
+  background-color: red;
   width: 100vw;
   height: 350px;
   background: 
-  linear-gradient(to top, rgba(197, 223, 210, 0.1), $brand-color 125%),
+  linear-gradient(to bottom, rgba(197, 223, 210, 0.3), $brand-color 150%),
   url('images/herobanner-home.jpg');
   background-position: center;
   background-size: cover;
 }
+
+  .herobanner__title {
+    width: 100%;
+    font-size: 4em;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.3em;
+    color: $white;
+  }
