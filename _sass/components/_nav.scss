@@ -22,7 +22,6 @@
     }
 
     li {
-      font-family: 'ubuntu';
       display: inline-block;
       height: 96px;
     }
@@ -39,6 +38,7 @@
       color: $white;
       font-weight: 500;
       text-decoration: none;
+      font-family: 'ubuntu';
     }
   }
 

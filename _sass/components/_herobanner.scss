@@ -13,30 +13,32 @@
   background-size: cover;
 }
 
-  .herobanner__wave {
-    width: 150px;
-    position: absolute;
-    bottom: 20vh;
-    left: 50%;
-    margin-left: -75px;
-    fill: $white;
+
+  .herobanner__content {
+    h1, h3 {
+      width: 100%;
+      font-weight: 600;
+      text-align: center;
+      color: $white;
+    }
   }
 
-  .herobanner__title {
-    width: 100%;
-    font-size: 4em;
-    font-weight: 600;
-    text-align: center;
-    line-height: 1.1em;
-    color: $white;
-    padding-top: 30vh;
-  } 
+    .herobanner__title {
+      font-size: 4em;
+      line-height: 1.1em;
+    } 
 
-  .herobanner__subtitle {
-    width: 100%;
-    font-size: 2em;
-    font-weight: 600;
-    text-align: center;
-    line-height: 1.3em;
-    color: $white;
-  }
+    .herobanner__subtitle {
+      font-size: 2em;
+      line-height: 1.3em;
+    }
+
+    .herobanner__wave {
+      width: 150px;
+      height: 49px;
+      position: absolute;
+      left: 50%;
+      margin-left: -75px;
+
+      fill: $white;
+    }
