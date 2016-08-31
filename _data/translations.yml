@@ -4,9 +4,14 @@ fr:
     buy: Acheter
     shipyard: Chantier naval
     contact: Contact
+    submenu:
+      boat: Bateau
+      engine: Moteur
+      trailer: Remorque
+      occasion: Occasion
   home:
-    last_news: Dernières actualités
+    last_news: Actualités
     services: Services
   herobanner:
     title: Hello, nous sommes Aquaboat
-    subtitle: le partenaire de vos plaisirs nautiques</br> sur le lac Léman
+    subtitle: le partenaire de vos plaisirs nautiques</br> sur le <span class="herobanner--color">lac Léman</span>

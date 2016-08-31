@@ -15,32 +15,42 @@
     display: none;
     @extend .master;
 
+    a {
+      color: $white;
+      font-weight: 600;
+      text-decoration: none;
+      font-family: 'ubuntu';
+    }
+
     .logo {
       width: 80px;
       height: 80px;
       margin-top: 6px;
     }
 
-    li {
-      display: inline-block;
-      height: 96px;
+    .nav-item__primary:hover,
+    .nav-item__primary.active {
+      border-bottom: solid 4px darken($brand-color, 10%);
+
+      > a {
+        color: darken($brand-color, 10%);
+      }
     }
 
-    // li:hover {
-    //   background-color: darken($brand-color, 5%);
-    // }
-
-    // li.active {
-    //   background-color: darken($brand-color, 20%);
-    // }
-
-    a {
-      color: $white;
-      font-weight: 500;
-      text-decoration: none;
-      font-family: 'ubuntu';
-    }
   }
+
+    .nav__sublist {
+      width: 130px;
+      position: absolute;
+      top: 40px;
+      left: 50%;
+      transform: translatex(-50%);
+    }
+
+      .nav-item__secondary {
+        background-color: rgba($white, 0);
+        border-bottom: solid 1px $brand-color;
+      }
 
   .nav--mobile {
     @media(max-width: $screen-sm-min) {
