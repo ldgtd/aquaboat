@@ -10,7 +10,7 @@
     <script type="text/javascript" src="{{ '/assets/javascripts/bundle.js' | prepend: site.baseurl }}"></script>
   </head>
   <body>
-    <header class="header-master">
+    <header class="header-master pdgt-">
       <nav class="nav nav--mobile clearfix">
         <img src="{{ "/assets/images/logo.png" | prepend: site.baseurl }}" class="logo pull-left">
 
@@ -40,8 +40,12 @@
       </nav>
     </header>
 
-    <section class="herobanner">
-      <h1 class="herobanner__title pdgt++">{{ t.herobanner.title }}</h1>
+    <section class="herobanner relative-parent">
+      <svg class="herobanner__wave">
+        <use xlink:href="#wave"></use>
+      </svg>
+      <h1 class="herobanner__title mrgb0">{{ t.herobanner.title }}</h1>
+      <h3 class="herobanner__subtitle text-uppercase mrgt0">{{ t.herobanner.subtitle }}</h3>
     </section>
 
     <div class="master">

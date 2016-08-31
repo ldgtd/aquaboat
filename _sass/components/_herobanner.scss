@@ -5,19 +5,42 @@
 .herobanner {
   background-color: red;
   width: 100vw;
-  height: 350px;
-  background: 
-  linear-gradient(to bottom, rgba(197, 223, 210, 0.3), $brand-color 150%),
-  url('images/herobanner-home.jpg');
+  height: 90vh;
+  background:
+  linear-gradient(to top, rgba(197, 223, 210, 0.3), $brand-color 400%),
+  url('images/herobanner-home-1.jpg');
   background-position: center;
   background-size: cover;
 }
+
+  .herobanner__wave {
+    width: 150px;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    margin-left: -75px;
+    fill: $white;
+  }
 
   .herobanner__title {
     width: 100%;
     font-size: 4em;
     font-weight: 600;
     text-align: center;
+    line-height: 1.1em;
+    color: $white;
+    padding-top: 30vh;
+  } 
+
+  .herobanner__subtitle {
+    width: 100%;
+    font-size: 2em;
+    font-weight: 600;
+    text-align: center;
     line-height: 1.3em;
     color: $white;
   }
+
+    .herobanner__title--color {
+      color: $brand-color;
+    }

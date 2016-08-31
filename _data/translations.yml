@@ -8,4 +8,5 @@ fr:
     last_news: Dernières actualités
     services: Services
   herobanner:
-    title: Aquabot, le partenaire <br /> de vos Plaisirs Nautiques
+    title: Hello, nous sommes <span class="herobanner__title--color">Aquaboat</span>
+    subtitle: le partenaire de <span class="text-underline">vos plaisirs nautiques</span></br> sur le lac Léman
