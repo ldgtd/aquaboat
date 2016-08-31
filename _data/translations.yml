@@ -8,5 +8,5 @@ fr:
     last_news: Dernières actualités
     services: Services
   herobanner:
-    title: Hello, nous sommes <span class="herobanner__title--color">Aquaboat</span>
-    subtitle: le partenaire de <span class="text-underline">vos plaisirs nautiques</span></br> sur le lac Léman
+    title: Hello, nous sommes Aquaboat
+    subtitle: le partenaire de vos plaisirs nautiques</br> sur le lac Léman
