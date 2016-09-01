@@ -42,14 +42,19 @@
     .nav__sublist {
       width: 130px;
       position: absolute;
-      top: 40px;
+      top: 35px;
       left: 50%;
       transform: translatex(-50%);
+      cursor: pointer;
     }
 
       .nav-item__secondary {
         background-color: rgba($white, 0);
         border-bottom: solid 1px $brand-color;
+      }
+
+      .nav-item__secondary:hover {
+        background-color: rgba($white, .2);
       }
 
   .nav--mobile {
