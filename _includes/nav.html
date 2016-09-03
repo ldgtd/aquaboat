@@ -1,0 +1,34 @@
+<nav class="nav nav--mobile clearfix">
+  <img src="{{ "/assets/images/logo.png" | prepend: site.baseurl }}" class="logo pull-left">
+
+  <div class="hamburger hamburger--collapse pull-right">
+    <span class="hamburger-box">
+      <span class="hamburger-inner"></span>
+    </span>
+  </div>
+
+  <ul class="list-stacked list-stacked--tight hidden">
+    <li><a href="#">{{ t.menu.home }}</a></li>
+    <li><a href="#">{{ t.menu.buy }}</a></li>
+    <li><a href="#">{{ t.menu.shipyard }}</a></li>
+    <li><a href="#">{{ t.menu.contact }}</a></li>
+  </ul>
+</nav>
+
+<nav class="nav nav--desktop clearfix">
+  <img src="{{ "/assets/images/logo.png" | prepend: site.baseurl }}" class="logo pull-left">
+
+  <ul class="list-inline list-inline--tight mrgt pull-right">
+    <li class="nav-item__primary pdgh- pdgb-- active"><a href="/" class="text-uppercase">{{ t.menu.home }}</a></li>
+    <li class="nav-item__primary js-toggle-subnav pdgh- pdgb-- relative-parent"><a href="/buy.html" class="text-uppercase">{{ t.menu.buy }}</a>
+      <ul class="nav__sublist list-stacked list-stacked--tight hidden">
+        <li class="nav-item__secondary text-center pdgv-- pdgt--"><a href="#" class="text-uppercase">{{ t.menu.submenu.boat }}</a></li>
+        <li class="nav-item__secondary text-center pdgv--"><a href="#" class="text-uppercase">{{ t.menu.submenu.engine }}</a></li>
+        <li class="nav-item__secondary text-center pdgv--"><a href="#" class="text-uppercase">{{ t.menu.submenu.trailer }}</a></li>
+        <li class="nav-item__secondary text-center pdgv--"><a href="#" class="text-uppercase">{{ t.menu.submenu.occasion }}</a></li>
+      </ul>
+    </li>
+    <li class="nav-item__primary pdgh- pdgb--"><a href="#" class="text-uppercase">{{ t.menu.shipyard }}</a></li>
+    <li class="nav-item__primary pdgh- pdgb--"><a href="#" class="text-uppercase">{{ t.menu.contact }}</a></li>
+  </ul>
+</nav>

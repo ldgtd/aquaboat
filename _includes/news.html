@@ -1,0 +1,7 @@
+<article class="news">
+  <h2 class="text-uppercase">{{ t.home.last_news }}</h2>
+  {% for news in site.data.news %}
+    <h3>{{ news.title }}</h3>
+    <p>{{ news.content }}</p>
+  {% endfor %}
+</article>
