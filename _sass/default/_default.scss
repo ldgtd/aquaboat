@@ -10,7 +10,7 @@
 }
 
 .master-footer {
-  background-color: $alt-color-lighter;
+  background-color: lighten($alt-color-lighter, 4%);
 }
 
 p,
