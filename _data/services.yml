@@ -1,12 +1,29 @@
-- title: Service 1
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Atqui eorum nihil est eius generis, ut sit in fine atque extrerno bonorum. Teneo, inquit, finem illi videri nihil dolere. Tecum optime, deinde etiam cum mediocri amico. An eum discere ea mavis, quae cum plane perdidiceriti nihil sciat? Ratio quidem vestra sic cogit.
+---
+- title: Bateau
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Atqui eorum nihil
+    est eius generis, ut sit in fine atque extrerno bonorum. Teneo, inquit, finem
+    illi videri nihil dolere. Tecum optime, deinde etiam cum mediocri amico. An eum
+    discere ea mavis, quae cum plane perdidiceriti nihil sciat? Ratio quidem vestra
+    sic cogit.
   image: forestryio/images/news.jpg
-- title: Service 2
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Atqui eorum nihil est eius generis, ut sit in fine atque extrerno bonorum. Teneo, inquit, finem illi videri nihil dolere. Tecum optime, deinde etiam cum mediocri amico. An eum discere ea mavis, quae cum plane perdidiceriti nihil sciat? Ratio quidem vestra sic cogit.
+- title: Moteur
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Atqui eorum nihil
+    est eius generis, ut sit in fine atque extrerno bonorum. Teneo, inquit, finem
+    illi videri nihil dolere. Tecum optime, deinde etiam cum mediocri amico. An eum
+    discere ea mavis, quae cum plane perdidiceriti nihil sciat? Ratio quidem vestra
+    sic cogit.
   image: forestryio/images/news.jpg
-- title: Service 3
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Atqui eorum nihil est eius generis, ut sit in fine atque extrerno bonorum. Teneo, inquit, finem illi videri nihil dolere. Tecum optime, deinde etiam cum mediocri amico. An eum discere ea mavis, quae cum plane perdidiceriti nihil sciat? Ratio quidem vestra sic cogit.
+- title: Remorque
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Atqui eorum nihil
+    est eius generis, ut sit in fine atque extrerno bonorum. Teneo, inquit, finem
+    illi videri nihil dolere. Tecum optime, deinde etiam cum mediocri amico. An eum
+    discere ea mavis, quae cum plane perdidiceriti nihil sciat? Ratio quidem vestra
+    sic cogit.
   image: forestryio/images/news.jpg
-- title: Service 4
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Atqui eorum nihil est eius generis, ut sit in fine atque extrerno bonorum. Teneo, inquit, finem illi videri nihil dolere. Tecum optime, deinde etiam cum mediocri amico. An eum discere ea mavis, quae cum plane perdidiceriti nihil sciat? Ratio quidem vestra sic cogit.
+- title: Occasion
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Atqui eorum nihil
+    est eius generis, ut sit in fine atque extrerno bonorum. Teneo, inquit, finem
+    illi videri nihil dolere. Tecum optime, deinde etiam cum mediocri amico. An eum
+    discere ea mavis, quae cum plane perdidiceriti nihil sciat? Ratio quidem vestra
+    sic cogit.
   image: forestryio/images/news.jpg
