@@ -16,7 +16,6 @@
     @extend .master;
 
     a {
-      color: $white;
       font-weight: 600;
       text-decoration: none;
       font-family: 'Ubuntu';
@@ -28,16 +27,35 @@
       margin-top: 6px;
     }
 
+    .nav-item__primary {
+      border-bottom: solid 4px rgba($white, 0);
+    }
+  }
+
+  .home .nav {
+    a {
+      color: $white;
+    }
+  }
+
+  .buy .nav {
+    a {
+      color: darken($brand-color, 10%);
+    }
+  }
+
     .nav-item__primary:hover,
-    .nav-item__primary.active {
+    .home .home-active,
+    .buy .buy-active,
+    .engine .engine-active,
+    .trailer .trailer-active,
+    .occasion .occasion-active {
       border-bottom: solid 4px darken($brand-color, 10%);
 
       > a {
         color: darken($brand-color, 10%);
       }
     }
-
-  }
 
     .nav__sublist {
       width: 130px;
@@ -49,7 +67,6 @@
     }
 
       .nav-item__secondary {
-        background-color: rgba($white, 0);
         border-bottom: solid 1px $brand-color;
       }
 
