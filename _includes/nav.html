@@ -1,17 +1,28 @@
-<nav class="nav nav--mobile clearfix">
-  <img src="{{ "/assets/images/logo.png" | prepend: site.baseurl }}" class="logo pull-left">
+<nav class="nav nav--mobile">
+  <div class="clearfix">
+    <img src="{{ "/assets/images/logo.png" | prepend: site.baseurl }}" class="logo pull-left">
 
-  <div class="hamburger hamburger--collapse pull-right">
-    <span class="hamburger-box">
-      <span class="hamburger-inner"></span>
-    </span>
+    <div class="hamburger hamburger--collapse pull-right">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </div>
   </div>
 
-  <ul class="list-stacked list-stacked--tight hidden">
-    <li><a href="./">{{ t.menu.home }}</a></li>
-    <li><a href="./buy.html">{{ t.menu.buy }}</a></li>
-    <li><a href="#">{{ t.menu.shipyard }}</a></li>
-    <li><a href="#">{{ t.menu.contact }}</a></li>
+  <ul class="nav-mobile list-stacked list-stacked--tight">
+    <div class="pdgh- pdgb-">
+      <li class="nav-mobile__item text-uppercase mrbv"><a href="./">{{ t.menu.home }}</a></li>
+      <li class="nav-mobile__item text-uppercase mrbv"><span class="nav-mobile__item--border"><a href="./buy.html">{{ t.menu.buy }}</a></span>
+        <ul class="list-stacked list-stacked--tight">
+          <li class="nav-mobile__item text-uppercase mrbv"><a href="#" class="pdgl-">{{ t.menu.submenu.boat }}</a></li>
+          <li class="nav-mobile__item text-uppercase mrbv"><a href="#" class="pdgl-">{{ t.menu.submenu.engine }}</a></li>
+          <li class="nav-mobile__item text-uppercase mrbv"><a href="#" class="pdgl-">{{ t.menu.submenu.trailer }}</a></li>
+          <li class="nav-mobile__item nav-mobile__item--noborder text-uppercase mrbv"><a href="#" class="pdgl-">{{ t.menu.submenu.occasion }}</a></li>
+        </ul>
+      </li>
+      <li class="nav-mobile__item text-uppercase mrbv"><a href="#">{{ t.menu.shipyard }}</a></li>
+      <li class="nav-mobile__item nav-mobile__item--noborder text-uppercase mrbv"><a href="#">{{ t.menu.contact }}</a></li>
+    </div>
   </ul>
 </nav>
 

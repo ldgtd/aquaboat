@@ -79,9 +79,6 @@
 	  function Nav() {
 	    _classCallCheck(this, Nav);
 	
-	    // Toggle desktop active item
-	    // document.querySelectorAll('.nav-item__primary').addEventListener('click', this.toggleActiveItem.bind(this));
-	
 	    // Toggle desktop subnav
 	    var nodeParent = document.querySelector('.js-toggle-subnav');
 	    nodeParent.addEventListener('mouseover', this.toggleSubnav);
@@ -92,14 +89,6 @@
 	  }
 	
 	  _createClass(Nav, [{
-	    key: 'toggleActiveItem',
-	    value: function toggleActiveItem(nodes) {
-	      for (var i = 0; i < nodes.length; i++) {
-	        console.log(nodes[i]);
-	      }
-	      // node.currentTarget.classList.toggle('active');
-	    }
-	  }, {
 	    key: 'toggleSubnav',
 	    value: function toggleSubnav() {
 	      document.querySelector('.nav__sublist').classList.toggle('hidden');
@@ -108,6 +97,7 @@
 	    key: 'toggleMobileNav',
 	    value: function toggleMobileNav(node) {
 	      node.currentTarget.classList.toggle('is-active');
+	      document.querySelector('.nav-mobile').classList.toggle('nav-mobile--active');
 	    }
 	  }]);
 	

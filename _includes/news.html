@@ -1,12 +1,12 @@
 <article class="news">
   <h2 class="text-uppercase">{{ t.home.last_news }}</h2>
   {% for news in site.data.news %}
-  <div class="media media--responsive mrgb++">
+  <div class="media media--responsive mrgb">
+      <h3 class="text-uppercase mrgb">{{ news.title }}</h3>
       <div class="media__left">
-        <img src="{{ news.image }}" class="image-radius">
+        <img src="{{ news.image }}" class="media__image image-radius">
       </div>
       <div class="media__body">
-        <h3>{{ news.title }}</h3>
         <p>{{ news.content }}</p>
       </div>
     </div>
