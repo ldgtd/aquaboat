@@ -17,6 +17,13 @@
   url('images/herobanner-buy.jpg');
 }
 
+.herobanner--shipyard {
+  height: 360px !important;
+  background:
+  linear-gradient(to top, rgba(197, 223, 210, 0.4), $brand-color 400%),
+  url('images/herobanner-shipyard.jpg');
+}
+
 .herobanner {
   width: 100vw;
   height: 100vh;

@@ -12,8 +12,17 @@ fr:
   home:
     last_news: Actualités
     services: Services
+  shipyard:
+    title: Le chantier naval
+    description: >
+      Bienvenue au chantier naval Aquaboat, partenaire de vos plaisirs nautiques.
+      Vous trouverez une équipe multidisciplinaire, dotée d'un esprit d'ouverture et de transparence, qualité essentielle à un bon partenariat.
+      Spécialisés en mécanique et électricité navale, nous sommes également représentants des moteurs Mercury-Mercruiser et Volvo Penta
+      Une équipe de professionnels à l’écoute de vos besoins. 
   herobanner-home:
     title: Hello, nous sommes Aquaboat
     subtitle: le partenaire de vos plaisirs nautiques</br> sur le <span class="herobanner--color">lac Léman</span>
   herobanner-buy:
     title: Trouver le bateau <br> de vos rêves
+  herobanner-shipyard:
+    title: Votre chantier naval <br> sur le Lac Léman
