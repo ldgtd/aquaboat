@@ -12,6 +12,8 @@ fr:
   home:
     last_news: Actualités
     services: Services
-  herobanner:
+  herobanner-home:
     title: Hello, nous sommes Aquaboat
     subtitle: le partenaire de vos plaisirs nautiques</br> sur le <span class="herobanner--color">lac Léman</span>
+  herobanner-buy:
+    title: Trouver le bateau <br> de vos rêves

@@ -17,7 +17,11 @@
     </header>
 
     {% if page.url == '/' %}
-      {% include herobanner.html %}
+      {% include herobanner-home.html %}
+    {% endif %}
+
+    {% if page.url == '/buy.html' %}
+      {% include herobanner-buy.html %}
     {% endif %}
 
     <div class="master">

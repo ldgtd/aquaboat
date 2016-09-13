@@ -2,13 +2,24 @@
   HEROBANNER
 \*----------------------------------------*/
 
-.herobanner {
-  background-color: red;
-  width: 100vw;
-  height: 100vh;
+// herobanner--home modifier need to be set before
+// herobanner otherwise background proriety get override
+.herobanner--home {
   background:
   linear-gradient(to top, rgba(197, 223, 210, 0.3), $brand-color 400%),
   url('images/herobanner-home-1.jpg');
+}
+
+.herobanner--buy {
+  height: 360px !important;
+  background:
+  linear-gradient(to top, rgba(197, 223, 210, 0.4), $brand-color 400%),
+  url('images/herobanner-buy.jpg');
+}
+
+.herobanner {
+  width: 100vw;
+  height: 100vh;
   background-position: center;
   background-size: cover;
 }
@@ -51,6 +62,17 @@
       position: absolute;
       left: 50%;
       margin-left: -75px;
+
+      fill: $white;
+    }
+
+    .herobanner__arrow-down {
+      width: 30px;
+      bottom: 0px;
+
+      position: absolute;
+      left: 50%;
+      margin-left: -15px;
 
       fill: $white;
     }

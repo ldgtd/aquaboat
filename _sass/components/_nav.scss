@@ -32,17 +32,19 @@
     }
   }
 
-  .home .nav {
+  .home .nav,
+  .buy .nav, {
     a {
       color: $white;
     }
   }
 
-  .buy .nav {
-    a {
-      color: darken($brand-color, 10%);
-    }
-  }
+  // Color nav blue without herobanner
+  // .buy .nav {
+  //   a {
+  //     color: darken($brand-color, 10%);
+  //   }
+  // }
 
     .nav-item__primary:hover,
     .home .home-active,
