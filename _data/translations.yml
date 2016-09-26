@@ -18,7 +18,17 @@ fr:
       Bienvenue au chantier naval Aquaboat, partenaire de vos plaisirs nautiques.
       Vous trouverez une équipe multidisciplinaire, dotée d'un esprit d'ouverture et de transparence, qualité essentielle à un bon partenariat.
       Spécialisés en mécanique et électricité navale, nous sommes également représentants des moteurs Mercury-Mercruiser et Volvo Penta
-      Une équipe de professionnels à l’écoute de vos besoins. 
+      Une équipe de professionnels à l’écoute de vos besoins.
+  contact:
+    title: Rester en contact avec nous
+    form:
+      success: Bravo ! Votre message nous a bein été envoyé !
+      error: Bim ! Un problème est survenu, essaie encore !
+      name: Nom
+      email: Email
+      subject: Sujet
+      message: Message
+      send: Envoyer
   herobanner-home:
     title: Hello, nous sommes Aquaboat
     subtitle: le partenaire de vos plaisirs nautiques</br> sur le <span class="herobanner--color">lac Léman</span>

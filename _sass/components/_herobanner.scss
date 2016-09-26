@@ -24,13 +24,16 @@
   url('images/herobanner-shipyard.jpg');
 }
 
+.herobanner--map {
+  height: 360px !important;
+}
+
 .herobanner {
   width: 100vw;
   height: 100vh;
   background-position: center;
   background-size: cover;
 }
-
 
   .herobanner__content {
     h1, h3 {
@@ -75,7 +78,7 @@
 
     .herobanner__arrow-down {
       width: 30px;
-      bottom: 0px;
+      bottom: -40px;
 
       position: absolute;
       left: 50%;

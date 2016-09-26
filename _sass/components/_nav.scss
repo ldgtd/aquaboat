@@ -51,8 +51,7 @@
     .home .home-active,
     .buy .buy-active,
     .engine .engine-active,
-    .trailer .trailer-active,
-    .occasion .occasion-active {
+    .shipyard .shipyard-active {
       border-bottom: solid 4px darken($brand-color, 10%);
 
       > a {
@@ -65,16 +64,17 @@
       position: absolute;
       top: 35px;
       left: 50%;
-      transform: translatex(-50%);
+      transform: translate(-50%);
       cursor: pointer;
     }
 
       .nav-item__secondary {
         border-bottom: solid 1px $brand-color;
-      }
+        background-color: rgba($white, .6);
 
-      .nav-item__secondary:hover {
-        background-color: rgba($white, .2);
+        > a {
+          color: darken($brand-color, 10%) !important;
+        }
       }
 
   .nav--desktop {
