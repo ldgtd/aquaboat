@@ -7,6 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <link rel="stylesheet" href="{{ "/assets/main.css" | prepend: site.baseurl }}">
+    <meta property="og:url"           content="{{ page.url }}" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="{{ page.title }}" />
+    <meta property="og:description"   content="{{ page.description }}" />
+    <meta property="og:image"         content="{{page.url}}/assets/images/logo.png" />
   </head>
   <body class="{{ page.title }}">
     <!-- Facebook SDK -->
@@ -15,11 +20,12 @@
     <!-- Icon SVG code -->
     {% include icon-svg.html %}
 
+    <!-- Heder nav -->
     <header class="header-master pdgt-">
       {% include nav.html %}
     </header>
 
-    <!-- Include all herobanners depending path page -->
+    <!--  All herobanners depending path page -->
     {% if page.url == '/' %}
       {% include herobanner-home.html %}
     {% endif %}
@@ -36,6 +42,7 @@
       {% include herobanner-map.html %}
     {% endif %}
 
+    <!-- I'm the master -->
     <div class="master">
       {{ content }}
     </div>

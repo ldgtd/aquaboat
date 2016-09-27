@@ -46,21 +46,21 @@
 
 	'use strict';
 	
-	var _nav = __webpack_require__(1);
+	var _form = __webpack_require__(1);
 	
-	var _nav2 = _interopRequireDefault(_nav);
+	var _form2 = _interopRequireDefault(_form);
 	
-	var _tile = __webpack_require__(2);
-	
-	var _tile2 = _interopRequireDefault(_tile);
-	
-	var _google_map = __webpack_require__(3);
+	var _google_map = __webpack_require__(5);
 	
 	var _google_map2 = _interopRequireDefault(_google_map);
 	
-	var _form = __webpack_require__(4);
+	var _nav = __webpack_require__(6);
 	
-	var _form2 = _interopRequireDefault(_form);
+	var _nav2 = _interopRequireDefault(_nav);
+	
+	var _tile = __webpack_require__(7);
+	
+	var _tile2 = _interopRequireDefault(_tile);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -76,134 +76,6 @@
 
 /***/ },
 /* 1 */
-/***/ function(module, exports) {
-
-	'use strict';
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	
-	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-	
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-	
-	var Nav = function () {
-	  function Nav() {
-	    _classCallCheck(this, Nav);
-	
-	    // Toggle desktop subnav
-	    var nodeParent = document.querySelector('.js-toggle-subnav');
-	    nodeParent.addEventListener('mouseover', this.toggleSubnav);
-	    nodeParent.addEventListener('mouseout', this.toggleSubnav);
-	
-	    // Toggle mobile nav
-	    document.querySelector('.hamburger').addEventListener('click', this.toggleMobileNav.bind(this));
-	  }
-	
-	  _createClass(Nav, [{
-	    key: 'toggleSubnav',
-	    value: function toggleSubnav() {
-	      document.querySelector('.nav__sublist').classList.toggle('hidden');
-	    }
-	  }, {
-	    key: 'toggleMobileNav',
-	    value: function toggleMobileNav(node) {
-	      node.currentTarget.classList.toggle('is-active');
-	      document.querySelector('.nav-mobile').classList.toggle('nav-mobile--active');
-	    }
-	  }]);
-	
-	  return Nav;
-	}();
-	
-	exports.default = Nav;
-
-/***/ },
-/* 2 */
-/***/ function(module, exports) {
-
-	'use strict';
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	
-	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-	
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-	
-	var Tile = function () {
-	  function Tile() {
-	    _classCallCheck(this, Tile);
-	
-	    var triggers = document.querySelectorAll('.tile');
-	
-	    for (var i = 0; i < triggers.length; i++) {
-	      triggers[i].addEventListener('mouseover', this.toggleClassTile.bind(this));
-	      triggers[i].addEventListener('mouseout', this.toggleClassTile.bind(this));
-	    }
-	  }
-	
-	  _createClass(Tile, [{
-	    key: 'toggleClassTile',
-	    value: function toggleClassTile(node) {
-	      if (node.currentTarget.classList.contains('tile--onhover')) {
-	        node.currentTarget.classList.remove('tile--onhover');
-	      } else {
-	        node.currentTarget.classList.add('tile--onhover');
-	      }
-	    }
-	  }]);
-	
-	  return Tile;
-	}();
-	
-	exports.default = Tile;
-
-/***/ },
-/* 3 */
-/***/ function(module, exports) {
-
-	'use strict';
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-	
-	var GoogleMap = function GoogleMap() {
-	  _classCallCheck(this, GoogleMap);
-	
-	  window.onload = function () {
-	    var el = document.getElementById('map');
-	    var pos = {
-	      lat: parseFloat(el.dataset.lat),
-	      lng: parseFloat(el.dataset.lng)
-	    };
-	
-	    el.map = new google.maps.Map(el, {
-	      zoom: 14,
-	      scrollwheel: false,
-	      disableDefaultUI: true,
-	      center: pos,
-	      styles: [{ 'featureType': 'administrative', 'elementType': 'labels.text.fill', 'stylers': [{ 'color': '#444444' }] }, { 'featureType': 'landscape', 'elementType': 'all', 'stylers': [{ 'color': '#f2f2f2' }] }, { 'featureType': 'poi', 'elementType': 'all', 'stylers': [{ 'visibility': 'off' }] }, { 'featureType': 'road', 'elementType': 'all', 'stylers': [{ 'saturation': -100 }, { 'lightness': 45 }] }, { 'featureType': 'road.highway', 'elementType': 'all', 'stylers': [{ 'visibility': 'simplified' }] }, { 'featureType': 'road.arterial', 'elementType': 'labels.icon', 'stylers': [{ 'visibility': 'off' }] }, { 'featureType': 'transit', 'elementType': 'all', 'stylers': [{ 'visibility': 'off' }] }, { 'featureType': 'water', 'elementType': 'all', 'stylers': [{ 'color': '#46bcec' }, { 'visibility': 'on' }] }]
-	    });
-	
-	    el.marker = new google.maps.Marker({
-	      map: el.map,
-	      draggable: false,
-	      animation: google.maps.Animation.DROP,
-	      position: pos
-	    });
-	  };
-	};
-	
-	exports.default = GoogleMap;
-
-/***/ },
-/* 4 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -214,7 +86,7 @@
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
-	var _simpleAjax = __webpack_require__(5);
+	var _simpleAjax = __webpack_require__(2);
 	
 	var _simpleAjax2 = _interopRequireDefault(_simpleAjax);
 	
@@ -256,18 +128,16 @@
 	        dataType: 'json'
 	      });
 	
-	      ajax.send();
-	      console.log(ajax);
-	      console.log(ajax.request.status);
+	      ajax.on('success', function () {
+	        document.querySelector('.contact__message--success').classList.toggle('hidden');
+	        document.querySelector('form[name="form"]').reset();
+	      });
 	
-	      if (ajax.request.status === 200) {
-	        console.log('success');
-	        //document.querySelector('contact__message--success').classList.toggle('hidden');
-	        //document.querySelector('form[name="contact"]').classList.toggle('fadeout');
-	      } else {
-	        console.log('error');
-	        //document.querySelector('contact__message--error').classList.toggle('hidden');
-	      }
+	      ajax.on('error', function () {
+	        document.querySelector('.contact__message--error').classList.toggle('hidden');
+	      });
+	
+	      ajax.send();
 	    }
 	  }]);
 	
@@ -277,11 +147,11 @@
 	exports.default = Form;
 
 /***/ },
-/* 5 */
+/* 2 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var EventEmitter = __webpack_require__(6).EventEmitter,
-	    queryString = __webpack_require__(7);
+	var EventEmitter = __webpack_require__(3).EventEmitter,
+	    queryString = __webpack_require__(4);
 	
 	function tryParseJson(data){
 	    try{
@@ -431,7 +301,7 @@
 
 
 /***/ },
-/* 6 */
+/* 3 */
 /***/ function(module, exports) {
 
 	// Copyright Joyent, Inc. and other Node contributors.
@@ -739,7 +609,7 @@
 
 
 /***/ },
-/* 7 */
+/* 4 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -809,6 +679,134 @@
 		}
 	})();
 
+
+/***/ },
+/* 5 */
+/***/ function(module, exports) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	var GoogleMap = function GoogleMap() {
+	  _classCallCheck(this, GoogleMap);
+	
+	  window.onload = function () {
+	    var el = document.getElementById('map');
+	    var pos = {
+	      lat: parseFloat(el.dataset.lat),
+	      lng: parseFloat(el.dataset.lng)
+	    };
+	
+	    el.map = new google.maps.Map(el, {
+	      zoom: 14,
+	      scrollwheel: false,
+	      disableDefaultUI: true,
+	      center: pos,
+	      styles: [{ 'featureType': 'administrative', 'elementType': 'labels.text.fill', 'stylers': [{ 'color': '#444444' }] }, { 'featureType': 'landscape', 'elementType': 'all', 'stylers': [{ 'color': '#f2f2f2' }] }, { 'featureType': 'poi', 'elementType': 'all', 'stylers': [{ 'visibility': 'off' }] }, { 'featureType': 'road', 'elementType': 'all', 'stylers': [{ 'saturation': -100 }, { 'lightness': 45 }] }, { 'featureType': 'road.highway', 'elementType': 'all', 'stylers': [{ 'visibility': 'simplified' }] }, { 'featureType': 'road.arterial', 'elementType': 'labels.icon', 'stylers': [{ 'visibility': 'off' }] }, { 'featureType': 'transit', 'elementType': 'all', 'stylers': [{ 'visibility': 'off' }] }, { 'featureType': 'water', 'elementType': 'all', 'stylers': [{ 'color': '#46bcec' }, { 'visibility': 'on' }] }]
+	    });
+	
+	    el.marker = new google.maps.Marker({
+	      map: el.map,
+	      draggable: false,
+	      animation: google.maps.Animation.DROP,
+	      position: pos
+	    });
+	  };
+	};
+	
+	exports.default = GoogleMap;
+
+/***/ },
+/* 6 */
+/***/ function(module, exports) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	var Nav = function () {
+	  function Nav() {
+	    _classCallCheck(this, Nav);
+	
+	    // Toggle desktop subnav
+	    var nodeParent = document.querySelector('.js-toggle-subnav');
+	    nodeParent.addEventListener('mouseover', this.toggleSubnav);
+	    nodeParent.addEventListener('mouseout', this.toggleSubnav);
+	
+	    // Toggle mobile nav
+	    document.querySelector('.hamburger').addEventListener('click', this.toggleMobileNav.bind(this));
+	  }
+	
+	  _createClass(Nav, [{
+	    key: 'toggleSubnav',
+	    value: function toggleSubnav() {
+	      document.querySelector('.nav__sublist').classList.toggle('hidden');
+	    }
+	  }, {
+	    key: 'toggleMobileNav',
+	    value: function toggleMobileNav(node) {
+	      node.currentTarget.classList.toggle('is-active');
+	      document.querySelector('.nav-mobile').classList.toggle('nav-mobile--active');
+	    }
+	  }]);
+	
+	  return Nav;
+	}();
+	
+	exports.default = Nav;
+
+/***/ },
+/* 7 */
+/***/ function(module, exports) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	var Tile = function () {
+	  function Tile() {
+	    _classCallCheck(this, Tile);
+	
+	    var triggers = document.querySelectorAll('.tile');
+	
+	    for (var i = 0; i < triggers.length; i++) {
+	      triggers[i].addEventListener('mouseover', this.toggleClassTile.bind(this));
+	      triggers[i].addEventListener('mouseout', this.toggleClassTile.bind(this));
+	    }
+	  }
+	
+	  _createClass(Tile, [{
+	    key: 'toggleClassTile',
+	    value: function toggleClassTile(node) {
+	      if (node.currentTarget.classList.contains('tile--onhover')) {
+	        node.currentTarget.classList.remove('tile--onhover');
+	      } else {
+	        node.currentTarget.classList.add('tile--onhover');
+	      }
+	    }
+	  }]);
+	
+	  return Tile;
+	}();
+	
+	exports.default = Tile;
 
 /***/ }
 /******/ ]);

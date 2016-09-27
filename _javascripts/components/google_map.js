@@ -1,6 +1,6 @@
 export default class GoogleMap {
   constructor() {
-    window.onload = function () { 
+    window.onload = function () {
       let el = document.getElementById('map');
       let pos = {
         lat: parseFloat(el.dataset.lat),

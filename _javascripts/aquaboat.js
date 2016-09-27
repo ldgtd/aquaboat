@@ -1,7 +1,7 @@
+import Form from './components/form';
+import GoogleMap from './components/google_map';
 import Nav from './components/nav';
 import Tile from './components/tile';
-import GoogleMap from './components/google_map';
-import Form from './components/form';
 
 document.addEventListener('DOMContentLoaded', function() {
   new Nav();

@@ -12,6 +12,9 @@ fr:
   home:
     last_news: Actualités
     services: Services
+    social:
+      feed: Facebook feed
+      share: Partager nous sur Facebook
   shipyard:
     title: Le chantier naval
     description: >

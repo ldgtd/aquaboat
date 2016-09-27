@@ -28,17 +28,15 @@ export default class Form {
       dataType: 'json'
     });
 
-    ajax.send();
-    console.log(ajax);
-    console.log(ajax.request.status);
+    ajax.on('success', function() {
+      document.querySelector('.contact__message--success').classList.toggle('hidden');
+      document.querySelector('form[name="form"]').reset();
+    });
 
-    if (ajax.request.status === 200) {
-      console.log('success');
-    //document.querySelector('contact__message--success').classList.toggle('hidden');
-    //document.querySelector('form[name="contact"]').classList.toggle('fadeout');
-    } else {
-      console.log('error');
-    //document.querySelector('contact__message--error').classList.toggle('hidden');
-    }
+    ajax.on('error', function() {
+      document.querySelector('.contact__message--error').classList.toggle('hidden');
+    });
+
+    ajax.send();
   }
 }
