@@ -32,6 +32,15 @@ fr:
       subject: Sujet
       message: Message
       send: Envoyer
+    address:
+      name: Aquaboat Sàrl
+      street: Route des Iles 44
+      city: 1897 Le Bouveret
+      country: Suisse
+      phone-label: Téléphone
+      phone: +41 24 481 8000
+      fax-label: Fax
+      fax: +41 24 481 8001
   herobanner-home:
     title: Hello, nous sommes Aquaboat
     subtitle: le partenaire de vos plaisirs nautiques</br> sur le <span class="herobanner--color">lac Léman</span>

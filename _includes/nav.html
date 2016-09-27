@@ -1,6 +1,8 @@
 <nav class="nav nav--mobile">
   <div class="clearfix">
-    <img src="{{ "/assets/images/logo.png" | prepend: site.baseurl }}" class="logo pull-left">
+    <a href="/">
+      <img src="{{ "/assets/images/logo.png" | prepend: site.baseurl }}" class="logo pull-left">
+    </a>
 
     <div class="hamburger hamburger--collapse pull-right">
       <span class="hamburger-box">
@@ -9,7 +11,7 @@
     </div>
   </div>
 
-  <ul class="nav-mobile list-stacked list-stacked--tight">
+  <ul class="nav-mobile list-stacked list-stacked--tight silde-down">
     <div class="pdgh- pdgb-">
       <li class="nav-mobile__item text-uppercase mrbv"><a href="./">{{ t.menu.home }}</a></li>
       <li class="nav-mobile__item text-uppercase mrbv"><span class="nav-mobile__item--border"><a href="./buy.html">{{ t.menu.buy }}</a></span>

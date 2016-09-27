@@ -1,0 +1,16 @@
+/*----------------------------------------*\
+  NOTIFICATIONS
+\*----------------------------------------*/
+
+.contact__message {
+  border-radius: 6px 6px;
+  color: $white;
+}
+
+.contact__message--success {
+  background-color: $appel;
+}
+
+.contact__message--error {
+  background-color: $danger;
+}

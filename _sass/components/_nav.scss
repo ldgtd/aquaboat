@@ -2,6 +2,11 @@
   NAV
 \*----------------------------------------*/
 
+// When mobile nav is open toggle body overflow hidden
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .header-master {
   width: 100vw;
   height: 100px;
@@ -37,23 +42,20 @@
   .shipyard .nav {
     a {
       color: $white;
+      font-size: 1.1em;
     }
   }
 
-  // Color nav blue without herobanner
-  // .buy .nav {
-  //   a {
-  //     color: darken($brand-color, 10%);
-  //   }
-  // }
+    .nav-item__primary:hover {
+      > a {
+        color: darken($brand-color, 10%);
+      }
+    }
 
-    .nav-item__primary:hover,
     .home .home-active,
     .buy .buy-active,
     .engine .engine-active,
     .shipyard .shipyard-active {
-      border-bottom: solid 4px darken($brand-color, 10%);
-
       > a {
         color: darken($brand-color, 10%);
       }
@@ -69,11 +71,12 @@
     }
 
       .nav-item__secondary {
-        border-bottom: solid 1px $brand-color;
+        margin-bottom: 1px;
         background-color: rgba($white, .6);
 
         > a {
           color: darken($brand-color, 10%) !important;
+          font-size: 15px !important;
         }
       }
 
@@ -90,22 +93,18 @@
       display: block;
 
       .nav-mobile {
-        height: 0px;
+        height: 0;
         width: 100%;
         overflow: hidden;
         position: absolute;
         top: 120px;
         left: 0px;
 
-        background-color: rgba($white, .8);
-
-        transition-property: all;
-        transition-duration: .5s;
-        transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+        background-color: rgba($white, .9);
       }
 
       .nav-mobile--active {
-        height: 410px;
+        height: 100vh;
       }
 
         .nav-mobile__item,

@@ -16,5 +16,6 @@ export default class Nav {
   toggleMobileNav(node) {
     node.currentTarget.classList.toggle('is-active');
     document.querySelector('.nav-mobile').classList.toggle('nav-mobile--active');
+    document.querySelector('body').classList.toggle('overflow-hidden');
   }
 }
