@@ -1,16 +1,12 @@
-- title: Bateau
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Atqui eorum nihil
-    est eius generis, ut sit in fine atque extrerno bonorum. Teneo, inquit, finem
-    illi videri nihil dolere. Tecum optime, deinde etiam cum mediocri amico. An eum
-    discere ea mavis, quae cum plane perdidiceriti nihil sciat? Ratio quidem vestra
-    sic cogit.
-  image: forestryio/images/services.jpg
-- title: Moteur
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Atqui eorum nihil
-    est eius generis, ut sit in fine atque extrerno bonorum. Teneo, inquit, finem
-    illi videri nihil dolere. Tecum optime, deinde etiam cum mediocri amico. An eum
-    discere ea mavis, quae cum plane perdidiceriti nihil sciat? Ratio quidem vestra
-    sic cogit.
+---
+- title: Vente et occasion
+  content: 'Nous sommes actif dans la vente de bateau et moteur ainsi qu''un large
+    choix de remorque. Représentant plusieurs marques de bateau afin de satisfaire
+    tous les plaisir nautique, de la plaisance à la pêche  jusqu''au sport de glisse. '
+  image: "/./aquaboat/forestryio/images/20160816_174045.jpg"
+- title: Nos prestations
+  content: "Pour assurer votre confort et votre sécurité,  nous mettons à votre disposition
+    \ la gamme de prestations suivante:\r\n"
   image: forestryio/images/services.jpg
 - title: Remorque
   content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Atqui eorum nihil
