@@ -5,7 +5,7 @@
     <div class="media media--responsive mrgb">
         <h3 class="text-uppercase mrgb">{{ news.title }}</h3>
         <div class="media__left">
-          <img src="{{ news.image }}" class="media__image image-radius">
+          <img src="{{ news.image | prepend:site.baseurl }}" class="media__image image-radius">
         </div>
         <div class="media__body">
           <p>{{ news.content }}</p>

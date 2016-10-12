@@ -4,7 +4,7 @@
     <div class="grid__item sm-w-1/2">
         <div class="tile box box--default mrgb pdg0">
         <div class="tile__image-container">
-            <img src="{{ service.image }}" class="tile__image">
+            <img src="{{ service.image | prepend:site.baseurl }}" class="tile__image">
           </div>
           <div class="pdg">
             <h3 class="text-uppercase mrgt0">{{ service.title }}</h3>
