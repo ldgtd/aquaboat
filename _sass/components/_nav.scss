@@ -38,7 +38,7 @@
   }
 
   .home .nav,
-  .buy .nav,
+  .boat .nav,
   .shipyard .nav {
     a {
       color: $white;
@@ -53,7 +53,7 @@
     }
 
     .home .home-active,
-    .buy .buy-active,
+    .boat .boat-active,
     .engine .engine-active,
     .shipyard .shipyard-active {
       > a {

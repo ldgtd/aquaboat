@@ -4,7 +4,7 @@
     de bateaux pour la famille, les amis et les couples qui offre une complète liberté
     sur l''eau. Des bateaux polyvalent pour toutes les envies, pêche, activité sportive,
     ou plaisance. Venez découvrir toutes la gamme et profiter de conseil professionnel '
-  image: "/./forestryio/images/LOGO_SB_noir.jpg"
+  image: "forestryio/images/LOGO_SB_noir.jpg"
 - title: Salon nautique du Leman
   content: 'Retrouvez nous au salon nautique du Léman à Genève du 11 au 13 novembre. '
-  image: forestryio/images/news.jpg
+  image: /forestryio/images/news.jpg
