@@ -20,12 +20,12 @@
     <!-- Icon SVG code -->
     {% include icon-svg.html %}
 
-    <!-- Heder nav -->
+    <!-- Header nav -->
     <header class="header-master pdgt-">
       {% include nav.html %}
     </header>
 
-    <!--  All herobanners depending path page -->
+    <!-- All herobanners depending path page -->
     {% if page.url == '/' %}
       {% include herobanner-home.html %}
     {% endif %}
@@ -47,10 +47,12 @@
       {{ content }}
     </div>
 
+    <!-- Footer -->
     <footer class="master-footer pdgv- pdgh mrgt">
       <p class="mrg0">© 2016 Copyright Aquaboat</p>
     </footer>
 
+    <!-- Scripts -->
     <script async defer
       type="text/javascript"
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkiIxUZ5WKW9S1breP_DVDl-keGbPIiKE">
