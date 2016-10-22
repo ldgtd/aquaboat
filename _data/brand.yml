@@ -1,8 +1,30 @@
+---
+- id: stingray
+  content: Les bateaux Stingray sont fabriqués à Hartsville, Etats-Unis. L’entreprise
+    a été fondée en 1979 et est toujours en mains privées. A ce jour plus de vingt
+    modèles sont produits et distribués mondialement, ceci par le biais de distributeurs
+    spécialisés, tel qu’Uninautic, représentant exclusif pour la Suisse. Les bateaux
+    sont construits dans une usine high tech fortement robotisée à nulle autre pareille.
+    Constructeur de bateaux de pointe, Stingray attache une importance toute particulière
+    à respecter les critères de production environnementaux et remplir les normes
+    sévères de la législation européenne. Les points forts sont, outre un prix très
+    attractifs, une coque patentée ZPlane (consommation moindre et vitesse plus élevée)
+    ainsi qu’un simili cuir à toute épreuve.
+  image: forestryio/images/20160622_160815.jpg
+  catalogue: ''
 - id: quicksilver
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praetereo multos, in bis doctum hominem et suavem, Hieronymum, quem iam cur Peripateticum appellem nescio. At iam decimum annum in spelunca iacet. Quid ad utilitatem tantae pecuniae? Equidem, sed audistine modo de Carneade? Consequens enim est et post oritur, ut dixi. Duo Reges constructio interrete.
-  image: /forestryio/images/quicksilver-logo.jpg
-  catalogue: /forestryio/files/test.pdf
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praetereo multos,
+    in bis doctum hominem et suavem, Hieronymum, quem iam cur Peripateticum appellem
+    nescio. At iam decimum annum in spelunca iacet. Quid ad utilitatem tantae pecuniae?
+    Equidem, sed audistine modo de Carneade? Consequens enim est et post oritur, ut
+    dixi. Duo Reges constructio interrete.
+  image: "/forestryio/images/quicksilver-logo.jpg"
+  catalogue: "/forestryio/files/test.pdf"
 - id: mercury
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praetereo multos, in bis doctum hominem et suavem, Hieronymum, quem iam cur Peripateticum appellem nescio. At iam decimum annum in spelunca iacet. Quid ad utilitatem tantae pecuniae? Equidem, sed audistine modo de Carneade? Consequens enim est et post oritur, ut dixi. Duo Reges constructio interrete.
-  image: /forestryio/images/mercury-logo.jpg
-  catalogue: /forestryio/files/test.pdf
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praetereo multos,
+    in bis doctum hominem et suavem, Hieronymum, quem iam cur Peripateticum appellem
+    nescio. At iam decimum annum in spelunca iacet. Quid ad utilitatem tantae pecuniae?
+    Equidem, sed audistine modo de Carneade? Consequens enim est et post oritur, ut
+    dixi. Duo Reges constructio interrete.
+  image: "/forestryio/images/mercury-logo.jpg"
+  catalogue: "/forestryio/files/test.pdf"
