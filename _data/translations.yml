@@ -17,7 +17,13 @@ fr:
       share: Partager nous sur Facebook
   boat:
     title: Bateau
-    button: Voir le catalogue de la marque
+    button: Catalogue de la marque
+  engine:
+    title: Moteur
+    button: Catalogue de la marque
+  trailer:
+    title: Remorque
+    button: Voir le Catalogue
   shipyard:
     title: Le chantier naval
     description: >

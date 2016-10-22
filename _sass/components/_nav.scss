@@ -37,8 +37,11 @@
     }
   }
 
+  // Default style
   .home .nav,
   .boat .nav,
+  .engine .nav,
+  .trailer .nav,
   .shipyard .nav {
     a {
       color: $white;
@@ -46,15 +49,18 @@
     }
   }
 
+    // On hover
     .nav-item__primary:hover {
       > a {
         color: darken($brand-color, 10%);
       }
     }
 
+    // On active
     .home .home-active,
     .boat .boat-active,
-    .engine .engine-active,
+    .engine .boat-active,
+    .trailer .boat-active,
     .shipyard .shipyard-active {
       > a {
         color: darken($brand-color, 10%);
