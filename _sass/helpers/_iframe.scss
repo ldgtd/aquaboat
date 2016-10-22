@@ -1,0 +1,51 @@
+/*----------------------------------------*\
+  IFRAME
+\*----------------------------------------*/
+
+.iframe-boat24 {
+  border: none;
+}
+
+  #overview {
+    @extend .grid;
+
+    padding-left: 0 !important;
+    margin-top: 0 !important;
+    margin-right: 0 !important;
+    margin-bottom: 0 !important;
+
+    > li {
+      @extend .grid__item;
+      @extend .w-1\/2;
+      @extend .sm-w-1\/4;
+      @extend .md-w-1\/5;
+      @extend .lg-w-1\/6;
+      @extend .tile;
+
+      background-color: #fff !important;
+
+      .image {
+        @extend .tile__image-container;
+
+        img {
+          @extend .tile__image;
+        }
+      }
+
+      .details {
+        @extend .tile__text-content;
+
+        padding: 0 !important;
+        list-style-type: none;
+
+        .title-link a {
+          text-transform: uppercase;
+        }
+
+        label {
+          font-weight: bold;
+          padding-bottom: 0;
+        }
+      }
+    }
+  }
