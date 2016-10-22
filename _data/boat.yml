@@ -1,5 +1,24 @@
 ---
 - id: stingray
+  title: 198LX
+  content: 'This boat is incredibly fun to drive! After you''ve taken it out on the
+    water, we''re pretty sure you will return with a smile on your face. The 198LX
+    provides the responsive handling and performance Stingray is known for in runabouts
+    and, as one of our Sport Deck models, it boasts extra width in both the cockpit
+    and bow areas. Here''s something else—our 19'' models outperform the competition
+    with less power and manage to get better fuel mileage when comparing like power.
+    A few numbers to consider: with a modest 4.3L engine for power, the 198LX reaches
+    speeds in the upper 50''s and gets 5.6 mpg at cruise speed. This saves money at
+    purchase...and at the gas pump! FAST, ROOMY, and ECONOMICAL...ALL IN THE SAME
+    BOAT!'
+  engine: Moteur inboard
+  boat: Bateau bowrider
+  width: 5.85m
+  height: 2.15m
+  people: 6
+  power: 225HP
+  image: forestryio/images/7.png
+- id: stingray
   title: 215 CR
   content: Want all of the features of a bigger boat without actually having a bigger
     boat? Look no further. The 215CR packs in ALL the same features of our 235CR,
