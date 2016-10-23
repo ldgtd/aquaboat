@@ -1,7 +1,7 @@
 {% assign t = site.data.translations[page.lang] %}
 
 <article class="mrgt+">
-  <h2 class="text-uppercase">{{ t.occasion.title }}</h2>
+  <h2 class="main-title text-uppercase">{{ t.occasion.title }}</h2>
   <section class="grid mrgv">
     {% for occasion in site.data.occasion %}
       <div class="grid__item w-1/1 sm-w-1/2 md-w-1/3">
@@ -53,6 +53,14 @@
                   <use xlink:href="#power"></use>
                 </svg>
                 <h5 class="pull-left  pdgt-- pdgl- mrg0">{{ occasion.power }}</h5>
+              </div>
+
+
+              <div class="money clearfix mrgt">
+                <svg class="icon-sell pull-left">
+                  <use xlink:href="#money"></use>
+                </svg>
+                <h5 class="pull-left  pdgt-- pdgl- mrg0">{{ occasion.money }}</h5>
               </div>
             </div>
           </div>

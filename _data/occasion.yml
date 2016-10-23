@@ -6,6 +6,7 @@
   height: 8m
   people: 6
   power: Super powerfull
+  money: 15 000 chf
   image: /forestryio/images/services.jpg
   catalogue: /forestryio/files/test.pdf
 - title: Bateau occasion
@@ -16,6 +17,7 @@
   height: 8m
   people: 6
   power: Super powerfull
+  money: 15 000 chf
   image: /forestryio/images/services.jpg
   catalogue: /forestryio/files/test.pdf
 - title: Bateau occasion
@@ -26,6 +28,7 @@
   height: 8m
   people: 6
   power: Super powerfull
+  money: 15 000 chf
   image: /forestryio/images/services.jpg
   catalogue: /forestryio/files/test.pdf
 - title: Bateau occasion
@@ -36,6 +39,7 @@
   height: 8m
   people: 6
   power: Super powerfull
+  money: 15 000 chf
   image: /forestryio/images/services.jpg
   catalogue: /forestryio/files/test.pdf
 - title: Bateau occasion
@@ -46,6 +50,7 @@
   height: 8m
   people: 6
   power: Super powerfull
+  money: 15 000 chf
   image: /forestryio/images/services.jpg
   catalogue: /forestryio/files/test.pdf
 - title: Bateau occasion
@@ -56,5 +61,6 @@
   height: 8m
   people: 6
   power: Super powerfull
+  money: 15 000 chf
   image: /forestryio/images/services.jpg
   catalogue: /forestryio/files/test.pdf
