@@ -1,5 +1,15 @@
 ---
 - id: stingray
+  title: 235CR
+  content: ''
+  engine: Inboard
+  boat: Bateau cabine
+  width: 7.0m
+  height: 2.35m
+  people: 11
+  power: Max 300 HP
+  image: forestryio/images/225cr.jpg
+- id: stingray
   title: 198LX
   content: 'This boat is incredibly fun to drive! After you''ve taken it out on the
     water, we''re pretty sure you will return with a smile on your face. The 198LX
