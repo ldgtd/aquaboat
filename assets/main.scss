@@ -31,9 +31,11 @@ $hamburger-hover-opacity: 1;
 @import "helpers/images";
 @import "helpers/icons";
 @import "helpers/animation";
+@import "helpers/text";
 
 // Components
 @import "components/nav";
 @import "components/tile";
 @import "components/herobanner";
 @import "components/notifications";
+@import "components/button";
