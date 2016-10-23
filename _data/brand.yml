@@ -3,13 +3,12 @@
   content: Les bateaux Stingray sont fabriqués à Hartsville, Etats-Unis. L’entreprise
     a été fondée en 1979 et est toujours en mains privées. A ce jour plus de vingt
     modèles sont produits et distribués mondialement, ceci par le biais de distributeurs
-    spécialisés, tel qu’Uninautic, représentant exclusif pour la Suisse. Les bateaux
-    sont construits dans une usine high tech fortement robotisée à nulle autre pareille.
-    Constructeur de bateaux de pointe, Stingray attache une importance toute particulière
-    à respecter les critères de production environnementaux et remplir les normes
-    sévères de la législation européenne. Les points forts sont, outre un prix très
-    attractifs, une coque patentée ZPlane (consommation moindre et vitesse plus élevée)
-    ainsi qu’un simili cuir à toute épreuve.
+    spécialisés. Les bateaux sont construits dans une usine high tech fortement robotisée
+    à nulle autre pareille. Constructeur de bateaux de pointe, Stingray attache une
+    importance toute particulière à respecter les critères de production environnementaux
+    et remplir les normes sévères de la législation européenne. Les points forts sont,
+    outre un prix très attractifs, une coque patentée ZPlane (consommation moindre
+    et vitesse plus élevée) ainsi qu’un simili cuir à toute épreuve.
   image: forestryio/images/logo Stingray.png
   catalogue: ''
 - id: quicksilver
