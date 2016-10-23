@@ -24,6 +24,8 @@ fr:
   trailer:
     title: Remorque
     button: Voir le Catalogue
+  occasion:
+    title: Occasion
   shipyard:
     title: Le chantier naval
     description: >
