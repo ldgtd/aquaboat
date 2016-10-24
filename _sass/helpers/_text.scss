@@ -7,7 +7,19 @@
   text-decoration: none;
 }
 
+.link-alt-white {
+  color: #fff;
+}
+
 .main-title {
   font-size: 2.5em;
   margin-top: $spacing-unit-large;
+}
+
+.width80 {
+  width: 80%;
+
+  @media (max-width: $screen-sm-max) {
+    width: 100%;
+  }
 }
