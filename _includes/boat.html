@@ -2,7 +2,7 @@
 
 <h2 class="main-title text-uppercase">{{ t.boat.title }}</h2>
 <section class="grid">
-  <section class="grid__item w-1/1 md-w-1/6">
+  <section class="grid__item w-1/1 md-w-1/6 mrgb+">
     <ul class="list-stacked list-stacked--divided">
       {% for brand in site.data.brand %}
         <li class="text-uppercase text-bold"><a href="#{{ brand.id }}" class="link-alt">{{ brand.id }}</a></li>
@@ -14,20 +14,20 @@
         <article id="{{ brand.id }}">
           <div class="mrgb clearfix">
             <img src="{{ brand.image | prepend:site.baseurl }}" class="media__image image-logo pull-left">
-            <div class="pull-right mrgt-">
-              <a href="{{ brand.catalogue | prepend:site.baseurl }}" title="{{ t.boat.button }}" class="btn--document relative-parent" target="_blank">
+            <div class="pull-right mrgt0">
+              <a href="{{ brand.catalogue | prepend:site.baseurl }}" class="btn--document relative-parent" target="_blank">
                 <svg class="icon-document">
                   <use xlink:href="#document"></use>
+                  <p class="link-alt-white text-bold pdgt-- mrgr+ mrgl">{{ t.boat.button }}</p>
                 </svg>
               </a>
             </div>
           </div>
-          <div>
-            <p>{{ brand.content }}</p>
-          </div>
+          <p class="mrgb+">{{ brand.content }}</p>
         </article>
 
-        <article class="grid mrgb++">
+        <h3 class="text-uppercase">{{ t.boat.boats }}</h3>
+        <article class="grid pdgb+ mrgb++">
           {% for boat in site.data.boat %}
             {% if brand.id == boat.id %}
               <div class="grid__item w-1/1 sm-w-1/2 md-w-1/3">
@@ -36,7 +36,7 @@
                     <img src="{{ boat.image | prepend:site.baseurl }}" class="tile__image">
                   </div>
                   <div class="pdg">
-                    <h3 class="text-uppercase mrgt0">{{ boat.title }}</h3>
+                    <h3 class=" mrgt0">{{ boat.title }}</h3>
                     <p>{{ boat.content }}</p>
 
                     <div class="engine clearfix mrgt">

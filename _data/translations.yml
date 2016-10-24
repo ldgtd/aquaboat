@@ -17,7 +17,8 @@ fr:
       share: Partager nous sur Facebook
   boat:
     title: Bateau
-    button: télécharger le catalogue PDF
+    button: Catalogue PDF
+    boats: Les bateaux de la gamme
   engine:
     title: Moteur
     button: Catalogue de la marque
