@@ -1,5 +1,27 @@
 ---
 - id: stingray
+  title: 235 LR
+  content: ''
+  engine: Inboard
+  boat: Bateau bowrider
+  width: 7.29m
+  height: 2.50m
+  people: 12
+  power: Max 350 HP
+  money: Dès 57'650 CHF
+  image: ''
+- id: stingray
+  title: 225 RX
+  content: ''
+  engine: Inboard
+  boat: Bateau bowrider
+  width: 7.00m
+  height: 2.50m
+  people: 10
+  power: Max 250 HP
+  money: Dès 48'620 CHF
+  image: ''
+- id: stingray
   title: 225 LR
   content: ''
   engine: Inboard
@@ -9,7 +31,6 @@
   people: 10
   power: Max 300 HP
   money: Dès 48'940 CHF
-  image: ''
 - id: stingray
   title: 215 LR
   content: ''
@@ -20,7 +41,6 @@
   people: 11
   power: Max 280 HP
   money: Dès 54'220 CHF
-  image: ''
 - id: stingray
   title: 208 LR
   content: ''
@@ -31,7 +51,6 @@
   people: 9
   power: Max 200 HP
   money: Dès 43'670 CHF
-  image: ''
 - id: stingray
   title: 198LX
   content: ''
@@ -42,7 +61,6 @@
   people: 9
   power: Max 200HP
   money: Dès 41'970 CHF
-  image: forestryio/images/7.png
 - id: stingray
   title: 198 RX
   content: ''
@@ -53,7 +71,6 @@
   people: 9
   power: Max 225HP
   money: Dès 41'970 CHF
-  image: forestryio/images/4.png
 - id: quicksilver
   title: quicksilver
   content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praetereo multos,
@@ -65,7 +82,6 @@
   people: 6
   power: Super powerfull
   money: 15 000 chf
-  image: "/forestryio/images/services.jpg"
 - id: quicksilver
   title: quicksilver
   content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praetereo multos,
@@ -77,7 +93,6 @@
   people: 6
   power: Super powerfull
   money: 15 000 chf
-  image: "/forestryio/images/services.jpg"
 - id: quicksilver
   title: quicksilver
   content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praetereo multos,
@@ -89,7 +104,6 @@
   people: 6
   power: Super powerfull
   money: 15 000 chf
-  image: "/forestryio/images/services.jpg"
 - id: mercury
   title: mercury
   content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praetereo multos,
@@ -101,7 +115,6 @@
   people: 6
   power: Super powerfull
   money: 15 000 chf
-  image: "/forestryio/images/services.jpg"
 - id: mercury
   title: mercury
   content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praetereo multos,
@@ -113,7 +126,6 @@
   people: 6
   power: Super powerfull
   money: 15 000 chf
-  image: "/forestryio/images/services.jpg"
 - id: mercury
   title: mercury
   content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praetereo multos,
@@ -125,4 +137,3 @@
   people: 6
   power: Super powerfull
   money: 15 000 chf
-  image: "/forestryio/images/services.jpg"
