@@ -120,11 +120,11 @@
     dixi. Duo Reges constructio interrete.
   image: forestryio/images/quicksilver_logo-1.png
   catalogue: "/forestryio/files/test.pdf"
-- id: mercury
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praetereo multos,
-    in bis doctum hominem et suavem, Hieronymum, quem iam cur Peripateticum appellem
-    nescio. At iam decimum annum in spelunca iacet. Quid ad utilitatem tantae pecuniae?
-    Equidem, sed audistine modo de Carneade? Consequens enim est et post oritur, ut
-    dixi. Duo Reges constructio interrete.
+- id: beneteau
+  content: "Aiguisé et sportif, la gamme Beneteau sont des bateaux de sensations.
+    A la fois ouverts sur la mer et très protégés, les cinq sport-cruisers de la gamme
+    offrent des prestations technologiques conjuguant plaisir de pilotage et performances
+    exceptionnelles. Allure, prestations, soin des finitions, \r\nle Gran Turismo
+    séduit par son élégance. Résolument tendance"
   image: "/forestryio/images/mercury-logo.jpg"
   catalogue: "/forestryio/files/test.pdf"
