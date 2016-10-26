@@ -1,4 +1,5 @@
-fr: 
+---
+fr:
   menu:
     home: Accueil
     buy: Acheter
@@ -29,11 +30,12 @@ fr:
     title: Stock & Occasion
   shipyard:
     title: Le chantier naval
-    description: >
-      Bienvenue au chantier naval Aquaboat, partenaire de vos plaisirs nautiques.
-      Vous trouverez une équipe multidisciplinaire, dotée d'un esprit d'ouverture et de transparence, qualité essentielle à un bon partenariat.
-      Spécialisés en mécanique et électricité navale, nous sommes également représentants des moteurs Mercury-Mercruiser et Volvo Penta
-      Une équipe de professionnels à l’écoute de vos besoins.
+    description: "Bienvenue au chantier naval Aquaboat, partenaire de vos plaisirs
+      nautiques. Vous trouverez une équipe multidisciplinaire, dotée d'un esprit d'ouverture
+      et de transparence, qualité essentielle à un bon partenariat. Spécialisés en
+      mécanique et électricité navale, nous sommes également représentants des moteurs
+      Mercury-Mercruiser et Volvo Penta Une équipe de professionnels à l’écoute de
+      vos besoins.\r\n"
   contact:
     title: Rester en contact avec nous
     form:
@@ -45,17 +47,18 @@ fr:
       message: Message
       send: Envoyer
     address:
-      name: Aquaboat Sàrl
+      name: Aqua-Navis Sàrl Chantier Naval AQUABOAT
       street: Route des Iles 44
       city: 1897 Le Bouveret
       country: Suisse
       phone-label: Téléphone
-      phone: +41 24 481 8000
+      phone: "+41 24 481 8000"
       fax-label: Fax
-      fax: +41 24 481 8001
+      fax: "+41 24 481 8001"
   herobanner-home:
-    title: Hello, nous sommes Aquaboat
-    subtitle: le partenaire de vos plaisirs nautiques</br> sur le <span class="herobanner--color">lac Léman</span>
+    title: Bienvenue chez Aquaboat
+    subtitle: Votre partenaire de vos plaisirs nautiques</br> sur le <span class="herobanner--color">lac
+      Léman</span>
   herobanner-buy:
     title: Trouver le bateau <br> de vos rêves
   herobanner-shipyard:
