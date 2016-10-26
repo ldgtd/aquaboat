@@ -1,14 +1,64 @@
 ---
 - id: stingray
-  title: 250 LR
+  title: 198 RX
+  content: ''
+  engine: moteur inboard
+  boat: Bateau bowrider
+  width: 6.00m
+  height: 2.40m
+  people: 9
+  power: Max 225HP
+  money: Dès 41'970 CHF
+- id: stingray
+  title: 198LX
+  content: ''
+  engine: Moteur inboard
+  boat: Bateau bowrider
+  width: 6.00m
+  height: 2.40m
+  people: 9
+  power: Max 200HP
+  money: Dès 41'970 CHF
+- id: stingray
+  title: 208 LR
+  content: ''
+  engine: Inboard
+  boat: Bowrider
+  width: 6.30m
+  height: 2.50m
+  people: 9
+  power: Max 200 HP
+  money: Dès 43'670 CHF
+- id: stingray
+  title: 215 LR
   content: ''
   engine: Inboard
   boat: Bateau bowrider
-  width: 7.60m
-  height: 2.60m
+  width: 6.69m
+  height: 2.57m
+  people: 11
+  power: Max 280 HP
+  money: Dès 54'220 CHF
+- id: stingray
+  title: 225 LR
+  content: ''
+  engine: Inboard
+  boat: Bateau bowrider
+  width: 7.00m
+  height: '2.50'
   people: 10
-  power: Max 350 HP
-  money: Dès 60'220 CHF
+  power: Max 300 HP
+  money: Dès 48'940 CHF
+- id: stingray
+  title: 225 RX
+  content: ''
+  engine: Inboard
+  boat: Bateau bowrider
+  width: 7.00m
+  height: 2.50m
+  people: 10
+  power: Max 250 HP
+  money: Dès 48'620 CHF
   image: ''
 - id: stingray
   title: 235 LR
@@ -22,66 +72,16 @@
   money: Dès 57'650 CHF
   image: ''
 - id: stingray
-  title: 225 RX
+  title: 250 LR
   content: ''
   engine: Inboard
   boat: Bateau bowrider
-  width: 7.00m
-  height: 2.50m
+  width: 7.60m
+  height: 2.60m
   people: 10
-  power: Max 250 HP
-  money: Dès 48'620 CHF
+  power: Max 350 HP
+  money: Dès 60'220 CHF
   image: ''
-- id: stingray
-  title: 225 LR
-  content: ''
-  engine: Inboard
-  boat: Bateau bowrider
-  width: 7.00m
-  height: '2.50'
-  people: 10
-  power: Max 300 HP
-  money: Dès 48'940 CHF
-- id: stingray
-  title: 215 LR
-  content: ''
-  engine: Inboard
-  boat: Bateau bowrider
-  width: 6.69m
-  height: 2.57m
-  people: 11
-  power: Max 280 HP
-  money: Dès 54'220 CHF
-- id: stingray
-  title: 208 LR
-  content: ''
-  engine: Inboard
-  boat: Bowrider
-  width: 6.30m
-  height: 2.50m
-  people: 9
-  power: Max 200 HP
-  money: Dès 43'670 CHF
-- id: stingray
-  title: 198LX
-  content: ''
-  engine: Moteur inboard
-  boat: Bateau bowrider
-  width: 6.00m
-  height: 2.40m
-  people: 9
-  power: Max 200HP
-  money: Dès 41'970 CHF
-- id: stingray
-  title: 198 RX
-  content: ''
-  engine: moteur inboard
-  boat: Bateau bowrider
-  width: 6.00m
-  height: 2.40m
-  people: 9
-  power: Max 225HP
-  money: Dès 41'970 CHF
 - id: quicksilver
   title: quicksilver
   content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praetereo multos,
