@@ -1,9 +1,4 @@
 ---
-- title: 'Assistance & dépannage '
-  content: "Le nautisme un loisir, pour vous assurez votre plaisir de navigation notre
-    team technique vous assiste et vous soutien. Nous intervenons pour vous de lausanne
-    au Bouveret ainsi que sur la cote Francaise. \r\n"
-  image: ''
 - title: Mécanique & électricité
   content: "Pour votre confort et votre sécurité nous vous proposons diverses prestation,
     de l'entretien de votre moteur inboard ou hors bord au remotorisation.\r\nNotre
@@ -23,3 +18,8 @@
     Installation de matériel de tractage (tour monster tower)\r\n- Moteur hors- bord
     de la gamme 4 CV au nouveau 400 Verdo\r\n\r\n"
   image: forestryio/images/MM_Joystick_VesselView_JPO_Cigarette-(8-of-39).jpg
+- title: 'Assistance & dépannage '
+  content: "Le nautisme un loisir, pour vous assurez votre plaisir de navigation notre
+    team technique vous assiste et vous soutien. Nous intervenons pour vous de lausanne
+    au Bouveret ainsi que sur la cote Francaise. \r\n"
+  image: ''
