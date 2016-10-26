@@ -1,4 +1,15 @@
 ---
+- id: stingr
+  title: 225 SX
+  content: ''
+  engine: Inboard
+  boat: Sport
+  width: 7.00m
+  height: 2.50m
+  people: 10
+  power: Max 350 HP
+  money: Dès 52'470 CHF
+  image: ''
 - id: stingray
   title: 225 CR
   content: ''
