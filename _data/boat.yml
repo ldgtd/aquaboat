@@ -1,5 +1,16 @@
 ---
 - id: stingray
+  title: 225 LR
+  content: ''
+  engine: Inboard
+  boat: Bateau bowrider
+  width: 7.00m
+  height: '2.50'
+  people: 10
+  power: Max 300 HP
+  money: Dès 48'940 CHF
+  image: ''
+- id: stingray
   title: 215 LR
   content: ''
   engine: Inboard
