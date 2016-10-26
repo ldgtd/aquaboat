@@ -1,5 +1,38 @@
 ---
 - id: stingray
+  title: 225 CR
+  content: ''
+  engine: Inboard
+  boat: Bateau cabine
+  width: 7.00m
+  height: 2.50m
+  people: 10
+  power: Max 300 HP
+  money: Dès 51'850 CHF
+  image: ''
+- id: stingray
+  title: 215 CR
+  content: ''
+  engine: Inboard
+  boat: Bateau cabine
+  width: 6.70m
+  height: 2.60m
+  people: 11
+  power: Max 250 HP
+  money: Dès 55'290 CHF
+  image: ''
+- id: stingray
+  title: 205 CR
+  content: ''
+  engine: Inboard
+  boat: Bateau cabine
+  width: 6.31m
+  height: 2.50m
+  people: 9
+  power: Max 250 HP
+  money: Dès 43'670 CHF
+  image: ''
+- id: stingray
   title: 198 RX
   content: ''
   engine: moteur inboard
@@ -59,7 +92,6 @@
   people: 10
   power: Max 250 HP
   money: Dès 48'620 CHF
-  image: ''
 - id: stingray
   title: 235 LR
   content: ''
@@ -70,7 +102,6 @@
   people: 12
   power: Max 350 HP
   money: Dès 57'650 CHF
-  image: ''
 - id: stingray
   title: 250 LR
   content: ''
@@ -81,7 +112,6 @@
   people: 10
   power: Max 350 HP
   money: Dès 60'220 CHF
-  image: ''
 - id: quicksilver
   title: quicksilver
   content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praetereo multos,
