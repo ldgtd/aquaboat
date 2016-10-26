@@ -1,4 +1,7 @@
 ---
+- title: Le mot du CEO
+  content: Persévérant  avec un mental de tout acier afin de finir ce site :-) :-)
+  image: forestryio/images/1.jpg
 - title: Vente et occasion
   content: 'Nous sommes actif dans la vente de bateau et moteur ainsi qu''un large
     choix de remorque. Représentant plusieurs marques de bateau afin de satisfaire
@@ -8,9 +11,6 @@
   content: "Pour assurer votre confort et votre sécurité,  nous mettons à votre disposition
     \ la gamme de prestations suivante:\r\n"
   image: "/forestryio/images/services.jpg"
-- title: Le mot du CEO
-  content: Persévérant  avec un mental de tout acier afin de finir ce site :-) :-)
-  image: forestryio/images/1.jpg
 - title: Occasion
   content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Atqui eorum nihil
     est eius generis, ut sit in fine atque extrerno bonorum. Teneo, inquit, finem
