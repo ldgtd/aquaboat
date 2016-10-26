@@ -11,21 +11,15 @@
   money: Dès 41'970 CHF
   image: forestryio/images/7.png
 - id: stingray
-  title: 215 CR
-  content: Want all of the features of a bigger boat without actually having a bigger
-    boat? Look no further. The 215CR packs in ALL the same features of our 235CR,
-    with the same beam and two feet less to trailer. Before you ask what happened
-    to the other two feet, let us assure you that our designers did an impressive
-    job of conserving space in just the right non-essential areas to bring you this
-    right-sized cuddy. Like all STINGRAY Sport Deck models, the 215CR features a side-entry
-    walkway for easy entry and exit.
+  title: 198 RX
+  content: ''
   engine: moteur inboard
-  boat: bateau cabine
-  width: 2.18m
-  height: 6.20m
+  boat: Bateau bowrider
+  width: 6.00m
+  height: 2.40m
   people: 9
   power: Max 225HP
-  money: 15 000 chf
+  money: Dès 41'970 CHF
   image: forestryio/images/4.png
 - id: quicksilver
   title: quicksilver
