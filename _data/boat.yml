@@ -1,5 +1,16 @@
 ---
 - id: stingray
+  title: 208 LR
+  content: ''
+  engine: Inboard
+  boat: Bowrider
+  width: 6.30m
+  height: 2.50m
+  people: 9
+  power: Max 200 HP
+  money: Dès 43'670 CHF
+  image: ''
+- id: stingray
   title: 198LX
   content: ''
   engine: Moteur inboard
