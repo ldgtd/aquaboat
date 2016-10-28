@@ -9,7 +9,7 @@ fr:
       boat: Bateau
       engine: Moteur
       trailer: Remorque
-      occasion: Stock &<br /> Occasion
+      occasion: Stock & occasion
   home:
     last_news: Actualités
     services: Services
