@@ -53,8 +53,8 @@ fr:
       country: Suisse
       phone-label: Téléphone
       phone: "+41 24 481 8000"
-      fax-label: Fax
-      fax: "+41 24 481 8001"
+      fax-label: Email
+      fax: info@aquaboat.ch
   herobanner-home:
     title: Bienvenue chez Aquaboat
     subtitle: Votre partenaire de vos plaisirs nautiques</br> sur le <span class="herobanner--color">lac
