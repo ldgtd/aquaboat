@@ -46,9 +46,9 @@
 
 	'use strict';
 	
-	var _uniq_item_array = __webpack_require__(1);
+	var _build_html_select = __webpack_require__(1);
 	
-	var _uniq_item_array2 = _interopRequireDefault(_uniq_item_array);
+	var _build_html_select2 = _interopRequireDefault(_build_html_select);
 	
 	var _form = __webpack_require__(2);
 	
@@ -83,7 +83,7 @@
 	
 	  if (document.querySelector('body').classList.contains('boat')) {
 	    new _filter2.default();
-	    new _uniq_item_array2.default();
+	    new _build_html_select2.default();
 	  }
 	});
 
@@ -101,15 +101,15 @@
 	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 	
-	var UniqItemArray = function () {
-	  function UniqItemArray() {
-	    _classCallCheck(this, UniqItemArray);
+	var buildHtmlSelect = function () {
+	  function buildHtmlSelect() {
+	    _classCallCheck(this, buildHtmlSelect);
 	
 	    var boatEngine = document.querySelectorAll('#boat-engine .boat-engine__data');
 	    this.buildArray(boatEngine);
 	  }
 	
-	  _createClass(UniqItemArray, [{
+	  _createClass(buildHtmlSelect, [{
 	    key: 'buildArray',
 	    value: function buildArray(node) {
 	      var array = [];
@@ -150,10 +150,10 @@
 	    }
 	  }]);
 	
-	  return UniqItemArray;
+	  return buildHtmlSelect;
 	}();
 	
-	exports.default = UniqItemArray;
+	exports.default = buildHtmlSelect;
 
 /***/ },
 /* 2 */

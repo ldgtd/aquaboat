@@ -1,4 +1,4 @@
-export default class UniqItemArray {
+export default class buildHtmlSelect {
   constructor() {
     let boatEngine = document.querySelectorAll('#boat-engine .boat-engine__data');
     this.buildArray(boatEngine);

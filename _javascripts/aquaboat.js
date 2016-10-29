@@ -1,4 +1,4 @@
-import uniqItemArray from './helpers/uniq_item_array';
+import buildHtmlSelect from './helpers/build_html_select';
 
 import Form from './components/form';
 import GoogleMap from './components/google_map';
@@ -17,6 +17,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
   if (document.querySelector('body').classList.contains('boat')) {
     new Filter();
-    new uniqItemArray();
+    new buildHtmlSelect();
   }
 });
