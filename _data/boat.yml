@@ -38,61 +38,67 @@
   image: forestryio/images/4.png
 - id: quicksilver
   title: quicksilver
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praetereo multos, in bis doctum hominem et suavem, Hieronymum, quem iam cur Peripateticum appellem nescio. At iam decimum annum in spelunca iacet. Quid ad utilitatem tantae pecuniae? Equidem, sed audistine modo de Carneade? Consequens enim est et post oritur, ut dixi. Duo Reges constructio interrete.
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praetereo multos, in bis doctum hominem.
   engine: Moteur in board
   boat: Bateau cabine
   width: 3m
   height: 8m
   people: 6
   power: Super powerfull
-  image: /forestryio/images/services.jpg
+  money: 15 000 chf
+  image: "/forestryio/images/services.jpg"
 - id: quicksilver
   title: quicksilver
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praetereo multos, in bis doctum hominem et suavem, Hieronymum, quem iam cur Peripateticum appellem nescio. At iam decimum annum in spelunca iacet. Quid ad utilitatem tantae pecuniae? Equidem, sed audistine modo de Carneade? Consequens enim est et post oritur, ut dixi. Duo Reges constructio interrete.
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praetereo multos, in bis doctum hominem.
   engine: Moteur in board
   boat: Bateau cabine
   width: 3m
   height: 8m
   people: 6
   power: Super powerfull
-  image: /forestryio/images/services.jpg
+  money: 15 000 chf
+  image: "/forestryio/images/services.jpg"
 - id: quicksilver
   title: quicksilver
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praetereo multos, in bis doctum hominem et suavem, Hieronymum, quem iam cur Peripateticum appellem nescio. At iam decimum annum in spelunca iacet. Quid ad utilitatem tantae pecuniae? Equidem, sed audistine modo de Carneade? Consequens enim est et post oritur, ut dixi. Duo Reges constructio interrete.
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praetereo multos, in bis doctum hominem.
   engine: Moteur in board
   boat: Bateau cabine
   width: 3m
   height: 8m
   people: 6
   power: Super powerfull
-  image: /forestryio/images/services.jpg
+  money: 15 000 chf
+  image: "/forestryio/images/services.jpg"
 - id: mercury
   title: mercury
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praetereo multos, in bis doctum hominem et suavem, Hieronymum, quem iam cur Peripateticum appellem nescio. At iam decimum annum in spelunca iacet. Quid ad utilitatem tantae pecuniae? Equidem, sed audistine modo de Carneade? Consequens enim est et post oritur, ut dixi. Duo Reges constructio interrete.
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praetereo multos, in bis doctum hominem.
   engine: Moteur in board
   boat: Bateau cabine
   width: 3m
   height: 8m
   people: 6
   power: Super powerfull
-  image: /forestryio/images/services.jpg
+  money: 15 000 chf
+  image: "/forestryio/images/services.jpg"
 - id: mercury
   title: mercury
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praetereo multos, in bis doctum hominem et suavem, Hieronymum, quem iam cur Peripateticum appellem nescio. At iam decimum annum in spelunca iacet. Quid ad utilitatem tantae pecuniae? Equidem, sed audistine modo de Carneade? Consequens enim est et post oritur, ut dixi. Duo Reges constructio interrete.
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praetereo multos, in bis doctum hominem.
   engine: Moteur in board
   boat: Bateau cabine
   width: 3m
   height: 8m
   people: 6
   power: Super powerfull
-  image: /forestryio/images/services.jpg
+  money: 15 000 chf
+  image: "/forestryio/images/services.jpg"
 - id: mercury
   title: mercury
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praetereo multos, in bis doctum hominem et suavem, Hieronymum, quem iam cur Peripateticum appellem nescio. At iam decimum annum in spelunca iacet. Quid ad utilitatem tantae pecuniae? Equidem, sed audistine modo de Carneade? Consequens enim est et post oritur, ut dixi. Duo Reges constructio interrete.
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praetereo multos, in bis doctum hominem.
   engine: Moteur in board
   boat: Bateau cabine
   width: 3m
   height: 8m
   people: 6
   power: Super powerfull
-  image: /forestryio/images/services.jpg
+  money: 15 000 chf
+  image: "/forestryio/images/services.jpg"

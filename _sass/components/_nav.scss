@@ -70,7 +70,7 @@
     }
 
     .nav__sublist {
-      width: 130px;
+      width: 180px;
       position: absolute;
       top: 25px;
       left: 50%;
@@ -80,7 +80,7 @@
 
       .nav-item__secondary {
         margin-bottom: 1px;
-        background-color: rgba($white, .6);
+        background-color: rgba($white, .9);
 
         > a {
           color: darken($brand-color, 10%) !important;

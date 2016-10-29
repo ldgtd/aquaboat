@@ -1,0 +1,22 @@
+/*----------------------------------------*\
+  BUTTON
+\*----------------------------------------*/
+
+.btn--document {
+  display: block;
+  width: auto;
+  height: 40px;
+  margin: 0 auto;
+
+  background-color: $brand-color;
+  border-radius: 35px 35px;
+  text-decoration: none;
+
+  p {
+    padding-right: 10px;
+  }
+}
+
+.btn--document:hover {
+  background-color: lighten($brand-color, 7%);
+}

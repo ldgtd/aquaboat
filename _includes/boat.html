@@ -15,29 +15,29 @@
 
     <section class="listed">
       {% for brand in site.data.brand %}
-          <article id="{{ brand.id }}">
-            <div class="mrgb clearfix">
-              <img src="{{ brand.image | prepend:site.baseurl }}" class="media__image image-logo pull-left">
-              <div class="pull-right mrgt0">
-                <a href="{{ brand.catalogue | prepend:site.baseurl }}" class="btn--document relative-parent" target="_blank">
-                  <svg class="icon-document">
-                    <use xlink:href="#document"></use>
-                    <p class="link-alt-white text-bold pdgt-- mrgr+ mrgl">{{ t.boat.button }}</p>
-                  </svg>
-                </a>
-              </div>
+        <article id="{{ brand.id }}">
+          <div class="mrgb clearfix">
+            <img src="{{ brand.image | prepend:site.baseurl }}" class="media__image image-logo pull-left">
+            <div class="pull-right mrgt0">
+              <a href="{{ brand.catalogue | prepend:site.baseurl }}" class="btn--document relative-parent" target="_blank">
+                <svg class="icon-document">
+                  <use xlink:href="#document"></use>
+                  <p class="link-alt-white text-bold pdgt-- mrgr+ mrgl">{{ t.boat.button }}</p>
+                </svg>
+              </a>
             </div>
-            <p class="mrgb+">{{ brand.content }}</p>
-          </article>
+          </div>
+          <p class="mrgb+">{{ brand.content }}</p>
+        </article>
 
-          <h3 class="text-uppercase">{{ t.boat.boats }}</h3>
-          <article class="grid pdgb+ mrgb++">
-            {% for boat in site.data.boat %}
-              {% if brand.id == boat.id %}
-                {% include boat-item.html %}
-              {% endif %}
-            {% endfor %}
-          </article>
+        <h3 class="text-uppercase">{{ t.boat.boats }}</h3>
+        <article class="grid pdgb+ mrgb++">
+          {% for boat in site.data.boat %}
+            {% if brand.id == boat.id %}
+              {% include boat-item.html %}
+            {% endif %}
+          {% endfor %}
+        </article>
       {% endfor %}
     </section>
   </section>
