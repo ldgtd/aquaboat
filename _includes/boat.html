@@ -1,78 +1,44 @@
 {% assign t = site.data.translations[page.lang] %}
 
-<article class="mrgt+">
-  <h2 class="text-uppercase">{{ t.boat.title }}</h2>
-  {% for brand in site.data.brand %}
-    <section class="mrgv+">
-      <div class="mrgb flex-h">
-        <img src="{{ brand.image | prepend:site.baseurl }}" class="media__image image-logo">
-      </div>
-      <div>
-        <p>{{ brand.content }}</p>
-        <div class="flex-h">
-          <a href="{{ brand.catalogue | prepend:site.baseurl }}" class="btn btn--primary" target="_blank">{{ t.boat.button }}</a>
-        </div>
-      </div>
-    </section>
+<h2 class="main-title text-uppercase">{{ t.boat.title }}</h2>
+<section class="grid">
+  <section class="grid__item w-1/1 md-w-1/6 mrgb+">
+    <ul class="list-stacked list-stacked--divided">
+      {% for brand in site.data.brand %}
+        <li class="text-uppercase text-bold"><a href="#{{ brand.id }}" class="link-alt">{{ brand.id }}</a></li>
+      {% endfor %}
+    </ul>
+  </section>
+  <section class="grid__item w-1/1 md-w-5/6">
 
-    <section class="grid mrgv">
-      {% for boat in site.data.boat %}
-        {% if brand.id == boat.id %}
-          <div class="grid__item w-1/1 sm-w-1/2 md-w-1/3">
-              <div class="tile box box--default mrgb pdg0">
-              <div class="tile__image-container">
-                  <img src="{{ boat.image | prepend:site.baseurl }}" class="tile__image">
-                </div>
-                <div class="pdg">
-                  <h3 class="text-uppercase mrgt0">{{ boat.title }}</h3>
-                  <p>{{ boat.content }}</p>
+    {% include filter.html %}
 
-                  <div class="engine clearfix mrgt">
-                    <svg class="icon-sell pull-left">
-                      <use xlink:href="#engine"></use>
-                    </svg>
-                    <h5 class="pull-left  pdgt-- pdgl- mrg0">{{ boat.engine }}</h5>
-                  </div>
-
-                  <div class="boat clearfix mrgt">
-                    <svg class="icon-sell pull-left">
-                      <use xlink:href="#boat"></use>
-                    </svg>
-                    <h5 class="pull-left  pdgt-- pdgl- mrg0">{{ boat.boat }}</h5>
-                  </div>
-
-                  <div class="width clearfix mrgt">
-                    <svg class="icon-sell pull-left">
-                      <use xlink:href="#width"></use>
-                    </svg>
-                    <h5 class="pull-left  pdgt-- pdgl- mrg0">{{ boat.width }}</h5>
-                  </div>
-
-                  <div class="width clearfix mrgt">
-                    <svg class="icon-sell pull-left">
-                      <use xlink:href="#height"></use>
-                    </svg>
-                    <h5 class="pull-left  pdgt-- pdgl- mrg0">{{ boat.height }}</h5>
-                  </div>
-
-                  <div class="width clearfix mrgt">
-                    <svg class="icon-sell pull-left">
-                      <use xlink:href="#people"></use>
-                    </svg>
-                    <h5 class="pull-left  pdgt-- pdgl- mrg0">{{ boat.people }}</h5>
-                  </div>
-
-                  <div class="width clearfix mrgt">
-                    <svg class="icon-sell pull-left">
-                      <use xlink:href="#power"></use>
-                    </svg>
-                    <h5 class="pull-left  pdgt-- pdgl- mrg0">{{ boat.power }}</h5>
-                  </div>
-                </div>
+    <section class="listed">
+      {% for brand in site.data.brand %}
+          <article id="{{ brand.id }}">
+            <div class="mrgb clearfix">
+              <img src="{{ brand.image | prepend:site.baseurl }}" class="media__image image-logo pull-left">
+              <div class="pull-right mrgt0">
+                <a href="{{ brand.catalogue | prepend:site.baseurl }}" class="btn--document relative-parent" target="_blank">
+                  <svg class="icon-document">
+                    <use xlink:href="#document"></use>
+                    <p class="link-alt-white text-bold pdgt-- mrgr+ mrgl">{{ t.boat.button }}</p>
+                  </svg>
+                </a>
               </div>
-          </div>
-        {% endif %}
+            </div>
+            <p class="mrgb+">{{ brand.content }}</p>
+          </article>
+
+          <h3 class="text-uppercase">{{ t.boat.boats }}</h3>
+          <article class="grid pdgb+ mrgb++">
+            {% for boat in site.data.boat %}
+              {% if brand.id == boat.id %}
+                {% include boat-item.html %}
+              {% endif %}
+            {% endfor %}
+          </article>
       {% endfor %}
     </section>
-  {% endfor %}
-</article>
+  </section>
+</section>

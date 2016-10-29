@@ -46,21 +46,29 @@
 
 	'use strict';
 	
-	var _form = __webpack_require__(1);
+	var _uniq_item_array = __webpack_require__(1);
+	
+	var _uniq_item_array2 = _interopRequireDefault(_uniq_item_array);
+	
+	var _form = __webpack_require__(2);
 	
 	var _form2 = _interopRequireDefault(_form);
 	
-	var _google_map = __webpack_require__(5);
+	var _google_map = __webpack_require__(6);
 	
 	var _google_map2 = _interopRequireDefault(_google_map);
 	
-	var _nav = __webpack_require__(6);
+	var _nav = __webpack_require__(7);
 	
 	var _nav2 = _interopRequireDefault(_nav);
 	
-	var _tile = __webpack_require__(7);
+	var _tile = __webpack_require__(8);
 	
 	var _tile2 = _interopRequireDefault(_tile);
+	
+	var _filter = __webpack_require__(9);
+	
+	var _filter2 = _interopRequireDefault(_filter);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -72,10 +80,83 @@
 	    new _form2.default();
 	    new _google_map2.default();
 	  }
+	
+	  if (document.querySelector('body').classList.contains('boat')) {
+	    new _filter2.default();
+	    new _uniq_item_array2.default();
+	  }
 	});
 
 /***/ },
 /* 1 */
+/***/ function(module, exports) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	var UniqItemArray = function () {
+	  function UniqItemArray() {
+	    _classCallCheck(this, UniqItemArray);
+	
+	    var boatEngine = document.querySelectorAll('#boat-engine .boat-engine__data');
+	    this.buildArray(boatEngine);
+	  }
+	
+	  _createClass(UniqItemArray, [{
+	    key: 'buildArray',
+	    value: function buildArray(node) {
+	      var array = [];
+	
+	      for (var i = 0; i < node.length; i++) {
+	        array.push(node[i].dataset.contains);
+	      }
+	
+	      this.buildUniqArray(array);
+	    }
+	  }, {
+	    key: 'buildUniqArray',
+	    value: function buildUniqArray(array) {
+	      var i = void 0,
+	          ouput = [],
+	          object = {};
+	
+	      for (i = 0; i < array.length; i++) {
+	        object[array[i]] = 0;
+	      }
+	
+	      for (i in object) {
+	        ouput.push(i);
+	      }
+	
+	      this.buildHtmlOuput(ouput);
+	    }
+	  }, {
+	    key: 'buildHtmlOuput',
+	    value: function buildHtmlOuput(output) {
+	      for (var i = 0; i < output.length; i++) {
+	        var liElement = document.createElement('option'),
+	            liConent = document.createTextNode(output[i]);
+	
+	        liElement.appendChild(liConent);
+	        document.querySelector('#boat-engine select').appendChild(liElement);
+	      }
+	    }
+	  }]);
+	
+	  return UniqItemArray;
+	}();
+	
+	exports.default = UniqItemArray;
+
+/***/ },
+/* 2 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -86,7 +167,7 @@
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
-	var _simpleAjax = __webpack_require__(2);
+	var _simpleAjax = __webpack_require__(3);
 	
 	var _simpleAjax2 = _interopRequireDefault(_simpleAjax);
 	
@@ -147,11 +228,11 @@
 	exports.default = Form;
 
 /***/ },
-/* 2 */
+/* 3 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var EventEmitter = __webpack_require__(3).EventEmitter,
-	    queryString = __webpack_require__(4);
+	var EventEmitter = __webpack_require__(4).EventEmitter,
+	    queryString = __webpack_require__(5);
 	
 	function tryParseJson(data){
 	    try{
@@ -301,7 +382,7 @@
 
 
 /***/ },
-/* 3 */
+/* 4 */
 /***/ function(module, exports) {
 
 	// Copyright Joyent, Inc. and other Node contributors.
@@ -609,7 +690,7 @@
 
 
 /***/ },
-/* 4 */
+/* 5 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -681,7 +762,7 @@
 
 
 /***/ },
-/* 5 */
+/* 6 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -722,7 +803,7 @@
 	exports.default = GoogleMap;
 
 /***/ },
-/* 6 */
+/* 7 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -768,7 +849,7 @@
 	exports.default = Nav;
 
 /***/ },
-/* 7 */
+/* 8 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -808,6 +889,26 @@
 	}();
 	
 	exports.default = Tile;
+
+/***/ },
+/* 9 */
+/***/ function(module, exports) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	var Filter = function Filter() {
+	  _classCallCheck(this, Filter);
+	
+	  console.log('Filter');
+	};
+	
+	exports.default = Filter;
 
 /***/ }
 /******/ ]);
