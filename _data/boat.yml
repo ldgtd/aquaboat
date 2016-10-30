@@ -1,5 +1,16 @@
 ---
 - id: glastron
+  title: GTX 185
+  content: ''
+  engine: Moteur inboard
+  boat: Bateau bowrider
+  width: 5.49m
+  height: 2.26m
+  people: CE 6
+  power: Max 135 HP
+  money: Dès 41'970 CHF
+  image: ''
+- id: glastron
   title: GTS 185
   content: ''
   engine: Moteur inboard
