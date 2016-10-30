@@ -1,7 +1,7 @@
 {% assign t = site.data.translations[page.lang] %}
 
 <article class="mrgt+">
-  <h2 class="main-title text-uppercase">{{ t.occasion.title }}</h2>
+  <h2 class="main-title">{{ t.occasion.title }}</h2>
   <section class="grid mrgv">
     {% for occasion in site.data.occasion %}
       <div class="grid__item w-1/1 sm-w-1/2 md-w-1/3">
@@ -10,7 +10,7 @@
               <img src="{{ occasion.image | prepend:site.baseurl }}" class="tile__image">
             </div>
             <div class="pdg">
-              <h3 class="text-uppercase mrgt0">{{ occasion.title }}</h3>
+              <h3 class="mrgt0">{{ occasion.title }}</h3>
               <p>{{ occasion.content }}</p>
 
               <div class="engine clearfix mrgt">
