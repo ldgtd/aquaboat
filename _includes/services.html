@@ -1,4 +1,4 @@
-<h2 class="main-title text-uppercase">{{ t.home.services }}</h2>
+<h2 class="main-title">{{ t.home.services }}</h2>
 <article class="services grid">
   {% for service in site.data.services %}
     <div class="grid__item sm-w-1/2">
@@ -7,7 +7,7 @@
             <img src="{{ service.image | prepend:site.baseurl }}" class="tile__image">
           </div>
           <div class="pdg">
-            <h3 class="text-uppercase mrgt0">{{ service.title }}</h3>
+            <h3 class="mrgt0">{{ service.title }}</h3>
             <p>{{ service.content }}</p>
           </div>
         </div>

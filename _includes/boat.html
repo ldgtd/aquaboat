@@ -1,6 +1,6 @@
 {% assign t = site.data.translations[page.lang] %}
 
-<h2 class="main-title text-uppercase">{{ t.boat.title }}</h2>
+<h2 class="main-title">{{ t.boat.title }}</h2>
 <section class="grid">
   {% include boat-sidebar.html %}
 
@@ -11,7 +11,7 @@
       {% for brand in site.data.brand %}
         {% include boat-brand.html %}
 
-        <h3 class="text-uppercase">{{ t.boat.boats }}</h3>
+        <h3>{{ t.boat.boats }}</h3>
         <article class="grid pdgb+ mrgb++">
           {% for boat in site.data.boat %}
             {% if brand.id == boat.id %}
