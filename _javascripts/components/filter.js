@@ -1,5 +1,8 @@
 export default class Filter {
   constructor() {
-    console.log('Filter');
+    this.toggleTile();
+  }
+
+  toggleTile() {
   }
 }

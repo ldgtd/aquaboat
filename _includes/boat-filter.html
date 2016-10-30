@@ -1,0 +1,71 @@
+<section class="filter pdg mrgb++">
+  <form action="/aquaboat/results.html">
+    <div class="grid">
+      <div id="boat-brand" class="grid__item w-1/1 sm-w-1/2 md-w-1/3 mrgb">
+        <label>Marques</label>
+        <select name="brand">
+          <option selected></option>
+          {% for brand in site.data.brand %}
+            <option>{{ brand.id }}</option>
+          {% endfor %}
+        </select>
+      </div>
+
+      <div id="boat-engine" class="grid__item w-1/1 sm-w-1/2 md-w-1/3 mrgb">
+        <label>Moteur</label>
+        <!-- Create `span` tag with data attr to be filterd in JS -->
+        {% for boat in site.data.boat %}
+          <span class="boat-engine__data" data-contains="{{ boat.engine }}"></span>
+        {% endfor %}
+        <select name="engine">
+          <option selected></option>
+        </select>
+      </div>
+
+      <div id="boat-boat" class="grid__item w-1/1 sm-w-1/2 md-w-1/3 mrgb">
+        <label>Type de bateau</label>
+        <!-- Create `span` tag with data attr to be filterd in JS -->
+        {% for boat in site.data.boat %}
+          <span class="boat-boat__data" data-contains="{{ boat.boat }}"></span>
+        {% endfor %}
+        <select name="boat">
+          <option selected></option>
+        </select>
+      </div>
+
+      <div id="boat-width" class="range-slider grid__item w-1/1 sm-w-1/2 md-w-1/3 mrgb">
+        <label>Largeur</label>
+        <input id="widthInput" class="range-slider__range mrgt-" value="0" type="range" name="width" min="0" max="50" step="5" oninput="widthOutput.value = widthInput.value">
+        <output class="range-slider__value" name="width-output" id="widthOutput">0</output>
+      </div>
+
+      <div id="boat-height" class="range-slider grid__item w-1/1 sm-w-1/2 md-w-1/3 mrgb">
+        <label>Longeur</label>
+        <input id="heightInput" class="range-slider__range mrgt-" value="0" type="range" name="height" min="0" max="50" step="5" oninput="heightOutput.value = heightInput.value">
+        <output class="range-slider__value" name="height-output" id="heightOutput">0</output>
+      </div>
+
+      <div id="boat-people" class="range-slider grid__item w-1/1 sm-w-1/2 md-w-1/3 mrgb">
+        <label>Nbr. personnes</label>
+        <input id="peopleInput" class="range-slider__range mrgt-" value="0" type="range" name="people" min="0" max="20" step="1" oninput="peopleOutput.value = peopleInput.value">
+        <output class="range-slider__value" name="people-output" id="peopleOutput">0</output>
+      </div>
+
+      <div id="boat-power" class="range-slider grid__item w-1/1 sm-w-1/2 md-w-1/3 mrgb">
+        <label>Puissance</label>
+        <input id="powerInput" class="range-slider__range mrgt-" value="0" type="range" name="power" min="0" max="500" step="25" oninput="powerOutput.value = powerInput.value">
+        <output class="range-slider__value" name="power-output" id="powerOutput">0</output>
+      </div>
+
+      <div id="boat-money" class="range-slider grid__item w-1/1 sm-w-1/2 md-w-1/3 mrgb">
+        <label>Prix</label>
+        <input id="moneyInput" class="range-slider__range mrgt-" value="0" type="range" name="money" min="500" max="10000" step="250" oninput="moneyOutput.value = moneyInput.value">
+        <output class="range-slider__value" name="money-output" id="moneyOutput">0</output>
+      </div>
+
+      <div class="grid__item w-1/1 sm-w-1/2 md-w-1/3 mrgb">
+        <input type="submit" value="Filtrer" class="btn btn--primary-inversed mrgt+">
+      </div>
+    </div>
+  </form>
+</section>

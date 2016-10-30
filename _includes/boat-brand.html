@@ -1,0 +1,14 @@
+<article id="{{ brand.id }}">
+  <div class="mrgb clearfix">
+    <img src="{{ brand.image | prepend:site.baseurl }}" class="media__image image-logo pull-left">
+    <div class="pull-right mrgt0">
+      <a href="{{ brand.catalogue | prepend:site.baseurl }}" class="btn--document relative-parent" target="_blank">
+        <svg class="icon-document">
+          <use xlink:href="#document"></use>
+          <p class="link-alt-white text-bold pdgt-- mrgr+ mrgl">{{ t.boat.button }}</p>
+        </svg>
+      </a>
+    </div>
+  </div>
+  <p class="mrgb+">{{ brand.content }}</p>
+</article>

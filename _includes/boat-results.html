@@ -1,0 +1,10 @@
+<section class="filtered mrgv+">
+  <h2 class="main-title text-uppercase"><span id="count-results"></span> résultats</h2>
+  <article class="grid pdgb+ mrgb++">
+    <div class="hidden">
+      {% for boat in site.data.boat %}
+        {% include boat-item.html %}
+      {% endfor %}
+    </div>
+  </article>
+</section>

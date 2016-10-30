@@ -1,0 +1,7 @@
+<section class="grid__item w-1/1 md-w-1/6 mrgb+">
+  <ul class="list-stacked list-stacked--divided">
+    {% for brand in site.data.brand %}
+      <li class="text-uppercase text-bold"><a href="#{{ brand.id }}" class="link-alt">{{ brand.id }}</a></li>
+    {% endfor %}
+  </ul>
+</section>

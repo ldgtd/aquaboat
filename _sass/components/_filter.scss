@@ -1,0 +1,12 @@
+/*----------------------------------------*\
+  FILTER
+\*----------------------------------------*/
+
+.filter {
+  background-color: lighten($brand-color, 0%);
+  border-radius: 5px 5px;
+
+  label {
+    color: $white;
+  }
+}

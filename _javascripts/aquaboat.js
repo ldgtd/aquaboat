@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   if (document.querySelector('body').classList.contains('boat')) {
     new Filter();
-    new buildHtmlSelect();
+    new buildHtmlSelect(document.querySelectorAll('#boat-engine .boat-engine__data'), document.querySelector('#boat-engine select'));
+    new buildHtmlSelect(document.querySelectorAll('#boat-boat .boat-boat__data'), document.querySelector('#boat-boat select'));
   }
 });

@@ -18,6 +18,21 @@ $hamburger-hover-opacity: 1;
 @import "../node_modules/hamburgers/_sass/hamburgers/hamburgers";
 
 
+// Range slider & settings
+// Base Colors
+$shade-10: #2c3e50;
+$shade-1: #d7dcdf;
+$shade-0: #fff;
+// Range Slider
+$range-width: 100%;
+$range-handle-color: $shade-10;
+$range-track-color: $shade-1;
+$range-track-height: 10px;
+$range-label-color: $shade-10;
+$range-label-width: 60px;
+@import "components/slider";
+
+
 // Fonts
 @import 'https://fonts.googleapis.com/css?family=Lato|Montserrat|Ubuntu';
 
@@ -39,3 +54,4 @@ $hamburger-hover-opacity: 1;
 @import "components/herobanner";
 @import "components/notifications";
 @import "components/button";
+@import "components/filter";

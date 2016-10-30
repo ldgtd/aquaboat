@@ -1,40 +1,40 @@
 export default class buildHtmlSelect {
-  constructor() {
-    let boatEngine = document.querySelectorAll('#boat-engine .boat-engine__data');
-    this.buildArray(boatEngine);
+  constructor(data, target) {
+    let boatEngine = data;
+    this.buildArray(boatEngine, target);
   }
 
-  buildArray(node) {
+  buildArray(node, target) {
     let array = [];
 
     for (var i=0;i<node.length;i++) {
       array.push(node[i].dataset.contains);
     }
 
-    this.buildUniqArray(array);
+    this.buildUniqArray(array, target);
   }
 
-  buildUniqArray(array) {
-    let i, ouput=[], object={};
+  buildUniqArray(array, target) {
+    let i, output=[], object={};
 
     for (i=0;i<array.length;i++) {
       object[array[i]]=0;
     }
 
     for (i in object) {
-      ouput.push(i);
+      output.push(i);
     }
 
-    this.buildHtmlOuput(ouput);
+    this.buildHtmlOutput(output, target);
   }
 
-  buildHtmlOuput(output) {
+  buildHtmlOutput(output, target) {
     for (var i=0;i<output.length;i++) {
       let liElement = document.createElement('option'),
-          liConent  = document.createTextNode(output[i]);
+          liContent  = document.createTextNode(output[i]);
 
-      liElement.appendChild(liConent);
-      document.querySelector('#boat-engine select').appendChild(liElement);
+      liElement.appendChild(liContent);
+      target.appendChild(liElement);
     }
   }
 }

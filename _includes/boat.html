@@ -2,33 +2,14 @@
 
 <h2 class="main-title text-uppercase">{{ t.boat.title }}</h2>
 <section class="grid">
-  <section class="grid__item w-1/1 md-w-1/6 mrgb+">
-    <ul class="list-stacked list-stacked--divided">
-      {% for brand in site.data.brand %}
-        <li class="text-uppercase text-bold"><a href="#{{ brand.id }}" class="link-alt">{{ brand.id }}</a></li>
-      {% endfor %}
-    </ul>
-  </section>
-  <section class="grid__item w-1/1 md-w-5/6">
+  {% include boat-sidebar.html %}
 
-    {% include filter.html %}
+  <section class="grid__item w-1/1 md-w-5/6">
+    {% include boat-filter.html %}
 
     <section class="listed">
       {% for brand in site.data.brand %}
-        <article id="{{ brand.id }}">
-          <div class="mrgb clearfix">
-            <img src="{{ brand.image | prepend:site.baseurl }}" class="media__image image-logo pull-left">
-            <div class="pull-right mrgt0">
-              <a href="{{ brand.catalogue | prepend:site.baseurl }}" class="btn--document relative-parent" target="_blank">
-                <svg class="icon-document">
-                  <use xlink:href="#document"></use>
-                  <p class="link-alt-white text-bold pdgt-- mrgr+ mrgl">{{ t.boat.button }}</p>
-                </svg>
-              </a>
-            </div>
-          </div>
-          <p class="mrgb+">{{ brand.content }}</p>
-        </article>
+        {% include boat-brand.html %}
 
         <h3 class="text-uppercase">{{ t.boat.boats }}</h3>
         <article class="grid pdgb+ mrgb++">

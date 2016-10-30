@@ -1,16 +1,7 @@
 ---
 - id: stingray
   title: 198LX
-  content: 'This boat is incredibly fun to drive! After you''ve taken it out on the
-    water, we''re pretty sure you will return with a smile on your face. The 198LX
-    provides the responsive handling and performance Stingray is known for in runabouts
-    and, as one of our Sport Deck models, it boasts extra width in both the cockpit
-    and bow areas. Here''s something else—our 19'' models outperform the competition
-    with less power and manage to get better fuel mileage when comparing like power.
-    A few numbers to consider: with a modest 4.3L engine for power, the 198LX reaches
-    speeds in the upper 50''s and gets 5.6 mpg at cruise speed. This saves money at
-    purchase...and at the gas pump! FAST, ROOMY, and ECONOMICAL...ALL IN THE SAME
-    BOAT!'
+  content:
   engine: Moteur test
   boat: Bateau bowrider
   width: 5.85m
@@ -18,16 +9,10 @@
   people: 6
   power: 225HP
   money: 15 000 chf
-  image: forestryio/images/7.png
+  image: "/forestryio/images/services.jpg"
 - id: stingray
   title: 215 CR
-  content: Want all of the features of a bigger boat without actually having a bigger
-    boat? Look no further. The 215CR packs in ALL the same features of our 235CR,
-    with the same beam and two feet less to trailer. Before you ask what happened
-    to the other two feet, let us assure you that our designers did an impressive
-    job of conserving space in just the right non-essential areas to bring you this
-    right-sized cuddy. Like all STINGRAY Sport Deck models, the 215CR features a side-entry
-    walkway for easy entry and exit.
+  content:
   engine: moteur inboard
   boat: bateau cabine
   width: 2.18m
@@ -35,21 +20,10 @@
   people: 9
   power: 225HP
   money: 15 000 chf
-  image: forestryio/images/4.png
-- id: quicksilver
-  title: quicksilver
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praetereo multos, in bis doctum hominem.
-  engine: Moteur in board
-  boat: Bateau cabine
-  width: 3m
-  height: 8m
-  people: 6
-  power: Super powerfull
-  money: 15 000 chf
   image: "/forestryio/images/services.jpg"
 - id: quicksilver
   title: quicksilver
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praetereo multos, in bis doctum hominem.
+  content:
   engine: Moteur in board
   boat: Bateau cabine
   width: 3m
@@ -60,7 +34,18 @@
   image: "/forestryio/images/services.jpg"
 - id: quicksilver
   title: quicksilver
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praetereo multos, in bis doctum hominem.
+  content:
+  engine: Moteur in board
+  boat: Bateau cabine
+  width: 3m
+  height: 8m
+  people: 6
+  power: Super powerfull
+  money: 15 000 chf
+  image: "/forestryio/images/services.jpg"
+- id: quicksilver
+  title: quicksilver
+  content:
   engine: Moteur in board
   boat: Bateau cabine
   width: 3m
@@ -71,7 +56,7 @@
   image: "/forestryio/images/services.jpg"
 - id: mercury
   title: mercury
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praetereo multos, in bis doctum hominem.
+  content:
   engine: Moteur in board
   boat: Bateau cabine
   width: 3m
@@ -82,7 +67,7 @@
   image: "/forestryio/images/services.jpg"
 - id: mercury
   title: mercury
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praetereo multos, in bis doctum hominem.
+  content:
   engine: Moteur in board
   boat: Bateau cabine
   width: 3m
@@ -93,7 +78,7 @@
   image: "/forestryio/images/services.jpg"
 - id: mercury
   title: mercury
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praetereo multos, in bis doctum hominem.
+  content:
   engine: Moteur in board
   boat: Bateau cabine
   width: 3m

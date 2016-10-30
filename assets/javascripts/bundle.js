@@ -83,7 +83,8 @@
 	
 	  if (document.querySelector('body').classList.contains('boat')) {
 	    new _filter2.default();
-	    new _build_html_select2.default();
+	    new _build_html_select2.default(document.querySelectorAll('#boat-engine .boat-engine__data'), document.querySelector('#boat-engine select'));
+	    new _build_html_select2.default(document.querySelectorAll('#boat-boat .boat-boat__data'), document.querySelector('#boat-boat select'));
 	  }
 	});
 
@@ -102,29 +103,29 @@
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 	
 	var buildHtmlSelect = function () {
-	  function buildHtmlSelect() {
+	  function buildHtmlSelect(data, target) {
 	    _classCallCheck(this, buildHtmlSelect);
 	
-	    var boatEngine = document.querySelectorAll('#boat-engine .boat-engine__data');
-	    this.buildArray(boatEngine);
+	    var boatEngine = data;
+	    this.buildArray(boatEngine, target);
 	  }
 	
 	  _createClass(buildHtmlSelect, [{
 	    key: 'buildArray',
-	    value: function buildArray(node) {
+	    value: function buildArray(node, target) {
 	      var array = [];
 	
 	      for (var i = 0; i < node.length; i++) {
 	        array.push(node[i].dataset.contains);
 	      }
 	
-	      this.buildUniqArray(array);
+	      this.buildUniqArray(array, target);
 	    }
 	  }, {
 	    key: 'buildUniqArray',
-	    value: function buildUniqArray(array) {
+	    value: function buildUniqArray(array, target) {
 	      var i = void 0,
-	          ouput = [],
+	          output = [],
 	          object = {};
 	
 	      for (i = 0; i < array.length; i++) {
@@ -132,20 +133,20 @@
 	      }
 	
 	      for (i in object) {
-	        ouput.push(i);
+	        output.push(i);
 	      }
 	
-	      this.buildHtmlOuput(ouput);
+	      this.buildHtmlOutput(output, target);
 	    }
 	  }, {
-	    key: 'buildHtmlOuput',
-	    value: function buildHtmlOuput(output) {
+	    key: 'buildHtmlOutput',
+	    value: function buildHtmlOutput(output, target) {
 	      for (var i = 0; i < output.length; i++) {
 	        var liElement = document.createElement('option'),
-	            liConent = document.createTextNode(output[i]);
+	            liContent = document.createTextNode(output[i]);
 	
-	        liElement.appendChild(liConent);
-	        document.querySelector('#boat-engine select').appendChild(liElement);
+	        liElement.appendChild(liContent);
+	        target.appendChild(liElement);
 	      }
 	    }
 	  }]);
@@ -894,19 +895,30 @@
 /* 9 */
 /***/ function(module, exports) {
 
-	'use strict';
+	"use strict";
 	
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
 	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 	
-	var Filter = function Filter() {
-	  _classCallCheck(this, Filter);
+	var Filter = function () {
+	  function Filter() {
+	    _classCallCheck(this, Filter);
 	
-	  console.log('Filter');
-	};
+	    this.toggleTile();
+	  }
+	
+	  _createClass(Filter, [{
+	    key: "toggleTile",
+	    value: function toggleTile() {}
+	  }]);
+	
+	  return Filter;
+	}();
 	
 	exports.default = Filter;
 
