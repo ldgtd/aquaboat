@@ -1,5 +1,16 @@
 ---
 - id: glastron
+  title: GT 205
+  content: ''
+  engine: Moteur inboard
+  boat: Bateau bowrider
+  width: 6.25m
+  height: 2.44m
+  people: CE 7
+  power: Max 300 HP
+  money: Dès 43'670 CHF
+  image: ''
+- id: glastron
   title: GTX 185
   content: ''
   engine: Moteur inboard
