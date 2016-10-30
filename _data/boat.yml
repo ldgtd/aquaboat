@@ -1,4 +1,15 @@
 ---
+- id: glastron
+  title: GT 185
+  content: ''
+  engine: Moteur inboard
+  boat: Bateau bowrider
+  width: 5.49m
+  height: 2.26m
+  people: 6
+  power: Max 250HP
+  money: Dès 31'590 CHF
+  image: ''
 - id: stingray
   title: 250 CS
   content: ''
