@@ -2,13 +2,13 @@
   <article class="news">
     <h2 class="main-title text-uppercase">{{ t.home.last_news }}</h2>
     {% for news in site.data.news %}
-    <div class="media media--responsive mrgb">
-        <h3 class="text-uppercase mrgb">{{ news.title }}</h3>
+    <div class="media media--news media--responsive pdg mrgb">
+        <h3 class="text-uppercase mrgt0">{{ news.title }}</h3>
         <div class="media__left">
-          <img src="{{ news.image | prepend:site.baseurl }}" class="media__image image-radius">
+          <img src="{{ news.image | prepend:site.baseurl }}" class="media__image media--news__image">
         </div>
         <div class="media__body">
-          <p class="width80">{{ news.content }}</p>
+          <p>{{ news.content }}</p>
         </div>
       </div>
     {% endfor %}
