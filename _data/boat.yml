@@ -1,5 +1,93 @@
 ---
 - id: glastron
+  title: GS 259 (NEW 2016)
+  content: ''
+  engine: Moteur inboard
+  boat: Bateau bowrider
+  width: 7.62 m
+  height: 2.55 m
+  people: N/C
+  power: Max 300 HP
+  money: Dès 43'670 CHF
+  image: ''
+- id: glastron
+  title: GTS 229
+  content: ''
+  engine: Moteur inboard
+  boat: Bateau bowrider
+  width: 6.71 m
+  height: 2.54 m
+  people: CE 8
+  power: Max 300 HP
+  money: Dès 43'670 CHF
+  image: ''
+- id: glastron
+  title: GT 229
+  content: ''
+  engine: Moteur inboard
+  boat: Bateau bowrider
+  width: 6.71 m
+  height: 2.54 m
+  people: CE 8
+  power: Max 300 HP
+  money: Dès 43'670 CHF
+  image: ''
+- id: glastron
+  title: GTS 245
+  content: ''
+  engine: Moteur inboard
+  boat: Bateau bowrider
+  width: 7.32 m
+  height: 2.54 m
+  people: CE 11
+  power: Max 380 HP
+  money: Dès 32'890 CHF
+  image: ''
+- id: glastron
+  title: GT 245
+  content: ''
+  engine: Moteur inboard
+  boat: Bateau bowrider
+  width: 7.32 m
+  height: 2.54 m
+  people: CE 11
+  power: Max 380 HP
+  money: Dès 43'670 CHF
+  image: ''
+- id: glastron
+  title: GTS 225
+  content: ''
+  engine: Moteur inboard
+  boat: Bateau bowrider
+  width: 6.71 m
+  height: 2.54 m
+  people: CE 9
+  power: Max 300 HP
+  money: Dès 43'670 CHF
+  image: ''
+- id: glastron
+  title: GT 225
+  content: ''
+  engine: Moteur inboard
+  boat: Bateau bowrider
+  width: 6.71m
+  height: 2.54m
+  people: CE 9
+  power: Max 300 HP
+  money: Dès 43'670 CHF
+  image: ''
+- id: glastron
+  title: GTS 205
+  content: ''
+  engine: Moteur inboard
+  boat: Bateau bowrider
+  width: 7.01m
+  height: 2.44m
+  people: CE 7
+  power: Max 300 HP
+  money: Dès 43'670 CHF
+  image: ''
+- id: glastron
   title: GT 205
   content: ''
   engine: Moteur inboard
