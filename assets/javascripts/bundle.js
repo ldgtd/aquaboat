@@ -46,21 +46,29 @@
 
 	'use strict';
 	
-	var _form = __webpack_require__(1);
+	var _build_html_select = __webpack_require__(1);
+	
+	var _build_html_select2 = _interopRequireDefault(_build_html_select);
+	
+	var _form = __webpack_require__(2);
 	
 	var _form2 = _interopRequireDefault(_form);
 	
-	var _google_map = __webpack_require__(5);
+	var _google_map = __webpack_require__(6);
 	
 	var _google_map2 = _interopRequireDefault(_google_map);
 	
-	var _nav = __webpack_require__(6);
+	var _nav = __webpack_require__(7);
 	
 	var _nav2 = _interopRequireDefault(_nav);
 	
-	var _tile = __webpack_require__(7);
+	var _tile = __webpack_require__(8);
 	
 	var _tile2 = _interopRequireDefault(_tile);
+	
+	var _filter = __webpack_require__(9);
+	
+	var _filter2 = _interopRequireDefault(_filter);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -72,10 +80,84 @@
 	    new _form2.default();
 	    new _google_map2.default();
 	  }
+	
+	  if (document.querySelector('body').classList.contains('boat')) {
+	    new _filter2.default();
+	    new _build_html_select2.default(document.querySelectorAll('#boat-engine .boat-engine__data'), document.querySelector('#boat-engine select'));
+	    new _build_html_select2.default(document.querySelectorAll('#boat-boat .boat-boat__data'), document.querySelector('#boat-boat select'));
+	  }
 	});
 
 /***/ },
 /* 1 */
+/***/ function(module, exports) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	var buildHtmlSelect = function () {
+	  function buildHtmlSelect(data, target) {
+	    _classCallCheck(this, buildHtmlSelect);
+	
+	    var boatEngine = data;
+	    this.buildArray(boatEngine, target);
+	  }
+	
+	  _createClass(buildHtmlSelect, [{
+	    key: 'buildArray',
+	    value: function buildArray(node, target) {
+	      var array = [];
+	
+	      for (var i = 0; i < node.length; i++) {
+	        array.push(node[i].dataset.contains);
+	      }
+	
+	      this.buildUniqArray(array, target);
+	    }
+	  }, {
+	    key: 'buildUniqArray',
+	    value: function buildUniqArray(array, target) {
+	      var i = void 0,
+	          output = [],
+	          object = {};
+	
+	      for (i = 0; i < array.length; i++) {
+	        object[array[i]] = 0;
+	      }
+	
+	      for (i in object) {
+	        output.push(i);
+	      }
+	
+	      this.buildHtmlOutput(output, target);
+	    }
+	  }, {
+	    key: 'buildHtmlOutput',
+	    value: function buildHtmlOutput(output, target) {
+	      for (var i = 0; i < output.length; i++) {
+	        var liElement = document.createElement('option'),
+	            liContent = document.createTextNode(output[i]);
+	
+	        liElement.appendChild(liContent);
+	        target.appendChild(liElement);
+	      }
+	    }
+	  }]);
+	
+	  return buildHtmlSelect;
+	}();
+	
+	exports.default = buildHtmlSelect;
+
+/***/ },
+/* 2 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -86,7 +168,7 @@
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
-	var _simpleAjax = __webpack_require__(2);
+	var _simpleAjax = __webpack_require__(3);
 	
 	var _simpleAjax2 = _interopRequireDefault(_simpleAjax);
 	
@@ -147,11 +229,11 @@
 	exports.default = Form;
 
 /***/ },
-/* 2 */
+/* 3 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var EventEmitter = __webpack_require__(3).EventEmitter,
-	    queryString = __webpack_require__(4);
+	var EventEmitter = __webpack_require__(4).EventEmitter,
+	    queryString = __webpack_require__(5);
 	
 	function tryParseJson(data){
 	    try{
@@ -301,7 +383,7 @@
 
 
 /***/ },
-/* 3 */
+/* 4 */
 /***/ function(module, exports) {
 
 	// Copyright Joyent, Inc. and other Node contributors.
@@ -609,7 +691,7 @@
 
 
 /***/ },
-/* 4 */
+/* 5 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -681,7 +763,7 @@
 
 
 /***/ },
-/* 5 */
+/* 6 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -722,7 +804,7 @@
 	exports.default = GoogleMap;
 
 /***/ },
-/* 6 */
+/* 7 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -768,7 +850,7 @@
 	exports.default = Nav;
 
 /***/ },
-/* 7 */
+/* 8 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -808,6 +890,37 @@
 	}();
 	
 	exports.default = Tile;
+
+/***/ },
+/* 9 */
+/***/ function(module, exports) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	var Filter = function () {
+	  function Filter() {
+	    _classCallCheck(this, Filter);
+	
+	    this.toggleTile();
+	  }
+	
+	  _createClass(Filter, [{
+	    key: "toggleTile",
+	    value: function toggleTile() {}
+	  }]);
+	
+	  return Filter;
+	}();
+	
+	exports.default = Filter;
 
 /***/ }
 /******/ ]);
