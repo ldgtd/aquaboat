@@ -50,23 +50,27 @@
 	
 	var _build_html_select2 = _interopRequireDefault(_build_html_select);
 	
-	var _form = __webpack_require__(2);
+	var _fix_position = __webpack_require__(2);
+	
+	var _fix_position2 = _interopRequireDefault(_fix_position);
+	
+	var _form = __webpack_require__(3);
 	
 	var _form2 = _interopRequireDefault(_form);
 	
-	var _google_map = __webpack_require__(6);
+	var _google_map = __webpack_require__(7);
 	
 	var _google_map2 = _interopRequireDefault(_google_map);
 	
-	var _nav = __webpack_require__(7);
+	var _nav = __webpack_require__(8);
 	
 	var _nav2 = _interopRequireDefault(_nav);
 	
-	var _tile = __webpack_require__(8);
+	var _tile = __webpack_require__(9);
 	
 	var _tile2 = _interopRequireDefault(_tile);
 	
-	var _filter = __webpack_require__(9);
+	var _filter = __webpack_require__(10);
 	
 	var _filter2 = _interopRequireDefault(_filter);
 	
@@ -83,6 +87,7 @@
 	
 	  if (document.querySelector('body').classList.contains('boat')) {
 	    new _filter2.default();
+	    new _fix_position2.default();
 	    new _build_html_select2.default(document.querySelectorAll('#boat-engine .boat-engine__data'), document.querySelector('#boat-engine select'));
 	    new _build_html_select2.default(document.querySelectorAll('#boat-boat .boat-boat__data'), document.querySelector('#boat-boat select'));
 	  }
@@ -158,6 +163,42 @@
 
 /***/ },
 /* 2 */
+/***/ function(module, exports) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	var FixPosition = function FixPosition() {
+	  _classCallCheck(this, FixPosition);
+	
+	  var timeout;
+	  var node = document.querySelector('.boat-sidebar');
+	  console.log(window.scrollY);
+	
+	  window.addEventListener('scroll', function () {
+	    if (timeout) clearTimeout(timeout);
+	    timeout = setTimeout(function () {
+	
+	      if (window.scrollY > 450) {
+	        console.log('ture');
+	        node.classList.add('fixed');
+	      } else {
+	        console.log('false');
+	        node.classList.remove('fixed');
+	      }
+	    }, 0);
+	  });
+	};
+	
+	exports.default = FixPosition;
+
+/***/ },
+/* 3 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -168,7 +209,7 @@
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
-	var _simpleAjax = __webpack_require__(3);
+	var _simpleAjax = __webpack_require__(4);
 	
 	var _simpleAjax2 = _interopRequireDefault(_simpleAjax);
 	
@@ -229,11 +270,11 @@
 	exports.default = Form;
 
 /***/ },
-/* 3 */
+/* 4 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var EventEmitter = __webpack_require__(4).EventEmitter,
-	    queryString = __webpack_require__(5);
+	var EventEmitter = __webpack_require__(5).EventEmitter,
+	    queryString = __webpack_require__(6);
 	
 	function tryParseJson(data){
 	    try{
@@ -383,7 +424,7 @@
 
 
 /***/ },
-/* 4 */
+/* 5 */
 /***/ function(module, exports) {
 
 	// Copyright Joyent, Inc. and other Node contributors.
@@ -691,7 +732,7 @@
 
 
 /***/ },
-/* 5 */
+/* 6 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -763,7 +804,7 @@
 
 
 /***/ },
-/* 6 */
+/* 7 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -804,7 +845,7 @@
 	exports.default = GoogleMap;
 
 /***/ },
-/* 7 */
+/* 8 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -850,7 +891,7 @@
 	exports.default = Nav;
 
 /***/ },
-/* 8 */
+/* 9 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -892,7 +933,7 @@
 	exports.default = Tile;
 
 /***/ },
-/* 9 */
+/* 10 */
 /***/ function(module, exports) {
 
 	"use strict";
