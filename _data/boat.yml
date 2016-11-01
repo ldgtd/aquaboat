@@ -1,4 +1,26 @@
 ---
+- id: Rinker
+  title: QX 29 CC
+  content: ''
+  engine: Moteur inboard
+  boat: Bateau cabine
+  width: 8.81 m
+  height: 2.74 m
+  people: CE 10
+  power: Max 380 HP
+  money: Dès 98'295 CHF
+  image: ''
+- id: rinker
+  title: QX 29 BR
+  content: ''
+  engine: Moteur inboard
+  boat: Bateau cabine
+  width: 8.81 m
+  height: 2.74 m
+  people: CE 10
+  power: Max 380 HP
+  money: Dès 95'479 CHF
+  image: ''
 - id: rinker
   title: QX 26 BR
   content: ''
