@@ -2,6 +2,10 @@
   DEFAULT
 \*----------------------------------------*/
 
+html {
+  overflow-x: hidden; // hotfix to prevent the x scroll bar sur IE
+}
+
 .master {
    width: auto;
    max-width: 1280px;

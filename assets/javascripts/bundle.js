@@ -946,13 +946,11 @@
 	
 	        if (filterParams.brand != tile[i].dataset.brand) {
 	          tile[i].classList.add('hidden');
+	        } else if (filterParams.engine != tile[i].dataset.engine) {
+	          tile[i].classList.add('hidden');
+	        } else if (filterParams.boat != tile[i].dataset.boat) {
+	          tile[i].classList.add('hidden');
 	        }
-	        // else if (filterParams.engine != tile[i].dataset.engine) {
-	        //   tile[i].classList.add('hidden');
-	        // }
-	        // else if (filterParams.boat != tile[i].dataset.boat) {
-	        //   tile[i].classList.add('hidden');
-	        // }
 	        // else if (filterParams.width <= tile[i].dataset.width) {
 	        //   tile[i].classList.add('hidden');
 	        // }

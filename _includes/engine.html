@@ -17,11 +17,25 @@
                 <h5 class="pull-left  pdgt-- pdgl- mrg0">{{ engine.engine }}</h5>
               </div>
 
-              <div class="width clearfix mrgv">
+              <div class="power clearfix mrgv">
                 <svg class="icon-sell pull-left">
                   <use xlink:href="#power"></use>
                 </svg>
                 <h5 class="pull-left  pdgt-- pdgl- mrg0">{{ engine.power }}</h5>
+              </div>
+
+              <div class="weight clearfix mrgv">
+                <svg class="icon-sell pull-left">
+                  <use xlink:href="#weight"></use>
+                </svg>
+                <h5 class="pull-left  pdgt-- pdgl- mrg0">{{ engine.weight }}</h5>
+              </div>
+
+              <div class="money clearfix mrgv">
+                <svg class="icon-sell pull-left">
+                  <use xlink:href="#money"></use>
+                </svg>
+                <h5 class="pull-left  pdgt-- pdgl- mrg0">{{ engine.money }}</h5>
               </div>
 
               <a href="{{ engine.catalogue | prepend:site.baseurl }}" class="btn btn--primary flex-h" target="_blank">{{ t.engine.button }}</a>

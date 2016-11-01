@@ -10,18 +10,25 @@
               <h3 class="mrgt0">{{ trailer.title }}</h3>
               <p>{{ trailer.content }}</p>
 
-              <div class="trailer clearfix mrgt">
-                <svg class="icon-sell pull-left">
-                  <use xlink:href="#width"></use>
-                </svg>
-                <h5 class="pull-left  pdgt-- pdgl- mrg0">{{ trailer.width }}</h5>
-              </div>
-
               <div class="width clearfix mrgv">
                 <svg class="icon-sell pull-left">
                   <use xlink:href="#height"></use>
                 </svg>
-                <h5 class="pull-left  pdgt-- pdgl- mrg0">{{ trailer.height }}</h5>
+                <h5 class="pull-left pdgt-- pdgl- mrg0">{{ trailer.height }}</h5>
+              </div>
+
+              <div class="weight clearfix mrgt">
+                <svg class="icon-sell pull-left">
+                  <use xlink:href="#weight"></use>
+                </svg>
+                <h5 class="pull-left pdgt-- pdgl- mrg0">{{ trailer.weight }}</h5>
+              </div>
+
+              <div class="weight-full clearfix mrgv">
+                <svg class="icon-sell pull-left">
+                  <use xlink:href="#weight-full"></use>
+                </svg>
+                <h5 class="pull-left pdgt-- pdgl- mrg0">{{ trailer.weight-full }}</h5>
               </div>
 
               <a href="{{ trailer.catalogue | prepend:site.baseurl }}" class="btn btn--primary flex-h" target="_blank">{{ t.trailer.button }}</a>
