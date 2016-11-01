@@ -1,5 +1,16 @@
 ---
 - id: moomba
+  title: Mondo
+  content: ''
+  engine: Moteur inboard V-drive
+  boat: Bateau sport
+  width: 7.01 m
+  height: 2.51 m
+  people: CE 13
+  power: Max 550 HP
+  money: Dès 72'900 CHF
+  image: ''
+- id: moomba
   title: Craz
   content: ''
   engine: Moteur inboard V-drive
