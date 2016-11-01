@@ -20,6 +20,12 @@ fr:
     title: Bateau
     button: Catalogue PDF
     boats: Les bateaux de la gamme
+    meter: m
+    max: max
+    people-mesure: CE
+    power-mesure: HP
+    from: Dès
+    devise: CHF
   engine:
     title: Moteur
     button: Catalogue de la marque

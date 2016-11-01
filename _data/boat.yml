@@ -4,801 +4,801 @@
   content: ''
   engine: Moteur hors-bord
   boat: Bateau semi-rigide
-  width: 6.75 m
-  height: 2.71 m
-  people: CE 14
-  power: Max 200 HP
-  money: Dès 43'940 CHF
+  width: 6.75 
+  height: 2.71 
+  people: 14
+  power: 200
+  money: 43940
   image: 
 - id: valiant
   title: 630 Classic "Limited Edition"
   content: ''
   engine: Moteur hors-bord
   boat: Bateau semi-rigide
-  width: 6.30 m
-  height: 2.50 m
-  people: CE 13
-  power: Max 150 HP
-  money: Dès 31'990 CHF
+  width: 6.30 
+  height: 2.50 
+  people: 13
+  power: 150
+  money: 31990
   image: 
 - id: valiant
   title: 580 Classic
   content: ''
   engine: Moteur hors-bord
   boat: Bateau semi-rigide
-  width: 5.84 m
-  height: 2.5 m
-  people: CE 9
-  power: Max 150 HP
-  money: Dès 29'750 HP
+  width: 5.84 
+  height: 2.5 
+  people: 9
+  power: 150
+  money: 29750
   image: 
 - id: valiant
   title: 550 Classic
   content: ''
   engine: Moteur hors-bord
   boat: Bateau semi-rigide
-  width: 5.33 m
-  height: 2.34 m
-  people: CE 9
-  power: Max 120 HP
-  money: Dès 23'340 CHF
+  width: 5.33 
+  height: 2.34 
+  people: 9
+  power: 120
+  money: 23340
   image: 
 - id: valiant
   title: 500 Classic
   content: ''
   engine: Moteur hors-bord
   boat: Bateau semi-rigide
-  width: 5.01 m
-  height: 2.32 m
-  people: CE 8
-  power: Max 60 HP
-  money: Dès 18'770 CHF
+  width: 5.01 
+  height: 2.32 
+  people: 8
+  power: 60
+  money: 18770
   image: 
 - id: moomba
   title: Mondo
   content: ''
   engine: Moteur inboard V-drive
   boat: Bateau sport
-  width: 7.01 m
-  height: 2.51 m
-  people: CE 13
-  power: Max 550 HP
-  money: Dès 72'900 CHF
+  width: 7.01 
+  height: 2.51 
+  people: 13
+  power: 550
+  money: 72900
   image: 
 - id: moomba
   title: Craz
   content: ''
   engine: Moteur inboard V-drive
   boat: Bateau sport
-  width: 7.35 m
-  height: 2.51 m
-  people: CE 16
-  power: Max 550 HP
-  money: Dès 75'900 CHF
+  width: 7.35 
+  height: 2.51 
+  people: 16
+  power: 550
+  money: 75900
   image: 
 - id: moomba
   title: Mojo
   content: ''
   engine: Moteur inboard V-drive
   boat: Bateau sport
-  width: 7.71 m
-  height: 2.54 m
-  people: CE 17
-  power: Max 550 HP
-  money: Dès 82'900 CHF
+  width: 7.71 
+  height: 2.54 
+  people: 17
+  power: 550
+  money: 82900
   image: 
 - id: moomba
   title: 'Helix '
   content: ''
   engine: Moteur inboard V-drive
   boat: Bateau sport
-  width: 6.52 m
-  height: 2.59 m
-  people: CE
-  power: Max
-  money: Dès 68'900 CHF
+  width: 6.52 
+  height: 2.59 
+  people:
+  power:
+  money: 68900
   image: 
 - id: supra
   title: SE 450
   content: ''
   engine: Moteur inboard V-drive
   boat: Bateau sport
-  width: 8.19 m
-  height: 2.59 m
-  people: CE 18
-  power: Max 550 HP
-  money: Dès 138'900 CHF
+  width: 8.19 
+  height: 2.59 
+  people: 18
+  power: 550
+  money: 138900
   image: 
 - id: supra
   title: SG 400
   content: ''
   engine: Moteur inboard V-drive
   boat: Bateau sport
-  width: 7.95 m
-  height: 2.59 m
-  people: CE 17
-  power: Max 550 HP
-  money: Dès 129'900 CHF
+  width: 7.95 
+  height: 2.59 
+  people: 17
+  power: 550
+  money: 129900
   image: 
 - id: supra
   title: SA 400
   content: ''
   engine: Moteur inboard V-drive
   boat: Bateau sport
-  width: 7.58 m
-  height: 2.54 m
-  people: CE 13
-  power: Max 550 HP
-  money: Dès 124'900 CHF
+  width: 7.58 
+  height: 2.54 
+  people: 13
+  power: 550
+  money: 124900
   image: 
 - id: supra
   title: SC 400
   content: ''
   engine: Moteur inboard V-drive
   boat: Bateau sport
-  width: 7.32 m
-  height: 2.59 m
-  people: CE 14
-  power: Max 550 HP
-  money: Dès 114'900 CHF
+  width: 7.32 
+  height: 2.59 
+  people: 14
+  power: 550
+  money: 114900
   image: 
 - id: rinker
   title: EX 290
   content: ''
   engine: Moteur inboard
   boat: Bateau cabine
-  width: 9.65 m
-  height: 2.77 m
-  people: CE 8
-  power: Max 380 HP
-  money: Dès 139'463 CHF
+  width: 9.65 
+  height: 2.77 
+  people: 8
+  power: 380
+  money: 139463
   image: 
 - id: rinker
   title: EX 270
   content: ''
   engine: Moteur inboard
   boat: Bateau cabine
-  width: 8.79 m
-  height: 2.59 m
-  people: CE 8
-  power: Max 380 HP
-  money: Dès 124'329 CHF
+  width: 8.79 
+  height: 2.59 
+  people: 8
+  power: 380
+  money: 124329
   image: 
 - id: rinker
   title: QX 29 CC
   content: ''
   engine: Moteur inboard
   boat: Bateau cabine
-  width: 8.81 m
-  height: 2.74 m
-  people: CE 10
-  power: Max 380 HP
-  money: Dès 98'295 CHF
+  width: 8.81 
+  height: 2.74 
+  people: 10
+  power: 380
+  money: 98295
   image: 
 - id: rinker
   title: QX 29 BR
   content: ''
   engine: Moteur inboard
   boat: Bateau cabine
-  width: 8.81 m
-  height: 2.74 m
-  people: CE 10
-  power: Max 380 HP
-  money: Dès 95'479 CHF
+  width: 8.81 
+  height: 2.74 
+  people: 10
+  power: 380
+  money: 95479
   image: 
 - id: rinker
   title: QX 26 BR
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 7.98 m
-  height: 2.59 m
-  people: CE 9
-  power: Max 380 Hp
-  money: Dès 79'371 CHF
+  width: 7.98 
+  height: 2.59 
+  people: 9
+  power: 380 Hp
+  money: 79371
   image: 
 - id: rinker
   title: QX 23 CC
   content: ''
   engine: Moteur inboard
   boat: Bateau cabine
-  width: 7.17 m
-  height: 2.59 m
-  people: CE 8
-  power: Max 300 HP
-  money: Dès 67'491 CHF
+  width: 7.17 
+  height: 2.59 
+  people: 8
+  power: 300
+  money: 67491
   image: 
 - id: rinker
   title: QX 23
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 7.17 m
-  height: 2.59 m
-  people: CE 8
-  power: Max 300 HP
-  money: Dès 63'780 CHF
+  width: 7.17 
+  height: 2.59 
+  people: 8
+  power: 300
+  money: 63780
   image: 
 - id: rinker
   title: 22 MTXC
   content: ''
   engine: Moteur inboard
   boat: Bateau cabine
-  width: 6.93 m
-  height: 2.49 m
-  people: CE 8
-  power: Max 300 HP
-  money: Dès 51'049 CHF
+  width: 6.93 
+  height: 2.49 
+  people: 8
+  power: 300
+  money: 51049
   image: 
 - id: rinker
   title: MTX 22
   content: ''
   engine: Moteur inboard
   boat: Bateau sport
-  width: 6.93 m
-  height: 2.49 m
-  people: CE 8
-  power: Max 300 HP
-  money: Dès 51'049 CHF
+  width: 6.93 
+  height: 2.49 
+  people: 8
+  power: 300
+  money: 51049
   image: 
 - id: rinker
   title: QX 21
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 6.40 m
-  height: 2.44 m
-  people: CE 8
-  power: Max 300 HP
-  money: Dès 54'210 CHF
+  width: 6.40 
+  height: 2.44 
+  people: 8
+  power: 300
+  money: 54210
   image: 
 - id: rinker
   title: 20 MTX
   content: ''
   engine: Moteur inboard
   boat: Bateau sport
-  width: 6.35 m
-  height: 2.41 m
-  people: CE 7
-  power: Max 200 HP
-  money: Dès 48'130 CHF
+  width: 6.35 
+  height: 2.41 
+  people: 7
+  power: 200
+  money: 48130
   image: 
 - id: rinker
   title: QX 19
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 5.94 m
-  height: 2.44 m
-  people: CE 7
-  power: Max 250 Hp
-  money: Dès 46'567 CHF
+  width: 5.94 
+  height: 2.44 
+  people: 7
+  power: 250
+  money: 46567
   image: 
 - id: rinker
   title: QX 18
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 5.69 m
-  height: 2.26 m
-  people: CE 7
-  power: Max 200 HP
-  money: Dès 41'091 CHF
+  width: 5.69 
+  height: 2.26 
+  people: 7
+  power: 200
+  money: 41091
   image: 
 - id: rinker
   title: QX 19 OB
   content: ''
   engine: Moteur hors-bord
   boat: Bateau bowrider
-  width: 5.94 m
-  height: 2.44 m
-  people: CE 7
-  power: Max 200 HP
-  money: Dès 41'556 CHF
+  width: 5.94 
+  height: 2.44 
+  people: 7
+  power: 200
+  money: 41556
   image: 
 - id: rinker
   title: QX 18 OB
   content: ''
   engine: Moteur hors-bord
   boat: Bateau bowrider
-  width: 5.77 m
-  height: 2.26 m
-  people: CE 7
-  power: Max 150 HP
-  money: Dès 41'556 CHF
+  width: 5.77 
+  height: 2.26 
+  people: 7
+  power: 150
+  money: 41556
   image: 
 - id: rinker
   title: QX 17 OB
   content: ''
   engine: Moteur hors-bord
   boat: Bateau bowrider
-  width: 5.73 m
-  height: 2.16 m
-  people: CE 6
-  power: Max 115 HP
-  money: Dès 32'882 CHF
+  width: 5.73 
+  height: 2.16 
+  people: 6
+  power: 115
+  money: 32882
   image: 
 - id: selection boat
   title: Classic 690 excellence
   content: ''
   engine: Moteur hors-bord
   boat: Bateau bowrider
-  width: 6.75 m
-  height: 2.65 m
-  people: CE 8
-  power: Max 140 HP
-  money: 'Dès '
+  width: 6.75 
+  height: 2.65 
+  people: 8
+  power: 140
+  money: 
   image: 
 - id: selection boat
   title: Classic 590 excellence
   content: ''
   engine: Moteur hors-bord
   boat: Bateau bowrider
-  width: 5.70 m
-  height: 2.20 m
-  people: CE 6
-  power: Max60 HP
-  money: 'Dès '
+  width: 5.70 
+  height: 2.20 
+  people: 6
+  power: 60
+  money: 
   image: 
 - id: selection boat
   title: Classic 475 excellence
   content: ''
   engine: Moteur hors-bord
   boat: Bateau bowrider
-  width: 5.30 m
-  height: 1.92 m
-  people: CE 5
-  power: Max 30 HP
-  money: Dès 15'360 CHF
+  width: 5.30 
+  height: 1.92 
+  people: 5
+  power: 30
+  money: 15360
   image: 
 - id: selection boat
   title: Classic 474 excellence
   content: ''
   engine: Moteur hors-bord
   boat: Bateau bowrider
-  width: 5.20 m
-  height: 1.92 m
-  people: CE 5
-  power: Max 30 HP
-  money: Dès 14'850 CHF
+  width: 5.20 
+  height: 1.92 
+  people: 5
+  power: 30
+  money: 14850
   image: 
 - id: selection boat
   title: Bowrider 22 excellence
   content: ''
   engine: Moteur hors-bord
   boat: Bateau bowrider
-  width: 6.35 m
-  height: 2.50 m
-  people: CE 6
-  power: Max 150 HP
-  money: Dès 45'410 CHF
+  width: 6.35 
+  height: 2.50 
+  people: 6
+  power: 150
+  money: 45410
   image: 
 - id: selection boat
   title: Bowrider 22
   content: ''
   engine: Moteur hors-bord
   boat: Bateau bowrider
-  width: 6.35 m
-  height: 2.50 m
-  people: CE 6
-  power: Max 150 HP
-  money: Dès 40'550 CHF
+  width: 6.35 
+  height: 2.50 
+  people: 6
+  power: 150
+  money: 40550
   image: 
 - id: selection boat
   title: Cruiser GT 720
   content: ''
   engine: Moteur hors-bord
   boat: Bateau cabine
-  width: 7.45 m
-  height: 2.55 m
-  people: CE 7
-  power: Max 200 HP
-  money: Dès 57'970 CHF
+  width: 7.45 
+  height: 2.55 
+  people: 7
+  power: 200
+  money: 57970
   image: 
 - id: selection boat
   title: Cruiser 22 Excellence
   content: ''
   engine: Moteur hors-bord
   boat: Bateau cabine
-  width: 6.35 m
-  height: 2.50 m
-  people: CE 6
-  power: Max 150 HP
-  money: Dès 46'340 CHF
+  width: 6.35 
+  height: 2.50 
+  people: 6
+  power: 150
+  money: 46340
   image: 
 - id: selection boat
   title: Cruiser 22
   content: ''
   engine: Moteur hors-bord
   boat: Bateau cabine
-  width: 6.35 m
-  height: 2.50 m
-  people: CE 6
-  power: Max 150 HP
-  money: Dès 40'480 CHF
+  width: 6.35 
+  height: 2.50 
+  people: 6
+  power: 150
+  money: 40480
   image: 
 - id: selection boat
   title: Sunny 23
   content: ''
   engine: Moteur hors-bord
   boat: Bateau cabine
-  width: 7.50 m
-  height: 2.45 m
-  people: CE 7
-  power: Max 200 HP
-  money: Dès 38'270 CHF
+  width: 7.50 
+  height: 2.45 
+  people: 7
+  power: 200
+  money: 38270
   image: 
 - id: selection boat
   title: Sunny 21
   content: ''
   engine: Moteur hors-bord
   boat: Bateau cabine
-  width: 6.30 m
-  height: 2.35 m
-  people: CE 6
-  power: Max 150 HP
-  money: Dès 33'050 CHF
+  width: 6.30 
+  height: 2.35 
+  people: 6
+  power: 150
+  money: 33050
   image: 
 - id: selection boat
   title: Sunny 20
   content: ''
   engine: Moteur hors-bord
   boat: Bateau cabine
-  width: 6.00 m
-  height: 2.25 m
-  people: CE 6
-  power: Max 115 HP
-  money: Dès 29'550 CHF
+  width: 6.00 
+  height: 2.25 
+  people: 6
+  power: 115
+  money: 29550
   image: 
 - id: selection boat
   title: Aston 21
   content: ''
   engine: Moteur hors-bord
   boat: Bateau bowrider
-  width: 6.33 m
-  height: 2.48 m
-  people: CE 6
-  power: Max 150 HP
-  money: Dès 26'680 CHF
+  width: 6.33 
+  height: 2.48 
+  people: 6
+  power: 150
+  money: 26680
   image: 
 - id: selection boat
   title: Aston 20
   content: ''
   engine: Moteur hors-bord
   boat: Bateau bowrider
-  width: 6.00 m
-  height: 2.18 m
-  people: CE 6
-  power: Max 115 HP
-  money: Dès 26'940 CHF
+  width: 6.00 
+  height: 2.18 
+  people: 6
+  power: 115
+  money: 26940
   image: 
 - id: selection boat
   title: Aston 19
   content: ''
   engine: Moteur hors-bord
   boat: Bateau bowrider
-  width: 6.15 m
-  height: 2.15 m
-  people: CE 6
-  power: Max 115 HP
-  money: Dès 29'580 CHF
+  width: 6.15 
+  height: 2.15 
+  people: 6
+  power: 115
+  money: 29580
   image: 
 - id: selection boat
   title: Aston 18
   content: ''
   engine: Moteur hors-bord
   boat: Bateau bowrider
-  width: 5.45 m
-  height: 2.08 m
-  people: CE 6
-  power: Max 100 HP
-  money: Dès 25'520 CHF
+  width: 5.45 
+  height: 2.08 
+  people: 6
+  power: 100
+  money: 25520
   image: 
 - id: selection boat
   title: Aston 16
   content: ''
   engine: Moteur hors-bord
   boat: Bateau bowrider
-  width: 5.25 m
-  height: 1.95 m
-  people: CE 5
-  power: Max 50 HP
-  money: Dès 14'710 CHF
+  width: 5.25 
+  height: 1.95 
+  people: 5
+  power: 50
+  money: 14710
   image: 
 - id: glastron
   title: GS 259 (NEW 2016)
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 7.62 m
-  height: 2.55 m
-  people: N/C
-  power: Max 300 HP
-  money: Dès 43'670 CHF
+  width: 7.62 
+  height: 2.55 
+  people: 
+  power: 300
+  money: 43670
   image: 
 - id: glastron
   title: GTS 229
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 6.71 m
-  height: 2.54 m
-  people: CE 8
-  power: Max 300 HP
-  money: Dès 43'670 CHF
+  width: 6.71 
+  height: 2.54 
+  people: 8
+  power: 300
+  money: 43670
   image: 
 - id: glastron
   title: GT 229
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 6.71 m
-  height: 2.54 m
-  people: CE 8
-  power: Max 300 HP
-  money: Dès 43'670 CHF
+  width: 6.71 
+  height: 2.54 
+  people: 8
+  power: 300
+  money: 43670
   image: 
 - id: glastron
   title: GTS 245
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 7.32 m
-  height: 2.54 m
-  people: CE 11
-  power: Max 380 HP
-  money: Dès 32'890 CHF
+  width: 7.32 
+  height: 2.54 
+  people: 11
+  power: 380
+  money: 32890
   image: 
 - id: glastron
   title: GT 245
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 7.32 m
-  height: 2.54 m
-  people: CE 11
-  power: Max 380 HP
-  money: Dès 43'670 CHF
+  width: 7.32 
+  height: 2.54 
+  people: 11
+  power: 380
+  money: 43670
   image: 
 - id: glastron
   title: GTS 225
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 6.71 m
-  height: 2.54 m
-  people: CE 9
-  power: Max 300 HP
-  money: Dès 43'670 CHF
+  width: 6.71 
+  height: 2.54 
+  people: 9
+  power: 300
+  money: 43670
   image: 
 - id: glastron
   title: GT 225
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 6.71m
-  height: 2.54m
-  people: CE 9
-  power: Max 300 HP
-  money: Dès 43'670 CHF
+  width: 6.71
+  height: 2.54
+  people: 9
+  power: 300
+  money: 43670
   image: 
 - id: glastron
   title: GTS 205
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 7.01m
-  height: 2.44m
-  people: CE 7
-  power: Max 300 HP
-  money: Dès 43'670 CHF
+  width: 7.01
+  height: 2.44
+  people: 7
+  power: 300
+  money: 43670
   image: 
 - id: glastron
   title: GT 205
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 6.25m
-  height: 2.44m
-  people: CE 7
-  power: Max 300 HP
-  money: Dès 43'670 CHF
+  width: 6.25
+  height: 2.44
+  people: 7
+  power: 300
+  money: 43670
   image: 
 - id: glastron
   title: GTX 185
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 5.49m
-  height: 2.26m
-  people: CE 6
-  power: Max 135 HP
-  money: Dès 41'970 CHF
+  width: 5.49
+  height: 2.26
+  people: 6
+  power: 135
+  money: 41970
   image: 
 - id: glastron
   title: GTS 185
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 5.49m
-  height: 2.26m
-  people: 6 CE
-  power: Max 250 HP
-  money: Dès 32'890 CHF
+  width: 5.49
+  height: 2.26
+  people: 6
+  power: 250
+  money: 32890
   image: 
 - id: glastron
   title: GT 185
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 5.49m
-  height: 2.26m
+  width: 5.49
+  height: 2.26
   people: 6
-  power: Max 250HP
-  money: Dès 31'590 CHF
+  power: 25
+  money: 31590
   image: 
 - id: stingray
   title: 250 CS
   content: ''
   engine: Moteur inboard
   boat: Bateau cabine
-  width: 7.60m
-  height: 2.60m
+  width: 7.60
+  height: 2.60
   people: 10
-  power: Max 350 HP
-  money: Dès 85'470 CHF
+  power: 350
+  money: 85470
   image: 
 - id: stingray
   title: 250 CR
   content: ''
   engine: Moteur inboard
   boat: Bateau cabine
-  width: 7.60m
-  height: 2.60m
+  width: 7.60
+  height: 2.60
   people: 10
-  power: Max 350 HP
-  money: Dès 62'510 CHF
+  power: 350
+  money: 62510
   image: 
 - id: stingray
   title: 235 CR
   content: ''
   engine: Moteur inboard
   boat: Bateau cabine
-  width: 7.29m
-  height: 2.60m
+  width: 7.29
+  height: 2.60
   people: 12
-  power: Max 350 HP
-  money: Dès 58'850 CHF
+  power: 350
+  money: 58'850
   image: 
 - id: stingray
   title: 225 SX
   content: ''
   engine: Moteur inboard
   boat: Bateau sport
-  width: 7.00m
-  height: 2.50m
+  width: 7.00
+  height: 2.50
   people: 10
-  power: Max 350 HP
-  money: Dès 52'470 CHF
+  power: 350
+  money: 52470
   image:
 - id: stingray
   title: 225 CR
   content: ''
   engine: Moteur inboard
   boat: Bateau cabine
-  width: 7.00m
-  height: 2.50m
+  width: 7.00
+  height: 2.50
   people: 10
-  power: Max 300 HP
-  money: Dès 51'850 CHF
+  power: 300
+  money: 51850
   image:
 - id: stingray
   title: 215 CR
   content: ''
   engine: Moteur inboard
   boat: Bateau cabine
-  width: 6.70m
-  height: 2.60m
+  width: 6.70
+  height: 2.60
   people: 11
-  power: Max 250 HP
-  money: Dès 55'290 CHF
+  power: 250
+  money: 55290
   image:
 - id: stingray
   title: 205 CR
   content: ''
   engine: Moteur inboard
   boat: Bateau cabine
-  width: 6.31m
-  height: 2.50m
+  width: 6.31
+  height: 2.50
   people: 9
-  power: Max 250 HP
-  money: Dès 43'670 CHF
+  power: 250
+  money: 43670
   image:
 - id: stingray
   title: 198 RX
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 6.00m
-  height: 2.40m
+  width: 6.00
+  height: 2.40
   people: 9
-  power: Max 225HP
-  money: Dès 41'970 CHF
+  power: 22
+  money: 41970
   image:
 - id: stingray
   title: 198LX
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 6.00m
-  height: 2.40m
+  width: 6.00
+  height: 2.40
   people: 9
-  power: Max 200HP
-  money: Dès 41'970 CHF
+  power: 20
+  money: 41970
   image:
 - id: stingray
   title: 208 LR
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 6.30m
-  height: 2.50m
+  width: 6.30
+  height: 2.50
   people: 9
-  power: Max 200 HP
-  money: Dès 43'670 CHF
+  power: 200
+  money: 43670
   image:
 - id: stingray
   title: 215 LR
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 6.69m
-  height: 2.57m
+  width: 6.69
+  height: 2.57
   people: 11
-  power: Max 280 HP
-  money: Dès 54'220 CHF
+  power: 280
+  money: 54220
   image:
 - id: stingray
   title: 225 LR
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 7.00m
-  height: '2.50'
+  width: 7.00
+  height: 2.50
   people: 10
-  power: Max 300 HP
-  money: Dès 48'940 CHF
+  power: 300
+  money: 48940
   image:
 - id: stingray
   title: 225 RX
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 7.00m
-  height: 2.50m
+  width: 7.00
+  height: 2.50
   people: 10
-  power: Max 250 HP
-  money: Dès 48'620 CHF
+  power: 250
+  money: 48620
   image:
 - id: stingray
   title: 235 LR
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 7.29m
-  height: 2.50m
+  width: 7.29
+  height: 2.50
   people: 12
-  power: Max 350 HP
-  money: Dès 57'650 CHF
+  power: 350
+  money: 57650
   image:
 - id: stingray
   title: 250 LR
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 7.60m
-  height: 2.60m
+  width: 7.60
+  height: 2.60
   people: 10
-  power: Max 350 HP
-  money: Dès 60'220 CHF
+  power: 350
+  money: 60220
   image: /forestryio/images/services.jpg
