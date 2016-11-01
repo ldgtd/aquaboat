@@ -1,5 +1,16 @@
 ---
 - id: supra
+  title: SE 450
+  content: ''
+  engine: Moteur inboard V-drive
+  boat: Bateau sport
+  width: 8.19 m
+  height: 2.59 m
+  people: CE 18
+  power: Max 550 HP
+  money: Dès 138'900 CHF
+  image: ''
+- id: supra
   title: SG 400
   content: ''
   engine: Moteur inboard V-drive
