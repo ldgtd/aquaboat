@@ -1,4 +1,26 @@
 ---
+- id: rinker
+  title: EX 290
+  content: ''
+  engine: Moteur inboard
+  boat: Bateau cabine
+  width: 9.65 m
+  height: 2.77 m
+  people: CE 8
+  power: Max 380 HP
+  money: Dès 139'463 CHF
+  image: ''
+- id: rinker
+  title: EX 270
+  content: ''
+  engine: Moteur inboard
+  boat: Bateau cabine
+  width: 8.79 m
+  height: 2.59 m
+  people: CE 8
+  power: Max 380 HP
+  money: Dès 124'329 CHF
+  image: ''
 - id: Rinker
   title: QX 29 CC
   content: ''
