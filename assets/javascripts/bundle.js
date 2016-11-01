@@ -66,9 +66,9 @@
 	
 	var _tile2 = _interopRequireDefault(_tile);
 	
-	var _filter = __webpack_require__(9);
+	var _results_filter = __webpack_require__(9);
 	
-	var _filter2 = _interopRequireDefault(_filter);
+	var _results_filter2 = _interopRequireDefault(_results_filter);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -82,9 +82,12 @@
 	  }
 	
 	  if (document.querySelector('body').classList.contains('boat')) {
-	    new _filter2.default();
 	    new _build_html_select2.default(document.querySelectorAll('#boat-engine .boat-engine__data'), document.querySelector('#boat-engine select'));
 	    new _build_html_select2.default(document.querySelectorAll('#boat-boat .boat-boat__data'), document.querySelector('#boat-boat select'));
+	  }
+	
+	  if (document.querySelector('body').classList.contains('results')) {
+	    new _results_filter2.default();
 	  }
 	});
 
@@ -895,7 +898,7 @@
 /* 9 */
 /***/ function(module, exports) {
 
-	"use strict";
+	'use strict';
 	
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -905,22 +908,72 @@
 	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 	
-	var Filter = function () {
-	  function Filter() {
-	    _classCallCheck(this, Filter);
+	// import { pathParamsToJson } from 'helpers/path_params_to_json';
 	
-	    this.toggleTile();
+	var ResultsFilter = function () {
+	  function ResultsFilter() {
+	    _classCallCheck(this, ResultsFilter);
+	
+	    this.pathParamsToJson(window.location.search);
 	  }
 	
-	  _createClass(Filter, [{
-	    key: "toggleTile",
-	    value: function toggleTile() {}
+	  _createClass(ResultsFilter, [{
+	    key: 'pathParamsToJson',
+	    value: function pathParamsToJson(params) {
+	      var hash = void 0,
+	          myJson = {},
+	          hashes = params.slice(params.indexOf('?') + 1).split('&');
+	
+	      for (var i = 0; i < hashes.length; i++) {
+	        var hashesFormated = hashes[i].replace(/\+/i, ' ');
+	        hash = hashesFormated.split('=');
+	        myJson[hash[0]] = hash[1];
+	      }
+	
+	      this.toggleTile(myJson);
+	    }
+	  }, {
+	    key: 'toggleTile',
+	    value: function toggleTile(filterParams) {
+	      var tile = document.querySelectorAll('#tile');
+	
+	      // console.log(filterParams);
+	      // console.log(tile);
+	
+	      for (var i = 0; i < tile.length; i++) {
+	        console.log(tile[i].dataset.boat);
+	        console.log(filterParams.boat);
+	
+	        if (filterParams.brand != tile[i].dataset.brand) {
+	          tile[i].classList.add('hidden');
+	        } else if (filterParams.engine != tile[i].dataset.engine) {
+	          tile[i].classList.add('hidden');
+	        } else if (filterParams.boat != tile[i].dataset.boat) {
+	          tile[i].classList.add('hidden');
+	        }
+	        // else if (filterParams.width <= tile[i].dataset.width) {
+	        //   tile[i].classList.add('hidden');
+	        // }
+	        // else if (filterParams.height <= tile[i].dataset.height) {
+	        //   tile[i].classList.add('hidden');
+	        // }
+	        // else if (filterParams.people <= tile[i].dataset.people) {
+	        //   tile[i].classList.add('hidden');
+	        // }
+	        // else if (filterParams.power <= tile[i].dataset.power) {
+	        //   tile[i].classList.add('hidden');
+	        // }
+	        // else if (filterParams.money <= tile[i].dataset.money) {
+	        //   tile[i].classList.add('hidden');
+	        // }
+	      }
+	    }
 	  }]);
 	
-	  return Filter;
+	  return ResultsFilter;
 	}();
 	
-	exports.default = Filter;
+	exports.default = ResultsFilter;
 
 /***/ }
 /******/ ]);
