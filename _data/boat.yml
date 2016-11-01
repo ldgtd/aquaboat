@@ -1,4 +1,37 @@
 ---
+- id: moomba
+  title: Craz
+  content: ''
+  engine: Moteur inboard V-drive
+  boat: Bateau sport
+  width: 7.35 m
+  height: 2.51 m
+  people: CE 16
+  power: Max 550 HP
+  money: Dès 75'900 CHF
+  image: ''
+- id: moomba
+  title: Mojo
+  content: ''
+  engine: Moteur inboard V-drive
+  boat: Bateau sport
+  width: 7.71 m
+  height: 2.54 m
+  people: CE 17
+  power: Max 550 HP
+  money: Dès 82'900 CHF
+  image: ''
+- id: moomba
+  title: 'Helix '
+  content: ''
+  engine: Moteur inboard V-drive
+  boat: Bateau sport
+  width: 6.52 m
+  height: 2.59 m
+  people: CE
+  power: Max
+  money: Dès 68'900 CHF
+  image: ''
 - id: supra
   title: SE 450
   content: ''
