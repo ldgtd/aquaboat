@@ -1,4 +1,15 @@
 ---
+- id: supra
+  title: SC 400
+  content: ''
+  engine: Moteur inboard V-drive
+  boat: Bateau sport
+  width: 7.32 m
+  height: 2.59 m
+  people: CE 14
+  power: Max 550 HP
+  money: Dès 114'900 CHF
+  image: ''
 - id: rinker
   title: EX 290
   content: ''
