@@ -1,5 +1,104 @@
 ---
 - id: rinker
+  title: QX 26 BR
+  content: ''
+  engine: Moteur inboard
+  boat: Bateau bowrider
+  width: 7.98 m
+  height: 2.59 m
+  people: CE 9
+  power: Max 380 Hp
+  money: Dès 79'371 CHF
+  image: ''
+- id: rinker
+  title: QX 23 CC
+  content: ''
+  engine: Moteur inboard
+  boat: Bateau cabine
+  width: 7.17 m
+  height: 2.59 m
+  people: CE 8
+  power: Max 300 HP
+  money: Dès 67'491 CHF
+  image: ''
+- id: rinker
+  title: QX 23
+  content: ''
+  engine: Moteur inboard
+  boat: Bateau bowrider
+  width: 7.17 m
+  height: 2.59 m
+  people: CE 8
+  power: Max 300 HP
+  money: Dès 63'780 CHF
+  image: ''
+- id: rinker
+  title: 22 MTXC
+  content: ''
+  engine: Moteur inboard
+  boat: Bateau cabine
+  width: 6.93 m
+  height: 2.49 m
+  people: CE 8
+  power: Max 300 HP
+  money: Dès 51'049 CHF
+  image: ''
+- id: rinker
+  title: MTX 22
+  content: ''
+  engine: Moteur inboard
+  boat: Bateau sport
+  width: 6.93 m
+  height: 2.49 m
+  people: CE 8
+  power: Max 300 HP
+  money: Dès 51'049 CHF
+  image: ''
+- id: rinker
+  title: QX 21
+  content: ''
+  engine: Moteur inboard
+  boat: Bateau bowrider
+  width: 6.40 m
+  height: 2.44 m
+  people: CE 8
+  power: Max 300 HP
+  money: Dès 54'210 CHF
+  image: ''
+- id: rinker
+  title: 20 MTX
+  content: ''
+  engine: Moteur inboard
+  boat: Bateau sport
+  width: 6.35 m
+  height: 2.41 m
+  people: CE 7
+  power: Max 200 HP
+  money: Dès 48'130 CHF
+  image: ''
+- id: rinker
+  title: QX 19
+  content: ''
+  engine: Moteur inboard
+  boat: Bateau bowrider
+  width: 5.94 m
+  height: 2.44 m
+  people: CE 7
+  power: Max 250 Hp
+  money: Dès 46'567 CHF
+  image: ''
+- id: rinker
+  title: QX 18
+  content: ''
+  engine: Moteur inboard
+  boat: Bateau bowrider
+  width: 5.69 m
+  height: 2.26 m
+  people: CE 7
+  power: Max 200 HP
+  money: Dès 41'091 CHF
+  image: ''
+- id: rinker
   title: QX 19 OB
   content: ''
   engine: Moteur hors-bord
