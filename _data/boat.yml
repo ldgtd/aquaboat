@@ -1,4 +1,26 @@
 ---
+- id: selection boat
+  title: Aston 18
+  content: ''
+  engine: Moteur hors-bord
+  boat: Bateau bowrider - autovideur
+  width: 5.45 m
+  height: 2.08 m
+  people: CE 6
+  power: Max 100 HP
+  money: Dès 25'520 CHF
+  image: ''
+- id: selection boat
+  title: Aston 16
+  content: ''
+  engine: Moteur hors-bord
+  boat: 'Bateau bowrider '
+  width: 5.25 m
+  height: 1.95 m
+  people: CE 5
+  power: Max 50 HP
+  money: Dès 14'710 CHF
+  image: ''
 - id: glastron
   title: GS 259 (NEW 2016)
   content: ''
