@@ -1,4 +1,202 @@
 ---
+- id: rinker
+  title: QX 19 OB
+  content: ''
+  engine: Moteur hors-bord
+  boat: Bateau bowrider
+  width: 5.94 m
+  height: 2.44 m
+  people: CE 7
+  power: Max 200 HP
+  money: Dès 41'556 CHF
+  image: ''
+- id: rinker
+  title: QX 18 OB
+  content: ''
+  engine: Moteur hors-bord
+  boat: Bateau bowrider
+  width: 5.77 m
+  height: 2.26 m
+  people: CE 7
+  power: Max 150 HP
+  money: Dès 41'556 CHF
+  image: ''
+- id: rinker
+  title: QX 17 OB
+  content: ''
+  engine: Moteur hors-bord
+  boat: Bateau bowrider
+  width: 5.73 m
+  height: 2.16 m
+  people: CE 6
+  power: Max 115 HP
+  money: Dès 32'882 CHF
+  image: ''
+- id: selection boat
+  title: Classic 690 excellence
+  content: ''
+  engine: Moteur hors-bord
+  boat: Bateau bowrider
+  width: 6.75 m
+  height: 2.65 m
+  people: CE 8
+  power: Max 140 HP
+  money: 'Dès '
+  image: ''
+- id: selection boat
+  title: Classic 590 excellence
+  content: ''
+  engine: Moteur hors-bord
+  boat: Bateau bowrider
+  width: 5.70 m
+  height: 2.20 m
+  people: CE 6
+  power: Max60 HP
+  money: 'Dès '
+  image: ''
+- id: selection boat
+  title: Classic 475 excellence
+  content: ''
+  engine: Moteur hors-bord
+  boat: Bateau bowrider
+  width: 5.30 m
+  height: 1.92 m
+  people: CE 5
+  power: Max 30 HP
+  money: Dès 15'360 CHF
+  image: ''
+- id: selection boat
+  title: Classic 474 excellence
+  content: ''
+  engine: Moteur hors-bord
+  boat: Bateau bowrider
+  width: 5.20 m
+  height: 1.92 m
+  people: CE 5
+  power: Max 30 HP
+  money: Dès 14'850 CHF
+  image: ''
+- id: selection boat
+  title: Bowrider 22 excellence
+  content: ''
+  engine: Moteur hors-bord
+  boat: Bateau bowrider
+  width: 6.35 m
+  height: 2.50 m
+  people: CE 6
+  power: Max 150 HP
+  money: Dès 45'410 CHF
+  image: ''
+- id: selection boat
+  title: Bowrider 22
+  content: ''
+  engine: Moteur hors-bord
+  boat: Bateau bowrider
+  width: 6.35 m
+  height: 2.50 m
+  people: CE 6
+  power: Max 150 HP
+  money: Dès 40'550 CHF
+  image: ''
+- id: selection boat
+  title: Cruiser GT 720
+  content: ''
+  engine: Moteur hors-bord
+  boat: Bateau cabine
+  width: 7.45 m
+  height: 2.55 m
+  people: CE 7
+  power: Max 200 HP
+  money: Dès 57'970 CHF
+  image: ''
+- id: selection boat
+  title: Cruiser 22 Excellence
+  content: ''
+  engine: Moteur hors-bord
+  boat: Bateau cabine
+  width: 6.35 m
+  height: 2.50 m
+  people: CE 6
+  power: Max 150 HP
+  money: Dès 46'340 CHF
+  image: ''
+- id: selection boat
+  title: Cruiser 22
+  content: ''
+  engine: Moteur hors-bord
+  boat: Bateau cabine
+  width: 6.35 m
+  height: 2.50 m
+  people: CE 6
+  power: Max 150 HP
+  money: Dès 40'480 CHF
+  image: ''
+- id: selection boat
+  title: Sunny 23
+  content: ''
+  engine: Moteur hors-bord
+  boat: Bateau cabine
+  width: 7.50 m
+  height: 2.45 m
+  people: CE 7
+  power: Max 200 HP
+  money: Dès 38'270 CHF
+  image: ''
+- id: selection boat
+  title: Sunny 21
+  content: ''
+  engine: Moteur hors-bord
+  boat: Bateau cabine
+  width: 6.30 m
+  height: 2.35 m
+  people: CE 6
+  power: Max 150 HP
+  money: Dès 33'050 CHF
+  image: ''
+- id: selection boat
+  title: Sunny 20
+  content: ''
+  engine: Moteur hors-bord
+  boat: Bateau cabine
+  width: 6.00 m
+  height: 2.25 m
+  people: CE 6
+  power: Max 115 HP
+  money: Dès 29'550 CHF
+  image: ''
+- id: selection boat
+  title: Aston 21
+  content: ''
+  engine: Moteur hors-bord
+  boat: Bateau bowrider
+  width: 6.33 m
+  height: 2.48 m
+  people: CE 6
+  power: Max 150 HP
+  money: Dès 26'680 CHF
+  image: ''
+- id: selection boat
+  title: Aston 20
+  content: ''
+  engine: Moteur hors-bord
+  boat: Bateau bowrider
+  width: 6.00 m
+  height: 2.18 m
+  people: CE 6
+  power: Max 115 HP
+  money: Dès 26'940 CHF
+  image: ''
+- id: selection boat
+  title: Aston 19
+  content: ''
+  engine: Moteur hors-bord
+  boat: Bateau bowrider
+  width: 6.15 m
+  height: 2.15 m
+  people: CE 6
+  power: Max 115 HP
+  money: Dès 29'580 CHF
+  image: ''
 - id: selection boat
   title: Aston 18
   content: ''
