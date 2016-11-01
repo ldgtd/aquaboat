@@ -1,5 +1,27 @@
 ---
 - id: supra
+  title: SG 400
+  content: ''
+  engine: Moteur inboard V-drive
+  boat: Bateau sport
+  width: 7.95 m
+  height: 2.59 m
+  people: CE 17
+  power: Max 550 HP
+  money: Dès 129'900 CHF
+  image: ''
+- id: supra
+  title: SA 400
+  content: ''
+  engine: Moteur inboard V-drive
+  boat: Bateau sport
+  width: 7.58 m
+  height: 2.54 m
+  people: CE 13
+  power: Max 550 HP
+  money: Dès 124'900 CHF
+  image: ''
+- id: supra
   title: SC 400
   content: ''
   engine: Moteur inboard V-drive
