@@ -1,5 +1,16 @@
 ---
 - id: valiant
+  title: '685 Classic '
+  content: ''
+  engine: Moteur hors-bord
+  boat: Bateau semi-rigide
+  width: 6.75 m
+  height: 2.71 m
+  people: CE 14
+  power: Max 200 HP
+  money: Dès 43'940 CHF
+  image: ''
+- id: valiant
   title: 630 Classic "Limited Edition"
   content: ''
   engine: Moteur hors-bord
