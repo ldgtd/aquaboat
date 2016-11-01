@@ -1,4 +1,37 @@
 ---
+- id: valiant
+  title: 580 Classic
+  content: ''
+  engine: Moteur hors-bord
+  boat: Bateau semi-rigide
+  width: 5.84 m
+  height: 2.5 m
+  people: CE 9
+  power: Max 150 HP
+  money: Dès 29'750 HP
+  image: ''
+- id: valiant
+  title: 550 Classic
+  content: ''
+  engine: Moteur hors-bord
+  boat: Bateau semi-rigide
+  width: 5.33 m
+  height: 2.34 m
+  people: CE 9
+  power: Max 120 HP
+  money: Dès 23'340 CHF
+  image: ''
+- id: valiant
+  title: 500 Classic
+  content: ''
+  engine: Moteur hors-bord
+  boat: Bateau semi-rigide
+  width: 5.01 m
+  height: 2.32 m
+  people: CE 8
+  power: Max 60 HP
+  money: Dès 18'770 CHF
+  image: ''
 - id: moomba
   title: Mondo
   content: ''
