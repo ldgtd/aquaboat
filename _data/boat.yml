@@ -757,7 +757,7 @@
   people: 11
   power: 280
   money: 54220
-  image: 
+  image: "{{ site.baseurl }}/forestryio/images/215lr.jpg"
 - id: stingray
   title: 225 LR
   content: ''
