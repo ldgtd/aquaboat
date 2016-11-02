@@ -45,7 +45,7 @@
   content: |
     Plus de 60 ans d'héritage dans la construction de bateaux, une expérience pour créer des bateaux construits avec un style unique. Une gamme de bateaux destinés à la promenade et au sport nautique. Glastron est unique en proposant une motorisation Z-drive ou Jet.
     Prenez un moment pour vous relaxez et reprenez votre souffle. Découvrez la gamme Glastron, un intérieur convivial du poste de pilotage à l'aménagement du cockpit, un confort conçu pour durée.
-  image: forestryio/images/Glastron-logo-1.png
+  image: "{{ site.baseurl }}/forestryio/images/Glastron-logo-2.png"
   catalogue: 
 - id: valiant
   content: "Si vos activités en mer sont la détente et la relaxation, Valiant a créé
