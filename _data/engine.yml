@@ -20,14 +20,13 @@
   weight: ''
   money: ''
   catalogue: "/forestryio/files/test.pdf"
-- title: Moteur quicksilver
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praetereo multos,
-    in bis doctum hominem et suavem, Hieronymum, quem iam cur Peripateticum appellem
-    nescio. At iam decimum annum in spelunca iacet. Quid ad utilitatem tantae pecuniae?
-    Equidem, sed audistine modo de Carneade? Consequens enim est et post oritur, ut
-    dixi. Duo Reges constructio interrete.
+- title: 'Moteur Mercruiser '
+  content: "Peu importe le type de navigation, MerCruiser à le meilleur système de
+    propulsion qui vous convient.\nNotre gamme exclusive de moteurs sterndrive  inboard
+    sont des moteurs pour les activités de tractage et de plaisance. Tous ces moteurs
+    sont conçus pour offrir la meilleure expérience de navigation possible. "
   engine: Moteur in board
-  power: Super powerfull
+  power: De 135 HP à 425 HP
   weight: 345 PTCA
   money: 800 CHF
   catalogue: "/forestryio/files/test.pdf"
