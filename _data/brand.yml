@@ -5,7 +5,7 @@
     avec confort, sécurité et style. Dotés de motorisations à la page, un athlète
     sommeille dans chacun des engins griffés Supra. Engagée avec succès dans de nombreuses
     compétitions wakeboard, la marque fait figure de référence mondiale.
-  image: "{{ site.baseurl }}/forestryio/images/logo-supra.jpg"
+  image: "{{ site.baseurl }}/forestryio/images/logo-supra-1.jpg"
   catalogue: 
 - id: rinker
   content: Rinker vous propose une gamme complète de bateaux de promenade et de loisirs.
