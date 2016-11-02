@@ -39,7 +39,7 @@
     Raptor. Ce qui en fait une embarcation abordable, sans toutefois compromettre
     la performance désirée. La meilleure façon d’apprécier chaque journée passée sur
     l’eau, c’est en Moomba!
-  image: "{{ site.baseurl }}/forestryio/images/moomba-logo1.jpg"
+  image: "{{ site.baseurl }}/forestryio/images/logo-moomba.jpg"
   catalogue: 
 - id: glastron
   content: |
