@@ -10,16 +10,15 @@
   weight: Les plus léger de leur catégorie
   money: ''
   catalogue: "/forestryio/files/test.pdf"
-- title: Moteur quicksilver
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praetereo multos,
-    in bis doctum hominem et suavem, Hieronymum, quem iam cur Peripateticum appellem
-    nescio. At iam decimum annum in spelunca iacet. Quid ad utilitatem tantae pecuniae?
-    Equidem, sed audistine modo de Carneade? Consequens enim est et post oritur, ut
-    dixi. Duo Reges constructio interrete.
-  engine: Moteur in board
-  power: Super powerfull
-  weight: 345 PTCA
-  money: 800 CHF
+- title: Moteur Mercruy Verado
+  content: "Les hors-bord Verado ont créé toute une série de normes nouvelles dans
+    le domaine de la performance. Quelle que soit la définition que l'on veuille en
+    donner. \nFaible bruit et vibrations réduites ? OK. \nFaible consommation de carburant
+    ? OK. \nQuatre temps suralimenté et couple ? OK. \nUn moteur au pus haute exigence!"
+  engine: Moteur hors-bord
+  power: De 175 à 400 HP
+  weight: ''
+  money: ''
   catalogue: "/forestryio/files/test.pdf"
 - title: Moteur quicksilver
   content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praetereo multos,
