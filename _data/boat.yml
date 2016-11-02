@@ -1,5 +1,16 @@
 ---
 - id: beneteau
+  title: Grand Turismo 46
+  content: ''
+  engine: Moteur inboard
+  boat: Bateau cabine
+  width: '14.78'
+  height: '4.20'
+  people: 12
+  power: 870
+  money: 403000
+  image: ''
+- id: beneteau
   title: Grand Tursimo 40
   content: ''
   engine: Moteur inboard
