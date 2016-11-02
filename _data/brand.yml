@@ -1,20 +1,12 @@
 ---
 - id: supra
-  content: "WHERE PASSION MEETS PRECISION\r\nIl est facile pour les fabricants de
-    remorqueurs à jalonner à travers un combat de l'industrie pour les mêmes titres.
-    A Supra ™, nous voyons les choses un peu différemment. Au lieu de vanter nos innovations
-    en tant que champion parmi le bruit de toutes les autres marques, nous charnière
-    notre réputation sur un concept simple qui ne peut être -preuve asymétrique. Tout
-    ce que nous croyons, tout nous construisons et tout ce que nous publions à l'eau
-    ajoute à beaucoup plus que de l'encre sur une page. Il ajoute à l'expérience.\r\n\r\nNos
-    actions sont nos mots. Chacun de nos petits détails disent autant sur nous comme
-    notre tout, et tout cela conduit à un endroit qui nous sépare du reste -Où Passion
-    Meets Precision. Il est comme une peinture d'inspiration. Ou un morceau captivant
-    de musique. C'est de l'art. Et si un Supra ™ ne sera pas exposée à une galerie
-    près de chez vous de sitôt, ces bateaux ont une capacité brillante à faire des
-    icônes sur les coureurs passionnés qui roulent derrière eux."
+  content: 'Saisons après saisons, les bateaux Supra délivrent luxe, raffinement et
+    performances sans concessions. Depuis 1981, la société vous emmène sur un nuage
+    avec confort, sécurité et style. Dotés de motorisations à la page, un athlète
+    sommeille dans chacun des engins griffés Supra. Engagée avec succès dans de nombreuses
+    compétitions wakeboard, la marque fait figure de référence mondiale. '
   image: ''
-  catalogue:
+  catalogue: ''
 - id: rinker
   content: "Au début, la Rinker Boat Company a été fondée par les amateurs de bateaux.\r\n\r\nIls
     ont apporté leur passion pour la vie sur l'eau avec eux pour travailler tous les
@@ -34,7 +26,7 @@
     les années 1930, chaque Rinker est livré avec une promesse, un dévouement à l'idée
     d'obtenir plus que vous payez, et une passion pour la navigation de plaisance."
   image: ''
-  catalogue:
+  catalogue: 
 - id: selection boat
   content: "Selection Boats, ce sont des bateaux fabriqués pour durer. La qualité
     de nos bateaux défie toute concurrence pour vous offrir des moments de passion,
@@ -51,7 +43,7 @@
     nos processus de fabrication pour vous offrir les meilleurs bateaux qui puissent
     exister sur le marché. Selection Boat c’est un savoir faire irréprochable."
   image: ''
-  catalogue:
+  catalogue: 
 - id: moomba
   content: "WHERE PASSION MEETS PRECISION\r\nIl est facile pour les fabricants de
     remorqueurs à jalonner à travers un combat de l'industrie pour les mêmes titres.
@@ -67,7 +59,7 @@
     près de chez vous de sitôt, ces bateaux ont une capacité brillante à faire des
     icônes sur les coureurs passionnés qui roulent derrière eux."
   image: ''
-  catalogue:
+  catalogue: 
 - id: glastron
   content: "Plus de 60 ans d'héritage de la construction de bateaux se sont réunis
     pour créer des bateaux construits avec des muscles et le style un héritage. Bateaux
@@ -85,7 +77,7 @@
     pour rester. tissus durables sur le Comfortride sièges baquets, des bancs et terrasses
     font pour une conduite plus douce, plus confortable."
   image: forestryio/images/Glastron-logo-1.png
-  catalogue:
+  catalogue: 
 - id: valiant
   content: "Si vos activités en mer sont la détente et la relaxation, Valiant a créé
     une vaste gamme de bateaux semi-rigides tout spécialement conçue à cet effet.\r\nValiant
@@ -104,7 +96,7 @@
     occasion : idéal pour la plongée, le ski nautique, la baignade ou tout simplement
     pour un bain de soleil !"
   image: ''
-  catalogue:
+  catalogue: 
 - id: stingray
   content: Les bateaux Stingray sont fabriqués à Hartsville, Etats-Unis. L’entreprise
     a été fondée en 1979 et est toujours en mains privées. A ce jour plus de vingt
