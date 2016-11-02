@@ -26,19 +26,11 @@
   image: ''
   catalogue: 
 - id: moomba
-  content: "WHERE PASSION MEETS PRECISION\r\nIl est facile pour les fabricants de
-    remorqueurs à jalonner à travers un combat de l'industrie pour les mêmes titres.
-    A Supra ™, nous voyons les choses un peu différemment. Au lieu de vanter nos innovations
-    en tant que champion parmi le bruit de toutes les autres marques, nous charnière
-    notre réputation sur un concept simple qui ne peut être -preuve asymétrique. Tout
-    ce que nous croyons, tout nous construisons et tout ce que nous publions à l'eau
-    ajoute à beaucoup plus que de l'encre sur une page. Il ajoute à l'expérience.\r\n\r\nNos
-    actions sont nos mots. Chacun de nos petits détails disent autant sur nous comme
-    notre tout, et tout cela conduit à un endroit qui nous sépare du reste -Où Passion
-    Meets Precision. Il est comme une peinture d'inspiration. Ou un morceau captivant
-    de musique. C'est de l'art. Et si un Supra ™ ne sera pas exposée à une galerie
-    près de chez vous de sitôt, ces bateaux ont une capacité brillante à faire des
-    icônes sur les coureurs passionnés qui roulent derrière eux."
+  content: |-
+    Il ne faut jamais sous-estimer un Moomba!
+    Récipiendaire du titre très convoité ‘NMMA CSI’ depuis plusieurs année, les bateaux Moomba confirmes une satisfaction exceptionnelle de leurs utilisateurs. Même les professionnels y font confiance puisque Les ‘Gravity Games’ et les championnats du monde WWA en ont fait leur premier choix.
+    Un bateau Moomba, c’est un rapport qualité prix imbattable. On y retrouve une construction fiable et efficace tel que les moteurs marins Ford Raptor. Ce qui en fait une embarcation abordable, sans toutefois compromettre la performance désirée.
+    La meilleure façon d’apprécier chaque journée passée sur l’eau, c’est en Moomba!
   image: ''
   catalogue: 
 - id: glastron
