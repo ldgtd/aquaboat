@@ -93,5 +93,5 @@
     intemporelle et la noblesse de finitions travaillées dans l’art du détail. Monte
     Carlo et Grand Turism s’impose aujourd’hui comme la griffe du style, de la puissance
     et du luxe.
-  image: forestryio/images/Bénéteau_(logo).png
+  image: "{{ site.baseurl }}/forestryio/images/Logo-Beneteau.jpg"
   catalogue: "/forestryio/files/test.pdf"
