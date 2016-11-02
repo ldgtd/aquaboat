@@ -1,51 +1,61 @@
 ---
 - id: supra
-  content: 'Saisons après saisons, les bateaux Supra délivrent luxe, raffinement et
+  content: Saisons après saisons, les bateaux Supra délivrent luxe, raffinement et
     performances sans concessions. Depuis 1981, la société vous emmène sur un nuage
     avec confort, sécurité et style. Dotés de motorisations à la page, un athlète
     sommeille dans chacun des engins griffés Supra. Engagée avec succès dans de nombreuses
-    compétitions wakeboard, la marque fait figure de référence mondiale. '
+    compétitions wakeboard, la marque fait figure de référence mondiale.
   image: ''
-  catalogue: ''
+  catalogue: 
 - id: rinker
-  content: |
-    Rinker vous propose  une gamme complète de bateaux de promenade et de loisirs.
-    La gamme Rinker vous propose le loisir mais aussi l’aventure avec ses deux séries dont la QX qui vous permettra de vous orienter plus sur la promenade et la série EX pour tenter l’aventure avec des cabines plus large et plus spacieuse.
-    La marque  de bateaux Rinker se démarque par sa qualité et son prix.
-    La gamme  apporte aux personnes exigeantes, de belles finitions, et un goût à la hauteur de leurs attentes.
+  content: Rinker vous propose une gamme complète de bateaux de promenade et de loisirs.
+    La gamme Rinker vous propose le loisir mais aussi l’aventure avec ses deux séries
+    dont la QX qui vous permettra de vous orienter plus sur la promenade et la série
+    EX pour tenter l’aventure avec des cabines plus large et plus spacieuse. La marque
+    de bateaux Rinker se démarque par sa qualité et son prix. La gamme apporte aux
+    personnes exigeantes, de belles finitions, et un goût à la hauteur de leurs attentes.
   image: ''
-  catalogue: ''
+  catalogue: 
 - id: selection boat
-  content: |+
-    Selection Boats, ce sont des bateaux fabriqués pour durer. La qualité des bateaux défie toute concurrence pour vous offrir des moments de passion, plaisir et d’harmonie en toute sécurité.
-    C’est un concentré de savoir-faire et de technologie associés à des bateaux tout aussi séduisants que performants.
-    Nous privilégions sans cesse la qualité avec des produits de haute gamme qui vous procureront des moments inoubliables.
-    Que ce soit pour une croisière, une journée de bronzage ou sportive, balade entre amis, nos différentes gammes de bateaux ont été spécialement conçues à cet effet.
-    Notre objectif ? Vous offrir des moments de détente et d’évasion avec des bateaux de très haute qualité. Quelques soit votre passion, la pêche, la plongée, le sport nos bateaux ont été conçus pour les assouvir.
-
+  content: Selection Boats, ce sont des bateaux fabriqués pour durer. La qualité des
+    bateaux défie toute concurrence pour vous offrir des moments de passion, plaisir
+    et d’harmonie en toute sécurité. C’est un concentré de savoir-faire et de technologie
+    associés à des bateaux tout aussi séduisants que performants. Nous privilégions
+    sans cesse la qualité avec des produits de haute gamme qui vous procureront des
+    moments inoubliables. Que ce soit pour une croisière, une journée de bronzage
+    ou sportive, balade entre amis, nos différentes gammes de bateaux ont été spécialement
+    conçues à cet effet. Notre objectif ? Vous offrir des moments de détente et d’évasion
+    avec des bateaux de très haute qualité. Quelques soit votre passion, la pêche,
+    la plongée, le sport nos bateaux ont été conçus pour les assouvir.
   image: ''
   catalogue: 
 - id: moomba
-  content: |-
-    Il ne faut jamais sous-estimer un Moomba!
-    Récipiendaire du titre très convoité ‘NMMA CSI’ depuis plusieurs année, les bateaux Moomba confirmes une satisfaction exceptionnelle de leurs utilisateurs. Même les professionnels y font confiance puisque Les ‘Gravity Games’ et les championnats du monde WWA en ont fait leur premier choix.
-    Un bateau Moomba, c’est un rapport qualité prix imbattable. On y retrouve une construction fiable et efficace tel que les moteurs marins Ford Raptor. Ce qui en fait une embarcation abordable, sans toutefois compromettre la performance désirée.
-    La meilleure façon d’apprécier chaque journée passée sur l’eau, c’est en Moomba!
+  content: Il ne faut jamais sous-estimer un Moomba! Récipiendaire du titre très convoité
+    ‘NMMA CSI’ depuis plusieurs année, les bateaux Moomba confirmes une satisfaction
+    exceptionnelle de leurs utilisateurs. Même les professionnels y font confiance
+    puisque Les ‘Gravity Games’ et les championnats du monde WWA en ont fait leur
+    premier choix. Un bateau Moomba, c’est un rapport qualité prix imbattable. On
+    y retrouve une construction fiable et efficace tel que les moteurs marins Ford
+    Raptor. Ce qui en fait une embarcation abordable, sans toutefois compromettre
+    la performance désirée. La meilleure façon d’apprécier chaque journée passée sur
+    l’eau, c’est en Moomba!
   image: ''
   catalogue: 
 - id: glastron
-  content: "Plus de 60 ans d'héritage dans la construction de bateaux, une expérience
-    pour créer des bateaux construits avec un style unique. Une gamme de bateaux destinés
-    à la promenade et au sport nautique. Glastron est unique en proposant une motorisation
-    Z-drive ou Jet.\n\n\n  \n"
+  content: |
+    Plus de 60 ans d'héritage dans la construction de bateaux, une expérience pour créer des bateaux construits avec un style unique. Une gamme de bateaux destinés à la promenade et au sport nautique. Glastron est unique en proposant une motorisation Z-drive ou Jet.
+    Prenez un moment pour vous relaxez et reprenez votre souffle. Découvrez la gamme Glastron, un intérieur convivial du poste de pilotage à l'aménagement du cockpit, un confort conçu pour durée.
   image: forestryio/images/Glastron-logo-1.png
   catalogue: 
 - id: valiant
-  content: |-
-    Si vos activités en mer sont la détente et la relaxation, Valiant a créé une vaste gamme de bateaux semi-rigides tout spécialement conçue à cet effet. .
-    Les deux nouvelles gammes Comfort et Classic ont été conçues en tenant en compte des valeurs traditionnelles d’un semi-rigide : la performance, la stabilité, la sécurité, la capacité de rangement, la facilité de transport et
-    d’utilisation. Ils proposent un package complet et compétitif.
-    Valiant est le bateau idéal pour toute la famille et en toute occasion : idéal pour la plongée, le ski nautique, la baignade ou tout simplement pour un bain de soleil !
+  content: "Si vos activités en mer sont la détente et la relaxation, Valiant a créé
+    une vaste gamme de bateaux semi-rigides tout spécialement conçue à cet effet.
+    . \nLes deux nouvelles gammes Comfort et Classic ont été conçues en tenant en
+    compte des valeurs traditionnelles d’un semi-rigide, la performance, la stabilité,
+    la sécurité, la capacité de rangement, la facilité de transport et d’utilisation.
+    Ils proposent un package complet et compétitif. \nValiant est le bateau idéal
+    pour toute la famille et en toute occasion : idéal pour la plongée, le ski nautique,
+    la baignade ou tout simplement pour un bain de soleil ."
   image: ''
   catalogue: 
 - id: stingray
@@ -59,22 +69,29 @@
   image: forestryio/images/logo Stingray.png
   catalogue: http://www.stingrayboats.com/data/documents/catalog/2016/2016_catalog.html
 - id: quicksilver
-  content: |-
-    Depuis toujours, la gamme Quicksilver associe à la perfection plaisir et style avec fonctionnalité et sécurité.
-    Son évolution s’appuie sur une collaboration étroite avec les meilleurs designers, ingénieurs et architectes navals du groupe Brunswick. Ce partenariat de pointe dans le secteur de la navigation de plaisance est à l’origine de notre nouvelle ligne de bateaux d’une extrême fiabilité.
-    En plus de son style unique, Quicksilver utilise l’espace de façon innovante grâce au meilleur rapport longueur-largeur de sa catégorie, ce qui en augmente encore la stabilité. L’amélioration de la tenue en mer par la coque profonde en V permet de franchir la vague efficacement, en tout confort. Ce résultat est le fruit du travail d’une équipe qui compte l’un des architectes navals les plus expérimentés de l’industrie nautique.
+  content: "Depuis toujours, la gamme Quicksilver associe à la perfection plaisir
+    et style avec fonctionnalité et sécurité. Son évolution s’appuie sur une collaboration
+    étroite avec les meilleurs designers, ingénieurs et architectes navals du groupe
+    Brunswick. \nCe partenariat de pointe dans le secteur de la navigation de plaisance
+    est à l’origine de notre nouvelle ligne de bateaux d’une extrême fiabilité. En
+    plus de son style unique, Quicksilver utilise l’espace de façon innovante grâce
+    au meilleur rapport longueur-largeur de sa catégorie, ce qui en augmente encore
+    la stabilité. L’amélioration de la tenue en mer par la coque profonde en V permet
+    de franchir la vague efficacement, en tout confort. Ce résultat est le fruit du
+    travail d’une équipe qui compte l’un des architectes navals les plus expérimentés
+    de l’industrie nautique."
   image: forestryio/images/quicksilver_logo-1.png
   catalogue: "/forestryio/files/test.pdf"
 - id: beneteau
-  content: "Aiguisé et sportif, la gamme Beneteau sont des bateaux de sensations.
-    A la fois ouverts sur la mer et très protégés, les cinq sport-cruisers de la gamme
+  content: Aiguisé et sportif, la gamme Beneteau sont des bateaux de sensations. A
+    la fois ouverts sur la mer et très protégés, les cinq sport-cruisers de la gamme
     offrent des prestations technologiques conjuguant plaisir de pilotage et performances
-    exceptionnelles. Allure, prestations et soin des finitions, \nLa gamme premium
-    de Bénéteau est née de la recherche de l’excellence, aiguisé et sportif, se sont
+    exceptionnelles. Allure, prestations et soin des finitions, La gamme premium de
+    Beneteau est née de la recherche de l’excellence, aiguisé et sportif, se sont
     des bateaux de sensations. Directement issus de l’esprit des Monte Carlo Yachts,
     les cinq motor-cruisers se distinguent par leur splendide carène, leur élégance
     intemporelle et la noblesse de finitions travaillées dans l’art du détail. Monte
     Carlo et Grand Turism s’impose aujourd’hui comme la griffe du style, de la puissance
-    et du luxe.  "
+    et du luxe.
   image: forestryio/images/Bénéteau_(logo).png
   catalogue: "/forestryio/files/test.pdf"
