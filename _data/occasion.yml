@@ -1,4 +1,15 @@
 ---
+- title: Selection Boat Cruiser 22
+  content: ''
+  engine: Moteur hors-bord
+  boat: Bateau cabine
+  width: 6.35 m
+  height: 2.50 m
+  people: CE 6
+  power: Max 150 HP
+  money: 46'340 CHF
+  image: "{{ site.baseurl }}/forestryio/images/Cruiser-22.jpg"
+  url: http://www.google.ch
 - title: Bateau occasion
   content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praetereo multos,
     in bis doctum hominem et suavem, Hieronymum, quem iam cur Peripateticum appellem
@@ -12,8 +23,8 @@
   people: 6
   power: Super powerfull
   money: 15 000 chf
-  image: /forestryio/images/services.jpg
-  url: http://www.google.ch 
+  image: "/forestryio/images/services.jpg"
+  url: http://www.google.ch
 - title: Bateau occasion
   content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praetereo multos,
     in bis doctum hominem et suavem, Hieronymum, quem iam cur Peripateticum appellem
@@ -27,8 +38,8 @@
   people: 6
   power: Super powerfull
   money: 15 000 chf
-  image: /forestryio/images/services.jpg
-  url: http://www.google.ch 
+  image: "/forestryio/images/services.jpg"
+  url: http://www.google.ch
 - title: Bateau occasion
   content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praetereo multos,
     in bis doctum hominem et suavem, Hieronymum, quem iam cur Peripateticum appellem
@@ -42,8 +53,8 @@
   people: 6
   power: Super powerfull
   money: 15 000 chf
-  image: /forestryio/images/services.jpg
-  url: http://www.google.ch 
+  image: "/forestryio/images/services.jpg"
+  url: http://www.google.ch
 - title: Bateau occasion
   content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praetereo multos,
     in bis doctum hominem et suavem, Hieronymum, quem iam cur Peripateticum appellem
@@ -57,8 +68,8 @@
   people: 6
   power: Super powerfull
   money: 15 000 chf
-  image: /forestryio/images/services.jpg
-  url: http://www.google.ch 
+  image: "/forestryio/images/services.jpg"
+  url: http://www.google.ch
 - title: Bateau occasion
   content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praetereo multos,
     in bis doctum hominem et suavem, Hieronymum, quem iam cur Peripateticum appellem
@@ -72,20 +83,5 @@
   people: 6
   power: Super powerfull
   money: 15 000 chf
-  image: /forestryio/images/services.jpg
-  url: http://www.google.ch 
-- title: Bateau occasion
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praetereo multos,
-    in bis doctum hominem et suavem, Hieronymum, quem iam cur Peripateticum appellem
-    nescio. At iam decimum annum in spelunca iacet. Quid ad utilitatem tantae pecuniae?
-    Equidem, sed audistine modo de Carneade? Consequens enim est et post oritur, ut
-    dixi. Duo Reges constructio interrete.
-  engine: Moteur in board
-  boat: Bateau cabine
-  width: 3m
-  height: 8m
-  people: 6
-  power: Super powerfull
-  money: 15 000 chf
-  image: /forestryio/images/services.jpg
-  url: http://www.google.ch 
+  image: "/forestryio/images/services.jpg"
+  url: http://www.google.ch
