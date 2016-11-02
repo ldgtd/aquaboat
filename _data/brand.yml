@@ -8,25 +8,13 @@
   image: ''
   catalogue: ''
 - id: rinker
-  content: "Au début, la Rinker Boat Company a été fondée par les amateurs de bateaux.\r\n\r\nIls
-    ont apporté leur passion pour la vie sur l'eau avec eux pour travailler tous les
-    jours, ce qui rend Rinker le travail de leur vie. Ce fut par leur dynamisme et
-    leur désir de construire quelque chose de mieux que la façon Rinker a été formé,
-    coulait le long de leur cœur à leurs mains et dans chaque bateau qu'ils ont fait.\r\n\r\nAujourd'hui,
-    cette même passion est vrai, accordé à chaque bateau qui porte le nom Rinker.
-    De la ligne de QX des bateaux de sport à l'EX express croiseurs chaque Rinker
-    est livré avec la confiance que vous recevez une valeur unfound nulle part ailleurs
-    dans l'industrie.\r\n\r\nRinker continue de prendre ce mantra et la croyance en
-    valeur, en introduisant de nouveaux lecteurs et forfaits de performance tout en
-    combinant les caractéristiques dans le Choix du capitaine de livrer des économies
-    supplémentaires à ses clients.\r\n\r\nChaque Rinker est construit à Syracuse,
-    Indiana sur les rives du lac Wawasee- construites sous les valeurs du Midwest
-    de travail acharné, l'attention au détail et un dévouement à l'artisanat. Le résultat?
-    Un bateau vous pouvez être fiers, un bateau pour les amateurs de bateaux.\r\n\r\nDepuis
-    les années 1930, chaque Rinker est livré avec une promesse, un dévouement à l'idée
-    d'obtenir plus que vous payez, et une passion pour la navigation de plaisance."
+  content: |
+    Rinker vous propose  une gamme complète de bateaux de promenade et de loisirs.
+    La gamme Rinker vous propose le loisir mais aussi l’aventure avec ses deux séries dont la QX qui vous permettra de vous orienter plus sur la promenade et la série EX pour tenter l’aventure avec des cabines plus large et plus spacieuse.
+    La marque  de bateaux Rinker se démarque par sa qualité et son prix.
+    La gamme  apporte aux personnes exigeantes, de belles finitions, et un goût à la hauteur de leurs attentes.
   image: ''
-  catalogue: 
+  catalogue: ''
 - id: selection boat
   content: "Selection Boats, ce sont des bateaux fabriqués pour durer. La qualité
     de nos bateaux défie toute concurrence pour vous offrir des moments de passion,
