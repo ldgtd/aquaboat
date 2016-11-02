@@ -1,6 +1,17 @@
 ---
 - id: beneteau
-  title: Grand Turismo 46
+  title: Grand Turismo 49 Fly
+  content: ''
+  engine: Moteur inborad
+  boat: Bateau cabine
+  width: '15.73'
+  height: '4.27'
+  people: 12
+  power: 870
+  money: 565000
+  image: ''
+- id: beneteau
+  title: Grand Turismo 49
   content: ''
   engine: Moteur inboard
   boat: Bateau cabine
