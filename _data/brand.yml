@@ -56,7 +56,7 @@
     Ils proposent un package complet et compétitif. \nValiant est le bateau idéal
     pour toute la famille et en toute occasion : idéal pour la plongée, le ski nautique,
     la baignade ou tout simplement pour un bain de soleil ."
-  image: ''
+  image: "{{ site.baseurl }}/forestryio/images/Valiant.jpg"
   catalogue: 
 - id: stingray
   content: Les bateaux Stingray sont fabriqués à Hartsville, Etats-Unis. L’entreprise
