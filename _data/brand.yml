@@ -27,7 +27,7 @@
     conçues à cet effet. Notre objectif ? Vous offrir des moments de détente et d’évasion
     avec des bateaux de très haute qualité. Quelques soit votre passion, la pêche,
     la plongée, le sport nos bateaux ont été conçus pour les assouvir.
-  image: "{{ site.baseurl }}/forestryio/images/logo-selection.jpg"
+  image: "{{ site.baseurl }}/forestryio/images/logo-selection-1.jpg"
   catalogue: 
 - id: moomba
   content: Il ne faut jamais sous-estimer un Moomba! Récipiendaire du titre très convoité
