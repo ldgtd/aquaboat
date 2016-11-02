@@ -14,7 +14,7 @@
     EX pour tenter l’aventure avec des cabines plus large et plus spacieuse. La marque
     de bateaux Rinker se démarque par sa qualité et son prix. La gamme apporte aux
     personnes exigeantes, de belles finitions, et un goût à la hauteur de leurs attentes.
-  image: "{{ site.baseurl }}/forestryio/images/rinker-logo.jpg"
+  image: "{{ site.baseurl }}/forestryio/images/Logo-Rinker.jpg"
   catalogue: 
 - id: selection boat
   content: Selection Boats, ce sont des bateaux fabriqués pour durer. La qualité des
