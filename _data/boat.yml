@@ -9,7 +9,7 @@
   people: 10
   power: 740
   money: 280'000
-  image: ''
+  image: "{{ site.baseurl }}/forestryio/images/215lr-1.jpg"
 - id: valiant
   title: '685 Classic '
   content: ''
