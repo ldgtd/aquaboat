@@ -1,4 +1,15 @@
 ---
+- id: beneteau
+  title: Grand Tursimo 40
+  content: ''
+  engine: Moteur inboard
+  boat: Bateau cabine
+  width: '11.50'
+  height: '3.85'
+  people: 10
+  power: 740
+  money: 280'000
+  image: ''
 - id: valiant
   title: '685 Classic '
   content: ''
