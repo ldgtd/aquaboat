@@ -779,7 +779,7 @@
   people: 10
   power: 250
   money: 48620
-  image: 
+  image: "{{ site.baseurl }}/forestryio/images/225sx.jpg"
 - id: stingray
   title: 235 LR
   content: ''
