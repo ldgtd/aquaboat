@@ -41,22 +41,11 @@
   image: forestryio/images/Glastron-logo-1.png
   catalogue: 
 - id: valiant
-  content: "Si vos activités en mer sont la détente et la relaxation, Valiant a créé
-    une vaste gamme de bateaux semi-rigides tout spécialement conçue à cet effet.\r\nValiant
-    offre la gamme de bateaux semi-rigides la plus complète dans le domaine du loisir
-    et est fier d’être défini comme le « 4x4 de la mer ».\r\n \r\nLa série COMFORT
-    propose quatre modèles allant de 5m à 6,30m. Les flotteurs sont fabriqués en tissu
-    PVC Haku gris clair avec une sellerie bleue qui renforce le caractère dynamique
-    de cette ligne.\r\nLa série CLASSIC propose cinq modèles allant de 5m à 6,85m.
-    Cette nouvelle série est fabriquée avec le meilleur tissu qui soit, l’Hypalon
-    ORCA. Les flotteurs sont de couleur blanc-crème, et se fondent à merveille avec
-    les tons neutres de la sellerie : style et élégance.\r\nLes deux nouvelles gammes
-    Comfort et Classic ont été conçues en tenant en compte des valeurs traditionnelles
-    d’un semi-rigide : la performance, la stabilité, la sécurité, la capacité de rangement,
-    la facilité de transport et\r\nd’utilisation. Ils proposent un package complet
-    et compétitif.\r\nValiant est le bateau idéal pour toute la famille et en toute
-    occasion : idéal pour la plongée, le ski nautique, la baignade ou tout simplement
-    pour un bain de soleil !"
+  content: |-
+    Si vos activités en mer sont la détente et la relaxation, Valiant a créé une vaste gamme de bateaux semi-rigides tout spécialement conçue à cet effet. .
+    Les deux nouvelles gammes Comfort et Classic ont été conçues en tenant en compte des valeurs traditionnelles d’un semi-rigide : la performance, la stabilité, la sécurité, la capacité de rangement, la facilité de transport et
+    d’utilisation. Ils proposent un package complet et compétitif.
+    Valiant est le bateau idéal pour toute la famille et en toute occasion : idéal pour la plongée, le ski nautique, la baignade ou tout simplement pour un bain de soleil !
   image: ''
   catalogue: 
 - id: stingray
