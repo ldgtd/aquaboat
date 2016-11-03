@@ -1,4 +1,15 @@
 ---
+- title: Test
+  content: test
+  engine: test
+  boat: test
+  width: test
+  height: test
+  people: test
+  power: test
+  money: test
+  image: "{{ site.baseurl }}/forestryio/images/logo.png"
+  url: ''
 - title: Selection Boat Cruiser 22
   content: ''
   engine: Moteur hors-bord
@@ -8,7 +19,7 @@
   people: CE 6
   power: Max 150 HP
   money: 46'340 CHF
-  image: "/forestryio/images/Cruiser-22.jpg"
+  image: "{{ site.baseurl }}/forestryio/images/Cruiser-22.jpg"
   url: http://www.google.ch
 - title: Selection Boat Aston 20
   content: ''
@@ -19,5 +30,5 @@
   people: 6
   power: Moteur Mercury F100
   money: 29'500 CHF
-  image: "/forestryio/images/ASton20.jpg"
+  image: "{{ site.baseurl }}/forestryio/images/ASton20.jpg"
   url: http://www.google.ch
