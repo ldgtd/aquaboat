@@ -7,7 +7,7 @@
       <div class="grid__item w-1/1 sm-w-1/2 md-w-1/3">
           <div class="tile box box--default mrgb pdg0">
             <div class="tile__image-container">
-              <img src="{{ occasion.image }}" class="tile__image">
+              <img src="{{ occasion.image | prepend:site.baseurl }}" class="tile__image">
             </div>
             <div class="pdg">
               <h3 class="mrgt0">{{ occasion.title }}</h3>
