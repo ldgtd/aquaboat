@@ -702,7 +702,7 @@
   people: 10
   power: 350
   money: 62510
-  image: 
+  image: forestryio/images/250cr.jpg
 - id: stingray
   title: 235 CR
   content: ''
@@ -757,7 +757,7 @@
   people: 9
   power: 250
   money: 43670
-  image: 
+  image: forestryio/images/208+CR.jpg
 - id: stingray
   title: 198 RX
   content: ''
@@ -790,7 +790,7 @@
   people: 9
   power: 200
   money: 43670
-  image: 
+  image: forestryio/images/208LR.jpg
 - id: stingray
   title: 215 LR
   content: ''
