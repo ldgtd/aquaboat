@@ -748,7 +748,7 @@
   money: 55290
   image: forestryio/images/215cr.jpg
 - id: stingray
-  title: 205 CR
+  title: 208 CR
   content: ''
   engine: Moteur inboard
   boat: Bateau cabine
@@ -768,7 +768,7 @@
   people: 9
   power: 22
   money: 41970
-  image: 
+  image: forestryio/images/198rx.jpg
 - id: stingray
   title: 198LX
   content: ''
@@ -779,7 +779,7 @@
   people: 9
   power: 20
   money: 41970
-  image: 
+  image: forestryio/images/198lx-1.jpg
 - id: stingray
   title: 208 LR
   content: ''
@@ -801,7 +801,7 @@
   people: 11
   power: 280
   money: 54220
-  image: "/forestryio/images/215lr.jpg"
+  image: forestryio/images/215lr-2.jpg
 - id: stingray
   title: 225 LR
   content: ''
@@ -812,7 +812,7 @@
   people: 10
   power: 300
   money: 48940
-  image: 
+  image: forestryio/images/225lr.jpg
 - id: stingray
   title: 225 RX
   content: ''
@@ -834,7 +834,7 @@
   people: 12
   power: 350
   money: 57650
-  image: 
+  image: forestryio/images/235lr.jpg
 - id: stingray
   title: 250 LR
   content: ''
@@ -845,4 +845,4 @@
   people: 10
   power: 350
   money: 60220
-  image: "/forestryio/images/services.jpg"
+  image: forestryio/images/250lr.jpg
