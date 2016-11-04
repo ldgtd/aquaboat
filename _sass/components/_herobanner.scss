@@ -7,14 +7,14 @@
 .herobanner--home {
   background:
   linear-gradient(to top, rgba(197, 223, 210, 0.3), $brand-color 400%),
-  url('images/herobanner-home-1.jpg');
+  url('images/herobanner-home.jpg');
 }
 
 .herobanner--buy {
   height: 360px !important;
   background:
   linear-gradient(to top, rgba(197, 223, 210, 0.4), $brand-color 400%),
-  url('images/herobanner-buy.jpg');
+  url('images/herobanner-boat.jpg');
 }
 
 .herobanner--shipyard {
@@ -22,6 +22,28 @@
   background:
   linear-gradient(to top, rgba(197, 223, 210, 0.4), $brand-color 400%),
   url('images/herobanner-shipyard.jpg');
+}
+
+.herobanner--trailer {
+  height: 360px !important;
+  background:
+  linear-gradient(to top, rgba(197, 223, 210, 0.4), $brand-color 400%),
+  url('images/herobanner-trailer.jpg');
+}
+
+
+.herobanner--engine {
+  height: 360px !important;
+  background:
+  linear-gradient(to top, rgba(197, 223, 210, 0.4), $brand-color 400%),
+  url('images/herobanner-engine-1.jpg');
+}
+
+.herobanner--occasion {
+  height: 360px !important;
+  background:
+  linear-gradient(to top, rgba(197, 223, 210, 0.4), $brand-color 400%),
+  url('images/herobanner-occasion.jpg');
 }
 
 .herobanner--map {
