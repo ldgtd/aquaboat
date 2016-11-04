@@ -4,8 +4,8 @@
   content: ''
   engine: Moteur inboard
   boat: Bateau cabine
-  width: '15.73'
-  height: '4.27'
+  height: 15.73
+  width: 4.27
   people: 12
   power: 870
   money: 565000
@@ -15,8 +15,8 @@
   content: ''
   engine: Moteur inboard
   boat: Bateau cabine
-  width: '15.73'
-  height: '4.27'
+  height: 15.73
+  width: 4.27
   people: 12
   power: 870
   money: 541750
@@ -26,8 +26,8 @@
   content: ''
   engine: Moteur inboard
   boat: Bateau cabine
-  width: '14.78'
-  height: '4.20'
+  height: 14.78
+  width: 4.20
   people: 12
   power: 870
   money: 403000
@@ -37,19 +37,19 @@
   content: ''
   engine: Moteur inboard
   boat: Bateau cabine
-  width: '11.50'
-  height: '3.85'
+  height: 11.50
+  width: 3.85
   people: 10
   power: 740
-  money: 280'000
-  image: "{{ site.baseurl }}/forestryio/images/215lr-1.jpg"
+  money: 280000
+  image: "/forestryio/images/215lr-1.jpg"
 - id: valiant
   title: '685 Classic '
   content: ''
   engine: Moteur hors-bord
   boat: Bateau semi-rigide
-  width: 6.75
-  height: 2.71
+  height: 6.75
+  width: 2.71
   people: 14
   power: 200
   money: 43940
@@ -59,8 +59,8 @@
   content: ''
   engine: Moteur hors-bord
   boat: Bateau semi-rigide
-  width: 6.3
-  height: 2.5
+  height: 6.3
+  width: 2.5
   people: 13
   power: 150
   money: 31990
@@ -70,8 +70,8 @@
   content: ''
   engine: Moteur hors-bord
   boat: Bateau semi-rigide
-  width: 5.84
-  height: 2.5
+  height: 5.84
+  width: 2.5
   people: 9
   power: 150
   money: 29750
@@ -81,8 +81,8 @@
   content: ''
   engine: Moteur hors-bord
   boat: Bateau semi-rigide
-  width: 5.33
-  height: 2.34
+  height: 5.33
+  width: 2.34
   people: 9
   power: 120
   money: 23340
@@ -92,8 +92,8 @@
   content: ''
   engine: Moteur hors-bord
   boat: Bateau semi-rigide
-  width: 5.01
-  height: 2.32
+  height: 5.01
+  width: 2.32
   people: 8
   power: 60
   money: 18770
@@ -101,10 +101,10 @@
 - id: moomba
   title: Mondo
   content: ''
-  engine: Moteur inboard V-drive
+  engine: Moteur V-drive
   boat: Bateau sport
-  width: 7.01
-  height: 2.51
+  height: 7.01
+  width: 2.51
   people: 13
   power: 550
   money: 72900
@@ -112,10 +112,10 @@
 - id: moomba
   title: Craz
   content: ''
-  engine: Moteur inboard V-drive
+  engine: Moteur V-drive
   boat: Bateau sport
-  width: 7.35
-  height: 2.51
+  height: 7.35
+  width: 2.51
   people: 16
   power: 550
   money: 75900
@@ -123,10 +123,10 @@
 - id: moomba
   title: Mojo
   content: ''
-  engine: Moteur inboard V-drive
+  engine: Moteur V-drive
   boat: Bateau sport
-  width: 7.71
-  height: 2.54
+  height: 7.71
+  width: 2.54
   people: 17
   power: 550
   money: 82900
@@ -134,21 +134,21 @@
 - id: moomba
   title: 'Helix '
   content: ''
-  engine: Moteur inboard V-drive
+  engine: Moteur V-drive
   boat: Bateau sport
-  width: 6.52
-  height: 2.59
-  people: 
-  power: 
+  height: 6.52
+  width: 2.59
+  people: 5
+  power: 250
   money: 68900
   image: 
 - id: supra
   title: SE 450
   content: ''
-  engine: Moteur inboard V-drive
+  engine: Moteur V-drive
   boat: Bateau sport
-  width: 8.19
-  height: 2.59
+  height: 8.19
+  width: 2.59
   people: 18
   power: 550
   money: 138900
@@ -156,10 +156,10 @@
 - id: supra
   title: SG 400
   content: ''
-  engine: Moteur inboard V-drive
+  engine: Moteur V-drive
   boat: Bateau sport
-  width: 7.95
-  height: 2.59
+  height: 7.95
+  width: 2.59
   people: 17
   power: 550
   money: 129900
@@ -167,10 +167,10 @@
 - id: supra
   title: SA 400
   content: ''
-  engine: Moteur inboard V-drive
+  engine: Moteur V-drive
   boat: Bateau sport
-  width: 7.58
-  height: 2.54
+  height: 7.58
+  width: 2.54
   people: 13
   power: 550
   money: 124900
@@ -178,10 +178,10 @@
 - id: supra
   title: SC 400
   content: ''
-  engine: Moteur inboard V-drive
+  engine: Moteur V-drive
   boat: Bateau sport
-  width: 7.32
-  height: 2.59
+  height: 7.32
+  width: 2.59
   people: 14
   power: 550
   money: 114900
@@ -191,8 +191,8 @@
   content: ''
   engine: Moteur inboard
   boat: Bateau cabine
-  width: 9.65
-  height: 2.77
+  height: 9.65
+  width: 2.77
   people: 8
   power: 380
   money: 139463
@@ -202,8 +202,8 @@
   content: ''
   engine: Moteur inboard
   boat: Bateau cabine
-  width: 8.79
-  height: 2.59
+  height: 8.79
+  width: 2.59
   people: 8
   power: 380
   money: 124329
@@ -213,8 +213,8 @@
   content: ''
   engine: Moteur inboard
   boat: Bateau cabine
-  width: 8.81
-  height: 2.74
+  height: 8.81
+  width: 2.74
   people: 10
   power: 380
   money: 98295
@@ -224,8 +224,8 @@
   content: ''
   engine: Moteur inboard
   boat: Bateau cabine
-  width: 8.81
-  height: 2.74
+  height: 8.81
+  width: 2.74
   people: 10
   power: 380
   money: 95479
@@ -235,10 +235,10 @@
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 7.98
-  height: 2.59
+  height: 7.98
+  width: 2.59
   people: 9
-  power: 380 Hp
+  power: 380
   money: 79371
   image: 
 - id: rinker
@@ -246,8 +246,8 @@
   content: ''
   engine: Moteur inboard
   boat: Bateau cabine
-  width: 7.17
-  height: 2.59
+  height: 7.17
+  width: 2.59
   people: 8
   power: 300
   money: 67491
@@ -257,8 +257,8 @@
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 7.17
-  height: 2.59
+  height: 7.17
+  width: 2.59
   people: 8
   power: 300
   money: 63780
@@ -268,8 +268,8 @@
   content: ''
   engine: Moteur inboard
   boat: Bateau cabine
-  width: 6.93
-  height: 2.49
+  height: 6.93
+  width: 2.49
   people: 8
   power: 300
   money: 51049
@@ -279,8 +279,8 @@
   content: ''
   engine: Moteur inboard
   boat: Bateau sport
-  width: 6.93
-  height: 2.49
+  height: 6.93
+  width: 2.49
   people: 8
   power: 300
   money: 51049
@@ -290,8 +290,8 @@
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 6.4
-  height: 2.44
+  height: 6.4
+  width: 2.44
   people: 8
   power: 300
   money: 54210
@@ -301,8 +301,8 @@
   content: ''
   engine: Moteur inboard
   boat: Bateau sport
-  width: 6.35
-  height: 2.41
+  height: 6.35
+  width: 2.41
   people: 7
   power: 200
   money: 48130
@@ -312,8 +312,8 @@
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 5.94
-  height: 2.44
+  height: 5.94
+  width: 2.44
   people: 7
   power: 250
   money: 46567
@@ -323,8 +323,8 @@
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 5.69
-  height: 2.26
+  height: 5.69
+  width: 2.26
   people: 7
   power: 200
   money: 41091
@@ -334,8 +334,8 @@
   content: ''
   engine: Moteur hors-bord
   boat: Bateau bowrider
-  width: 5.94
-  height: 2.44
+  height: 5.94
+  width: 2.44
   people: 7
   power: 200
   money: 41556
@@ -345,8 +345,8 @@
   content: ''
   engine: Moteur hors-bord
   boat: Bateau bowrider
-  width: 5.77
-  height: 2.26
+  height: 5.77
+  width: 2.26
   people: 7
   power: 150
   money: 41556
@@ -356,8 +356,8 @@
   content: ''
   engine: Moteur hors-bord
   boat: Bateau bowrider
-  width: 5.73
-  height: 2.16
+  height: 5.73
+  width: 2.16
   people: 6
   power: 115
   money: 32882
@@ -367,8 +367,8 @@
   content: ''
   engine: Moteur hors-bord
   boat: Bateau bowrider
-  width: 6.75
-  height: 2.65
+  height: 6.75
+  width: 2.65
   people: 8
   power: 140
   money: 
@@ -378,8 +378,8 @@
   content: ''
   engine: Moteur hors-bord
   boat: Bateau bowrider
-  width: 5.7
-  height: 2.2
+  height: 5.7
+  width: 2.2
   people: 6
   power: 60
   money: 
@@ -389,8 +389,8 @@
   content: ''
   engine: Moteur hors-bord
   boat: Bateau bowrider
-  width: 5.3
-  height: 1.92
+  height: 5.3
+  width: 1.92
   people: 5
   power: 30
   money: 15360
@@ -400,8 +400,8 @@
   content: ''
   engine: Moteur hors-bord
   boat: Bateau bowrider
-  width: 5.2
-  height: 1.92
+  height: 5.2
+  width: 1.92
   people: 5
   power: 30
   money: 14850
@@ -411,8 +411,8 @@
   content: ''
   engine: Moteur hors-bord
   boat: Bateau bowrider
-  width: 6.35
-  height: 2.5
+  height: 6.35
+  width: 2.5
   people: 6
   power: 150
   money: 45410
@@ -422,8 +422,8 @@
   content: ''
   engine: Moteur hors-bord
   boat: Bateau bowrider
-  width: 6.35
-  height: 2.5
+  height: 6.35
+  width: 2.5
   people: 6
   power: 150
   money: 40550
@@ -433,8 +433,8 @@
   content: ''
   engine: Moteur hors-bord
   boat: Bateau cabine
-  width: 7.45
-  height: 2.55
+  height: 7.45
+  width: 2.55
   people: 7
   power: 200
   money: 57970
@@ -444,8 +444,8 @@
   content: ''
   engine: Moteur hors-bord
   boat: Bateau cabine
-  width: 6.35
-  height: 2.5
+  height: 6.35
+  width: 2.5
   people: 6
   power: 150
   money: 46340
@@ -455,8 +455,8 @@
   content: ''
   engine: Moteur hors-bord
   boat: Bateau cabine
-  width: 6.35
-  height: 2.5
+  height: 6.35
+  width: 2.5
   people: 6
   power: 150
   money: 40480
@@ -466,8 +466,8 @@
   content: ''
   engine: Moteur hors-bord
   boat: Bateau cabine
-  width: 7.5
-  height: 2.45
+  height: 7.5
+  width: 2.45
   people: 7
   power: 200
   money: 38270
@@ -477,8 +477,8 @@
   content: ''
   engine: Moteur hors-bord
   boat: Bateau cabine
-  width: 6.3
-  height: 2.35
+  height: 6.3
+  width: 2.35
   people: 6
   power: 150
   money: 33050
@@ -488,8 +488,8 @@
   content: ''
   engine: Moteur hors-bord
   boat: Bateau cabine
-  width: 6
-  height: 2.25
+  height: 6
+  width: 2.25
   people: 6
   power: 115
   money: 29550
@@ -499,8 +499,8 @@
   content: ''
   engine: Moteur hors-bord
   boat: Bateau bowrider
-  width: 6.33
-  height: 2.48
+  height: 6.33
+  width: 2.48
   people: 6
   power: 150
   money: 26680
@@ -510,8 +510,8 @@
   content: ''
   engine: Moteur hors-bord
   boat: Bateau bowrider
-  width: 6
-  height: 2.18
+  height: 6
+  width: 2.18
   people: 6
   power: 115
   money: 26940
@@ -521,8 +521,8 @@
   content: ''
   engine: Moteur hors-bord
   boat: Bateau bowrider
-  width: 6.15
-  height: 2.15
+  height: 6.15
+  width: 2.15
   people: 6
   power: 115
   money: 29580
@@ -532,8 +532,8 @@
   content: ''
   engine: Moteur hors-bord
   boat: Bateau bowrider
-  width: 5.45
-  height: 2.08
+  height: 5.45
+  width: 2.08
   people: 6
   power: 100
   money: 25520
@@ -543,8 +543,8 @@
   content: ''
   engine: Moteur hors-bord
   boat: Bateau bowrider
-  width: 5.25
-  height: 1.95
+  height: 5.25
+  width: 1.95
   people: 5
   power: 50
   money: 14710
@@ -554,9 +554,9 @@
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 7.62
-  height: 2.55
-  people: 
+  height: 7.62
+  width: 2.55
+  people: 0
   power: 300
   money: 43670
   image: 
@@ -565,8 +565,8 @@
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 6.71
-  height: 2.54
+  height: 6.71
+  width: 2.54
   people: 8
   power: 300
   money: 43670
@@ -576,8 +576,8 @@
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 6.71
-  height: 2.54
+  height: 6.71
+  width: 2.54
   people: 8
   power: 300
   money: 43670
@@ -587,8 +587,8 @@
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 7.32
-  height: 2.54
+  height: 7.32
+  width: 2.54
   people: 11
   power: 380
   money: 32890
@@ -598,8 +598,8 @@
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 7.32
-  height: 2.54
+  height: 7.32
+  width: 2.54
   people: 11
   power: 380
   money: 43670
@@ -609,8 +609,8 @@
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 6.71
-  height: 2.54
+  height: 6.71
+  width: 2.54
   people: 9
   power: 300
   money: 43670
@@ -620,8 +620,8 @@
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 6.71
-  height: 2.54
+  height: 6.71
+  width: 2.54
   people: 9
   power: 300
   money: 43670
@@ -631,8 +631,8 @@
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 7.01
-  height: 2.44
+  height: 7.01
+  width: 2.44
   people: 7
   power: 300
   money: 43670
@@ -642,8 +642,8 @@
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 6.25
-  height: 2.44
+  height: 6.25
+  width: 2.44
   people: 7
   power: 300
   money: 43670
@@ -653,8 +653,8 @@
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 5.49
-  height: 2.26
+  height: 5.49
+  width: 2.26
   people: 6
   power: 135
   money: 41970
@@ -664,8 +664,8 @@
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 5.49
-  height: 2.26
+  height: 5.49
+  width: 2.26
   people: 6
   power: 250
   money: 32890
@@ -675,8 +675,8 @@
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 5.49
-  height: 2.26
+  height: 5.49
+  width: 2.26
   people: 6
   power: 25
   money: 31590
@@ -686,19 +686,19 @@
   content: ''
   engine: Moteur inboard
   boat: Bateau cabine
-  width: 7.6
-  height: 2.6
+  height: 7.6
+  width: 2.6
   people: 10
   power: 350
   money: 85470
-  image: "{{ site.baseurl }}/forestryio/images/250cs.jpg"
+  image: "/forestryio/images/250cs.jpg"
 - id: stingray
   title: 250 CR
   content: ''
   engine: Moteur inboard
   boat: Bateau cabine
-  width: 7.6
-  height: 2.6
+  height: 7.6
+  width: 2.6
   people: 10
   power: 350
   money: 62510
@@ -708,19 +708,19 @@
   content: ''
   engine: Moteur inboard
   boat: Bateau cabine
-  width: 7.29
-  height: 2.6
+  height: 7.29
+  width: 2.6
   people: 12
   power: 350
-  money: 58'850
+  money: 58850
   image: 
 - id: stingray
   title: 225 SX
   content: ''
   engine: Moteur inboard
   boat: Bateau sport
-  width: 7
-  height: 2.5
+  height: 7
+  width: 2.5
   people: 10
   power: 350
   money: 52470
@@ -730,8 +730,8 @@
   content: ''
   engine: Moteur inboard
   boat: Bateau cabine
-  width: 7
-  height: 2.5
+  height: 7
+  width: 2.5
   people: 10
   power: 300
   money: 51850
@@ -741,8 +741,8 @@
   content: ''
   engine: Moteur inboard
   boat: Bateau cabine
-  width: 6.7
-  height: 2.6
+  height: 6.7
+  width: 2.6
   people: 11
   power: 250
   money: 55290
@@ -752,8 +752,8 @@
   content: ''
   engine: Moteur inboard
   boat: Bateau cabine
-  width: 6.31
-  height: 2.5
+  height: 6.31
+  width: 2.5
   people: 9
   power: 250
   money: 43670
@@ -763,8 +763,8 @@
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 6
-  height: 2.4
+  height: 6
+  width: 2.4
   people: 9
   power: 22
   money: 41970
@@ -774,8 +774,8 @@
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 6
-  height: 2.4
+  height: 6
+  width: 2.4
   people: 9
   power: 20
   money: 41970
@@ -785,8 +785,8 @@
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 6.3
-  height: 2.5
+  height: 6.3
+  width: 2.5
   people: 9
   power: 200
   money: 43670
@@ -796,19 +796,19 @@
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 6.69
-  height: 2.57
+  height: 6.69
+  width: 2.57
   people: 11
   power: 280
   money: 54220
-  image: "{{ site.baseurl }}/forestryio/images/215lr.jpg"
+  image: "/forestryio/images/215lr.jpg"
 - id: stingray
   title: 225 LR
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 7
-  height: 2.5
+  height: 7
+  width: 2.5
   people: 10
   power: 300
   money: 48940
@@ -818,19 +818,19 @@
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 7
-  height: 2.5
+  height: 7
+  width: 2.5
   people: 10
   power: 250
   money: 48620
-  image: "{{ site.baseurl }}/forestryio/images/225sx.jpg"
+  image: "/forestryio/images/225sx.jpg"
 - id: stingray
   title: 235 LR
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 7.29
-  height: 2.5
+  height: 7.29
+  width: 2.5
   people: 12
   power: 350
   money: 57650
@@ -840,8 +840,8 @@
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  width: 7.6
-  height: 2.6
+  height: 7.6
+  width: 2.6
   people: 10
   power: 350
   money: 60220

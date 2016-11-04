@@ -20,12 +20,22 @@ fr:
     title: Bateau
     button: Catalogue PDF
     boats: Les bateaux de la gamme
-    meter: m
+    small-meter: m
+    meter: mètre
     max: max
     people-mesure: CE
     power-mesure: HP
     from: Dès
     devise: CHF
+    brand: Marques
+    engine: Moteur
+    boat: Type de bateau
+    width: Largeur
+    heigth: Longueur
+    people: Nbr. personnes
+    power: Puissances
+    money: Prix
+    filter: Filtrer
   engine:
     title: Moteur
     button: Catalogue de la marque

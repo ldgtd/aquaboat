@@ -5,7 +5,7 @@
     avec confort, sécurité et style. Dotés de motorisations à la page, un athlète
     sommeille dans chacun des engins griffés Supra. Engagée avec succès dans de nombreuses
     compétitions wakeboard, la marque fait figure de référence mondiale.
-  image: "{{ site.baseurl }}/forestryio/images/logo-supra-1.jpg"
+  image: "/forestryio/images/logo-supra-1.jpg"
   catalogue: 
 - id: rinker
   content: Rinker vous propose une gamme complète de bateaux de promenade et de loisirs.
@@ -14,7 +14,7 @@
     EX pour tenter l’aventure avec des cabines plus large et plus spacieuse. La marque
     de bateaux Rinker se démarque par sa qualité et son prix. La gamme apporte aux
     personnes exigeantes, de belles finitions, et un goût à la hauteur de leurs attentes.
-  image: "{{ site.baseurl }}/forestryio/images/Logo-Rinker.jpg"
+  image: "/forestryio/images/Logo-Rinker.jpg"
   catalogue: 
 - id: selection boat
   content: Selection Boats, ce sont des bateaux fabriqués pour durer. La qualité des
@@ -27,7 +27,7 @@
     conçues à cet effet. Notre objectif ? Vous offrir des moments de détente et d’évasion
     avec des bateaux de très haute qualité. Quelques soit votre passion, la pêche,
     la plongée, le sport nos bateaux ont été conçus pour les assouvir.
-  image: "{{ site.baseurl }}/forestryio/images/logo-selection-1.jpg"
+  image: "/forestryio/images/logo-selection-1.jpg"
   catalogue: 
 - id: moomba
   content: Il ne faut jamais sous-estimer un Moomba! Récipiendaire du titre très convoité
@@ -39,13 +39,13 @@
     Raptor. Ce qui en fait une embarcation abordable, sans toutefois compromettre
     la performance désirée. La meilleure façon d’apprécier chaque journée passée sur
     l’eau, c’est en Moomba!
-  image: "{{ site.baseurl }}/forestryio/images/logo-moomba.jpg"
+  image: "/forestryio/images/logo-moomba.jpg"
   catalogue: 
 - id: glastron
   content: |
     Plus de 60 ans d'héritage dans la construction de bateaux, une expérience pour créer des bateaux construits avec un style unique. Une gamme de bateaux destinés à la promenade et au sport nautique. Glastron est unique en proposant une motorisation Z-drive ou Jet.
     Prenez un moment pour vous relaxez et reprenez votre souffle. Découvrez la gamme Glastron, un intérieur convivial du poste de pilotage à l'aménagement du cockpit, un confort conçu pour durée.
-  image: "{{ site.baseurl }}/forestryio/images/Glastron-logo-2.png"
+  image: "/forestryio/images/Glastron-logo-2.png"
   catalogue: 
 - id: valiant
   content: "Si vos activités en mer sont la détente et la relaxation, Valiant a créé
@@ -56,7 +56,7 @@
     Ils proposent un package complet et compétitif. \nValiant est le bateau idéal
     pour toute la famille et en toute occasion : idéal pour la plongée, le ski nautique,
     la baignade ou tout simplement pour un bain de soleil ."
-  image: "{{ site.baseurl }}/forestryio/images/Valiant.jpg"
+  image: "/forestryio/images/Valiant.jpg"
   catalogue: 
 - id: stingray
   content: Les bateaux Stingray sont fabriqués à Hartsville, Etats-Unis. L’entreprise
@@ -93,5 +93,5 @@
     intemporelle et la noblesse de finitions travaillées dans l’art du détail. Monte
     Carlo et Grand Turism s’impose aujourd’hui comme la griffe du style, de la puissance
     et du luxe.
-  image: "{{ site.baseurl }}/forestryio/images/Logo-Beneteau.jpg"
+  image: "/forestryio/images/Logo-Beneteau.jpg"
   catalogue: "/forestryio/files/test.pdf"

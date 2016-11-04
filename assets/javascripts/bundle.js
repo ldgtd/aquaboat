@@ -937,36 +937,46 @@
 	    value: function toggleTile(filterParams) {
 	      var tile = document.querySelectorAll('#tile');
 	
-	      // console.log(filterParams);
-	      // console.log(tile);
-	
 	      for (var i = 0; i < tile.length; i++) {
-	        console.log(tile[i].dataset.boat);
-	        console.log(filterParams.boat);
+	        // console.log('filter plus petit ' + filterParams.money);
+	        // console.log('boat item ' + tile[i].dataset.money);
 	
-	        if (filterParams.brand != tile[i].dataset.brand) {
-	          tile[i].classList.add('hidden');
-	        } else if (filterParams.engine != tile[i].dataset.engine) {
-	          tile[i].classList.add('hidden');
-	        } else if (filterParams.boat != tile[i].dataset.boat) {
+	        if (filterParams.engine != tile[i].dataset.engine) {
 	          tile[i].classList.add('hidden');
 	        }
-	        // else if (filterParams.width <= tile[i].dataset.width) {
-	        //   tile[i].classList.add('hidden');
-	        // }
-	        // else if (filterParams.height <= tile[i].dataset.height) {
-	        //   tile[i].classList.add('hidden');
-	        // }
-	        // else if (filterParams.people <= tile[i].dataset.people) {
-	        //   tile[i].classList.add('hidden');
-	        // }
-	        // else if (filterParams.power <= tile[i].dataset.power) {
-	        //   tile[i].classList.add('hidden');
-	        // }
-	        // else if (filterParams.money <= tile[i].dataset.money) {
-	        //   tile[i].classList.add('hidden');
-	        // }
+	
+	        if (filterParams.boat != tile[i].dataset.boat) {
+	          tile[i].classList.add('hidden');
+	        }
+	
+	        if (parseInt(filterParams.width) <= tile[i].dataset.width) {
+	          tile[i].classList.add('hidden');
+	        }
+	
+	        if (parseInt(filterParams.height) <= tile[i].dataset.height) {
+	          tile[i].classList.add('hidden');
+	        }
+	
+	        if (parseInt(filterParams.people) <= tile[i].dataset.people) {
+	          tile[i].classList.add('hidden');
+	        }
+	
+	        if (parseInt(filterParams.power) <= tile[i].dataset.power) {
+	          tile[i].classList.add('hidden');
+	        }
+	
+	        if (parseInt(filterParams.money) <= tile[i].dataset.money) {
+	          tile[i].classList.add('hidden');
+	        }
 	      }
+	
+	      this.countResult();
+	    }
+	  }, {
+	    key: 'countResult',
+	    value: function countResult() {
+	      var count = document.querySelectorAll('#tile:not(.hidden)').length;
+	      document.querySelector('#count-results').textContent = count;
 	    }
 	  }]);
 	

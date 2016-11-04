@@ -1,5 +1,6 @@
-<div id="tile" class="grid__item w-1/1 sm-w-1/2 md-w-1/3" 
-     data-brand="{{ boat.id }}"
+{% assign t = site.data.translations[page.lang] %}
+
+<div id="tile" class="grid__item w-1/1 sm-w-1/2 md-w-1/3"
      data-engine="{{ boat.engine }}"
      data-boat="{{ boat.boat }}"
      data-width="{{ boat.width }}"
@@ -34,14 +35,14 @@
         <svg class="icon-sell pull-left">
           <use xlink:href="#width"></use>
         </svg>
-        <h5 class="pull-left pdgt-- pdgl- mrg0">{{ boat.width }} {{ t.boat.meter }}</h5>
+        <h5 class="pull-left pdgt-- pdgl- mrg0">{{ boat.width }} {{ t.boat.small-meter }}</h5>
       </div>
 
       <div class="width clearfix mrgt">
         <svg class="icon-sell pull-left">
           <use xlink:href="#height"></use>
         </svg>
-        <h5 class="pull-left pdgt-- pdgl- mrg0">{{ boat.height }} {{ t.boat.meter }}</h5>
+        <h5 class="pull-left pdgt-- pdgl- mrg0">{{ boat.height }} {{ t.boat.small-meter }}</h5>
       </div>
 
       <div class="width clearfix mrgt">

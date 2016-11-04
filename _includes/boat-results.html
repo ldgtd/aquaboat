@@ -1,5 +1,8 @@
 <section class="filtered mrgv+">
-  <h2 class="main-title"><span id="count-results"></span> résultats</h2>
+  <div class="clearfix">
+    <h2 class="main-title pull-left mrgt0"><span id="count-results"></span> Résultats</h2>
+    <a href="{{ "boat.html" | prepend: site.baseurl }}" class="btn btn--primary pull-right">retour</a>
+  </div>
   <article class="grid pdgb+ mrgb++">
       {% for boat in site.data.boat %}
         {% include boat-item.html %}
