@@ -383,7 +383,7 @@
   people: 6
   power: 60
   money: 
-  image: 
+  image: forestryio/images/c590.jpg
 - id: selection boat
   title: Classic 475 excellence
   content: ''
@@ -394,7 +394,7 @@
   people: 5
   power: 30
   money: 15360
-  image: 
+  image: forestryio/images/c475.jpg
 - id: selection boat
   title: Classic 474 excellence
   content: ''
@@ -418,17 +418,6 @@
   money: 45410
   image: 
 - id: selection boat
-  title: Bowrider 22
-  content: ''
-  engine: Moteur hors-bord
-  boat: Bateau bowrider
-  height: 6.35
-  width: 2.5
-  people: 6
-  power: 150
-  money: 40550
-  image: 
-- id: selection boat
   title: Cruiser GT 720
   content: ''
   engine: Moteur hors-bord
@@ -449,18 +438,7 @@
   people: 6
   power: 150
   money: 46340
-  image: 
-- id: selection boat
-  title: Cruiser 22
-  content: ''
-  engine: Moteur hors-bord
-  boat: Bateau cabine
-  height: 6.35
-  width: 2.5
-  people: 6
-  power: 150
-  money: 40480
-  image: 
+  image: forestryio/images/CR22.jpg
 - id: selection boat
   title: Sunny 23
   content: ''
@@ -471,7 +449,7 @@
   people: 7
   power: 200
   money: 38270
-  image: 
+  image: forestryio/images/sunny23.jpg
 - id: selection boat
   title: Sunny 21
   content: ''
@@ -482,7 +460,7 @@
   people: 6
   power: 150
   money: 33050
-  image: 
+  image: forestryio/images/sunny21.jpg
 - id: selection boat
   title: Sunny 20
   content: ''
@@ -493,7 +471,7 @@
   people: 6
   power: 115
   money: 29550
-  image: 
+  image: forestryio/images/sunny20.jpg
 - id: selection boat
   title: Aston 21
   content: ''
