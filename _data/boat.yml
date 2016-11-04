@@ -207,7 +207,7 @@
   people: 8
   power: 380
   money: 124329
-  image: forestryio/images/EX270.jpg
+  image: ''
 - id: rinker
   title: QX 29 CC
   content: ''
@@ -658,7 +658,7 @@
   people: 6
   power: 135
   money: 41970
-  image: 
+  image: forestryio/images/GTX185.jpg
 - id: glastron
   title: GTS 185
   content: ''
@@ -669,7 +669,7 @@
   people: 6
   power: 250
   money: 32890
-  image: 
+  image: forestryio/images/gts+185.png
 - id: glastron
   title: GT 185
   content: ''
