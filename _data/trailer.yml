@@ -1,4 +1,68 @@
 ---
+- title: Sunway Deluxe D1655
+  content: ''
+  height: ''
+  weight: ''
+  weight-full: ''
+  money: ''
+  catalogue: ''
+  image: forestryio/images/1465223705_d1615mp_.jpg
+- title: Sunway G2702
+  content: ''
+  height: ''
+  weight: ''
+  weight-full: ''
+  money: ''
+  catalogue: ''
+  image: forestryio/images/1458572630_g2702m16_.jpg
+- title: Sunway G2572
+  content: ''
+  height: ''
+  weight: ''
+  weight-full: ''
+  money: ''
+  catalogue: ''
+  image: forestryio/images/1458572565_g2572m16_.jpg
+- title: Sunway G1942
+  content: ''
+  height: ''
+  weight: ''
+  weight-full: ''
+  money: ''
+  catalogue: ''
+  image: forestryio/images/1458572510_g1942m16_-1.jpg
+- title: Sunway G1602
+  content: ''
+  height: ''
+  weight: ''
+  weight-full: ''
+  money: ''
+  catalogue: ''
+  image: forestryio/images/1458572510_g1942m16_.jpg
+- title: Sunway G1382
+  content: ''
+  height: ''
+  weight: ''
+  weight-full: ''
+  money: ''
+  catalogue: ''
+  image: forestryio/images/1458572198_g1340m16_-1.jpg
+- title: Sunway G1340
+  content: ''
+  height: ''
+  weight: ''
+  weight-full: ''
+  money: ''
+  catalogue: ''
+  image: forestryio/images/1458572198_g1340m16_.jpg
+- title: Sunway G1260
+  content: ''
+  height: ''
+  weight: ''
+  weight-full: ''
+  money: ''
+  catalogue: ''
+  image: forestryio/images/1458572024_g1260m16_.jpg
 - title: Sunway G380
   content: ''
   height: 4.50 m
@@ -31,27 +95,19 @@
   money: 150 CHF
   catalogue: "/forestryio/files/test.pdf"
   image: forestryio/images/1458571699_g710m16_.jpg
-- title: Remorque Y
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praetereo multos,
-    in bis doctum hominem et suavem, Hieronymum, quem iam cur Peripateticum appellem
-    nescio. At iam decimum annum in spelunca iacet. Quid ad utilitatem tantae pecuniae?
-    Equidem, sed audistine modo de Carneade? Consequens enim est et post oritur, ut
-    dixi. Duo Reges constructio interrete.
+- title: Sunway G820
+  content: ''
   height: 8m
   weight: 300 PTCA
   weight-full: 345 CUI
   money: 150 CHF
   catalogue: "/forestryio/files/test.pdf"
-  image: "/forestryio/images/services.jpg"
-- title: Remorque Y
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praetereo multos,
-    in bis doctum hominem et suavem, Hieronymum, quem iam cur Peripateticum appellem
-    nescio. At iam decimum annum in spelunca iacet. Quid ad utilitatem tantae pecuniae?
-    Equidem, sed audistine modo de Carneade? Consequens enim est et post oritur, ut
-    dixi. Duo Reges constructio interrete.
+  image: forestryio/images/1458571802_g820m16_.jpg
+- title: Sunway G1000
+  content: ''
   height: 8m
   weight: 300 PTCA
   weight-full: 345 CUI
   money: 150 CHF
   catalogue: "/forestryio/files/test.pdf"
-  image: "/forestryio/images/services.jpg"
+  image: forestryio/images/1458571891_g1000m16_.jpg
