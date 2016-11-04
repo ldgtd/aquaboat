@@ -24,3 +24,14 @@
   right: 23px;
   fill: #fff;
 }
+
+.arrow-up {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 50%;
+  bottom: -100px;
+  margin-left: -16px;
+  opacity: 0.6;
+  fill: darken($brand-color, 10%);
+}
