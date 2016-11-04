@@ -32,7 +32,7 @@
   engine: Moteur hors-bord
   power: De 175 à 400 HP
   catalogue: "/forestryio/files/test.pdf"
-  image: forestryio/images/services.jpg
+  image: forestryio/images/Quad_Verado_350_SeaVee_390_3.jpg
 - title: 'Moteur Mercruiser '
   content: "Peu importe le type de navigation, MerCruiser à le meilleur système de
     propulsion qui vous convient.\nNotre gamme exclusive de moteurs sterndrive  inboard
@@ -41,4 +41,3 @@
   engine: Moteur in board
   power: De 135 HP à 425 HP
   catalogue: "/forestryio/files/test.pdf"
-  image: forestryio/images/services.jpg
