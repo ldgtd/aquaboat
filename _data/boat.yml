@@ -27,7 +27,7 @@
   engine: Moteur inboard
   boat: Bateau cabine
   height: 14.78
-  width: 4.20
+  width: 4.2
   people: 12
   power: 870
   money: 403000
@@ -37,7 +37,7 @@
   content: ''
   engine: Moteur inboard
   boat: Bateau cabine
-  height: 11.50
+  height: 11.5
   width: 3.85
   people: 10
   power: 740
@@ -713,7 +713,7 @@
   people: 12
   power: 350
   money: 58850
-  image: 
+  image: forestryio/images/235cr.jpg
 - id: stingray
   title: 225 SX
   content: ''
@@ -724,7 +724,7 @@
   people: 10
   power: 350
   money: 52470
-  image: 
+  image: forestryio/images/225sx-1.jpg
 - id: stingray
   title: 225 CR
   content: ''
@@ -735,7 +735,7 @@
   people: 10
   power: 300
   money: 51850
-  image: 
+  image: forestryio/images/225cr-1.jpg
 - id: stingray
   title: 215 CR
   content: ''
@@ -746,7 +746,7 @@
   people: 11
   power: 250
   money: 55290
-  image: 
+  image: forestryio/images/215cr.jpg
 - id: stingray
   title: 205 CR
   content: ''
