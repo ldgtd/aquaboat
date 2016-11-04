@@ -515,7 +515,7 @@
   people: 6
   power: 115
   money: 26940
-  image: 
+  image: forestryio/images/AS20.jpg
 - id: selection boat
   title: Aston 19
   content: ''
@@ -537,7 +537,7 @@
   people: 6
   power: 100
   money: 25520
-  image: 
+  image: forestryio/images/AS19.jpg
 - id: selection boat
   title: Aston 16
   content: ''
@@ -548,7 +548,7 @@
   people: 5
   power: 50
   money: 14710
-  image: 
+  image: forestryio/images/img.jpg
 - id: glastron
   title: GS 259 (NEW 2016)
   content: ''
