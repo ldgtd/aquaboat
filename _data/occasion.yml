@@ -1,15 +1,4 @@
 ---
-- title: Test
-  content: test
-  engine: test
-  boat: test
-  width: test
-  height: test
-  people: test
-  power: test
-  money: test
-  image: forestryio/images/Glastron-logo-2-1.png
-  url: ''
 - title: Selection Boat Cruiser 22
   content: ''
   engine: Moteur hors-bord
