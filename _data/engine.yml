@@ -25,10 +25,10 @@
   catalogue: "/forestryio/files/test.pdf"
   image: ''
 - title: Moteur Mercruy Verado
-  content: "Les hors-bord Verado ont créé toute une série de normes nouvelles dans
+  content: Les hors-bord Verado ont créé toute une série de normes nouvelles dans
     le domaine de la performance. Quelle que soit la définition que l'on veuille en
-    donner. \nFaible bruit et vibrations réduites ? OK. \nFaible consommation de carburant
-    ? OK. \nQuatre temps suralimenté et couple ? OK. \nUn moteur au pus haute exigence!"
+    donner. Faible consommation de carburant, quatre temps suralimenté et couple,
+    un moteur au pus haute exigence!
   engine: Moteur hors-bord
   power: De 175 à 400 HP
   catalogue: "/forestryio/files/test.pdf"
