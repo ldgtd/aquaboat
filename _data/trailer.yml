@@ -4,19 +4,25 @@
   height: 4.50 m
   weight: PTAC 500 KG
   weight-full: CU 140 KG
+  money: 150 CHF
   catalogue: "/forestryio/files/test.pdf"
+  image: /forestryio/images/services.jpg
 - title: Sunway G510
   content: ''
   height: 4.50 m
   weight: PTAC 750 kg
   weight-full: CU 200 kg
+  money: 150 CHF
   catalogue: "/forestryio/files/test.pdf"
+  image: /forestryio/images/services.jpg
 - title: Sunway G650
   content: ''
   height: 4.70 m
   weight: PTAC 1000 kg
   weight-full: CU 310 kg
+  money: 150 CHF
   catalogue: "/forestryio/files/test.pdf"
+  image: /forestryio/images/services.jpg
 - title: Remorque Y
   content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praetereo multos,
     in bis doctum hominem et suavem, Hieronymum, quem iam cur Peripateticum appellem
@@ -26,7 +32,9 @@
   height: 8m
   weight: 300 PTCA
   weight-full: 345 CUI
+  money: 150 CHF
   catalogue: "/forestryio/files/test.pdf"
+  image: /forestryio/images/services.jpg
 - title: Remorque Y
   content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praetereo multos,
     in bis doctum hominem et suavem, Hieronymum, quem iam cur Peripateticum appellem
@@ -36,7 +44,9 @@
   height: 8m
   weight: 300 PTCA
   weight-full: 345 CUI
+  money: 150 CHF
   catalogue: "/forestryio/files/test.pdf"
+  image: /forestryio/images/services.jpg
 - title: Remorque Y
   content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praetereo multos,
     in bis doctum hominem et suavem, Hieronymum, quem iam cur Peripateticum appellem
@@ -46,4 +56,6 @@
   height: 8m
   weight: 300 PTCA
   weight-full: 345 CUI
+  money: 150 CHF
   catalogue: "/forestryio/files/test.pdf"
+  image: /forestryio/images/services.jpg
