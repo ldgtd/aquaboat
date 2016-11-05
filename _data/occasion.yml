@@ -9,7 +9,7 @@
   power: Max 150 HP
   money: 46'340 CHF
   image: "{{ site.baseurl }}/forestryio/images/Cruiser-22.jpg"
-  url: http://www.google.ch
+  url: http://www.bateau24.ch/chfr/Bateaux+a+moteur/Selection+Boats/Selection+Boats+Cruiser+22/detail/271377/
 - title: Selection Boat Aston 20
   content: ''
   engine: Moteur hors-bord
