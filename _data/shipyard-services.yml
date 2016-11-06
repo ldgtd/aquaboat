@@ -4,12 +4,12 @@
     de l'entretien de votre moteur inboard ou hors bord au remotorisation.\nNotre
     équipe reste à votre écoute grâce au formation continue de nos partenaires Mercury
     et Volvo Penta afin de vous accompagnez dans votre passion qui est la notre. "
-  image: forestryio/images/2.jpg
+  image: "forestryio/images/2.jpg"
 - title: Hivernage et stockage
   content: "Pour un entretien optimum de votre bateau nous vous offrons diverses prestations
     afin de préparer votre future saison. \r\nAvec 5'000 m2 de stockage sécurisé au
     nous vos proposons le gardiennage de votre bateau sous bâche thermoformé.\r\n"
-  image: forestryio/images/hiv.jpg
+  image: "forestryio/images/hiv.jpg"
 - title: Nouvelle installation
   content: "Notre équipe technique jeune et dynamique à la pointe des nouvelles technologie
     pourra vous assistez afin de crée ensemble des projet sur votre bateau.\r\nTel
@@ -17,21 +17,21 @@
     trim contrôle\r\n- Ecran de contrôle, sondeur, GPS\r\n- Equipement de pêche \r\n-
     Installation de matériel de tractage (tour monster tower)\r\n- Moteur hors- bord
     de la gamme 4 CV au nouveau 400 Verdo\r\n\r\n"
-  image: forestryio/images/MM_Joystick_VesselView_JPO_Cigarette-(8-of-39).jpg
+  image: "forestryio/images/MM_Joystick_VesselView_JPO_Cigarette-(8-of-39).jpg"
 - title: 'Assistance & dépannage '
   content: "Le nautisme un loisir, pour vous assurez votre plaisir de navigation notre
     team technique vous assiste et vous soutien. Nous intervenons pour vous de lausanne
     au Bouveret ainsi que sur la cote Francaise. \r\n"
-  image: ''
+  image: ""
 - title: Peinture & réparation coque
   content: "Notre équipe redonne à votre embarcation son lustre d’origine, change
     sa couleur ou retrouve sa teinte d’origine.\r\nIl est aussi possible de refaire
     l’antidérapant de votre pont en différentes couleurs ou textures. Grace à nos
     spécialistes du domaine de la construction bateau nous vous aidons pour votre
     projet de rénovation."
-  image: ''
+  image: ""
 - title: Sellerie & bâche
   content: 'Nous vous proposons nos service de A à Z grace à nos partenaires de confiance.
     Une rénovation sellerie ou une bâche en stamoide thermos soudé de qualité supérieur,
     cela fais parti intégrante de nos prestations. '
-  image: ''
+  image: ""
