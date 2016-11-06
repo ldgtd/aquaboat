@@ -1,16 +1,18 @@
 <h2 class="main-title">{{ t.home.services }}</h2>
 <article class="services grid">
   {% for service in site.data.services %}
-    <div class="grid__item sm-w-1/2">
-        <div class="tile box box--default mrgb pdg0">
-        <div class="tile__image-container">
-            <img src="{{ service.image | prepend:site.baseurl }}" class="tile__image">
+    <a href="{{ service.link | prepend:site.baseurl }}.html">
+      <div class="grid__item sm-w-1/2">
+          <div class="tile box box--default mrgb pdg0">
+          <div class="tile__image-container">
+              <img src="{{ service.image | prepend:site.baseurl }}" class="tile__image">
+            </div>
+            <div class="pdg">
+              <h3 class="mrgt0">{{ service.title }}</h3>
+              <p>{{ service.content }}</p>
+            </div>
           </div>
-          <div class="pdg">
-            <h3 class="mrgt0">{{ service.title }}</h3>
-            <p>{{ service.content }}</p>
-          </div>
-        </div>
-    </div>
+      </div>
+    </a>
   {% endfor %}
 </article>
