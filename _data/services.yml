@@ -4,8 +4,8 @@
   image: forestryio/images/comparateur.jpg
   link: buy
 - title: Les bonnes affaires
-  content: Pour compléter notre gamme, nous vous proposons un large choix d'objet
-    d'occasion, ainsi que des déstockages de bateaux d'usine ou  des promotions pré-saison.
+  content: "- large choix d'objets d'occasion \n- destockage de bateau d'usine\n-
+    promotion pré -saison\n\nSoyez curieux! Venez découvrir nos bonnes affaires "
   image: forestryio/images/bonne-affaire.jpg
   link: occasion
 - title: Nos prestations
