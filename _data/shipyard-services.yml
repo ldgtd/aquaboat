@@ -1,9 +1,9 @@
 ---
 - title: Mécanique & électricité
-  content: "Pour votre confort et votre sécurité nous vous proposons diverses prestation,
-    de l'entretien de votre moteur inboard ou hors bord au remotorisation.\nNotre
-    équipe reste à votre écoute grâce au formation continue de nos partenaires Mercury
-    et Volvo Penta afin de vous accompagnez dans votre passion qui est la notre. "
+  content: |-
+    Pour votre confort et votre sécurité nous vous proposons diverses prestation allant de l'entretien de votre moteur inboard ou hors bord à la remotorisation.
+
+    Formée par nos partenaires Mercury et Volvo Penta, une équipe compétente et disponible est à votre disposition afin de vous accompagner dans votre passion qui est aussi la notre.
   image: forestryio/images/2.jpg
 - title: Hivernage et stockage
   content: "Pour un entretien optimum de votre bateau nous vous offrons diverses prestations
@@ -29,9 +29,9 @@
     l’antidérapant de votre pont en différentes couleurs ou textures. Grace à nos
     spécialistes du domaine de la construction bateau nous vous aidons pour votre
     projet de rénovation."
-  image:
+  image: 
 - title: Sellerie & bâche
   content: 'Nous vous proposons nos service de A à Z grace à nos partenaires de confiance.
     Une rénovation sellerie ou une bâche en stamoide thermos soudé de qualité supérieur,
     cela fais parti intégrante de nos prestations. '
-  image:
+  image: 
