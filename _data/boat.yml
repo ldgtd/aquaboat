@@ -9,7 +9,7 @@
   people: 12
   power: 870
   money: 565000
-  image: ''
+  image: forestryio/images/%C2%A8gt49%20fly.jpg
 - id: beneteau
   title: Grand Turismo 49
   content: ''
@@ -20,7 +20,7 @@
   people: 12
   power: 870
   money: 541750
-  image: ''
+  image: forestryio/images/gt49.jpg
 - id: beneteau
   title: Grand Turismo 46
   content: ''
@@ -31,7 +31,7 @@
   people: 12
   power: 870
   money: 403000
-  image: ''
+  image: forestryio/images/gt46.jpg
 - id: beneteau
   title: Grand Tursimo 40
   content: ''
@@ -42,7 +42,7 @@
   people: 10
   power: 740
   money: 280000
-  image: "/forestryio/images/215lr-1.jpg"
+  image: forestryio/images/beneteau-gt40.jpg
 - id: valiant
   title: '685 Classic '
   content: ''
