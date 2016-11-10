@@ -108,7 +108,7 @@
   people: 13
   power: 550
   money: 72900
-  image: 
+  image: forestryio/images/mondo.jpg
 - id: moomba
   title: Craz
   content: ''
@@ -119,7 +119,7 @@
   people: 16
   power: 550
   money: 75900
-  image: 
+  image: forestryio/images/craz.jpg
 - id: moomba
   title: Mojo
   content: ''
@@ -130,7 +130,7 @@
   people: 17
   power: 550
   money: 82900
-  image: 
+  image: forestryio/images/mojo-5.jpg
 - id: moomba
   title: 'Helix '
   content: ''
@@ -141,7 +141,7 @@
   people: 5
   power: 250
   money: 68900
-  image: 
+  image: forestryio/images/helix.jpg
 - id: supra
   title: SE 450
   content: ''
