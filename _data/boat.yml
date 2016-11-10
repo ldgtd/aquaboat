@@ -152,7 +152,7 @@
   people: 18
   power: 550
   money: 138900
-  image: 
+  image: forestryio/images/se450-1.jpg
 - id: supra
   title: SG 400
   content: ''
@@ -163,7 +163,7 @@
   people: 17
   power: 550
   money: 129900
-  image: 
+  image: forestryio/images/sg400-1.jpg
 - id: supra
   title: SA 400
   content: ''
@@ -174,7 +174,7 @@
   people: 13
   power: 550
   money: 124900
-  image: 
+  image: forestryio/images/sa400-1.jpg
 - id: supra
   title: SC 400
   content: ''
@@ -185,7 +185,7 @@
   people: 14
   power: 550
   money: 114900
-  image: 
+  image: forestryio/images/sc400-2.jpg
 - id: rinker
   title: EX 290
   content: ''
