@@ -17,7 +17,7 @@ export default class Form {
         message = document.querySelector('#message').value;
 
     var ajax = new Ajax({
-      url: 'https://formspree.io/ludodevlab@gmail.com',
+      url: 'https://formspree.io/matthieu.turmel@aquaboat.ch',
       method: 'POST',
       data: {
         name: name,
