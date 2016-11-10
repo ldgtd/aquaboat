@@ -23,15 +23,15 @@
   content: "Pour vous assurez  une navigation sans soucis, notre team technique vous
     assiste et vous soutien.\n Nous intervenons de Lausanne au Bouveret ainsi que
     sur la côte  Francaise. \n"
-  image: 
+  image: 'forestryio/images/engine.jpg'
 - title: Peinture & réparation coque
   content: " Grâce à nos spécialistes du domaine de la construction, nous sommes à
     même de vous aider dans vos projets de rénovation : \n- retrouver la teinte d'origine
     \n- changer la couleur\n- refaire l'anti dérapant dans la couleur ou texture de
     votre choix."
-  image: ''
+  image: 'forestryio/images/paint.jpg'
 - title: Sellerie & bâche
   content: 'Nous vous proposons nos services de A à Z grâce à nos partenaires de confiance.
     Une rénovation sellerie ou une bâche en stamoide thermos soudé de qualité supérieure
     ,  font parties intégrantes de nos prestations. '
-  image: 
+  image: forestryio/images/boat-bache.jpg
