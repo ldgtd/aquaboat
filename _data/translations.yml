@@ -56,7 +56,7 @@ fr:
   contact:
     title: Rester en contact avec nous
     form:
-      success: Bravo ! Votre message nous a bein été envoyé !
+      success: Bravo ! Votre message nous a bien été envoyé !
       error: Bim ! Un problème est survenu, essaie encore !
       name: Nom
       email: Email
