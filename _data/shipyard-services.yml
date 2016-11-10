@@ -22,16 +22,16 @@
   content: "Le nautisme un loisir, pour vous assurez votre plaisir de navigation notre
     team technique vous assiste et vous soutien. Nous intervenons pour vous de lausanne
     au Bouveret ainsi que sur la cote Francaise. \r\n"
-  image: ''
+  image: 'forestryio/images/engine.jpg'
 - title: Peinture & réparation coque
   content: "Notre équipe redonne à votre embarcation son lustre d’origine, change
     sa couleur ou retrouve sa teinte d’origine.\r\nIl est aussi possible de refaire
     l’antidérapant de votre pont en différentes couleurs ou textures. Grace à nos
     spécialistes du domaine de la construction bateau nous vous aidons pour votre
     projet de rénovation."
-  image: ''
+  image: 'forestryio/images/paint.jpg'
 - title: Sellerie & bâche
   content: 'Nous vous proposons nos service de A à Z grace à nos partenaires de confiance.
     Une rénovation sellerie ou une bâche en stamoide thermos soudé de qualité supérieur,
     cela fais parti intégrante de nos prestations. '
-  image: ''
+  image: forestryio/images/boat-bache.jpg

@@ -2,23 +2,23 @@
 - title: Comparateur bateau
   content: Profitez de notre comparateur online pour trouver le bateau de vos rêves,
     selon vos critères de recherche.
-  image: forestryio/images/comparateur.jpg
+  image: forestryio/images/compar.jpg
   link: boat
 - title: Les bonnes affaires
   content: Pour compléter notre gamme nous vous proposons une large choix d'objet
     d'occasion, ainsi que des déstockages bateau d'usines ou encore des promotions
     pré-saison.
-  image: forestryio/images/bonne-affaire.jpg
+  image: forestryio/images/good-deal.jpg
   link: occasion
 - title: Nos prestations
   content: "Pour assurer votre confort et votre sécurité,  nous mettons à votre disposition
     \ toutes une gamme de prestations, de l'hivernage de votre bateau à la rénovation
     de votre moteur ou coque.\r\n"
-  image: forestryio/images/prestation-1.jpg
+  image: forestryio/images/presta.jpg
   link: shipyard
 - title: Restez en contact avec nous
   content: "Pour toutes demandes de devis ou d'informations nous sommes à votre dispositions
     du lundi au vendredi et le samedi sur rendez-vous, ou par notre formulaire de
     contact.\r\n"
-  image: forestryio/images/contact.jpg
+  image: forestryio/images/contact-nous.jpg
   link: contact
