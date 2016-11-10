@@ -207,7 +207,7 @@
   people: 8
   power: 380
   money: 124329
-  image: ''
+  image: forestryio/images/EX270-1.jpg
 - id: rinker
   title: QX 29 CC
   content: ''
@@ -229,7 +229,7 @@
   people: 10
   power: 380
   money: 95479
-  image: forestryio/images/QX+29br.jpg
+  image: forestryio/images/QX%2029br-1.jpg
 - id: rinker
   title: QX 26 BR
   content: ''
