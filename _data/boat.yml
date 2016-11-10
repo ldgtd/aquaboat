@@ -427,7 +427,7 @@
   people: 7
   power: 200
   money: 57970
-  image: 
+  image: forestryio/images/gt720.jpg
 - id: selection boat
   title: Cruiser 22 Excellence
   content: ''
