@@ -53,7 +53,7 @@
   people: 14
   power: 200
   money: 43940
-  image: forestryio/images/Valiant+Classic+685+Lifestyle+4_1.jpg
+  image: forestryio/images/Valiant%20Classic%20685%20Lifestyle%204-1.jpg
 - id: valiant
   title: '630 Classic '
   content: ''
@@ -64,7 +64,7 @@
   people: 13
   power: 150
   money: 31990
-  image: forestryio/images/Valiant+Classic+630+Studio+Picture.jpg
+  image: forestryio/images/Valiant%20Classic%20630%20Studio%20Picture-1.jpg
 - id: valiant
   title: 580 Classic
   content: ''
@@ -75,7 +75,7 @@
   people: 9
   power: 150
   money: 29750
-  image: forestryio/images/Valiant+Classic+580+Studio+Picture.jpg
+  image: forestryio/images/Valiant%20Classic%20580%20Studio%20Picture-1.jpg
 - id: valiant
   title: 550 Classic
   content: ''
@@ -86,7 +86,7 @@
   people: 9
   power: 120
   money: 23340
-  image: forestryio/images/Valiant+Classic+550+Studio+picture.jpg
+  image: forestryio/images/Valiant%20Classic%20550%20Studio%20picture-1.jpg
 - id: valiant
   title: 500 Classic
   content: ''
@@ -97,7 +97,7 @@
   people: 8
   power: 60
   money: 18770
-  image: forestryio/images/Valiant+Classic+500+Studio+picture.jpg
+  image: forestryio/images/Valiant%20Classic%20500%20Studio%20picture-1.jpg
 - id: moomba
   title: Mondo
   content: ''
