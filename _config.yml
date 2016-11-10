@@ -2,7 +2,7 @@
 title: Aquaboat
 # the subpath baseurl must be to be publish & working in production under aquaboat.ch
 # if you want to preview the website under username.github.io/aquaboat, you have to change baseurl to /aquaboat
-baseurl: "/aquaboat/"
+baseurl: ""
 url: "http://www.aquaboat.ch" # the base hostname & protocol for your site
 email: "ludodevlab@gmail.com"
 
