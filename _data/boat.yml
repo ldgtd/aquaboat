@@ -526,7 +526,7 @@
   people: 0
   power: 300
   money: 43670
-  image: 
+  image: forestryio/images/gt259.jpg
 - id: glastron
   title: GTS 229
   content: ''
@@ -537,7 +537,7 @@
   people: 8
   power: 300
   money: 43670
-  image: 
+  image: forestryio/images/gts229.jpg
 - id: glastron
   title: GT 229
   content: ''
@@ -548,7 +548,7 @@
   people: 8
   power: 300
   money: 43670
-  image: 
+  image: forestryio/images/gt229.jpg
 - id: glastron
   title: GTS 245
   content: ''
@@ -559,7 +559,7 @@
   people: 11
   power: 380
   money: 32890
-  image: 
+  image: forestryio/images/gts245.jpg
 - id: glastron
   title: GT 245
   content: ''
@@ -570,7 +570,7 @@
   people: 11
   power: 380
   money: 43670
-  image: 
+  image: forestryio/images/gt245.jpg
 - id: glastron
   title: GTS 225
   content: ''
@@ -603,7 +603,7 @@
   people: 7
   power: 300
   money: 43670
-  image: 
+  image: forestryio/images/gts205.jpg
 - id: glastron
   title: GT 205
   content: ''
@@ -614,7 +614,7 @@
   people: 7
   power: 300
   money: 43670
-  image: 
+  image: forestryio/images/gt205.jpg
 - id: glastron
   title: GTX 185
   content: ''
@@ -625,7 +625,7 @@
   people: 6
   power: 135
   money: 41970
-  image: forestryio/images/GTX185.jpg
+  image: forestryio/images/GTX185-1.jpg
 - id: glastron
   title: GTS 185
   content: ''
