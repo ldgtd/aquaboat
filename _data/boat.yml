@@ -636,7 +636,7 @@
   people: 6
   power: 250
   money: 32890
-  image: forestryio/images/gts+185.png
+  image: forestryio/images/gts%20185.jpg
 - id: glastron
   title: GT 185
   content: ''
@@ -647,7 +647,7 @@
   people: 6
   power: 25
   money: 31590
-  image: 
+  image: forestryio/images/gt%20185.jpg
 - id: stingray
   title: 250 CS
   content: ''
