@@ -372,7 +372,7 @@
   people: 8
   power: 140
   money: 
-  image: 
+  image: forestryio/images/690.jpg
 - id: selection boat
   title: Classic 590 excellence
   content: ''
@@ -405,7 +405,7 @@
   people: 5
   power: 30
   money: 14850
-  image: 
+  image: forestryio/images/474.jpg
 - id: selection boat
   title: Bowrider 22 excellence
   content: ''
@@ -416,7 +416,7 @@
   people: 6
   power: 150
   money: 45410
-  image: 
+  image: forestryio/images/br22.jpg
 - id: selection boat
   title: Cruiser GT 720
   content: ''
@@ -482,7 +482,7 @@
   people: 6
   power: 150
   money: 26680
-  image: 
+  image: forestryio/images/aston%2021-1.jpg
 - id: selection boat
   title: Aston 20
   content: ''
@@ -494,17 +494,6 @@
   power: 115
   money: 26940
   image: forestryio/images/AS20.jpg
-- id: selection boat
-  title: Aston 19
-  content: ''
-  engine: Moteur hors-bord
-  boat: Bateau bowrider
-  height: 6.15
-  width: 2.15
-  people: 6
-  power: 115
-  money: 29580
-  image: 
 - id: selection boat
   title: Aston 18
   content: ''
