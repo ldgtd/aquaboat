@@ -241,7 +241,7 @@
 	          message = document.querySelector('#message').value;
 	
 	      var ajax = new _simpleAjax2.default({
-	        url: 'https://formspree.io/ludodevlab@gmail.com',
+	        url: 'https://formspree.io/matthieu.turmel@aquaboat.ch',
 	        method: 'POST',
 	        data: {
 	          name: name,
