@@ -1,4 +1,26 @@
 ---
+- title: Ocean Craft Nodic 22
+  content: ''
+  engine: Mercruiser 5.0L V8
+  boat: Bateau Bowrider
+  width: 6.60 m
+  height: 2.34 m
+  people: C 6
+  power: 220 HP
+  money: 42'500 CHF
+  image: ''
+  url: ''
+- title: Maxum 2000 SR 2
+  content: ''
+  engine: Mercruiser 5.0L V8
+  boat: Bateau bowrider
+  width: 6.20 m
+  height: 2.38 m
+  people: C6
+  power: 220 HP
+  money: 18'000 CHF
+  image: ''
+  url: ''
 - title: Selection Boat Cruiser 22
   content: ''
   engine: Moteur hors-bord
