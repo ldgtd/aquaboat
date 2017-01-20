@@ -21,17 +21,17 @@
   money: 14'500 CHF
   image: "/forestryio/images/IMG-20161223-WA0004-2.jpg"
   url: http://www.bateau24.ch/chfr/bateaux+a+moteur/larson/larson+194+br/detail/285603/
-- title: Selection Boat Cruiser 22
-  content: ''
-  engine: Moteur hors-bord
-  boat: Bateau cabine
-  width: 6.35 m
-  height: 2.50 m
-  people: CE 6
-  power: Max 150 HP
-  money: 46'340 CHF
-  image: 
-  url: http://www.bateau24.ch/chfr/Bateaux+a+moteur/Selection+Boats/Selection+Boats+Cruiser+22/detail/271377/
+- title: Stingray 198 LX
+  content: Année 2017
+  engine: Mercuiser 4.3 MPI
+  boat: Bateau bowrider
+  width: 6.00 m
+  height: 2.40 m
+  people: CE 9
+  power: 180 HP
+  money: 49'580 CHF
+  image: "/forestryio/images/stingray-bleu-11.jpg"
+  url: http://www.bateau24.ch/chfr/bateaux+a+moteur/stingray/stingray+198+lx/detail/287208/
 - title: Selection Boat Aston 20
   content: ''
   engine: Moteur hors-bord
