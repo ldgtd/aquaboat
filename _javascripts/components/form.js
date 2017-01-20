@@ -2,7 +2,7 @@ import Ajax from 'simple-ajax';
 
 export default class Form {
   constructor() {
-    //document.querySelector('form[name="form"]').addEventListener('submit', this.sendFrom.bind(this));
+    document.querySelector('form[name="form"]').addEventListener('submit', this.sendFrom.bind(this));
   }
 
   /**
