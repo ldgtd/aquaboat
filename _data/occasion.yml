@@ -1,4 +1,15 @@
 ---
+- title: Sunseeker Hawk
+  content: Année 1996
+  engine: Mercruiser 5.7L
+  boat: Bateau cabine
+  width: 8.20 m
+  height: 2.75 m
+  people: C8
+  power: 2x 223 HP
+  money: 22'500 CHF
+  image: "/forestryio/images/233038-01e11e02cdec92f962151e0ba1944800.jpg"
+  url: http://www.bateau24.ch/chfr/bateaux+a+moteur/sunseeker/sunseeker+hawk/detail/233038/
 - title: Saga 25 CC HT
   content: Année 1992
   engine: Volvo Penta Diesel
