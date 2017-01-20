@@ -221,9 +221,9 @@
 	var Form = function () {
 	  function Form() {
 	    _classCallCheck(this, Form);
-	
-	    document.querySelector('form[name="form"]').addEventListener('submit', this.sendFrom.bind(this));
 	  }
+	  //document.querySelector('form[name="form"]').addEventListener('submit', this.sendFrom.bind(this));
+	
 	
 	  /**
 	   * sending contact form throught Formspree
