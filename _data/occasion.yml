@@ -7,9 +7,9 @@
   height: 2.34 m
   people: C 6
   power: 220 HP
-  money: 36'500 CHF
-  image: forestryio/images/%C2%A8gt49%20fly.jpg
-  url:
+  money: 31900
+  image: "/forestryio/images/20161119_121506.jpg"
+  url: http://www.bateau24.ch/chfr/bateaux+a+moteur/nordic+oceancraft/nordic+oceancraft+nordic+22+br+-+dstockage+usine/detail/282875/
 - title: Maxum 2000 SR 2
   content: ''
   engine: Mercruiser 5.0L V8
@@ -19,7 +19,7 @@
   people: C6
   power: 220 HP
   money: 18'000 CHF
-  image:
+  image: 
   url: ''
 - title: Selection Boat Cruiser 22
   content: ''
@@ -30,7 +30,7 @@
   people: CE 6
   power: Max 150 HP
   money: 46'340 CHF
-  image:
+  image: 
   url: http://www.bateau24.ch/chfr/Bateaux+a+moteur/Selection+Boats/Selection+Boats+Cruiser+22/detail/271377/
 - title: Selection Boat Aston 20
   content: ''
