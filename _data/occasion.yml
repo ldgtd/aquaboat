@@ -1,4 +1,15 @@
 ---
+- title: Cruiser 22
+  content: Année 2017
+  engine: Mercury EFI 150
+  boat: Bateau cabine
+  width: 6.35 m
+  height: 2.50 m
+  people: C6
+  power: 150 HP
+  money: 48'900 CHF
+  image: "/forestryio/images/20160816_174055.jpg"
+  url: ''
 - title: Bavaria 29 Sport DC
   content: Année 2004
   engine: Volvo Penta 8.1 Gi
