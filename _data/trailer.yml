@@ -83,16 +83,16 @@
   content: ''
   height: 4.50 m
   weight: PTAC 500 KG
-  weight-full: CU 140 KG
-  money: 150 CHF
+  weight-full: CU 360 KG
+  money: 1'544 CHF
   catalogue: "/forestryio/files/test.pdf"
   image: forestryio/images/1465224177_g380m16_13p_.jpg
 - title: Sunway G510
   content: ''
   height: 4.50 m
   weight: PTAC 750 kg
-  weight-full: CU 200 kg
-  money: 150 CHF
+  weight-full: CU 550 kg
+  money: 1'650 CHF
   catalogue: "/forestryio/files/test.pdf"
   image: forestryio/images/1458571567_g510m16_.jpg
 - title: Sunway G650
