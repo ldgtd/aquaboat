@@ -1,84 +1,4 @@
 ---
-- title: Sunyway D1628            spécial ski nautique
-  content: ''
-  height: ''
-  weight: ''
-  weight-full: ''
-  money: ''
-  catalogue: ''
-  image: forestryio/images/1465224083_d1628sn_.jpg
-- title: Sunway D1625              spécial ski nautique
-  content: ''
-  height: ''
-  weight: ''
-  weight-full: ''
-  money: ''
-  catalogue: ''
-  image: forestryio/images/1465224056_d1625sn_.jpg
-- title: 'Sunway D1623              spécial ski nautique  '
-  content: ''
-  height: ''
-  weight: ''
-  weight-full: ''
-  money: ''
-  catalogue: ''
-  image: forestryio/images/1465224011_d1623sn_.jpg
-- title: Sunway G2702
-  content: ''
-  height: ''
-  weight: ''
-  weight-full: ''
-  money: ''
-  catalogue: ''
-  image: forestryio/images/1458572630_g2702m16_.jpg
-- title: Sunway G2572
-  content: ''
-  height: ''
-  weight: ''
-  weight-full: ''
-  money: ''
-  catalogue: ''
-  image: forestryio/images/1458572565_g2572m16_.jpg
-- title: Sunway G1942
-  content: ''
-  height: ''
-  weight: ''
-  weight-full: ''
-  money: ''
-  catalogue: ''
-  image: forestryio/images/1458572510_g1942m16_-1.jpg
-- title: Sunway G1602
-  content: ''
-  height: ''
-  weight: ''
-  weight-full: ''
-  money: ''
-  catalogue: ''
-  image: forestryio/images/1458572510_g1942m16_.jpg
-- title: Sunway G1382
-  content: ''
-  height: ''
-  weight: ''
-  weight-full: ''
-  money: ''
-  catalogue: "/forestryio/images/1466509045_g1382m16_step_.jpg"
-  image: forestryio/images/1458572198_g1340m16_-1.jpg
-- title: Sunway G1340
-  content: ''
-  height: 6.80 m
-  weight: PTAC 1800 kg
-  weight-full: CU 1320 kg
-  money: 5'122 CHF
-  catalogue: ''
-  image: forestryio/images/1458572198_g1340m16_.jpg
-- title: Sunway G1260
-  content: ''
-  height: 6.80 m
-  weight: PTAC 1600 kg
-  weight-full: CU 1180 kg
-  money: 4'580 CHF
-  catalogue: ''
-  image: forestryio/images/1458572024_g1260m16_.jpg
 - title: Sunway G380
   content: ''
   height: 5 m
@@ -127,3 +47,83 @@
   money: 3'966 CHF
   catalogue: "/forestryio/files/test.pdf"
   image: forestryio/images/1458571891_g1000m16_.jpg
+- title: Sunway G1260
+  content: ''
+  height: 6.80 m
+  weight: PTAC 1600 kg
+  weight-full: CU 1180 kg
+  money: 4'580 CHF
+  catalogue: ''
+  image: forestryio/images/1458572024_g1260m16_.jpg
+- title: Sunway G1340
+  content: ''
+  height: 6.80 m
+  weight: PTAC 1800 kg
+  weight-full: CU 1320 kg
+  money: 5'122 CHF
+  catalogue: ''
+  image: "/forestryio/images/1-1.jpg"
+- title: Sunway G1382
+  content: ''
+  height: 6.20 m
+  weight: PTAC 1800 kg
+  weight-full: CU 1290 kg
+  money: 5'511 CHF
+  catalogue: "/forestryio/images/1466509045_g1382m16_step_.jpg"
+  image: ''
+- title: Sunway G1602
+  content: ''
+  height: ''
+  weight: ''
+  weight-full: ''
+  money: ''
+  catalogue: ''
+  image: forestryio/images/1458572510_g1942m16_.jpg
+- title: Sunway G1942
+  content: ''
+  height: ''
+  weight: ''
+  weight-full: ''
+  money: ''
+  catalogue: ''
+  image: forestryio/images/1458572510_g1942m16_-1.jpg
+- title: Sunway G2572
+  content: ''
+  height: ''
+  weight: ''
+  weight-full: ''
+  money: ''
+  catalogue: ''
+  image: forestryio/images/1458572565_g2572m16_.jpg
+- title: Sunway G2702
+  content: ''
+  height: ''
+  weight: ''
+  weight-full: ''
+  money: ''
+  catalogue: ''
+  image: forestryio/images/1458572630_g2702m16_.jpg
+- title: Sunyway D1628            spécial ski nautique
+  content: ''
+  height: ''
+  weight: ''
+  weight-full: ''
+  money: ''
+  catalogue: ''
+  image: forestryio/images/1465224083_d1628sn_.jpg
+- title: Sunway D1625              spécial ski nautique
+  content: ''
+  height: ''
+  weight: ''
+  weight-full: ''
+  money: ''
+  catalogue: ''
+  image: forestryio/images/1465224056_d1625sn_.jpg
+- title: 'Sunway D1623              spécial ski nautique  '
+  content: ''
+  height: ''
+  weight: ''
+  weight-full: ''
+  money: ''
+  catalogue: ''
+  image: forestryio/images/1465224011_d1623sn_.jpg
