@@ -103,27 +103,27 @@
   money: 9'157 CHF
   catalogue: ''
   image: forestryio/images/1458572630_g2702m16_.jpg
-- title: Sunyway D1628            spécial ski nautique
-  content: ''
-  height: ''
-  weight: ''
-  weight-full: ''
-  money: ''
-  catalogue: ''
-  image: forestryio/images/1465224083_d1628sn_.jpg
-- title: Sunway D1625              spécial ski nautique
-  content: ''
-  height: ''
-  weight: ''
-  weight-full: ''
-  money: ''
-  catalogue: ''
-  image: forestryio/images/1465224056_d1625sn_.jpg
 - title: 'Sunway D1623              spécial ski nautique  '
   content: ''
-  height: ''
-  weight: ''
-  weight-full: ''
-  money: ''
+  height: 7.10 m
+  weight: PTAC 2700 kg
+  weight-full: CU 2010 kg
+  money: 8'576 CHF
   catalogue: ''
   image: forestryio/images/1465224011_d1623sn_.jpg
+- title: Sunway D1625              spécial ski nautique
+  content: ''
+  height: 7.70 m
+  weight: PTAC 3000 kg
+  weight-full: CU 2290 kg
+  money: 9'123 CHF
+  catalogue: ''
+  image: forestryio/images/1465224056_d1625sn_.jpg
+- title: Sunyway D1628            spécial ski nautique
+  content: ''
+  height: 8.50 m
+  weight: PTAC 3500 kg
+  weight-full: CU 2700 kg
+  money: 10'729 CHF
+  catalogue: ''
+  image: forestryio/images/1465224083_d1628sn_.jpg
