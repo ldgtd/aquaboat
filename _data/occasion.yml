@@ -1,26 +1,37 @@
 ---
-- title: Sunseeker Hawk
-  content: Année 1996
-  engine: Mercruiser 5.7L
-  boat: Bateau cabine
-  width: 8.20 m
-  height: 2.75 m
-  people: C8
-  power: 2x 223 HP
-  money: 22'500 CHF
-  image: "/forestryio/images/233038-01e11e02cdec92f962151e0ba1944800.jpg"
-  url: http://www.bateau24.ch/chfr/bateaux+a+moteur/sunseeker/sunseeker+hawk/detail/233038/
-- title: Saga 25 CC HT
-  content: Année 1992
-  engine: Volvo Penta Diesel
-  boat: Bateau Cabine
-  width: 7.60 m
-  height: 2.75 m
-  people: C8
-  power: 129 HP
-  money: 14'000 CHF
-  image: "/forestryio/images/20160615_160816.jpg"
-  url: http://www.bateau24.ch/chfr/bateaux+a+moteur/saga/saga+25+cc+ht/detail/253017/
+- title: Selection Boat Aston 20
+  content: Année 2017
+  engine: Mercury F100
+  boat: Bateau bowrider
+  width: 6.00 m
+  height: 2.18 m
+  people: 6
+  power: 100 HP
+  money: 29'860 CHF
+  image: "/forestryio/images/20160727_181533.jpg"
+  url: http://www.bateau24.ch/chfr/bateaux+a+moteur/selection+boats/selection+boats+aston+20+-+destockage/detail/264099/
+- title: Stingray 198 LX
+  content: Année 2017
+  engine: Mercuiser 4.3 MPI
+  boat: Bateau bowrider
+  width: 6.00 m
+  height: 2.40 m
+  people: CE 9
+  power: 180 HP
+  money: 49'580 CHF
+  image: "/forestryio/images/stingray-bleu-11.jpg"
+  url: http://www.bateau24.ch/chfr/bateaux+a+moteur/stingray/stingray+198+lx/detail/287208/
+- title: Ocean Craft Nodic 22
+  content: Année 2009
+  engine: Mercruiser 5.0L V8
+  boat: Bateau Bowrider
+  width: 6.60 m
+  height: 2.34 m
+  people: C 6
+  power: 220 HP
+  money: 31'900 CHF
+  image: "/forestryio/images/20161119_121506-4.jpg"
+  url: http://www.bateau24.ch/chfr/bateaux+a+moteur/nordic+oceancraft/nordic+oceancraft+nordic+22+br+-+dstockage+usine/detail/282875/
 - title: Selection Boat Sunny 20
   content: Année 2016
   engine: Mercrury EFI 80
@@ -32,6 +43,17 @@
   money: 31'600 CHF
   image: "/forestryio/images/14962755_1795859220655060_7216163016293000364_n-1.jpg"
   url: http://www.bateau24.ch/chfr/bateaux+a+moteur/selection+boats/selection+boats+sunny+20+-+destockage/detail/261992/
+- title: Larson 194 BR
+  content: Année 1996
+  engine: Volvo Penta 4.3 GL
+  boat: Bateau bowrider
+  width: 5.70 m
+  height: 2.47 m
+  people: C8
+  power: 188 HP
+  money: 15'900 CHF
+  image: "/forestryio/images/larson-1.gif"
+  url: http://www.bateau24.ch/chfr/bateaux+a+moteur/larson/larson+194+br/detail/285603/
 - title: Selection Boat Cruiser 22 EX
   content: Année 2017
   engine: Mercury EFI 150
@@ -54,47 +76,25 @@
   money: 54'500 CHF
   image: "/forestryio/images/IMG-20161121-WA0005.jpg"
   url: http://www.bateau24.ch/chfr/bateaux+a+moteur/bavaria/bavaria+29+sport+dc/detail/283057/
-- title: Ocean Craft Nodic 22
-  content: Année 2009
-  engine: Mercruiser 5.0L V8
-  boat: Bateau Bowrider
-  width: 6.60 m
-  height: 2.34 m
-  people: C 6
-  power: 220 HP
-  money: 31'900 CHF
-  image: "/forestryio/images/20161119_121506-4.jpg"
-  url: http://www.bateau24.ch/chfr/bateaux+a+moteur/nordic+oceancraft/nordic+oceancraft+nordic+22+br+-+dstockage+usine/detail/282875/
-- title: Larson 194 BR
-  content: Année 1996
-  engine: Volvo Penta 4.3 GL
-  boat: Bateau bowrider
-  width: 5.70 m
-  height: 2.47 m
+- title: Saga 25 CC HT
+  content: Année 1992
+  engine: Volvo Penta Diesel
+  boat: Bateau Cabine
+  width: 7.60 m
+  height: 2.75 m
   people: C8
-  power: 188 HP
-  money: 15'900 CHF
-  image: "/forestryio/images/larson-1.gif"
-  url: http://www.bateau24.ch/chfr/bateaux+a+moteur/larson/larson+194+br/detail/285603/
-- title: Stingray 198 LX
-  content: Année 2017
-  engine: Mercuiser 4.3 MPI
-  boat: Bateau bowrider
-  width: 6.00 m
-  height: 2.40 m
-  people: CE 9
-  power: 180 HP
-  money: 49'580 CHF
-  image: "/forestryio/images/stingray-bleu-11.jpg"
-  url: http://www.bateau24.ch/chfr/bateaux+a+moteur/stingray/stingray+198+lx/detail/287208/
-- title: Selection Boat Aston 20
-  content: Année 2017
-  engine: Mercury F100
-  boat: Bateau bowrider
-  width: 6.00 m
-  height: 2.18 m
-  people: 6
-  power: 100 HP
-  money: 29'860 CHF
-  image: "/forestryio/images/20160727_181533.jpg"
-  url: http://www.bateau24.ch/chfr/bateaux+a+moteur/selection+boats/selection+boats+aston+20+-+destockage/detail/264099/
+  power: 129 HP
+  money: 14'000 CHF
+  image: "/forestryio/images/20160615_160816.jpg"
+  url: http://www.bateau24.ch/chfr/bateaux+a+moteur/saga/saga+25+cc+ht/detail/253017/
+- title: Sunseeker Hawk
+  content: Année 1996
+  engine: Mercruiser 5.7L
+  boat: Bateau cabine
+  width: 8.20 m
+  height: 2.75 m
+  people: C8
+  power: 2x 223 HP
+  money: 22'500 CHF
+  image: "/forestryio/images/233038-01e11e02cdec92f962151e0ba1944800.jpg"
+  url: http://www.bateau24.ch/chfr/bateaux+a+moteur/sunseeker/sunseeker+hawk/detail/233038/
