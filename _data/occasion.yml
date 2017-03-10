@@ -1,15 +1,4 @@
 ---
-- title: Selection Boats Aston 18
-  content: Année 2017
-  engine: Moteur Mercruy F40 EFI
-  boat: Bateau Bowrider
-  width: 4.80 m
-  height: 2.08 m
-  people: C 6
-  power: 40 HP
-  money: 22'600 CHF
-  image: "/forestryio/images/Aston-18.jpg"
-  url: ''
 - title: Selection Boat Cruiser 22 EXA
   content: année 2017
   engine: 'Evinrude G2 150 '
@@ -87,6 +76,17 @@
   money: 15'900 CHF
   image: "/forestryio/images/larson-1.gif"
   url: http://www.bateau24.ch/chfr/bateaux+a+moteur/larson/larson+194+br/detail/285603/
+- title: Selection Boats Aston 18
+  content: Année 2017
+  engine: Moteur Mercruy F40 EFI
+  boat: Bateau Bowrider
+  width: 4.80 m
+  height: 2.08 m
+  people: C 6
+  power: 40 HP
+  money: 22'600 CHF
+  image: "/forestryio/images/Aston-18.jpg"
+  url: ''
 - title: Selection Boat Cruiser 22 EX
   content: Année 2017
   engine: Mercury EFI 80
