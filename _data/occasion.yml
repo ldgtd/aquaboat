@@ -1,4 +1,15 @@
 ---
+- title: Selection Boat Classic 690
+  content: Année 2017
+  engine: Mercury F100 EFI
+  boat: Bateau bowrider
+  width: 6.75 m
+  height: 2.65 m
+  people: 8
+  power: 100 HP
+  money: 44'900 CHF
+  image: "/forestryio/images/DSCN0553.jpg"
+  url: ''
 - title: Selection Boat Aston 20
   content: Année 2017
   engine: Mercury F100
