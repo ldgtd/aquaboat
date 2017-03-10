@@ -1,4 +1,15 @@
 ---
+- title: Formula 280 BR
+  content: Année 2007
+  engine: Bi-moteur Mercruiser 6.2L MPI
+  boat: Bateau Bowrider
+  width: 8.99 m
+  height: 2.80 m
+  people: C 10
+  power: 2x 350 HP
+  money: 74'900 CHF
+  image: "/forestryio/images/formula.jpg"
+  url: https://www.bateau24.ch/chfr/bateauxamoteur/formula/formula-280-br/detail/181961/
 - title: Selection Boat Cruiser 22 EXA
   content: année 2017
   engine: 'Evinrude G2 150 '
