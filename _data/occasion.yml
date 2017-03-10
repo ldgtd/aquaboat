@@ -1,14 +1,14 @@
 ---
-- title: ''
-  content: ''
-  engine: ''
-  boat: ''
-  width: ''
-  height: ''
-  people: ''
-  power: ''
-  money: ''
-  image: ''
+- title: Selection Boats Aston 18
+  content: Année 2017
+  engine: Moteur Mercruy F40 EFI
+  boat: Bateau Bowrider
+  width: 4.80 m
+  height: 2.08 m
+  people: C 6
+  power: 40 HP
+  money: 22'600 CHF
+  image: "/forestryio/images/Aston-18.jpg"
   url: ''
 - title: Selection Boat Cruiser 22 EXA
   content: année 2017
