@@ -1,15 +1,4 @@
 ---
-- title: Formula 280 BR
-  content: Année 2007
-  engine: Bi-moteur Mercruiser 6.2L MPI
-  boat: Bateau Bowrider
-  width: 8.99 m
-  height: 2.80 m
-  people: C 10
-  power: 2x 350 HP
-  money: 74'900 CHF
-  image: "/forestryio/images/formula.jpg"
-  url: https://www.bateau24.ch/chfr/bateauxamoteur/formula/formula-280-br/detail/181961/
 - title: Selection Boat Cruiser 22 EXA
   content: année 2017
   engine: 'Evinrude G2 150 '
@@ -21,6 +10,17 @@
   money: 45'300 CHF
   image: "/forestryio/images/DSCN0674-3.jpg"
   url: https://www.bateau24.ch/chfr/bateauxamoteur/selection-boats/selection-boats-cruiser-22-ex-anniversaire/detail/292626/
+- title: Formula 280 BR
+  content: Année 2007
+  engine: Bi-moteur Mercruiser 6.2L MPI
+  boat: Bateau Bowrider
+  width: 8.99 m
+  height: 2.80 m
+  people: C 10
+  power: 2x 350 HP
+  money: 74'900 CHF
+  image: "/forestryio/images/formula.jpg"
+  url: https://www.bateau24.ch/chfr/bateauxamoteur/formula/formula-280-br/detail/181961/
 - title: Selection Boat Classic 690
   content: Année 2017
   engine: Mercury F100 EFI
@@ -142,6 +142,17 @@
   money: 54'500 CHF
   image: "/forestryio/images/IMG-20161121-WA0005.jpg"
   url: http://www.bateau24.ch/chfr/bateaux+a+moteur/bavaria/bavaria+29+sport+dc/detail/283057/
+- title: Princess 286
+  content: Année 1986
+  engine: Bi-moteur Volvo Penta 200D
+  boat: Bateau cabine
+  width: 9.50 m
+  height: 3.35 m
+  people: C 12
+  power: 2x 182 HP
+  money: 65'000 CHF
+  image: "/forestryio/images/88406-24c6f36745868f486e941288f495642b-ch.jpg"
+  url: https://www.bateau24.ch/chfr/bateauxamoteur/princess/princess-286/detail/88406/
 - title: Saga 25 CC HT
   content: Année 1992
   engine: Volvo Penta Diesel
