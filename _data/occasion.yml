@@ -1,4 +1,15 @@
 ---
+- title: Selection Boat GT 720
+  content: Année 2017
+  engine: Evinrude 150 G2
+  boat: Bateau cabine
+  width: 6.80 m
+  height: 2.55 m
+  people: C 7
+  power: 150 HP
+  money: 68'500 CHF
+  image: "/forestryio/images/720-gt-acceuil.jpg"
+  url: ''
 - title: Selection Boat Cruiser 22 EXA
   content: année 2017
   engine: 'Evinrude G2 150 '
