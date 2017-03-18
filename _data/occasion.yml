@@ -1,15 +1,4 @@
 ---
-- title: 'Sessa Key West 20 '
-  content: Année 1997
-  engine: Moteur Honda BF 150 EFI
-  boat: Bateau cabine
-  width: 6.30 m
-  height: 2.30 m
-  people: C 7
-  power: 150 HP
-  money: 16'300 CHF
-  image: "/forestryio/images/DSCN0815.jpg"
-  url: ''
 - title: Selection Boat GT 720
   content: Année 2017
   engine: Evinrude 150 G2
@@ -153,6 +142,17 @@
   money: 65'000 CHF
   image: "/forestryio/images/88406-24c6f36745868f486e941288f495642b-ch.jpg"
   url: https://www.bateau24.ch/chfr/bateauxamoteur/princess/princess-286/detail/88406/
+- title: 'Sessa Key West 20 '
+  content: Année 1997
+  engine: Moteur Honda BF 150 EFI
+  boat: Bateau cabine
+  width: 6.30 m
+  height: 2.30 m
+  people: C 7
+  power: 150 HP
+  money: 16'300 CHF
+  image: "/forestryio/images/DSCN0815.jpg"
+  url: ''
 - title: Formula 280 BR
   content: Année 2007
   engine: Bi-moteur Mercruiser 6.2L MPI
