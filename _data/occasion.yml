@@ -1,4 +1,15 @@
 ---
+- title: Ultramar 650 WE
+  content: Année 2010 moteur neuf
+  engine: Mercruy F80 EFI
+  boat: Bateau pêche
+  width: '6.50 m '
+  height: 2.50 m
+  people: C
+  power: 80 HP
+  money: 36'500 CHF
+  image: "/forestryio/images/Untitled-1-1.jpg"
+  url: ''
 - title: Selection Boat GT 720
   content: Année 2017
   engine: Evinrude 150 G2
