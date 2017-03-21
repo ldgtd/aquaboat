@@ -1,15 +1,4 @@
 ---
-- title: Ultramar 650 WE
-  content: Année 2010 moteur neuf
-  engine: Mercruy F80 EFI
-  boat: Bateau pêche
-  width: '6.50 m '
-  height: 2.50 m
-  people: C
-  power: 80 HP
-  money: 36'500 CHF
-  image: "/forestryio/images/Untitled-1-1.jpg"
-  url: ''
 - title: Selection Boat GT 720
   content: Année 2017
   engine: Evinrude 150 G2
@@ -65,17 +54,6 @@
   money: 49'580 CHF
   image: "/forestryio/images/stingray-bleu-11.jpg"
   url: http://www.bateau24.ch/chfr/bateaux+a+moteur/stingray/stingray+198+lx/detail/287208/
-- title: Stingray 225 CR
-  content: Année 2015
-  engine: Moteur Mercuiser 4.3 MPI
-  boat: Bateau cabine
-  width: 7.29 m
-  height: 2.56 m
-  people: C 12
-  power: 225 HP
-  money: 55'000 CHF
-  image: "/forestryio/images/DSCN0507.jpg"
-  url: https://www.bateau24.ch/chfr/bateauxamoteur/stingray/stingray-225-cr/detail/288754/
 - title: Selection Boat Sunny 20
   content: Année 2016
   engine: Mercrury EFI 80
@@ -98,17 +76,17 @@
   money: 39'990 CHF
   image: "/forestryio/images/Untitled-1.jpg"
   url: ''
-- title: Larson 194 BR
-  content: Année 1996
-  engine: Volvo Penta 4.3 GL
-  boat: Bateau bowrider
-  width: 5.70 m
-  height: 2.47 m
-  people: C8
-  power: 188 HP
-  money: 15'900 CHF
-  image: "/forestryio/images/larson-1.gif"
-  url: http://www.bateau24.ch/chfr/bateaux+a+moteur/larson/larson+194+br/detail/285603/
+- title: Ultramar 650 WE
+  content: Année 2010 moteur neuf
+  engine: Mercruy F80 EFI
+  boat: Bateau pêche
+  width: '6.50 m '
+  height: 2.50 m
+  people: C
+  power: 80 HP
+  money: 36'500 CHF
+  image: "/forestryio/images/Untitled-1-1.jpg"
+  url: ''
 - title: Selection Boats Aston 18
   content: Année 2017
   engine: Moteur Mercruy F40 EFI
