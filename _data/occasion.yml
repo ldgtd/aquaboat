@@ -82,11 +82,11 @@
   boat: Bateau pêche
   width: '6.50 m '
   height: 2.50 m
-  people: C
+  people: C 7
   power: 80 HP
   money: 36'500 CHF
   image: "/forestryio/images/Untitled-1-1.jpg"
-  url: ''
+  url: https://www.bateau24.ch/chfr/bateauxamoteur/ultramar/ultramar-650-weekend/detail/294048/
 - title: Selection Boats Aston 18
   content: Année 2017
   engine: Moteur Mercruy F40 EFI
