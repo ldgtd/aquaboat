@@ -1,4 +1,15 @@
 ---
+- title: Stingray 225 CR
+  content: Année 2015 - 80 heures
+  engine: Mercruiser 4.3 MPI
+  boat: Bateau cabine
+  width: 7.29 m
+  height: 2.56 m
+  people: C 12
+  power: 225 HP
+  money: 55'000 CHF
+  image: "/forestryio/images/DSCN0507-1.jpg"
+  url: https://www.bateau24.ch/chfr/bateauxamoteur/stingray/stingray-225-cr/detail/288754/
 - title: Selection Boat GT 720
   content: Année 2017
   engine: Evinrude 150 G2
