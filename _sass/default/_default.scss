@@ -14,7 +14,8 @@ html {
 }
 
 .master-footer {
-  background-color: lighten($alt-color-lighter, 4%);
+  color: #fff;
+  background-color: $brand-color;
 }
 
 h3 {
