@@ -4,18 +4,24 @@
 
 html {
   overflow-x: hidden; // hotfix to prevent the x scroll bar sur IE
+  background-color: $alt-color-lighter;
 }
 
 .master {
-   width: auto;
-   max-width: 1280px;
-   margin: 0 auto;
-   padding: 0 $spacing-unit-default;
+  width: auto;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 $spacing-unit-default;
 }
 
 .master-footer {
   color: #fff;
   background-color: $brand-color;
+}
+
+h2 {
+  color: $brand-color;
+  font-weight: bold;
 }
 
 h3 {

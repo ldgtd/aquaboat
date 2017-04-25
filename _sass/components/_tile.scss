@@ -5,6 +5,8 @@
 .tile {
   min-height: 400px;
   overflow: hidden;
+  border-radius: 5px 5px;
+  text-align: center;
   background-color: lighten($alt-color-lighter, 4%);
   color: $alt-color-darker;
 }
@@ -20,10 +22,16 @@
     transition: all 1s ease;
   }
 
+  .tile__title {
+    padding-bottom: $spacing-unit-small;
+    border-bottom: 1px solid $alt-color-lighter;
+  }
+
   .tile__text-content {
     padding: 0 $spacing-unit-small;
   }
 
 .tile--onhover .tile__image {
+  border-radius: 5px 5px 0px 0px;
   transform:scale(1.2);
 }
