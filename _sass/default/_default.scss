@@ -16,7 +16,7 @@ html {
 
 .master-footer {
   color: #fff;
-  background-color: $brand-color;
+  background: linear-gradient(50deg, darken($brand-color, 15%), $brand-color);
 }
 
 h2 {
