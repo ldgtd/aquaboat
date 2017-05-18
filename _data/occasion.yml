@@ -1,15 +1,4 @@
 ---
-- title: Windy 25
-  content: 'En très bon état '
-  engine: Moteur Inboard Mercruiser MCM 260
-  boat: Bateau cabine
-  width: 7.65 m
-  height: 2.80 m
-  people: C8
-  power: 260 HP
-  money: 9'900 CHF
-  image: "/forestryio/images/DSCN0917.jpg"
-  url: ''
 - title: Stingray 225 CR
   content: Année 2015 - 80 heures
   engine: Mercruiser 4.3 MPI
@@ -153,6 +142,17 @@
   money: 54'500 CHF
   image: "/forestryio/images/IMG-20161121-WA0005.jpg"
   url: http://www.bateau24.ch/chfr/bateaux+a+moteur/bavaria/bavaria+29+sport+dc/detail/283057/
+- title: Windy 25
+  content: 'En très bon état '
+  engine: Moteur Inboard Mercruiser MCM 260
+  boat: Bateau cabine
+  width: 7.65 m
+  height: 2.80 m
+  people: C8
+  power: 260 HP
+  money: 9'900 CHF
+  image: "/forestryio/images/DSCN0917.jpg"
+  url: https://www.bateau24.ch/chfr/bateauxamoteur/windy/windy-25/detail/301554/
 - title: Princess 286
   content: Année 1986
   engine: Bi-moteur Volvo Penta 200D
