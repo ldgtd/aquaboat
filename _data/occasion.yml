@@ -1,15 +1,4 @@
 ---
-- title: Quicksilver 625
-  content: Année 1999
-  engine: Mercruiser 3.0L
-  boat: Bateau cabine
-  width: 6.45 m
-  height: 2.47 m
-  people: C 6
-  power: 130 HP
-  money: 14'900 CHF
-  image: "/forestryio/images/DSCN0891.jpg"
-  url: https://www.bateau24.ch/chfr/bateauxamoteur/quicksilver/quicksilver-625/detail/301553/
 - title: Stingray 225 CR
   content: Année 2015 - 80 heures
   engine: Mercruiser 4.3 MPI
@@ -131,6 +120,17 @@
   money: 43'400 CHF
   image: "/forestryio/images/DSCN0773.JPG"
   url: http://www.bateau24.ch/chfr/bateaux+a+moteur/selection+boats/selection+boats+cruiser+22/detail/271377/
+- title: Quicksilver 625
+  content: Année 1999
+  engine: Mercruiser 3.0L
+  boat: Bateau cabine
+  width: 6.45 m
+  height: 2.47 m
+  people: C 6
+  power: 130 HP
+  money: 14'900 CHF
+  image: "/forestryio/images/DSCN0891.jpg"
+  url: https://www.bateau24.ch/chfr/bateauxamoteur/quicksilver/quicksilver-625/detail/301553/
 - title: Bavaria 29 Sport DC
   content: Année 2004
   engine: Volvo Penta 8.1 Gi
