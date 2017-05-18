@@ -1,4 +1,15 @@
 ---
+- title: Windy 25
+  content: 'En très bon état '
+  engine: Moteur Inboard Mercruiser MCM 260
+  boat: Bateau cabine
+  width: 7.65 m
+  height: 2.80 m
+  people: C8
+  power: 260 HP
+  money: 9'900 CHF
+  image: "/forestryio/images/DSCN0917.jpg"
+  url: ''
 - title: Stingray 225 CR
   content: Année 2015 - 80 heures
   engine: Mercruiser 4.3 MPI
