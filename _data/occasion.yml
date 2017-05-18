@@ -1,4 +1,15 @@
 ---
+- title: Quicksilver 625
+  content: Année 1999
+  engine: Mercruiser 3.0L
+  boat: Bateau cabine
+  width: 6.45 m
+  height: 2.47 m
+  people: C 6
+  power: 130 HP
+  money: 14'900 CHF
+  image: "/forestryio/images/DSCN0891.jpg"
+  url: https://www.bateau24.ch/chfr/bateauxamoteur/quicksilver/quicksilver-625/detail/301553/
 - title: Stingray 225 CR
   content: Année 2015 - 80 heures
   engine: Mercruiser 4.3 MPI
@@ -175,25 +186,3 @@
   money: 4'500 CHF
   image: "/forestryio/images/228439-d7941d4efaf4f9908382ae4d59c89767-ch.jpg"
   url: https://www.bateau24.ch/chfr/bateauxamoteur/quicksilver/quicksilver-430/detail/228439/
-- title: Saga 25 CC HT
-  content: Année 1992
-  engine: Volvo Penta Diesel
-  boat: Bateau Cabine
-  width: 7.60 m
-  height: 2.75 m
-  people: C8
-  power: 129 HP
-  money: 14'000 CHF
-  image: "/forestryio/images/20160615_160816.jpg"
-  url: http://www.bateau24.ch/chfr/bateaux+a+moteur/saga/saga+25+cc+ht/detail/253017/
-- title: Sunseeker Hawk
-  content: Année 1996
-  engine: Mercruiser 5.7L
-  boat: Bateau cabine
-  width: 8.20 m
-  height: 2.75 m
-  people: C8
-  power: 2x 223 HP
-  money: 22'500 CHF
-  image: "/forestryio/images/233038-01e11e02cdec92f962151e0ba1944800.jpg"
-  url: http://www.bateau24.ch/chfr/bateaux+a+moteur/sunseeker/sunseeker+hawk/detail/233038/
