@@ -17,5 +17,12 @@
     "run-sequence": "^1.1.5",
     "webpack": "^1.12.14",
     "yargs": "^3.31.0"
+  },
+  "dependencies": {
+    "babel-preset-react": "^6.24.1",
+    "react": "^15.5.4",
+    "react-addons-update": "^15.5.2",
+    "react-dom": "^15.5.4",
+    "simple-ajax": "^2.6.0"
   }
 }
