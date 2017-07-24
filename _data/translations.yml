@@ -54,7 +54,7 @@ fr:
       Mercury-Mercruiser et Volvo Penta Une équipe de professionnels à l’écoute de
       vos besoins.\r\n"
   contact:
-    title: Rester en contact avec nous
+    title: Contact
     form:
       success: Bravo ! Votre message nous a bien été envoyé !
       error: Bim ! Un problème est survenu, essaie encore !

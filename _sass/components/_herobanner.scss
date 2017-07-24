@@ -15,6 +15,7 @@
   background:
   linear-gradient(to top, rgba(197, 223, 210, 0.4), $brand-color 400%),
   url('images/herobanner-boat.jpg');
+  clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 5em), 0% 100%);
 }
 
 .herobanner--shipyard {
@@ -22,6 +23,7 @@
   background:
   linear-gradient(to top, rgba(197, 223, 210, 0.4), $brand-color 400%),
   url('images/herobanner-shipyard.jpg');
+  clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 5em), 0% 100%);
 }
 
 .herobanner--trailer {
@@ -29,6 +31,7 @@
   background:
   linear-gradient(to top, rgba(197, 223, 210, 0.4), $brand-color 400%),
   url('images/herobanner-trailer.jpg');
+  clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 5em), 0% 100%);
 }
 
 
@@ -37,6 +40,7 @@
   background:
   linear-gradient(to top, rgba(197, 223, 210, 0.4), $brand-color 400%),
   url('images/herobanner-engine-1.jpg');
+  clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 5em), 0% 100%);
 }
 
 .herobanner--occasion {
@@ -44,17 +48,36 @@
   background:
   linear-gradient(to top, rgba(197, 223, 210, 0.4), $brand-color 400%),
   url('images/herobanner-occasion.jpg');
+  clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 5em), 0% 100%);
 }
 
 .herobanner--map {
   height: 360px !important;
+  clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 5em), 0% 100%);
 }
 
 .herobanner {
   width: 100vw;
-  height: 100vh;
+  height: 85vh;
   background-position: center;
   background-size: cover;
+}
+
+.herobanner__addon {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  top: 280px;
+  z-index: -1;
+  background: linear-gradient(50deg, darken($brand-color, 30%), $brand-color);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% calc(100% - 1em));
+
+  h1 {
+    margin-top: 30px;
+    padding-right: 10px;
+    text-align: right;
+    color: #fff;
+  }
 }
 
   .herobanner__content {
@@ -73,7 +96,7 @@
       @media(max-width: $screen-sm-min) {
         font-size: 2.8em;
       }
-    } 
+    }
 
     .herobanner__subtitle {
       font-size: 2em;
@@ -94,17 +117,6 @@
       position: absolute;
       left: 50%;
       margin-left: -75px;
-
-      fill: $white;
-    }
-
-    .herobanner__arrow-down {
-      width: 30px;
-      bottom: -40px;
-
-      position: absolute;
-      left: 50%;
-      margin-left: -15px;
 
       fill: $white;
     }
