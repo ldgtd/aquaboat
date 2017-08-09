@@ -53,15 +53,51 @@ fr:
       mécanique et électricité navale, nous sommes également représentants des moteurs
       Mercury-Mercruiser et Volvo Penta Une équipe de professionnels à l’écoute de
       vos besoins.\r\n"
+    link: Inscription hivernage
+    modal:
+      title: Inscription hivernage
+      perso: Données personelles
+      boat: Données bateau
+      move: Date d'hivernage & de mise à l'eau
+      services: Services
+      other: Autre(s) travaux
   contact:
     title: Contact
     form:
       success: Bravo ! Votre message nous a bien été envoyé !
       error: Bim ! Un problème est survenu, essaie encore !
       name: Nom
+      firstname: Prénom
+      lastname: Nom de famille
+      address: Adresse
+      city: Ville
+      npa: NPA
+      phone: Téléphone
       email: Email
       subject: Sujet
       message: Message
+      brand: Marque
+      immatriculation: Immatriculation
+      place: Place
+      port: Port
+      length: Longeur (m)
+      width: Largeur (m)
+      engine-type: Type de moteur
+      inbord: Inbord
+      outbord: Outbord
+      engine-number: Nombre de moteur
+      hivernage-date: Date d'hivernage
+      water-date: Date de mise à l'eau
+      stockage: Stockage du bateau au chantier
+      get-boat: Je vous pris d'aller chercher le bateau
+      clean-semi: Nettoyage carène (uniquement partie sous l'eau)
+      clean: Nettoyage carène et coque
+      wc: Hivernage WC, réservoire eau claire / usée
+      service-engine: Service moteur (recommandé)
+      protection: Protection du bateau avec une bâche thermoformée (recommandé)
+      antifoulling: Antifoulling (sur-couchage)
+      polish: Polish rapide de la coque
+      clean-bache: Nettoyage de la bâche
       send: Envoyer
     address:
       name: Aqua-Navis Sàrl <br /> Chantier Naval AQUABOAT
