@@ -1,10 +1,8 @@
 {% assign t = site.data.translations[page.lang] %}
 
 <section class="grid mrgt+">
-  {% include boat-sidebar.html %}
-
   <section id="boats" class="grid__item w-1/1 md-w-5/6">
-    {% include boat-filter.html %}
+    <div id="react-root" class="mrgv++"></div>
 
     <section class="listed">
       {% for brand in site.data.brand %}
