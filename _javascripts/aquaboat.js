@@ -1,5 +1,6 @@
 import BuildHtmlSelect from './helpers/build_html_select';
 import FixPosition from './helpers/fix_position';
+import Modal from './helpers/modal';
 
 import Form from './components/form';
 import GoogleMap from './components/google_map';
@@ -10,6 +11,11 @@ import ResultsFilter from './components/results_filter';
 document.addEventListener('DOMContentLoaded', function() {
   new Nav();
   new Tile();
+
+  if (document.querySelector('body').classList.contains('shipyard')) {
+    new Form();
+    new Modal('#modal-hivernage');
+  }
 
   if (document.querySelector('body').classList.contains('contact')) {
     new Form();

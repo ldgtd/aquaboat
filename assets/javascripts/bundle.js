@@ -42,7 +42,7 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
@@ -54,23 +54,27 @@
 	
 	var _fix_position2 = _interopRequireDefault(_fix_position);
 	
-	var _form = __webpack_require__(3);
+	var _modal = __webpack_require__(3);
+	
+	var _modal2 = _interopRequireDefault(_modal);
+	
+	var _form = __webpack_require__(4);
 	
 	var _form2 = _interopRequireDefault(_form);
 	
-	var _google_map = __webpack_require__(7);
+	var _google_map = __webpack_require__(8);
 	
 	var _google_map2 = _interopRequireDefault(_google_map);
 	
-	var _nav = __webpack_require__(8);
+	var _nav = __webpack_require__(9);
 	
 	var _nav2 = _interopRequireDefault(_nav);
 	
-	var _tile = __webpack_require__(9);
+	var _tile = __webpack_require__(10);
 	
 	var _tile2 = _interopRequireDefault(_tile);
 	
-	var _results_filter = __webpack_require__(10);
+	var _results_filter = __webpack_require__(11);
 	
 	var _results_filter2 = _interopRequireDefault(_results_filter);
 	
@@ -79,6 +83,11 @@
 	document.addEventListener('DOMContentLoaded', function () {
 	  new _nav2.default();
 	  new _tile2.default();
+	
+	  if (document.querySelector('body').classList.contains('shipyard')) {
+	    new _form2.default();
+	    new _modal2.default('#modal-hivernage');
+	  }
 	
 	  if (document.querySelector('body').classList.contains('contact')) {
 	    new _form2.default();
@@ -96,9 +105,9 @@
 	  }
 	});
 
-/***/ },
+/***/ }),
 /* 1 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	'use strict';
 	
@@ -164,9 +173,9 @@
 	
 	exports.default = buildHtmlSelect;
 
-/***/ },
+/***/ }),
 /* 2 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	'use strict';
 	
@@ -198,9 +207,9 @@
 	
 	exports.default = FixPosition;
 
-/***/ },
+/***/ }),
 /* 3 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
 	'use strict';
 	
@@ -210,7 +219,227 @@
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
-	var _simpleAjax = __webpack_require__(4);
+	function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	/*----------------------------------------*\
+	  MODAL
+	  Handle behavior for a modal element.
+	  The modal should exists in the DOM before your instantiate it.
+	\*----------------------------------------*/
+	
+	var DEFAULT_OPTIONS = {
+	  onShow: function onShow() {},
+	  onHide: function onHide() {},
+	  onHidden: function onHidden() {}
+	};
+	
+	var Modal = function () {
+	  function Modal(el, options) {
+	    _classCallCheck(this, Modal);
+	
+	    if (typeof el === 'string') {
+	      this._el = el;
+	      this._modal = document.querySelector(this._el);
+	    } else if (el instanceof Element) {
+	      this._modal = el;
+	      this._el = '#' + this._modal.id;
+	    } else {
+	      return;
+	    }
+	
+	    this._options = Object.assign({}, DEFAULT_OPTIONS, options);
+	    this._triggers = [].concat(_toConsumableArray(document.querySelectorAll('[data-toggle="modal"][data-target="' + this._el + '"]')));
+	    this._active = this._modal.classList.contains('active');
+	
+	    this._handleOverlayClick = this._handleOverlayClick.bind(this);
+	    this._handleEscKey = this._handleEscKey.bind(this);
+	    this.toggle = this.toggle.bind(this);
+	    this.hide = this.hide.bind(this);
+	
+	    if (this._active) {
+	      this._preventScroll();
+	      this._modal.addEventListener('click', this._handleOverlayClick);
+	      document.addEventListener('keyup', this._handleEscKey);
+	    }
+	
+	    this._addEventListeners();
+	  }
+	
+	  _createClass(Modal, [{
+	    key: '_addEventListeners',
+	    value: function _addEventListeners() {
+	      var _this = this;
+	
+	      this._triggers.forEach(function (trigger) {
+	        trigger.addEventListener('click', _this.toggle);
+	      });
+	    }
+	  }, {
+	    key: '_removeEventListeners',
+	    value: function _removeEventListeners() {
+	      var _this2 = this;
+	
+	      this._triggers.forEach(function (trigger) {
+	        trigger.removeEventListener('click', _this2.toggle);
+	      });
+	    }
+	  }, {
+	    key: '_handleOverlayClick',
+	    value: function _handleOverlayClick(e) {
+	      if (e.target === e.currentTarget) {
+	        this.hide();
+	      }
+	    }
+	
+	    /**
+	     * ESC key closes the modal
+	     */
+	
+	  }, {
+	    key: '_handleEscKey',
+	    value: function _handleEscKey(e) {
+	      if (e.keyCode === 27) {
+	        this.hide();
+	      }
+	    }
+	
+	    /**
+	     * Prevent window from scrolling while the modal is open
+	     */
+	
+	  }, {
+	    key: '_preventScroll',
+	    value: function _preventScroll() {
+	      document.body.style.overflow = 'hidden';
+	    }
+	
+	    /**
+	     * Let the window scroll again
+	     */
+	
+	  }, {
+	    key: '_letScroll',
+	    value: function _letScroll() {
+	      document.body.style.overflow = null;
+	    }
+	
+	    /**
+	     * Autofocus potential interesting elements in the modal
+	     */
+	
+	  }, {
+	    key: '_autofocus',
+	    value: function _autofocus() {
+	      var interest = this._modal.querySelector('input:not([type="hidden"]), .modal__footer .btn');
+	      if (interest) {
+	        interest.focus();
+	      }
+	    }
+	
+	    /*----------------------------------------*\
+	      PUBLIC
+	    \*----------------------------------------*/
+	
+	  }, {
+	    key: 'toggle',
+	    value: function toggle(e) {
+	      e.preventDefault();
+	      this._active ? this.hide() : this.show();
+	    }
+	
+	    /**
+	     * Show the modal
+	     */
+	
+	  }, {
+	    key: 'show',
+	    value: function show() {
+	      var _this3 = this;
+	
+	      this._preventScroll();
+	      this._modal.classList.add('entering');
+	      this._modal.addEventListener('click', this._handleOverlayClick);
+	      document.addEventListener('keyup', this._handleEscKey);
+	
+	      var onEnteringEnd = function onEnteringEnd() {
+	        _this3._modal.classList.remove('entering');
+	        _this3._modal.removeEventListener('transitionend', onEnteringEnd);
+	      };
+	
+	      setTimeout(function () {
+	        _this3._modal.addEventListener('transitionend', onEnteringEnd);
+	        _this3._modal.classList.add('active');
+	      }, 0);
+	
+	      this._autofocus();
+	      this._active = true;
+	      this._options.onShow.call(this, this._modal);
+	    }
+	
+	    /**
+	     * Hide the modal
+	     */
+	
+	  }, {
+	    key: 'hide',
+	    value: function hide() {
+	      var _this4 = this;
+	
+	      this._letScroll();
+	      this._modal.classList.add('leaving');
+	      this._modal.removeEventListener('click', this._handleOverlayClick);
+	      document.removeEventListener('keyup', this._handleEscKey);
+	
+	      var onLeavingEnd = function onLeavingEnd() {
+	        _this4._modal.classList.remove('leaving');
+	        _this4._modal.removeEventListener('transitionend', onLeavingEnd);
+	        _this4._options.onHidden.call(_this4, _this4._modal);
+	      };
+	
+	      setTimeout(function () {
+	        _this4._modal.addEventListener('transitionend', onLeavingEnd);
+	        _this4._modal.classList.remove('active');
+	      }, 0);
+	
+	      this._active = false;
+	      this._options.onHide.call(this, this._modal);
+	    }
+	  }, {
+	    key: 'destroy',
+	    value: function destroy() {
+	      var removeDOM = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;
+	
+	      if (this._active) {
+	        /* eslint-disable no-console */
+	        return console.warn('You can’t destroy a visible modal, hide it first.');
+	      }
+	      this._removeEventListeners();
+	      if (removeDOM) {
+	        this._modal.parentElement.removeChild(this._modal);
+	      }
+	    }
+	  }]);
+	
+	  return Modal;
+	}();
+	
+	exports.default = Modal;
+
+/***/ }),
+/* 4 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _simpleAjax = __webpack_require__(5);
 	
 	var _simpleAjax2 = _interopRequireDefault(_simpleAjax);
 	
@@ -222,7 +451,12 @@
 	  function Form() {
 	    _classCallCheck(this, Form);
 	
-	    document.querySelector('form[name="form"]').addEventListener('submit', this.sendFrom.bind(this));
+	    if (document.querySelector('body').classList.contains('contact')) {
+	      document.querySelector('form[name="contact"]').addEventListener('submit', this.sendFromContact.bind(this));
+	    }
+	    if (document.querySelector('body').classList.contains('shipyard')) {
+	      document.querySelector('form[name="hivernage"]').addEventListener('submit', this.sendFromHivernage.bind(this));
+	    }
 	  }
 	
 	  /**
@@ -231,8 +465,8 @@
 	
 	
 	  _createClass(Form, [{
-	    key: 'sendFrom',
-	    value: function sendFrom(e) {
+	    key: 'sendFromContact',
+	    value: function sendFromContact(e) {
 	      e.preventDefault();
 	
 	      var name = document.querySelector('#name').value,
@@ -254,7 +488,95 @@
 	
 	      ajax.on('success', function () {
 	        document.querySelector('.contact__message--success').classList.toggle('hidden');
-	        document.querySelector('form[name="form"]').reset();
+	        document.querySelector('form[name="contact"]').reset();
+	      });
+	
+	      ajax.on('error', function () {
+	        document.querySelector('.contact__message--error').classList.toggle('hidden');
+	      });
+	
+	      ajax.send();
+	    }
+	
+	    /**
+	     * sending hivernage form throught Formspree
+	     */
+	
+	  }, {
+	    key: 'sendFromHivernage',
+	    value: function sendFromHivernage(e) {
+	      e.preventDefault();
+	
+	      var firstname = document.querySelector('#firstname').value,
+	          lastname = document.querySelector('#lastname').value,
+	          address = document.querySelector('#address').value,
+	          city = document.querySelector('#city').value,
+	          npa = document.querySelector('#npa').value,
+	          phone = document.querySelector('#phone').value,
+	          email = document.querySelector('#email').value,
+	          brand = document.querySelector('#brand').value,
+	          immatriculation = document.querySelector('#immatriculation').value,
+	          place = document.querySelector('#place').value,
+	          port = document.querySelector('#port').value,
+	          length = document.querySelector('#length').value,
+	          width = document.querySelector('#width').value,
+	          engineNumber = document.querySelector('#engine-number').value,
+	          hivernageDate = document.querySelector('#hivernage-date').value,
+	          waterDate = document.querySelector('#water-date').value,
+	          engineType = document.querySelector('#inbord:checked') ? 'Inbord' : 'Outbord',
+	          stockage = document.querySelector('#stockage:checked') ? 'on' : 'off',
+	          getBoat = document.querySelector('#get-boat:checked') ? 'on' : 'off',
+	          clean = document.querySelector('#clean:checked') ? 'on' : 'off',
+	          cleanSemi = document.querySelector('#clean-semi:checked') ? 'on' : 'off',
+	          serviceEngine = document.querySelector('#service-engine:checked') ? 'on' : 'off',
+	          wc = document.querySelector('#wc:checked') ? 'on' : 'off',
+	          protection = document.querySelector('#protection:checked') ? 'on' : 'off',
+	          antifoulling = document.querySelector('#antifoulling:checked') ? 'on' : 'off',
+	          polish = document.querySelector('#polish:checked') ? 'on' : 'off',
+	          cleanBache = document.querySelector('#clean-bache:checked') ? 'on' : 'off',
+	          message = document.querySelector('#message').value;
+	
+	      var ajax = new _simpleAjax2.default({
+	        url: 'https://formspree.io/matthieu.turmel@aquaboat.ch',
+	        method: 'POST',
+	        data: {
+	          _subject: 'Inscription hivernage - Aquaboat',
+	          _cc: email,
+	          'Prenom': firstname,
+	          'Nom': lastname,
+	          'Adresse': address,
+	          'Ville': city,
+	          'NPA': npa,
+	          'Telephone': phone,
+	          'Email': email,
+	          'Marque': brand,
+	          'Immatriculation': immatriculation,
+	          'Place': place,
+	          'Port': port,
+	          'Longeur': length,
+	          'Largeur': width,
+	          'Type de moteur ': engineType,
+	          'Nombdre de moteur': engineNumber,
+	          'Date d\'hivernage': hivernageDate,
+	          'Date mise à l\'eau': waterDate,
+	          'Stockage du bateu au chantier': stockage,
+	          'Aller chercher le bateau': getBoat,
+	          'Nettoyage carène (uniquement partie sous l\'eau)': cleanSemi,
+	          'Nettoyage carène et coque': clean,
+	          'Hivernage WC, réservoire eau claire / usée': wc,
+	          'Service moteur (recommandé)': serviceEngine,
+	          'Protection du bateau avec une bâche thermoformée (recommandé)': protection,
+	          'Antifoulling (sur-couchage)': antifoulling,
+	          'Polish rapide de la coque': polish,
+	          'Nettoyage de la bâche': cleanBache,
+	          'Autre(s) travaux': message
+	        },
+	        dataType: 'json'
+	      });
+	
+	      ajax.on('success', function () {
+	        document.querySelector('.contact__message--success').classList.toggle('hidden');
+	        document.querySelector('form[name="hivernage"]').reset();
 	      });
 	
 	      ajax.on('error', function () {
@@ -270,12 +592,12 @@
 	
 	exports.default = Form;
 
-/***/ },
-/* 4 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ }),
+/* 5 */
+/***/ (function(module, exports, __webpack_require__) {
 
-	var EventEmitter = __webpack_require__(5).EventEmitter,
-	    queryString = __webpack_require__(6);
+	var EventEmitter = __webpack_require__(6).EventEmitter,
+	    queryString = __webpack_require__(7);
 	
 	function tryParseJson(data){
 	    try{
@@ -424,9 +746,9 @@
 	module.exports = Ajax;
 
 
-/***/ },
-/* 5 */
-/***/ function(module, exports) {
+/***/ }),
+/* 6 */
+/***/ (function(module, exports) {
 
 	// Copyright Joyent, Inc. and other Node contributors.
 	//
@@ -732,9 +1054,9 @@
 	}
 
 
-/***/ },
-/* 6 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ }),
+/* 7 */
+/***/ (function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_RESULT__;/*!
 		query-string
@@ -804,9 +1126,9 @@
 	})();
 
 
-/***/ },
-/* 7 */
-/***/ function(module, exports) {
+/***/ }),
+/* 8 */
+/***/ (function(module, exports) {
 
 	'use strict';
 	
@@ -845,9 +1167,9 @@
 	
 	exports.default = GoogleMap;
 
-/***/ },
-/* 8 */
-/***/ function(module, exports) {
+/***/ }),
+/* 9 */
+/***/ (function(module, exports) {
 
 	'use strict';
 	
@@ -891,9 +1213,9 @@
 	
 	exports.default = Nav;
 
-/***/ },
-/* 9 */
-/***/ function(module, exports) {
+/***/ }),
+/* 10 */
+/***/ (function(module, exports) {
 
 	'use strict';
 	
@@ -933,9 +1255,9 @@
 	
 	exports.default = Tile;
 
-/***/ },
-/* 10 */
-/***/ function(module, exports) {
+/***/ }),
+/* 11 */
+/***/ (function(module, exports) {
 
 	'use strict';
 	
@@ -1024,6 +1346,6 @@
 	
 	exports.default = ResultsFilter;
 
-/***/ }
+/***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map

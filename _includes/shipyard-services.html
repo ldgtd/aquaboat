@@ -12,8 +12,156 @@
               <h3 class="tile__title mrgt0">{{ service.title }}</h3>
               <p>{{ service.content }}</p>
             </div>
+            {% if service.id == 2 %}
+              <button class="btn btn--primary mrgb" data-toggle="modal" data-target="#modal-hivernage">{{ t.shipyard.link }}</button>
+            {% endif %}
           </div>
       </div>
     {% endfor %}
   </section>
 </article>
+
+<div id="modal-hivernage" class="modal-overlay">
+  <form name="hivernage" method="post" class="modal">
+    <header class="modal__header">
+      <h4 class="modal__title">{{ t.shipyard.modal.title }}</h4>
+      <button type="button" class="modal__close-btn btn btn--bare" data-toggle="modal" data-target="#modal-hivernage">
+      </button>
+    </header>
+    <div class="modal__body">
+      <div class="grid">
+        <div class="grid__item sm-w-1/1 md-w-1/1">
+          <h3 class="mrgt--">{{ t.shipyard.modal.perso }}</h3>
+          <div class="form-group">
+            <label for="firstname" class="field-label">{{ t.contact.form.firstname }}</label>
+            <input type="text" id="firstname" required>
+          </div>
+          <div class="form-group">
+            <label for="lastname" class="field-label">{{ t.contact.form.lastname }}</label>
+            <input type="text" id="lastname" required>
+          </div>
+          <div class="form-group">
+            <label for="address" class="field-label">{{ t.contact.form.address }}</label>
+            <input type="text" id="address" required>
+          </div>
+          <div class="form-group">
+            <label for="city" class="field-label">{{ t.contact.form.city }}</label>
+            <input type="text" id="city" required>
+          </div>
+          <div class="form-group">
+            <label for="npa" class="field-label">{{ t.contact.form.npa }}</label>
+            <input type="number" id="npa" required>
+          </div>
+          <div class="form-group">
+            <label for="phone" class="field-label">{{ t.contact.form.phone }}</label>
+            <input type="tel" id="phone" required>
+          </div>
+          <div class="form-group">
+            <label for="email" class="field-label">{{ t.contact.form.email }}</label>
+            <input type="email" id="email" required>
+          </div>
+          <h3>{{ t.shipyard.modal.perso }}</h3>
+          <div class="form-group">
+            <label for="brand" class="field-label">{{ t.contact.form.brand }}</label>
+            <input type="text" id="brand" required>
+          </div>
+          <div class="form-group">
+            <label for="immatriculation" class="field-label">{{ t.contact.form.immatriculation }}</label>
+            <input type="number" id="immatriculation" required>
+          </div>
+          <div class="form-group">
+            <label for="place" class="field-label">{{ t.contact.form.place }}</label>
+            <input type="text" id="place" required>
+          </div>
+          <div class="form-group">
+            <label for="port" class="field-label">{{ t.contact.form.port }}</label>
+            <input type="text" id="port" required>
+          </div>
+          <div class="form-group">
+             <label for="length" class="field-label">{{ t.contact.form.length }}</label>
+             <input type="number" id="length" required>
+          </div>
+          <div class="form-group">
+             <label for="width" class="field-label">{{ t.contact.form.width }}</label>
+             <input type="number" id="width" required>
+          </div>
+          <div class="form-group">
+            <p class="text-bold">{{ t.contact.form.engine-type }}</p>
+            <label for="inbord">{{ t.contact.form.inbord }}
+              <input name="engine-type" id="inbord" type="radio" />
+            </label>
+            <label for="outbord">{{ t.contact.form.outbord }}
+              <input name="engine-type" id="outbord" type="radio" />
+            </label>
+          </div>
+          <div class="form-group">
+             <label for="engine-number" class="field-label">{{ t.contact.form.engine-number }}</label>
+             <input type="number" id="engine-number" required>
+          </div>
+          <h3>{{ t.shipyard.modal.move }}</h3>
+          <div class="form-group">
+             <label for="hivernage-date" class="field-label">{{ t.contact.form.hivernage-date }}</label>
+             <input type="date" id="hivernage-date" required>
+          </div>
+          <div class="form-group">
+             <label for="water-date" class="field-label">{{ t.contact.form.water-date }}</label>
+             <input type="date" id="water-date" required>
+          </div>
+          <h3>{{ t.shipyard.modal.services }}</h3>
+          <div class="form-group">
+            <label for="stockage">
+              <input id="stockage" type="checkbox" value="stockage" />
+              {{ t.contact.form.stockage }}
+            </label>
+            <label for="get-boat">
+              <input id="get-boat" type="checkbox" />
+              {{ t.contact.form.get-boat }}
+            </label>
+            <label for="clean-semi">
+              <input id="clean-semi" type="checkbox" />
+              {{ t.contact.form.clean-semi }}
+            </label>
+            <label for="clean">
+              <input id="clean" type="checkbox" />
+              {{ t.contact.form.clean }}
+            </label>
+            <label for="wc">
+              <input id="wc" type="checkbox" />
+              {{ t.contact.form.wc }}
+            </label>
+            <label for="service-engine">
+              <input id="service-engine" type="checkbox" checked />
+              {{ t.contact.form.service-engine }}
+            </label>
+            <label for="protection">
+              <input id="protection" type="checkbox" checked />
+              {{ t.contact.form.protection }}
+            </label>
+            <label for="antifoulling">
+              <input id="antifoulling" type="checkbox" />
+              {{ t.contact.form.antifoulling }}
+            </label>
+            <label for="polish">
+              <input id="polish" type="checkbox" />
+              {{ t.contact.form.polish }}
+            </label>
+            <label for="clean-bache">
+              <input id="clean-bache" type="checkbox" />
+              {{ t.contact.form.clean-bache }}
+            </label>
+          </div>
+          <h3>{{ t.shipyard.modal.other }}</h3>
+          <div class="form-group">
+            <label for="message" class="field-label">{{ t.contact.form.message }}</label>
+            <textarea id="message" rows="4" required></textarea>
+          </div>
+        </div>
+      </div>
+      <p class="contact__message contact__message--success pdg- hidden">{{ t.contact.form.success }}</p>
+      <p class="contact__message contact__message--error pdg- hidden">{{ t.contact.form.error }}</p>
+    </div>
+    <footer class="modal__footer">
+      <button type="submit" class="btn btn--primary">{{ t.contact.form.send }}</button>
+    </footer>
+  </form>
+</div>
