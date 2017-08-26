@@ -1,166 +1,133 @@
 ---
-- title: Selection Boat Classic 690
+- boat: Bateau bowrider
   content: Année 2017
   engine: Mercury F100 EFI
-  boat: Bateau bowrider
-  width: 6.75 m
   height: 2.65 m
+  image: "/forestryio/images/DSCN0553.jpg"
+  money: 44'900 CHF
   people: 8
   power: 100 HP
-  money: 44'900 CHF
-  image: "/forestryio/images/DSCN0553.jpg"
+  title: Selection Boat Classic 690
   url: https://www.bateau24.ch/chfr/bateauxamoteur/selection-boats/selection-boats-classic-690/detail/292621/
-- title: Selection Boat Aston 20
+  width: 6.75 m
+- boat: Bateau bowrider
   content: Année 2017
   engine: Mercury F100
-  boat: Bateau bowrider
-  width: 6.00 m
   height: 2.25 m
+  image: "/forestryio/images/20160727_181533.jpg"
+  money: 30'050 CHF
   people: 6
   power: 100 HP
-  money: 30'050 CHF
-  image: "/forestryio/images/20160727_181533.jpg"
+  title: Selection Boat Aston 20
   url: http://www.bateau24.ch/chfr/bateaux+a+moteur/selection+boats/selection+boats+aston+20+-+destockage/detail/264099/
-- title: Stingray 198 LX
+  width: 6.00 m
+- boat: Bateau bowrider
   content: Année 2017
   engine: Mercuiser 4.3 MPI
-  boat: Bateau bowrider
-  width: 6.00 m
   height: 2.40 m
+  image: "/forestryio/images/stingray-bleu-11.jpg"
+  money: 49'580 CHF
   people: CE 9
   power: 180 HP
-  money: 49'580 CHF
-  image: "/forestryio/images/stingray-bleu-11.jpg"
+  title: Stingray 198 LX
   url: http://www.bateau24.ch/chfr/bateaux+a+moteur/stingray/stingray+198+lx/detail/287208/
-- title: Stingray 235 LR
+  width: 6.00 m
+- boat: Bateau bowrider
   content: 'Année 2014 '
   engine: Mercruiser 350 MAG
-  boat: Bateau bowrider
-  width: 7.29 m
   height: 2.57 m
+  image: "/forestryio/images/198lx_running2a(1).jpg"
+  money: 55'000 CHF
   people: C12
   power: 350 HP
-  money: 55'000 CHF
-  image: "/forestryio/images/198lx_running2a(1).jpg"
+  title: Stingray 235 LR
   url: https://www.bateau24.ch/chfr/bateauxamoteur/stingray/stingray-235-lr/detail/301556/
-- title: Selection Boat Sunny 20
+  width: 7.29 m
+- boat: Bateau Sundeck
   content: Année 2016
   engine: Mercrury EFI 80
-  boat: Bateau Sundeck
-  width: 6.00 m
   height: 2.25 m
+  image: "/forestryio/images/14962755_1795859220655060_7216163016293000364_n-1.jpg"
+  money: 31'600 CHF
   people: C6
   power: 80 HP
-  money: 31'600 CHF
-  image: "/forestryio/images/14962755_1795859220655060_7216163016293000364_n-1.jpg"
+  title: Selection Boat Sunny 20
   url: http://www.bateau24.ch/chfr/bateaux+a+moteur/selection+boats/selection+boats+sunny+20+-+destockage/detail/261992/
-- title: Selection Boats Sunny 23
+  width: 6.00 m
+- boat: Bateau sundeck
   content: Année 2017
   engine: Moteur Evinrude 150 ou Mercruy
-  boat: Bateau sundeck
-  width: HT 7.50 m / CE 6.12 m
   height: 2.45
+  image: "/forestryio/images/sunny-23R.jpg"
+  money: 39'990 CHF
   people: C 7
   power: 150 HP
-  money: 39'990 CHF
-  image: "/forestryio/images/Untitled-1.jpg"
+  title: Selection Boats Sunny 23
   url: ''
-- title: Ultramar 650 WE
+  width: HT 7.50 m / CE 6.12 m
+- boat: Bateau pêche
   content: Année 2010 moteur neuf
   engine: Mercruy F80 EFI
-  boat: Bateau pêche
-  width: '6.50 m '
   height: 2.50 m
+  image: "/forestryio/images/Untitled-1-1.jpg"
+  money: 36'500 CHF
   people: C 7
   power: 80 HP
-  money: 36'500 CHF
-  image: "/forestryio/images/Untitled-1-1.jpg"
+  title: Ultramar 650 WE
   url: https://www.bateau24.ch/chfr/bateauxamoteur/ultramar/ultramar-650-weekend/detail/294048/
-- title: Selection Boats Aston 18
+  width: '6.50 m '
+- boat: Bateau Bowrider
   content: Année 2017
   engine: Moteur Mercruy F40 EFI
-  boat: Bateau Bowrider
-  width: 4.80 m
   height: 2.08 m
+  image: "/forestryio/images/img-1.jpg"
+  money: 22'600 CHF
   people: C 6
   power: 40 HP
-  money: 22'600 CHF
-  image: "/forestryio/images/img-1.jpg"
+  title: Selection Boats Aston 18
   url: ''
-- title: Selection Boat Cruiser 22 EX
+  width: 4.80 m
+- boat: Bateau cabine
   content: Année 2017
   engine: Mercury EFI 80
-  boat: Bateau cabine
-  width: 6.35 m
   height: 2.50 m
+  image: "/forestryio/images/DSCN0773.JPG"
+  money: 43'400 CHF
   people: C6
   power: 80 HP
-  money: 43'400 CHF
-  image: "/forestryio/images/DSCN0773.JPG"
+  title: Selection Boat Cruiser 22 EX
   url: http://www.bateau24.ch/chfr/bateaux+a+moteur/selection+boats/selection+boats+cruiser+22/detail/271377/
-- title: Quicksilver 625
-  content: Année 1999
-  engine: Mercruiser 3.0L
-  boat: Bateau cabine
-  width: 6.45 m
-  height: 2.47 m
-  people: C 6
-  power: 130 HP
-  money: 14'900 CHF
-  image: "/forestryio/images/DSCN0891.jpg"
-  url: https://www.bateau24.ch/chfr/bateauxamoteur/quicksilver/quicksilver-625/detail/301553/
-- title: Bavaria 29 Sport DC
-  content: Année 2004
-  engine: Volvo Penta 8.1 Gi
-  boat: Bateau cabine
-  width: 8.92 m
-  height: 2.98 m
-  people: C8
-  power: 1x 381 HP
-  money: 54'500 CHF
-  image: "/forestryio/images/IMG-20161121-WA0005.jpg"
-  url: http://www.bateau24.ch/chfr/bateaux+a+moteur/bavaria/bavaria+29+sport+dc/detail/283057/
-- title: Princess 286
+  width: 6.35 m
+- boat: Bateau cabine
   content: Année 1986
   engine: Bi-moteur Volvo Penta 200D
-  boat: Bateau cabine
-  width: 9.50 m
   height: 3.35 m
+  image: "/forestryio/images/88406-24c6f36745868f486e941288f495642b-ch.jpg"
+  money: 65'000 CHF
   people: C 12
   power: 2x 182 HP
-  money: 65'000 CHF
-  image: "/forestryio/images/88406-24c6f36745868f486e941288f495642b-ch.jpg"
+  title: Princess 286
   url: https://www.bateau24.ch/chfr/bateauxamoteur/princess/princess-286/detail/88406/
-- title: 'Sessa Key West 20 '
-  content: Année 1997
-  engine: Moteur Honda BF 150 EFI
-  boat: Bateau cabine
-  width: 6.30 m
-  height: 2.30 m
-  people: C 7
-  power: 150 HP
-  money: 16'300 CHF
-  image: "/forestryio/images/DSCN0815.jpg"
-  url: ''
-- title: Formula 280 BR
+  width: 9.50 m
+- boat: Bateau Bowrider
   content: Année 2007
   engine: Bi-moteur Mercruiser 6.2L MPI
-  boat: Bateau Bowrider
-  width: 8.99 m
   height: 2.80 m
+  image: "/forestryio/images/formula.jpg"
+  money: 74'900 CHF
   people: C 10
   power: 2x 350 HP
-  money: 74'900 CHF
-  image: "/forestryio/images/formula.jpg"
+  title: Formula 280 BR
   url: https://www.bateau24.ch/chfr/bateauxamoteur/formula/formula-280-br/detail/181961/
-- title: 'Quicksilver 430 '
+  width: 8.99 m
+- boat: Semi-rigide
   content: Année 2011 (vendu avec remorque)
   engine: Moteur Honda F8 (barre franche)
-  boat: Semi-rigide
-  width: '4.3 m '
   height: 1.86 m
+  image: "/forestryio/images/228439-d7941d4efaf4f9908382ae4d59c89767-ch.jpg"
+  money: 4'500 CHF
   people: C 8
   power: 8 HP
-  money: 4'500 CHF
-  image: "/forestryio/images/228439-d7941d4efaf4f9908382ae4d59c89767-ch.jpg"
+  title: 'Quicksilver 430 '
   url: https://www.bateau24.ch/chfr/bateauxamoteur/quicksilver/quicksilver-430/detail/228439/
+  width: '4.3 m '
