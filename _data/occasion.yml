@@ -1,5 +1,27 @@
 ---
 - boat: Bateau bowrider
+  content: Modèle 2017 - Destockage fin de saison
+  engine: Mercuiser 4.3 MPI
+  height: 2.40 m
+  image: "/forestryio/images/stingray-bleu-7(site).jpg"
+  money: 42'900 au lieu de 49'000 CHF
+  people: CE 9
+  power: 180 HP
+  title: Stingray 198 LX
+  url: http://www.bateau24.ch/chfr/bateaux+a+moteur/stingray/stingray+198+lx/detail/287208/
+  width: 6.00 m
+- boat: Bateau Sundeck
+  content: 'Modèle 2017 - Destockage fin de saison '
+  engine: Mercrury EFI 80
+  height: 2.20 m
+  image: "/forestryio/images/Sunny-20-1.jpg"
+  money: 29'900 au lieu de 36'430 CHF
+  people: C6
+  power: 80 HP
+  title: Selection Boat Sunny 20
+  url: http://www.bateau24.ch/chfr/bateaux+a+moteur/selection+boats/selection+boats+sunny+20+-+destockage/detail/261992/
+  width: 6.00 m
+- boat: Bateau bowrider
   content: Année 2017
   engine: Mercury F100 EFI
   height: 2.65 m
@@ -22,17 +44,6 @@
   url: http://www.bateau24.ch/chfr/bateaux+a+moteur/selection+boats/selection+boats+aston+20+-+destockage/detail/264099/
   width: 6.00 m
 - boat: Bateau bowrider
-  content: Modèle 2017 - Destockage fin de saison
-  engine: Mercuiser 4.3 MPI
-  height: 2.40 m
-  image: "/forestryio/images/stingray-bleu-7(site).jpg"
-  money: 42'900 au lieu de 49'000 CHF
-  people: CE 9
-  power: 180 HP
-  title: Stingray 198 LX
-  url: http://www.bateau24.ch/chfr/bateaux+a+moteur/stingray/stingray+198+lx/detail/287208/
-  width: 6.00 m
-- boat: Bateau bowrider
   content: 'Année 2014 '
   engine: Mercruiser 350 MAG
   height: 2.57 m
@@ -43,17 +54,6 @@
   title: Stingray 235 LR
   url: https://www.bateau24.ch/chfr/bateauxamoteur/stingray/stingray-235-lr/detail/301556/
   width: 7.29 m
-- boat: Bateau Sundeck
-  content: 'Modèle 2017 - Destockage fin de saison '
-  engine: Mercrury EFI 80
-  height: 2.20 m
-  image: "/forestryio/images/Sunny-20-1.jpg"
-  money: 29'900 au lieu de 36'430 CHF
-  people: C6
-  power: 80 HP
-  title: Selection Boat Sunny 20
-  url: http://www.bateau24.ch/chfr/bateaux+a+moteur/selection+boats/selection+boats+sunny+20+-+destockage/detail/261992/
-  width: 6.00 m
 - boat: Bateau sundeck
   content: Année 2017
   engine: Moteur Evinrude 150 ou Mercruy
