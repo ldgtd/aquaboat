@@ -22,28 +22,6 @@
   url: http://www.bateau24.ch/chfr/bateaux+a+moteur/stingray/stingray+198+lx/detail/287208/
   width: 6.00 m
 - boat: Bateau bowrider
-  content: 'Année 2014 '
-  engine: Mercruiser 350 MAG
-  height: 2.57 m
-  image: "/forestryio/images/198lx_running2a(1).jpg"
-  money: 55'000 CHF
-  people: C12
-  power: 350 HP
-  title: Stingray 235 LR
-  url: https://www.bateau24.ch/chfr/bateauxamoteur/stingray/stingray-235-lr/detail/301556/
-  width: 7.29 m
-- boat: Bateau bowrider
-  content: Année 2017
-  engine: Mercury F100 EFI
-  height: 2.65 m
-  image: "/forestryio/images/DSCN0553.jpg"
-  money: 44'900 CHF
-  people: 8
-  power: 100 HP
-  title: Selection Boat Classic 690
-  url: https://www.bateau24.ch/chfr/bateauxamoteur/selection-boats/selection-boats-classic-690/detail/292621/
-  width: 6.75 m
-- boat: Bateau bowrider
   content: Année 2017
   engine: Mercury F100
   height: 2.25 m
