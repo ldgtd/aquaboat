@@ -1,5 +1,16 @@
 ---
 - boat: Bateau bowrider
+  content: 'Année 2014 '
+  engine: Mercruiser 350 MAG
+  height: 2.57 m
+  image: "/forestryio/images/198lx_running2a(1).jpg"
+  money: 55'000 CHF
+  people: C12
+  power: 350 HP
+  title: Stingray 235 LR
+  url: https://www.bateau24.ch/chfr/bateauxamoteur/stingray/stingray-235-lr/detail/301556/
+  width: 7.29 m
+- boat: Bateau bowrider
   content: Modèle 2017 - Destockage fin de saison
   engine: Mercuiser 4.3 MPI
   height: 2.40 m
@@ -43,17 +54,6 @@
   title: Selection Boat Aston 20
   url: http://www.bateau24.ch/chfr/bateaux+a+moteur/selection+boats/selection+boats+aston+20+-+destockage/detail/264099/
   width: 6.00 m
-- boat: Bateau bowrider
-  content: 'Année 2014 '
-  engine: Mercruiser 350 MAG
-  height: 2.57 m
-  image: "/forestryio/images/198lx_running2a(1).jpg"
-  money: 55'000 CHF
-  people: C12
-  power: 350 HP
-  title: Stingray 235 LR
-  url: https://www.bateau24.ch/chfr/bateauxamoteur/stingray/stingray-235-lr/detail/301556/
-  width: 7.29 m
 - boat: Bateau sundeck
   content: Année 2017
   engine: Moteur Evinrude 150 ou Mercruy
