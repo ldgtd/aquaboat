@@ -471,7 +471,7 @@
   people: 6
   power: 115
   money: 29550
-  image: forestryio/images/sunny20.jpg
+  image: "/forestryio/images/Sunny-20.jpg"
 - id: selection boat
   title: Aston 21
   content: ''
