@@ -467,7 +467,7 @@
   engine: Moteur hors-bord
   boat: Bateau cabine
   height: 6
-  width: 2.25
+  width: '2.20'
   people: 6
   power: 115
   money: 29550
