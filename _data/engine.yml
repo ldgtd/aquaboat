@@ -40,6 +40,6 @@
     sont des moteurs pour les activités de tractage et de plaisance. Tous ces moteurs
     sont conçus pour offrir la meilleure expérience de navigation possible. "
   engine: Moteur in board
-  image: forestryio/images/Quad_Verado_350_SeaVee_390_3-1.jpg
+  image: "/forestryio/images/Mercruiser.jpg"
   power: De 135 HP à 425 HP
   title: 'Moteur Mercruiser '
