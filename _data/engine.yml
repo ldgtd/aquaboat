@@ -1,4 +1,13 @@
 ---
+- catalogue: "/forestryio/images/EMEA_Mercury-Outboard-2016_Catalogue_French (1)-1.pdf"
+  content: Les hors-bord Verado ont créé toute une série de normes nouvelles dans
+    le domaine de la performance. Quelle que soit la définition que l'on veuille en
+    donner. Faible consommation de carburant, quatre temps suralimenté et couple,
+    un moteur au pus haute exigence!
+  engine: Moteur hors-bord
+  image: forestryio/images/Quad_Verado_350_SeaVee_390_3-1.jpg
+  power: De 175 à 400 HP
+  title: Moteur Mercruy Verado
 - catalogue: "/forestryio/images/8470-Evinrude-Brochure2017-A4-FR-LR.pdf"
   content: "Evinrude s'attache depuis plus d'un siècle à créer, mettre au point, repenser
     et réinventer le moteur hors-bord. Où que l'innovation nous mène, nous sommes
@@ -8,13 +17,6 @@
   image: forestryio/images/envirudre-1.jpg
   power: 50 à 300 HP
   title: Envirude moteur 2T (homologation CH)
-- catalogue: ''
-  content: |
-    Volvo Penta est l'un des leaders mondiaux de la fourniture de moteurs et de systèmes de motorisation complets pour applications marines et industrielles. Les technologies et produits avancés sont conçus avec un principe clé... faire que l'expérience de navigation soit la plus facile possible. Pour résumer, ces fonctionnalités facilitent la navigation.
-  engine: Inboard
-  image: forestryio/images/VP.jpg
-  power: 135 à 900 HP
-  title: Volvo Penta
 - catalogue: "/forestryio/images/EMEA_Mercury-Outboard-2016_Catalogue_French (1)-1.pdf"
   content: "Oubliez tout ce que vous savez sur les hors-bord quatre temps. Les moteur
     Mercury changent la donne, totalement. \nIls sont plus solides, plus petits et
@@ -25,15 +27,6 @@
   image: forestryio/images/9-9ProKicker_NitroLifstyle_2-%281%29.jpg
   power: " De 2.5 à 150 HP"
   title: Moteur Mercury 4 temps
-- catalogue: "/forestryio/images/EMEA_Mercury-Outboard-2016_Catalogue_French (1)-1.pdf"
-  content: Les hors-bord Verado ont créé toute une série de normes nouvelles dans
-    le domaine de la performance. Quelle que soit la définition que l'on veuille en
-    donner. Faible consommation de carburant, quatre temps suralimenté et couple,
-    un moteur au pus haute exigence!
-  engine: Moteur hors-bord
-  image: forestryio/images/Quad_Verado_350_SeaVee_390_3-1.jpg
-  power: De 175 à 400 HP
-  title: Moteur Mercruy Verado
 - catalogue: "/forestryio/images/EMEA French Mercury MerCruiser 2017.pdf"
   content: "Peu importe le type de navigation, MerCruiser à le meilleur système de
     propulsion qui vous convient.\nNotre gamme exclusive de moteurs sterndrive  inboard
@@ -43,3 +36,10 @@
   image: "/forestryio/images/Mercruiser.jpg"
   power: De 135 HP à 425 HP
   title: 'Moteur Mercruiser '
+- catalogue: ''
+  content: |
+    Volvo Penta est l'un des leaders mondiaux de la fourniture de moteurs et de systèmes de motorisation complets pour applications marines et industrielles. Les technologies et produits avancés sont conçus avec un principe clé... faire que l'expérience de navigation soit la plus facile possible. Pour résumer, ces fonctionnalités facilitent la navigation.
+  engine: Inboard
+  image: forestryio/images/VP.jpg
+  power: 135 à 900 HP
+  title: Volvo Penta
