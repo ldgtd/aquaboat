@@ -6,7 +6,81 @@
     \                                                                      \n<br />Tous
     le team AQUABOAT vous remercie de votre confiance et fidélité.\n<center/><button
     class=\"btn btn--primary mrgb\" data-toggle=\"modal\" data-target=\"#modal-hivernage\">Inscription
-    hivernage</button>\n"
+    hivernage</button>\n<div id=\"modal-hivernage\" class=\"modal-overlay active\">\n
+    \ <form name=\"hivernage\" method=\"post\" class=\"modal\">\n    <header class=\"modal__header\">\n
+    \     <h4 class=\"modal__title\">Inscription hivernage</h4>\n      <button type=\"button\"
+    class=\"modal__close-btn btn btn--bare\" data-toggle=\"modal\" data-target=\"#modal-hivernage\">\n
+    \     </button>\n    </header>\n    <div class=\"modal__body\">\n      <div class=\"grid\">\n
+    \       <div class=\"grid__item sm-w-1/1 md-w-1/1\">\n          <h3 class=\"mrgt--\">Données
+    personelles</h3>\n          <div class=\"form-group\">\n            <label for=\"firstname\"
+    class=\"field-label\">Prénom</label>\n            <input type=\"text\" id=\"firstname\"
+    required=\"\">\n          </div>\n          <div class=\"form-group\">\n            <label
+    for=\"lastname\" class=\"field-label\">Nom de famille</label>\n            <input
+    type=\"text\" id=\"lastname\" required=\"\">\n          </div>\n          <div
+    class=\"form-group\">\n            <label for=\"address\" class=\"field-label\">Adresse</label>\n
+    \           <input type=\"text\" id=\"address\" required=\"\">\n          </div>\n
+    \         <div class=\"form-group\">\n            <label for=\"city\" class=\"field-label\">Ville</label>\n
+    \           <input type=\"text\" id=\"city\" required=\"\">\n          </div>\n
+    \         <div class=\"form-group\">\n            <label for=\"npa\" class=\"field-label\">NPA</label>\n
+    \           <input type=\"number\" id=\"npa\" required=\"\">\n          </div>\n
+    \         <div class=\"form-group\">\n            <label for=\"phone\" class=\"field-label\">Téléphone</label>\n
+    \           <input type=\"tel\" id=\"phone\" required=\"\">\n          </div>\n
+    \         <div class=\"form-group\">\n            <label for=\"email\" class=\"field-label\">Email</label>\n
+    \           <input type=\"email\" id=\"email\" required=\"\">\n          </div>\n
+    \         <h3>Données personelles</h3>\n          <div class=\"form-group\">\n
+    \           <label for=\"brand\" class=\"field-label\">Marque</label>\n            <input
+    type=\"text\" id=\"brand\" required=\"\">\n          </div>\n          <div class=\"form-group\">\n
+    \           <label for=\"immatriculation\" class=\"field-label\">Immatriculation</label>\n
+    \           <input type=\"number\" id=\"immatriculation\" required=\"\">\n          </div>\n
+    \         <div class=\"form-group\">\n            <label for=\"place\" class=\"field-label\">Place</label>\n
+    \           <input type=\"text\" id=\"place\" required=\"\">\n          </div>\n
+    \         <div class=\"form-group\">\n            <label for=\"port\" class=\"field-label\">Port</label>\n
+    \           <input type=\"text\" id=\"port\" required=\"\">\n          </div>\n
+    \         <div class=\"form-group\">\n             <label for=\"length\" class=\"field-label\">Longeur
+    (m)</label>\n             <input type=\"number\" id=\"length\" required=\"\">\n
+    \         </div>\n          <div class=\"form-group\">\n             <label for=\"width\"
+    class=\"field-label\">Largeur (m)</label>\n             <input type=\"number\"
+    id=\"width\" required=\"\">\n          </div>\n          <div class=\"form-group\">\n
+    \           <p class=\"text-bold\">Type de moteur</p>\n            <label for=\"inbord\">Inbord\n
+    \             <input name=\"engine-type\" id=\"inbord\" type=\"radio\">\n            </label>\n
+    \           <label for=\"outbord\">Outbord\n              <input name=\"engine-type\"
+    id=\"outbord\" type=\"radio\">\n            </label>\n          </div>\n          <div
+    class=\"form-group\">\n             <label for=\"engine-number\" class=\"field-label\">Nombre
+    de moteur</label>\n             <input type=\"number\" id=\"engine-number\" required=\"\">\n
+    \         </div>\n          <h3>Date d'hivernage &amp; de mise à l'eau</h3>\n
+    \         <div class=\"form-group\">\n             <label for=\"hivernage-date\"
+    class=\"field-label\">Date d'hivernage</label>\n             <input type=\"date\"
+    id=\"hivernage-date\" required=\"\">\n          </div>\n          <div class=\"form-group\">\n
+    \            <label for=\"water-date\" class=\"field-label\">Date de mise à l'eau</label>\n
+    \            <input type=\"date\" id=\"water-date\" required=\"\">\n          </div>\n
+    \         <h3>Services</h3>\n          <div class=\"form-group\">\n            <label
+    for=\"stockage\">\n              <input id=\"stockage\" type=\"checkbox\" value=\"stockage\">\n
+    \             Stockage du bateau au chantier\n            </label>\n            <label
+    for=\"get-boat\">\n              <input id=\"get-boat\" type=\"checkbox\">\n              Je
+    vous pris d'aller chercher le bateau\n            </label>\n            <label
+    for=\"clean-semi\">\n              <input id=\"clean-semi\" type=\"checkbox\">\n
+    \             Nettoyage carène (uniquement partie sous l'eau)\n            </label>\n
+    \           <label for=\"clean\">\n              <input id=\"clean\" type=\"checkbox\">\n
+    \             Nettoyage carène et coque\n            </label>\n            <label
+    for=\"wc\">\n              <input id=\"wc\" type=\"checkbox\">\n              Hivernage
+    WC, réservoire eau claire / usée\n            </label>\n            <label for=\"service-engine\">\n
+    \             <input id=\"service-engine\" type=\"checkbox\" checked=\"\">\n              Service
+    moteur (recommandé)\n            </label>\n            <label for=\"protection\">\n
+    \             <input id=\"protection\" type=\"checkbox\" checked=\"\">\n              Protection
+    du bateau avec une bâche thermoformée (recommandé)\n            </label>\n            <label
+    for=\"antifoulling\">\n              <input id=\"antifoulling\" type=\"checkbox\">\n
+    \             Antifoulling (sur-couchage)\n            </label>\n            <label
+    for=\"polish\">\n              <input id=\"polish\" type=\"checkbox\">\n              Polish
+    rapide de la coque\n            </label>\n            <label for=\"clean-bache\">\n
+    \             <input id=\"clean-bache\" type=\"checkbox\">\n              Nettoyage
+    de la bâche\n            </label>\n          </div>\n          <h3>Autre(s) travaux</h3>\n
+    \         <div class=\"form-group\">\n            <label for=\"message\" class=\"field-label\">Message</label>\n
+    \           <textarea id=\"message\" rows=\"4\" required=\"\"></textarea>\n          </div>\n
+    \       </div>\n      </div>\n      <p class=\"contact__message contact__message--success
+    pdg- hidden\">Bravo ! Votre message nous a bien été envoyé !</p>\n      <p class=\"contact__message
+    contact__message--error pdg- hidden\">Bim ! Un problème est survenu, essaie encore
+    !</p>\n    </div>\n    <footer class=\"modal__footer\">\n      <button type=\"submit\"
+    class=\"btn btn--primary\">Envoyer</button>\n    </footer>\n  </form>\n</div>"
   image: "/forestryio/images/photo-hiv.jpg"
   title: L'été touche à sa fin, voici donc venu le temps de l'hivernage de votre bateau
 - content: "Afin de vous conseillez au mieux et de vous assistez dans l'achat de votre
