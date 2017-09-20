@@ -4,7 +4,9 @@
     bateau durant la période hivers.Pour cela, remplissez notre formulaire d'hivernage
     en ligne et nous vous ferons parvenir une offre ainsi que notre panel de prestation.
     \                                                                      \n<br />Tous
-    le team AQUABOAT vous remercie de votre confiance et fidélité.\n"
+    le team AQUABOAT vous remercie de votre confiance et fidélité.\n<button class=\"btn
+    btn--primary mrgb\" data-toggle=\"modal\" data-target=\"#modal-hivernage\">Inscription
+    hivernage</button>\n"
   image: "/forestryio/images/photo-hiv.jpg"
   title: L'été touche à sa fin, voici donc venu le temps de l'hivernage de votre bateau
 - content: "Afin de vous conseillez au mieux et de vous assistez dans l'achat de votre
