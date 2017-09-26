@@ -1,4 +1,15 @@
 ---
+- boat: Bateau bowrider
+  content: Année 2016
+  engine: Mercruiser 4.5 MPI
+  height: 6.60 m
+  image: "/forestryio/images/1-2.jpg"
+  money: 54'900 CHF
+  people: C 12
+  power: 250 HP
+  title: Sea Ray SPX 21
+  url: ''
+  width: 2.60 m
 - boat: Bateau Sundeck
   content: 'Modèle 2017 - Destockage fin de saison '
   engine: Mercrury EFI 80
