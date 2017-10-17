@@ -60,22 +60,26 @@
             <label for="email" class="field-label">{{ t.contact.form.email }}</label>
             <input type="email" id="email" required>
           </div>
-          <h3>{{ t.shipyard.modal.perso }}</h3>
+          <h3>{{ t.shipyard.modal.boat }}</h3>
           <div class="form-group">
             <label for="brand" class="field-label">{{ t.contact.form.brand }}</label>
             <input type="text" id="brand" required>
           </div>
           <div class="form-group">
-            <label for="immatriculation" class="field-label">{{ t.contact.form.immatriculation }}</label>
-            <input type="number" id="immatriculation" required>
+            <label for="model" class="field-label">{{ t.contact.form.model }}</label>
+            <input type="text" id="model" required>
           </div>
           <div class="form-group">
-            <label for="place" class="field-label">{{ t.contact.form.place }}</label>
-            <input type="text" id="place" required>
+            <label for="immatriculation" class="field-label">{{ t.contact.form.immatriculation }}</label>
+            <input type="text" id="immatriculation" required>
           </div>
           <div class="form-group">
             <label for="port" class="field-label">{{ t.contact.form.port }}</label>
             <input type="text" id="port" required>
+          </div>
+          <div class="form-group">
+            <label for="place" class="field-label">{{ t.contact.form.place }}</label>
+            <input type="text" id="place" required>
           </div>
           <div class="form-group">
              <label for="length" class="field-label">{{ t.contact.form.length }}</label>
@@ -113,28 +117,32 @@
               <input id="stockage" type="checkbox" value="stockage" />
               {{ t.contact.form.stockage }}
             </label>
-            <label for="get-boat">
-              <input id="get-boat" type="checkbox" />
-              {{ t.contact.form.get-boat }}
+            <label for="stockage-int">
+              <input id="stockage-int" type="checkbox" />
+              {{ t.contact.form.stockage-int }}
             </label>
-            <label for="clean-semi">
-              <input id="clean-semi" type="checkbox" />
-              {{ t.contact.form.clean-semi }}
+            <label for="clean-int">
+              <input id="clean-int" type="checkbox" />
+              {{ t.contact.form.clean-int }}
             </label>
             <label for="clean">
               <input id="clean" type="checkbox" />
               {{ t.contact.form.clean }}
+            </label>
+            <label for="engine-winter">
+              <input id="engine-winter" type="checkbox" />
+              {{ t.contact.form.engine-winter }}
             </label>
             <label for="wc">
               <input id="wc" type="checkbox" />
               {{ t.contact.form.wc }}
             </label>
             <label for="service-engine">
-              <input id="service-engine" type="checkbox" checked />
+              <input id="service-engine" type="checkbox" />
               {{ t.contact.form.service-engine }}
             </label>
             <label for="protection">
-              <input id="protection" type="checkbox" checked />
+              <input id="protection" type="checkbox" />
               {{ t.contact.form.protection }}
             </label>
             <label for="antifoulling">
@@ -153,7 +161,7 @@
           <h3>{{ t.shipyard.modal.other }}</h3>
           <div class="form-group">
             <label for="message" class="field-label">{{ t.contact.form.message }}</label>
-            <textarea id="message" rows="4" required></textarea>
+            <textarea id="message" rows="4"></textarea>
           </div>
         </div>
       </div>
@@ -161,7 +169,7 @@
       <p class="contact__message contact__message--error pdg- hidden">{{ t.contact.form.error }}</p>
     </div>
     <footer class="modal__footer">
-      <button type="submit" class="btn btn--primary">{{ t.contact.form.send }}</button>
+      <button type="submit" class="btn btn--primary">{{ t.contact.form.offer }}</button>
     </footer>
   </form>
 </div>

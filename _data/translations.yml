@@ -57,9 +57,9 @@ fr:
     modal:
       title: Inscription hivernage
       perso: Données personelles
-      boat: Données bateau
+      boat: Donnée du bateau selon permis de navigation
       move: Date d'hivernage & de mise à l'eau
-      services: Services
+      services: Nos prestations
       other: Autre(s) travaux
   contact:
     title: Contact
@@ -77,6 +77,7 @@ fr:
       subject: Sujet
       message: Message
       brand: Marque
+      model: Model
       immatriculation: Immatriculation
       place: Place
       port: Port
@@ -84,14 +85,15 @@ fr:
       width: Largeur (m)
       engine-type: Type de moteur
       inbord: Inbord
-      outbord: Outbord
+      outbord: Hors bord
       engine-number: Nombre de moteur
       hivernage-date: Date d'hivernage
       water-date: Date de mise à l'eau
-      stockage: Stockage du bateau au chantier
-      get-boat: Je vous pris d'aller chercher le bateau
-      clean-semi: Nettoyage carène (uniquement partie sous l'eau)
+      stockage: Stockage en extérieur
+      stockage-int: Stockage en intérieur
+      clean-int: Nettoyage intérieur complet
       clean: Nettoyage carène et coque
+      engine-winter: Hivernage du moteur
       wc: Hivernage WC, réservoire eau claire / usée
       service-engine: Service moteur (recommandé)
       protection: Protection du bateau avec une bâche thermoformée (recommandé)
@@ -99,6 +101,7 @@ fr:
       polish: Polish rapide de la coque
       clean-bache: Nettoyage de la bâche
       send: Envoyer
+      offer: Me faire parvenir une offre
     address:
       name: Aqua-Navis Sàrl <br /> Chantier Naval AQUABOAT
       street: Route des Iles 44
