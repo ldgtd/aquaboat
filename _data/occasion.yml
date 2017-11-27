@@ -67,14 +67,14 @@
   width: '6.40 m '
 - boat: Bateau Bowrider
   content: Année 2017
-  engine: Moteur Mercruy F40 EFI
+  engine: Moteur Honda BF50 EFI
   height: 2.08 m
-  image: "/forestryio/images/img-1.jpg"
-  money: 22'600 CHF
+  image: "/forestryio/images/500x190-1.jpg"
+  money: 16'900 CHF
   people: C 6
-  power: 40 HP
+  power: 50 CV
   title: Selection Boats Aston 18
-  url: ''
+  url: https://www.bateau24.ch/chfr/bateauxamoteur/selection-boats/selection-boats-aston-18/detail/325607/
   width: 4.80 m
 - boat: Bateau cabine
   content: Année 2017
