@@ -77,14 +77,14 @@
   url: https://www.bateau24.ch/chfr/bateauxamoteur/selection-boats/selection-boats-aston-18/detail/325607/
   width: 4.80 m
 - boat: Bateau cabine
-  content: Année 2017
-  engine: Mercury EFI 80
+  content: Année 2018
+  engine: Mercury F150 EFI
   height: 2.50 m
-  image: "/forestryio/images/DSCN0773.JPG"
-  money: 43'400 CHF
+  image: "/forestryio/images/500x190-2.jpg"
+  money: 58'600 CHF
   people: C6
-  power: 80 HP
-  title: Selection Boat Cruiser 22 EX
+  power: 150 CV
+  title: Selection Boat Cruiser 22 anniversaire
   url: http://www.bateau24.ch/chfr/bateaux+a+moteur/selection+boats/selection+boats+cruiser+22/detail/271377/
   width: 6.35 m
 - boat: Bateau cabine
