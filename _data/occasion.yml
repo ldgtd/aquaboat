@@ -1,5 +1,16 @@
 ---
 - boat: Bateau bowrider
+  content: Année 2018
+  engine: Mercury Verado 175 EFI
+  height: 6.30 m
+  image: "/forestryio/images/500x190-3.jpg"
+  money: A partir de 46'400 CHF
+  people: C 6
+  power: 175 CV
+  title: Selection Boats BR22 sport
+  url: https://www.bateau24.ch/chfr/bateauxamoteur/selection-boats/selection-boats-br-22-sport/detail/325610/
+  width: 2.50 m
+- boat: Bateau bowrider
   content: Année 2016
   engine: Mercruiser 4.5 MPI
   height: 6.60 m
