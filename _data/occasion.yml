@@ -1,4 +1,15 @@
 ---
+- boat: Bateau semi-rigide
+  content: Année 2011 (remorque de route 2'500 CHF)
+  engine: Mercury F100
+  height: 5.20 m
+  image: "/forestryio/images/500x190-4.jpg"
+  money: 16'800 CHF
+  people: C 9
+  power: 100 CV
+  title: Valiant 520 Hypalon
+  url: ''
+  width: 2.18 m
 - boat: Bateau bowrider
   content: Année 2018
   engine: Mercury Verado 175 EFI
