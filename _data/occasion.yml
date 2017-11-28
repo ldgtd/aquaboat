@@ -1,4 +1,15 @@
 ---
+- boat: Bateau cabine
+  content: Année 2015
+  engine: Mercruiser 350 MAG 5.7L
+  height: 8.10 m
+  image: "/forestryio/images/500x190-6.jpg"
+  money: ''
+  people: C
+  power: 350 CV
+  title: Monterey 268 SSC
+  url: ''
+  width: 2.50 m
 - boat: Bateau ski nautique -  Wakesurf
   content: Année 2018
   engine: Ford Raptor 6.2L
