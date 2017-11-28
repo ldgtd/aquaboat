@@ -1,26 +1,4 @@
 ---
-- boat: Bateau cabine
-  content: Année 2007
-  engine: Mercruiser 4.3 EFI
-  height: 6.20 m
-  image: "/forestryio/images/500x190-7.jpg"
-  money: 21'600 CHF
-  people: C 6
-  power: 225 CV
-  title: Quicksilver 620 Sport
-  url: https://www.bateau24.ch/chfr/bateauxamoteur/quicksilver/quicksilver-620-sport/detail/325692/
-  width: 2.56 m
-- boat: Bateau cabine
-  content: Année 2015
-  engine: Mercruiser 350 MAG 5.7L
-  height: 8.10 m
-  image: "/forestryio/images/500x190-6.jpg"
-  money: ''
-  people: C
-  power: 350 CV
-  title: Monterey 268 SSC
-  url: ''
-  width: 2.50 m
 - boat: Bateau ski nautique -  Wakesurf
   content: Année 2018
   engine: Ford Raptor 6.2L
@@ -43,6 +21,17 @@
   title: Valiant 520 Hypalon
   url: https://www.bateau24.ch/chfr/bateauxamoteur/valiant/valiant-520-hypalon/detail/325682/
   width: 2.18 m
+- boat: Bateau cabine
+  content: Année 2015
+  engine: Mercruiser 350 MAG 5.7L
+  height: 8.10 m
+  image: "/forestryio/images/500x190-6.jpg"
+  money: ''
+  people: C
+  power: 350 CV
+  title: Monterey 268 SSC
+  url: ''
+  width: 2.50 m
 - boat: Bateau bowrider
   content: Année 2018
   engine: Mercury Verado 175 EFI
@@ -54,6 +43,17 @@
   title: Selection Boats BR22 sport
   url: https://www.bateau24.ch/chfr/bateauxamoteur/selection-boats/selection-boats-br-22-sport/detail/325610/
   width: 2.50 m
+- boat: Bateau cabine
+  content: Année 2007
+  engine: Mercruiser 4.3 EFI
+  height: 6.20 m
+  image: "/forestryio/images/500x190-7.jpg"
+  money: 21'600 CHF
+  people: C 6
+  power: 225 CV
+  title: Quicksilver 620 Sport
+  url: https://www.bateau24.ch/chfr/bateauxamoteur/quicksilver/quicksilver-620-sport/detail/325692/
+  width: 2.56 m
 - boat: Bateau bowrider
   content: Année 2016
   engine: Mercruiser 4.5 MPI
