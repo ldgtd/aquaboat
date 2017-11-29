@@ -1,9 +1,9 @@
 ---
 - catalogue: "/forestryio/images/EMEA_Mercury-Outboard-2016_Catalogue_French (1)-1.pdf"
-  content: Les hors-bord Verado ont créé toute une série de normes nouvelles dans
-    le domaine de la performance. Quelle que soit la définition que l'on veuille en
-    donner. Faible consommation de carburant, quatre temps suralimenté et couple,
-    un moteur au pus haute exigence!
+  content: |-
+    Les hors-bord Verado ont créé toute une série de normes nouvelles dans le domaine de la performance. Quelle que soit la définition que l'on veuille en donner. Faible consommation de carburant, quatre temps suralimenté et couple, un moteur au pus haute exigence!
+    <br>
+    <br>
   engine: Moteur hors-bord
   image: forestryio/images/Quad_Verado_350_SeaVee_390_3-1.jpg
   power: De 175 à 400 HP
