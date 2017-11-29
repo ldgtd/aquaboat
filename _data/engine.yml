@@ -43,3 +43,15 @@
   image: forestryio/images/VP.jpg
   power: 135 à 900 HP
   title: Volvo Penta
+- catalogue: "/forestryio/images/HM1071mg_catalog_2017_101117lores.pdf"
+  image: "/forestryio/images/MG.jpg"
+  title: MotorGuide (électrique)
+  power: X3 à X5
+  engine: Moteur hors-bord
+  content: |-
+    Le marché du moteur électrique et le marché de la pêche de loisir sont en pleine expansion. Dans
+    ce contexte, les moteurs Motorguide, mondialement reconnus dans le monde de la pêche et la plaisance.
+    <br>
+    <br>
+    <br>
+    <br>
