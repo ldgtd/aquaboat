@@ -17,33 +17,12 @@ module.exports = function(production) {
           exclude: /(node_modules|bower_components)/,
           test: /\.jsx?$/,
           query: {
-            presets: ['es2015']
+            presets: ['react', 'es2015']
           }
         }
       ]
     }
   };
-
-  if (production) {
-    // Minify
-    config.plugins = [
-      new webpack.DefinePlugin({
-        'process.env': {
-          'NODE_ENV': JSON.stringify('production')
-        }
-      }),
-      new webpack.optimize.UglifyJsPlugin({
-        comments: false,
-        compress: {
-          warnings: false
-        }
-      })
-    ];
-  }
-  else {
-    // Write sourcemaps
-    config.devtool = '#source-map';
-  }
 
   return config;
 

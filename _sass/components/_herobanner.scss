@@ -15,7 +15,6 @@
   background:
   linear-gradient(to top, rgba(197, 223, 210, 0.4), $brand-color 400%),
   url('images/herobanner-boat.jpg');
-  clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 5em), 0% 100%);
 }
 
 .herobanner--shipyard {
@@ -23,7 +22,6 @@
   background:
   linear-gradient(to top, rgba(197, 223, 210, 0.4), $brand-color 400%),
   url('images/herobanner-shipyard.jpg');
-  clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 5em), 0% 100%);
 }
 
 .herobanner--trailer {
@@ -31,7 +29,6 @@
   background:
   linear-gradient(to top, rgba(197, 223, 210, 0.4), $brand-color 400%),
   url('images/herobanner-trailer.jpg');
-  clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 5em), 0% 100%);
 }
 
 
@@ -40,7 +37,6 @@
   background:
   linear-gradient(to top, rgba(197, 223, 210, 0.4), $brand-color 400%),
   url('images/herobanner-engine-1.jpg');
-  clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 5em), 0% 100%);
 }
 
 .herobanner--occasion {
@@ -48,12 +44,10 @@
   background:
   linear-gradient(to top, rgba(197, 223, 210, 0.4), $brand-color 400%),
   url('images/herobanner-occasion.jpg');
-  clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 5em), 0% 100%);
 }
 
 .herobanner--map {
   height: 360px !important;
-  clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 5em), 0% 100%);
 }
 
 .herobanner {
