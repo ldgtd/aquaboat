@@ -1,4 +1,15 @@
 ---
+- boat: Bateau cabine cabriolet
+  content: Année 2018
+  engine: Mercury F150 Verado
+  height: 2.55 m
+  image: "/forestryio/images/_BR01283.jpg"
+  money: 85'900 CHF
+  people: C 7
+  power: 150 CV
+  title: Selection Boats GT 720
+  url: ''
+  width: 6.80 m
 - boat: Bateau ski nautique -  Wakesurf
   content: Année 2018
   engine: Ford Raptor 6.2L
