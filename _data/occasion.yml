@@ -1,4 +1,15 @@
 ---
+- boat: Bateau cabine
+  content: Année 2017 - Bateau Démonstration
+  engine: Volvo Penta D6 370
+  height: 9.99 m
+  image: "/forestryio/images/benteau.jpg"
+  money: Sur demande
+  people: C 8
+  power: 370 CV
+  title: Beneteau Swift Trawler 30
+  url: ''
+  width: 3.53 m
 - boat: Bateau cabine cabriolet
   content: Année 2018
   engine: Mercury F150 Verado
