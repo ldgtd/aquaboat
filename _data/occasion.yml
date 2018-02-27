@@ -1,4 +1,15 @@
 ---
+- boat: ''
+  content: ''
+  engine: ''
+  height: ''
+  image: ''
+  money: ''
+  people: ''
+  power: ''
+  title: ''
+  url: ''
+  width: ''
 - boat: Bateau cabine
   content: Année 2017 - Bateau Démonstration
   engine: Volvo Penta D6 370
@@ -8,7 +19,7 @@
   people: C 8
   power: 370 CV
   title: Beneteau Swift Trawler 30
-  url: ''
+  url: https://www.bateau24.ch/chfr/bateauxamoteur/beneteau/beneteau-swift-trawler-30/detail/334272/
   width: 3.53 m
 - boat: Bateau cabine cabriolet
   content: Année 2018
