@@ -1,6 +1,6 @@
 ---
 - boat: Bateau cabine
-  content: Année 2017 - Bateau Démonstration Place de port disponible
+  content: Année 2017 - Bateau Démonstration <br> Place de port disponible
   engine: 2x Volvo Penta D4-260 EVC
   height: 11.70 m
   image: "/forestryio/images/Photo-profil.jpg"
