@@ -11,7 +11,7 @@
   url: ''
   width: 3.53
 - boat: Bateau cabine
-  content: Année 2017 - Bateau Démonstration Place de port disponible
+  content: Année 2017 - Bateau Démonstration <br> Place de port disponible
   engine: Volvo Penta D6 370
   height: 9.99 m
   image: "/forestryio/images/benteau.jpg"
