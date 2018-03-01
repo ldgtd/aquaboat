@@ -1,7 +1,7 @@
 ---
 - boat: Moteur hors-bord
   content: Moteur démonstration 20h
-  engine: Evinrude 115 (2 temps homologué CH)
+  engine: Evinrude 115 (homologué CH)
   height: Poids 177 kg
   image: "/forestryio/images/evinrude115s.jpg"
   money: 10'900 au lieu de 12'990 CHF
