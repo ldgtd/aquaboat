@@ -1,15 +1,4 @@
 ---
-- boat: Moteur hors-bord
-  content: Moteur démonstration 20h
-  engine: Evinrude 115 (homologué CH)
-  height: Poids 177 kg
-  image: "/forestryio/images/evinrude115s.jpg"
-  money: 10'900 au lieu de 12'990 CHF
-  people: "-"
-  power: 115 CV
-  title: Evinrude 115 DGL
-  url: https://www.anibis.ch/fr/d-nautisme-accessoires,-voiles-~-moteurs-moteurs--2405/moteur-evinrude-de-d%C3%A9monstration--23367606.aspx
-  width: "-"
 - boat: Bateau cabine
   content: Année 2017 - Bateau Démonstration <br> Place de port disponible
   engine: 2x Volvo Penta D4-260 EVC
@@ -197,6 +186,17 @@
   title: Princess 286
   url: https://www.bateau24.ch/chfr/bateauxamoteur/princess/princess-286/detail/88406/
   width: 9.50 m
+- boat: Moteur hors-bord
+  content: Moteur démonstration 20h
+  engine: Evinrude 115 (homologué CH)
+  height: Poids 177 kg
+  image: "/forestryio/images/evinrude115s.jpg"
+  money: 10'900 au lieu de 12'990 CHF
+  people: "-"
+  power: 115 CV
+  title: Evinrude 115 DGL
+  url: https://www.anibis.ch/fr/d-nautisme-accessoires,-voiles-~-moteurs-moteurs--2405/moteur-evinrude-de-d%C3%A9monstration--23367606.aspx
+  width: "-"
 - boat: Moteur hors-bord
   content: Année 2008
   engine: Yamaha F80
