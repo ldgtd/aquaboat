@@ -1,16 +1,5 @@
 ---
 - boat: Bateau cabine
-  content: Année 2008
-  engine: Volvo Penta D4-260
-  height: 9.09 m
-  image: "/forestryio/images/unnamed_(11).jpg"
-  money: Sur demande
-  people: C 8
-  power: 260 CV
-  title: Cranchi Zaffiro 28
-  url: ''
-  width: 2.87 m
-- boat: Bateau cabine
   content: Année 2017 - Bateau Démonstration <br> Place de port disponible
   engine: 2x Volvo Penta D4-260 EVC
   height: 11.70 m
@@ -65,6 +54,17 @@
   title: Valiant 520 Hypalon
   url: https://www.bateau24.ch/chfr/bateauxamoteur/valiant/valiant-520-hypalon/detail/325682/
   width: 2.18 m
+- boat: Bateau cabine
+  content: Année 2008
+  engine: Volvo Penta D4-260
+  height: 9.09 m
+  image: "/forestryio/images/unnamed_(11).jpg"
+  money: Sur demande
+  people: C 8
+  power: 260 CV
+  title: Cranchi Zaffiro 28
+  url: ''
+  width: 2.87 m
 - boat: Bateau cabine
   content: Année 2015 (avec remorque)
   engine: Mercruiser 350 MAG 5.7L
