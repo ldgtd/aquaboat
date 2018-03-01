@@ -1,5 +1,16 @@
 ---
 - boat: Bateau cabine
+  content: Année 2018
+  engine: Mercruiser 6.2L MPI CAT
+  height: 8.81 m
+  image: "/forestryio/images/rk29ccc.jpg"
+  money: 139'900 CHF
+  people: C 10
+  power: 350 CV
+  title: Rinker QX29 CC
+  url: ''
+  width: 2.74 m
+- boat: Bateau cabine
   content: Année 2017 - Bateau Démonstration <br> Place de port disponible
   engine: 2x Volvo Penta D4-260 EVC
   height: 11.70 m
