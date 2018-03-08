@@ -4,8 +4,12 @@
   image: forestryio/images/compar.jpg
   link: boat
 - title: Les bonnes affaires
-  content: "&#149 large choix d'objets d'occasion \n- destockage de bateau d'usine\n-
-    promotion pré -saison\n\nSoyez curieux! Venez découvrir nos bonnes affaires!"
+  content: |-
+    &#149 large choix d'objets d'occasion<br>
+    - destockage de bateau d'usine<br>
+    - promotion pré -saison<br>
+
+    Soyez curieux! Venez découvrir nos bonnes affaires!
   image: forestryio/images/good-deal.jpg
   link: occasion
 - title: Nos prestations
