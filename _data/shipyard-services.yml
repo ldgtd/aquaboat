@@ -17,24 +17,24 @@
   id: 3
   content: "Notre équipe technique, jeune et dynamique,  à la pointe des nouvelles
     technologies, vous assistera pour modeler  votre bateau selon vos désirs, tel
-    que l'installation de : \n- Joystique piloting, régulateur de vitesse, trim contrôle\n-
-    Ecran de contrôle, sondeur, GPS\n- Equipement de pêche \n- Installation de matériel
-    de tractage (tour monster tower)\n- Moteur hors- bord de la gamme 4 CV au nouveau
-    400 Verdo\n\n"
+    que l'installation de :<br> \nJoystique piloting, régulateur de vitesse, trim
+    contrôle<br>\nEcran de contrôle, sondeur, GPS<br>\nEquipement de pêche <br>\nInstallation
+    de matériel de tractage (tour monster tower)<br>\nMoteur hors- bord de la gamme
+    4 CV au nouveau 400 Verado\n\n"
   image: forestryio/images/MM_Joystick_VesselView_JPO_Cigarette-(8-of-39).jpg
 - title: 'Assistance & dépannage '
   id: 4
   content: "Pour vous assurez  une navigation sans soucis, notre team technique vous
     assiste et vous soutien.\n Nous intervenons de Lausanne au Bouveret ainsi que
     sur la côte  Francaise. \n"
-  image: 'forestryio/images/engine.jpg'
+  image: forestryio/images/engine.jpg
 - title: Peinture & réparation coque
   id: 5
   content: " Grâce à nos spécialistes du domaine de la construction, nous sommes à
     même de vous aider dans vos projets de rénovation : \n- retrouver la teinte d'origine
     \n- changer la couleur\n- refaire l'anti dérapant dans la couleur ou texture de
     votre choix."
-  image: 'forestryio/images/paint.jpg'
+  image: forestryio/images/paint.jpg
 - title: Sellerie & bâche
   id: 6
   content: 'Nous vous proposons nos services de A à Z grâce à nos partenaires de confiance.
