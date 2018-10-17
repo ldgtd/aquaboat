@@ -1,0 +1,12 @@
+/*----------------------------------------*\
+  BOX
+\*----------------------------------------*/
+
+.box--season {
+  border-radius: 10px;
+  margin-top: $spacing-unit-default;
+
+  &:first-child {
+    margin-top: 106px;
+  }
+}

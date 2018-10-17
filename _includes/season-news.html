@@ -1,0 +1,13 @@
+{% assign t = site.data.translations[page.lang] %}
+
+{% for news in site.data.season-news %}
+  {% if news.display %}
+    <div class="box box--primary box--season">
+      <h1 class="text-bold">{{ news.title }}</h1>
+      <p>{{ news.content }}</p>
+      {% if news.id == 1 %}
+        <button class="btn btn--default btn--block text-bold" data-toggle="modal" data-target="#modal-hivernage">{{ t.shipyard.link }}</button>
+      {% endif %}
+    </div>
+  {% endif %}
+{% endfor %}
