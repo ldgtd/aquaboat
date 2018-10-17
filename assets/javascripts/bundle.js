@@ -83,9 +83,14 @@
 	document.addEventListener('DOMContentLoaded', function () {
 	  new _nav2.default();
 	  new _tile2.default();
-	  new _modal2.default('#modal-hivernage');
+	
+	  if (document.querySelector('body').classList.contains('home')) {
+	    new _modal2.default('#modal-hivernage');
+	    new _form2.default();
+	  }
 	
 	  if (document.querySelector('body').classList.contains('shipyard')) {
+	    new _modal2.default('#modal-hivernage');
 	    new _form2.default();
 	  }
 	
@@ -455,6 +460,9 @@
 	      document.querySelector('form[name="contact"]').addEventListener('submit', this.sendFromContact.bind(this));
 	    }
 	    if (document.querySelector('body').classList.contains('shipyard')) {
+	      document.querySelector('form[name="hivernage"]').addEventListener('submit', this.sendFromHivernage.bind(this));
+	    }
+	    if (document.querySelector('body').classList.contains('home')) {
 	      document.querySelector('form[name="hivernage"]').addEventListener('submit', this.sendFromHivernage.bind(this));
 	    }
 	  }

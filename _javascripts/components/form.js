@@ -8,6 +8,9 @@ export default class Form {
     if (document.querySelector('body').classList.contains('shipyard')) {
       document.querySelector('form[name="hivernage"]').addEventListener('submit', this.sendFromHivernage.bind(this));
     }
+    if (document.querySelector('body').classList.contains('home')) {
+      document.querySelector('form[name="hivernage"]').addEventListener('submit', this.sendFromHivernage.bind(this));
+    }
   }
 
   /**
