@@ -11,9 +11,14 @@ import ResultsFilter from './components/results_filter';
 document.addEventListener('DOMContentLoaded', function() {
   new Nav();
   new Tile();
-  new Modal('#modal-hivernage');
+
+  if (document.querySelector('body').classList.contains('home')) {
+    new Modal('#modal-hivernage');
+    new Form();
+  }
 
   if (document.querySelector('body').classList.contains('shipyard')) {
+    new Modal('#modal-hivernage');
     new Form();
   }
 
