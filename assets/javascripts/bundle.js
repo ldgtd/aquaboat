@@ -83,10 +83,10 @@
 	document.addEventListener('DOMContentLoaded', function () {
 	  new _nav2.default();
 	  new _tile2.default();
+	  new _modal2.default('#modal-hivernage');
 	
 	  if (document.querySelector('body').classList.contains('shipyard')) {
 	    new _form2.default();
-	    new _modal2.default('#modal-hivernage');
 	  }
 	
 	  if (document.querySelector('body').classList.contains('contact')) {

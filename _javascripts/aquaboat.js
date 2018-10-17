@@ -11,10 +11,10 @@ import ResultsFilter from './components/results_filter';
 document.addEventListener('DOMContentLoaded', function() {
   new Nav();
   new Tile();
+  new Modal('#modal-hivernage');
 
   if (document.querySelector('body').classList.contains('shipyard')) {
     new Form();
-    new Modal('#modal-hivernage');
   }
 
   if (document.querySelector('body').classList.contains('contact')) {
