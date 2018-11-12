@@ -1,8 +1,9 @@
 ---
-- title: Promotion Moteur Mercruy
-  id: ''
-  content: Promotion Moteur Mercruy
-  display: true
+- title: Promotion Moteur Hors-Bord transportable Mercury
+  id: 2
+  content: 'Promotion sur toutes la gammes Mercury marine en version transportable
+    de '
+  display: false
 - title: Hivernage !
   id: 1
   content: "\nAvec 5'000 m2 de stockage sécurisé, sous bâche thermoforé, nous sommes
