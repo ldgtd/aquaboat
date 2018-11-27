@@ -13,14 +13,14 @@
 - boat: Bateau moteur avec cabine
   content: Année 2015
   engine: Mercruiser 5.0 MPI - Bravo III
-  height: 2.56 m
+  height: 7.29 m
   image: "/forestryio/images/IMG-20181010-WA0006.jpg"
   money: 49'900 CHF
   people: C 12
   power: 350 CV
   title: Stingray 235 CR
   url: https://www.bateau24.ch/chfr/bateauxamoteur/stingray/stingray-235-cr/detail/370171/
-  width: 7.29 m
+  width: 2.56 m
 - boat: Bateau cabine
   content: Année 2018
   engine: Mercruiser 6.2L MPI CAT
