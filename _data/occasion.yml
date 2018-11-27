@@ -1,4 +1,15 @@
 ---
+- boat: Bateau moteur hors-bord Bowrider
+  content: Promotion au lieu de 59'684 CHF  </b>Année 2019 (neuf)
+  engine: Mercury F150 XL EFI
+  height: 6.20 m
+  image: "/forestryio/images/gt200.jpg"
+  money: 53'700 CHF
+  people: C 9
+  power: 150 CV
+  title: Glastron GT 200
+  url: https://www.bateau24.ch/chfr/bateauxamoteur/glastron/glastron-gt-200/detail/370267/
+  width: 2.40 m
 - boat: Bateau bowrider
   content: Promotion au lieu de 55'400 CHF</b> Année 2019 (neuf)
   engine: 'Mercruiser 4.5L MPIC '
@@ -11,17 +22,6 @@
   url: https://www.bateau24.ch/chfr/bateauxamoteur/glastron/glastron-gtx-180/detail/280362/
   width: 2.30 m
 - boat: Bateau cabine
-  content: Année 2018
-  engine: Mercruiser 6.2L MPI CAT
-  height: 8.81 m
-  image: "/forestryio/images/rk29ccc.jpg"
-  money: 139'900 CHF
-  people: C 10
-  power: 350 CV
-  title: Rinker QX29 CC
-  url: https://www.bateau24.ch/chfr/bateauxamoteur/rinker/rinker-qx-29-cc/detail/334526/
-  width: 2.74 m
-- boat: Bateau cabine
   content: Année 2017 - Bateau Démonstration <br> Place de port disponible
   engine: 2x Volvo Penta D4-260 EVC
   height: 11.70 m
@@ -32,6 +32,17 @@
   title: Cranchi Z35
   url: ''
   width: 3.53
+- boat: Bateau cabine
+  content: Année 2018
+  engine: Mercruiser 6.2L MPI CAT
+  height: 8.81 m
+  image: "/forestryio/images/rk29ccc.jpg"
+  money: 139'900 CHF
+  people: C 10
+  power: 350 CV
+  title: Rinker QX29 CC
+  url: https://www.bateau24.ch/chfr/bateauxamoteur/rinker/rinker-qx-29-cc/detail/334526/
+  width: 2.74 m
 - boat: Bateau moteur avec cabine
   content: Année 2015
   engine: Mercruiser 5.0 MPI - Bravo III
