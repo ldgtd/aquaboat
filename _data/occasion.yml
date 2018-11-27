@@ -21,6 +21,17 @@
   title: Glastron GTX 185
   url: https://www.bateau24.ch/chfr/bateauxamoteur/glastron/glastron-gtx-180/detail/280362/
   width: 2.30 m
+- boat: Bateau bowrider
+  content: Destockage au lieu de 64'250 CHF</b> Année 2018
+  engine: Mercury Verado 150 EFI
+  height: 6.30 m
+  image: "/forestryio/images/500x190-3.jpg"
+  money: 49'900 CHF
+  people: C 6
+  power: 175 CV
+  title: Selection Boats BR22 sport
+  url: https://www.bateau24.ch/chfr/bateauxamoteur/selection-boats/selection-boats-br-22-sport/detail/325610/
+  width: 2.50 m
 - boat: Bateau cabine
   content: Année 2017 - Bateau Démonstration <br> Place de port disponible
   engine: 2x Volvo Penta D4-260 EVC
@@ -119,17 +130,6 @@
   power: 350 CV
   title: Monterey 268 SSC
   url: https://www.bateau24.ch/chfr/bateauxamoteur/monterey/monterey-268-ssc/detail/325793/
-  width: 2.50 m
-- boat: Bateau bowrider
-  content: Destockage au lieu de 64'250 CHF</b> Année 2018
-  engine: Mercury Verado 150 EFI
-  height: 6.30 m
-  image: "/forestryio/images/500x190-3.jpg"
-  money: 49'900 CHF
-  people: C 6
-  power: 175 CV
-  title: Selection Boats BR22 sport
-  url: https://www.bateau24.ch/chfr/bateauxamoteur/selection-boats/selection-boats-br-22-sport/detail/325610/
   width: 2.50 m
 - boat: Bateau cabine
   content: Année 2007
