@@ -1,4 +1,15 @@
 ---
+- boat: Bateau open
+  content: New modèle - Année 2019
+  engine: New Mercruy F175 EFI V6
+  height: 6.48 m
+  image: "/forestryio/images/screen_e80a39f312dd7341_1532611094000.jpg"
+  money: 61'950 CHF
+  people: C 7
+  power: 175 CV
+  title: Selection Boats SC 640
+  url: https://www.bateau24.ch/chfr/bateauxamoteur/selection-boats/selection-boats-sc-640/detail/370271/
+  width: 2.50 m
 - boat: Bateau moteur hors-bord Bowrider
   content: 'Promotion au lieu de 59''684 CHF  </b>Année 2019 '
   engine: Mercury F150 XL EFI
