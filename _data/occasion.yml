@@ -2,14 +2,14 @@
 - boat: Bateau bowrider
   content: Année 2019 (neuf)
   engine: 'Mercruiser 4.5L MPIC '
-  height: 2.30 m
+  height: 5.50 m
   image: "/forestryio/images/GL.png"
   money: 51'900 CHF
   people: C 8
   power: 200 CV
   title: Glastron GTX 185
   url: https://www.bateau24.ch/chfr/bateauxamoteur/glastron/glastron-gtx-180/detail/280362/
-  width: 5.50 m
+  width: 2.30 m
 - boat: Bateau moteur avec cabine
   content: Année 2015
   engine: Mercruiser 5.0 MPI - Bravo III
