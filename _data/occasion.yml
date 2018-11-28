@@ -1,5 +1,16 @@
 ---
 - boat: Bateau cabine
+  content: Année 2019 (neuf)
+  engine: Mercruiser 4.5 MPIC 250 / B3
+  height: 7.70 m
+  image: "/forestryio/images/1.png"
+  money: 125'900 CHF
+  people: C 9
+  power: 250 CV
+  title: Glastron GS 259
+  url: https://www.bateau24.ch/chfr/bateauxamoteur/glastron/glastron-gs-259/detail/370354/
+  width: 2.54 m
+- boat: Bateau cabine
   content: Année 2013
   engine: Mercury F 150 Verado
   height: 5.75 m
