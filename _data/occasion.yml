@@ -1,4 +1,15 @@
 ---
+- boat: Bateau cabine
+  content: Année 1994
+  engine: Mercruiser 3.0L MCM
+  height: 5.69 m
+  image: "/forestryio/images/1-1.png"
+  money: Sur demande
+  people: C 6
+  power: 135 CV
+  title: Bayliner 1952 Cuddy
+  url: https://www.bateau24.ch/chfr/bateauxamoteur/bayliner/bayliner-1952-cuddy/detail/370371/
+  width: 2.29 m
 - boat: Bateau semi-rigide
   content: Année 2019 (neuf)
   engine: Mercury 300 Verado AMS V8
