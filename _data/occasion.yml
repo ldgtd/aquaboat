@@ -154,16 +154,16 @@
   url: https://www.bateau24.ch/chfr/bateauxamoteur/moomba/moomba-helix/detail/370323/
   width: 2.57 m
 - boat: Bateau semi-rigide
-  content: Année 2011 (remorque de route 2'500 CHF)
-  engine: Mercury F100
-  height: 5.20 m
-  image: "/forestryio/images/500x190-4.jpg"
-  money: 16'800 CHF
-  people: C 9
-  power: 100 CV
-  title: Valiant 520 Hypalon
-  url: https://www.bateau24.ch/chfr/bateauxamoteur/valiant/valiant-520-hypalon/detail/325682/
-  width: 2.18 m
+  content: Année 2019 (neuf)
+  engine: Mercury F150 EFI
+  height: 6.30 m
+  image: "/forestryio/images/2.png"
+  money: 32'550 CHF
+  people: C 13
+  power: 150 CV
+  title: Valiant 630 Classic PVC
+  url: https://www.bateau24.ch/chfr/canotspneumatiques/valiant/valiant-630-classic-pvc/detail/370356/
+  width: 2.54 m
 - boat: Bateau cabine
   content: Année 2008 (place de port)
   engine: Volvo Penta D4-260
