@@ -1,4 +1,15 @@
 ---
+- boat: Bateau cabine
+  content: Année 2013
+  engine: Mercury F 150 Verado
+  height: 5.75 m
+  image: "/forestryio/images/1-4.jpg"
+  money: 25'000 CHF
+  people: C 7
+  power: 150 CV
+  title: Quicksilver 605 SD
+  url: https://www.bateau24.ch/chfr/bateauxamoteur/quicksilver/quicksilver-activ-605-sundeck/detail/370330/
+  width: 2.34 m
 - boat: 'Bateau cabine '
   content: Année 2019 (neuf)
   engine: Motoristation à choix (bi-moteur)
