@@ -68,7 +68,7 @@
     et vitesse plus élevée) ainsi qu’un simili cuir à toute épreuve.
   image: forestryio/images/logo Stingray.png
   catalogue: http://www.stingrayboats.com/data/documents/catalog/2016/2016_catalog.html
-- id: quicksilver
+- id: Quicksilver
   content: "Depuis toujours, la gamme Quicksilver associe à la perfection plaisir
     et style avec fonctionnalité et sécurité. Son évolution s’appuie sur une collaboration
     étroite avec les meilleurs designers, ingénieurs et architectes navals du groupe
@@ -82,16 +82,10 @@
     de l’industrie nautique."
   image: forestryio/images/quicksilver_logo-1.png
   catalogue: "/forestryio/files/test.pdf"
-- id: beneteau
-  content: Aiguisé et sportif, la gamme Beneteau sont des bateaux de sensations. A
-    la fois ouverts sur la mer et très protégés, les cinq sport-cruisers de la gamme
-    offrent des prestations technologiques conjuguant plaisir de pilotage et performances
-    exceptionnelles. Allure, prestations et soin des finitions, La gamme premium de
-    Beneteau est née de la recherche de l’excellence, aiguisé et sportif, se sont
-    des bateaux de sensations. Directement issus de l’esprit des Monte Carlo Yachts,
-    les cinq motor-cruisers se distinguent par leur splendide carène, leur élégance
-    intemporelle et la noblesse de finitions travaillées dans l’art du détail. Monte
-    Carlo et Grand Turism s’impose aujourd’hui comme la griffe du style, de la puissance
-    et du luxe.
-  image: "/forestryio/images/Logo-Beneteau.jpg"
+- id: Jeanneau
+  content: Les Chantiers Jeanneau déclinent plusieurs gammes de bateaux à moteur et
+    de voiliers. Les bateaux à moteur sont les Cap Camarat, les Merry Fisher, les
+    NC, les Velasco, Prestige et les Leader. Les voiliers sont les Sun Fast, les Sun
+    Odyssey, les Sun Odyssey DS et les Jeanneau Yachts.
+  image: "/forestryio/images/langfr-140px-Jeanneau_(logo).svg.png"
   catalogue: "/forestryio/files/test.pdf"
