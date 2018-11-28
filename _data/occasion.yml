@@ -176,17 +176,6 @@
   url: https://www.bateau24.ch/chfr/bateauxamoteur/cranchi/cranchi-zaffiro-28/detail/334522/
   width: 2.87 m
 - boat: Bateau cabine
-  content: Année 2015 (avec remorque)
-  engine: Mercruiser 350 MAG 5.7L
-  height: 8.10 m
-  image: "/forestryio/images/500x190-6.jpg"
-  money: 94'500 CHF
-  people: C
-  power: 350 CV
-  title: Monterey 268 SSC
-  url: https://www.bateau24.ch/chfr/bateauxamoteur/monterey/monterey-268-ssc/detail/325793/
-  width: 2.50 m
-- boat: Bateau cabine
   content: Année 2007
   engine: Mercruiser 4.3 EFI
   height: 6.20 m
@@ -197,17 +186,6 @@
   title: Quicksilver 620 Sport
   url: https://www.bateau24.ch/chfr/bateauxamoteur/quicksilver/quicksilver-620-sport/detail/325692/
   width: 2.56 m
-- boat: Bateau bowrider
-  content: Année 2016
-  engine: Mercruiser 4.5 MPI
-  height: 6.60 m
-  image: "/forestryio/images/1-2.jpg"
-  money: 54'900 CHF
-  people: C 12
-  power: 250 HP
-  title: Sea Ray SPX 21
-  url: https://www.bateau24.ch/chfr/bateauxamoteur/sea-ray/sea-ray-spx-21/detail/318464/
-  width: 2.60 m
 - boat: Bateau Sundeck
   content: Année 2018
   engine: Mercrury F80
@@ -218,17 +196,6 @@
   power: 80 HP
   title: Selection Boat Sunny 20
   url: http://www.bateau24.ch/chfr/bateaux+a+moteur/selection+boats/selection+boats+sunny+20+-+destockage/detail/261992/
-  width: 6.00 m
-- boat: Bateau bowrider
-  content: Modèle 2017 - Destockage fin de saison
-  engine: Mercuiser 4.3 MPI
-  height: 2.40 m
-  image: "/forestryio/images/stingray-bleu-7(site).jpg"
-  money: 42'900 au lieu de 49'000 CHF
-  people: CE 9
-  power: 180 HP
-  title: Stingray 198 LX
-  url: http://www.bateau24.ch/chfr/bateaux+a+moteur/stingray/stingray+198+lx/detail/287208/
   width: 6.00 m
 - boat: Bateau bowrider
   content: Année 2019
@@ -263,17 +230,6 @@
   title: Selection Boats GL 23
   url: ''
   width: '6.40 m '
-- boat: Bateau Bowrider
-  content: Année 2017
-  engine: Moteur Honda BF50 EFI
-  height: 2.08 m
-  image: "/forestryio/images/500x190-1.jpg"
-  money: 17'990 CHF
-  people: C 6
-  power: 50 CV
-  title: Selection Boats Aston 18
-  url: https://www.bateau24.ch/chfr/bateauxamoteur/selection-boats/selection-boats-aston-18/detail/325607/
-  width: 4.80 m
 - boat: Bateau cabine
   content: Année 1986
   engine: Bi-moteur Volvo Penta 200D
