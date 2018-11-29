@@ -242,16 +242,16 @@
   url: http://www.bateau24.ch/chfr/bateaux+a+moteur/selection+boats/selection+boats+cruiser+22/detail/271377/
   width: 6.35 m
 - boat: Bateau pêche
-  content: Année 2018
+  content: Année 2019
   engine: Mercruy F80 EFI
-  height: 2.43 m
+  height: 2.49 m
   image: "/forestryio/images/Untitled-1.jpg"
-  money: A parti de 47'900 CHF
+  money: 54'900 CHF
   people: C 6
   power: 80 CV
   title: Selection Boats GL 23
-  url: ''
-  width: '6.40 m '
+  url: https://www.bateau24.ch/chfr/bateauxamoteur/selection-boats/selection-boats-grand-large-23/detail/370467/
+  width: '6.60 m '
 - boat: Bateau cabine
   content: Année 1986
   engine: Bi-moteur Volvo Penta 200D
