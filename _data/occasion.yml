@@ -2,14 +2,14 @@
 - boat: Bateau bowrider
   content: Année 2000
   engine: 'Mercruiser 4.3L EFI '
-  height: 2.37 m
+  height: 6.30 m
   image: "/forestryio/images/2222.jpg"
   money: 19'900 CHF
   people: C 8
   power: 220 CV
   title: 'Bayliner Capri 2050 '
   url: https://www.bateau24.ch/chfr/bateauxamoteur/bayliner/bayliner-capri-2050/detail/374159/
-  width: 6.30 m
+  width: 2.37 m
 - boat: Bateau cabine
   content: Année 2019 (neuf)
   engine: 'Mercruiser 6.2 L MPIC '
