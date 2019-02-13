@@ -1,4 +1,15 @@
 ---
+- boat: Bateau Bowrider
+  content: Année 2017
+  engine: Volvo Penta V8-270C
+  height: 2.60 m
+  image: "/forestryio/images/2-1.jpg"
+  money: 64'900 CHF
+  people: C10
+  power: 270 CV
+  title: Starcraft 211 SCX
+  url: https://www.bateau24.ch/chfr/bateauxamoteur/starcraft/starcraft-211-scx/detail/377976/
+  width: 5.80 (sans plateforme de bain)
 - boat: Bateau voilier
   content: Année 1997
   engine: 'Moteur Volvo Penta Saildrive '
