@@ -1,4 +1,15 @@
 ---
+- boat: Bateau cabine
+  content: Année 2017 - Destockage
+  engine: Evinrude G1-60
+  height: 2.13 m
+  image: ''
+  money: 28'900 CHF
+  people: C 5
+  power: 60 CV
+  title: Drago 515 Family
+  url: ''
+  width: 5.10 m
 - boat: Bateau Bowrider
   content: Année 2017
   engine: Volvo Penta V8-270C
@@ -224,7 +235,7 @@
   engine: Mercury F150 EFI
   height: 6.30 m
   image: "/forestryio/images/11-11.jpg"
-  money: 32'550 CHF
+  money: 35'160 CHF
   people: C 13
   power: 150 CV
   title: Valiant 630 Classic PVC
@@ -317,17 +328,6 @@
   power: 115 CV
   title: Evinrude 115 DGL
   url: https://www.anibis.ch/fr/d-nautisme-accessoires,-voiles-~-moteurs-moteurs--2405/moteur-evinrude-de-d%C3%A9monstration--23367606.aspx
-  width: "-"
-- boat: Moteur hors-bord
-  content: Année 2008
-  engine: Yamaha F80
-  height: Longeur arbre L
-  image: "/forestryio/images/2017-Yamaha-F80-EU-NA-Studio-002.jpg"
-  money: 4'900 CHF
-  people: "-"
-  power: 80 CV
-  title: Yamaha F80
-  url: https://www.anibis.ch/fr/d-nautisme-bateaux-%C3%A0-moteurs--710/moteur-4-temps-yamaha-f80-aetl--21042506.aspx
   width: "-"
 - boat: Bateau Bowrider
   content: Année 2007
