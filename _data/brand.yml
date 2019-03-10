@@ -68,20 +68,6 @@
     et vitesse plus élevée) ainsi qu’un simili cuir à toute épreuve.
   image: forestryio/images/logo Stingray.png
   catalogue: http://www.stingrayboats.com/data/documents/catalog/2016/2016_catalog.html
-- id: Quicksilver
-  content: "Depuis toujours, la gamme Quicksilver associe à la perfection plaisir
-    et style avec fonctionnalité et sécurité. Son évolution s’appuie sur une collaboration
-    étroite avec les meilleurs designers, ingénieurs et architectes navals du groupe
-    Brunswick. \nCe partenariat de pointe dans le secteur de la navigation de plaisance
-    est à l’origine de notre nouvelle ligne de bateaux d’une extrême fiabilité. En
-    plus de son style unique, Quicksilver utilise l’espace de façon innovante grâce
-    au meilleur rapport longueur-largeur de sa catégorie, ce qui en augmente encore
-    la stabilité. L’amélioration de la tenue en mer par la coque profonde en V permet
-    de franchir la vague efficacement, en tout confort. Ce résultat est le fruit du
-    travail d’une équipe qui compte l’un des architectes navals les plus expérimentés
-    de l’industrie nautique."
-  image: forestryio/images/quicksilver_logo-1.png
-  catalogue: "/forestryio/files/test.pdf"
 - id: Jeanneau
   content: Les Chantiers Jeanneau déclinent plusieurs gammes de bateaux à moteur et
     de voiliers. Les bateaux à moteur sont les Cap Camarat, les Merry Fisher, les
