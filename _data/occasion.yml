@@ -1,16 +1,5 @@
 ---
 - boat: Bateau cabine
-  content: Année 1987
-  engine: 'Mercruiser 260 '
-  height: 2.80 m
-  image: "/forestryio/images/DSCN0916.JPG"
-  money: 5'900 CHF
-  people: C 8
-  power: 260 CV
-  title: Windy 25
-  url: https://www.bateau24.ch/chfr/bateauxamoteur/windy/windy-25/detail/301554/
-  width: 7.65 m
-- boat: Bateau cabine
   content: Année 2017 - Destockage
   engine: Moteur HB Mercury F80 EFI (2019)
   height: 1.97 m
@@ -131,6 +120,17 @@
   title: 'Jeanneau Merry Fisher 895 '
   url: https://www.bateau24.ch/chfr/bateauxamoteur/jeanneau/jeanneau-merry-fisher-895-offshore/detail/370326/
   width: 2.99 m
+- boat: Bateau cabine
+  content: Année 1987
+  engine: 'Mercruiser 260 '
+  height: 2.80 m
+  image: "/forestryio/images/DSCN0916.JPG"
+  money: 5'900 CHF
+  people: C 8
+  power: 260 CV
+  title: Windy 25
+  url: https://www.bateau24.ch/chfr/bateauxamoteur/windy/windy-25/detail/301554/
+  width: 7.65 m
 - boat: Bateau open
   content: New modèle - Année 2019
   engine: New Mercury F175 EFI V6
