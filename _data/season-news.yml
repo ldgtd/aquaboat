@@ -5,10 +5,11 @@
     Webasto que nous représentons pour la Suisse.\nChauffage\n- Climatisation\n- Génératrice\n-
     Réfrigérateur "
   display: true
-- title: Promotion Moteur transportable Mercury -10%
+- title: Promotion Moteur Mercury -10%<br />Du 1 mars au 30 avril 2019
   id: 2
-  content: Promotion sur toutes la gammes Mercury marine en version transportable
-    de 4 à 8 CV  avec garantie usine pouvant être étendue à 5 ans.
+  content: |-
+    Promotion sur toutes la gammes Mercury marine en version transportable de 4 à 8 CV  avec garantie usine pouvant être étendue à 5 ans.
+    <br /> Autre puissance sur demande
   display: true
 - title: Hivernage !
   id: 1
