@@ -1,6 +1,17 @@
 ---
 - boat: Bateau cabine
   content: Année 2017 - Destockage
+  engine: Moteur Hors-bord Mercury F80 EFI (2019)
+  height: 1.97 m
+  image: "/forestryio/images/1-6.jpg"
+  money: 29'900 CHF
+  people: C6
+  power: 80 CV
+  title: Drago 550 Family
+  url: https://www.bateau24.ch/chfr/bateauxamoteur/drago-boats/drago-boats-550-family/detail/380073/
+  width: '5.45 m '
+- boat: Bateau cabine
+  content: Année 2017 - Destockage
   engine: Evinrude G1-60
   height: 2.13 m
   image: "/forestryio/images/1-5.jpg"
