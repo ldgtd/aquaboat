@@ -1,4 +1,15 @@
 ---
+- boat: Bateau bowrider
+  content: Année 1994
+  engine: Mercruiser 3.0L
+  height: 2.33 m
+  image: ''
+  money: 19'500 CHF
+  people: C 6
+  power: 130 CV
+  title: Mariah 180
+  url: https://www.bateau24.ch/chfr/bateauxamoteur/mariah-boats/mariah-boats-180/detail/380603/
+  width: 5.53 m
 - boat: Bateau cabine
   content: Année 1997
   engine: Mercruiser 4.3L EFI
