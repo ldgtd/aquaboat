@@ -6,7 +6,9 @@
     sur demande\n<br /> Exemple:\n<br /> Mercury F5 Sail MLHA au prix de 1'719 CHF
     TTC\n<br />\n<br />Prix spécial promotion 1'461 CHF TTC\n<br />\n<br /> En supplément
     envoi par transporteur DHL au prix spécial de 50 CHF ou livraison Bouveret.\n<br
-    />\n<br />Liste de prix\n<br /> "
+    />\n<br />Liste de prix Publique (hors promotion)\n<br /> \t&#149; F4 MH-MLH 1'359
+    CHF\n<br /> \t&#149; F5 MH-MLH 1'549 CHF\n<br /> \t&#149; F5 Sail MLH 1'719 CHF\n<br
+    /> \t&#149; F6 MH-MLH 1'669 CHF\n<br /> \t&#149; F8 MH-MLH 2'669 CHF"
   display: true
 - title: Chauffage et climatisation WEBASTO
   id: ''
@@ -21,3 +23,4 @@
     aussi un service d'entretien sur mesure.\nVous serez ainsi prêt pour vivre une
     nouvelle saison en toute sérénité! \n"
   display: false
+   
