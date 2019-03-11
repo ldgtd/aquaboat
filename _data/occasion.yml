@@ -1,4 +1,15 @@
 ---
+- boat: Bateau cabine
+  content: Année 1997
+  engine: Mercruiser 4.3L EFI
+  height: 2.56 m
+  image: ''
+  money: 14'900 CHF
+  people: C 8
+  power: 200 CV
+  title: Crowline 202 CR
+  url: https://www.bateau24.ch/chfr/bateauxamoteur/crownline/crownline-202-ccr/detail/380720/
+  width: 6.20 m
 - boat: Bateau bowrider
   content: Année 2017
   engine: Mercruiser 4.5 MPIC
