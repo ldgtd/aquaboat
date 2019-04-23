@@ -1,7 +1,9 @@
 ---
-- content: Nous vous invitions à venir découvrir notre exposition de bateau le samedi
-    18 mai de 10 à 17H.
-  image: "/forestryio/images/Flyer 18 mai.psd"
+- content: |+
+    Nous vous invitions à venir découvrir notre exposition de bateau le samedi 18 mai de 10 à 17H. <br>
+
+
+  image: "/forestryio/images/Flyer 18 mai.jpg"
   title: Exposition de printemps - Last Chance! 18 mai 2019
 - content: "Préparez votre saison de navigation 2019, notre équipe se tient à votre
     disposition pour l'entretien de votre bateau moteur ou de votre voilier.<br/>\n<br
