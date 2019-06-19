@@ -1,14 +1,7 @@
 ---
-- content: |+
-    Last Chance - Nos derniers bateaux de stock!<br>
-    Nous vous invitons à venir découvrir notre exposition de bateaux <b> le samedi 18 mai</b> de 10h à 17h. <br>
-    Raclette et verre de l'amitié de 11h à 15h.<br>
-    Adresse<br>
-    <i>AQUABOAT - Routes des Iles 44 - CH1897 Le Bouveret</i><br>
-
-
-  image: "/forestryio/images/Flyer 18 mai.jpg"
-  title: Exposition de printemps - Last Chance! 18 mai 2019
+- content: "Fermeture le jeudi 20 juin pour la Fête Dieu\n\n"
+  image: "/forestryio/images/Férié.jpg"
+  title: 20 juin 2019 Ferié - Fêtes Dieu
 - content: "Préparez votre saison de navigation 2019, notre équipe se tient à votre
     disposition pour l'entretien de votre bateau moteur ou de votre voilier.<br/>\n<br
     /> \t&#149; Peinture sous-marine (antifouling)\n<br /> \t&#149; Polish de coque\n<br
