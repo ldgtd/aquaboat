@@ -1,4 +1,15 @@
 ---
+- boat: Bateau de pêche / Bowrider
+  content: Année 2019
+  engine: Mercury F8 EL
+  height: 5.0 m
+  image: "/forestryio/images/999.jpg"
+  money: 16'774 CHF
+  people: C 5
+  power: 8 CV
+  title: V-Boats 50 Fisch
+  url: https://www.bateau24.ch/chfr/bateauxamoteur/v-boats/v-boats-50-fisch/detail/402914/
+  width: 1.94 m
 - boat: Bateau de pêche
   content: Année 2019
   engine: Moteur Hors-bord
