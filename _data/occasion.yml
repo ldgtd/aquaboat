@@ -1,4 +1,15 @@
 ---
+- boat: ''
+  content: ''
+  engine: ''
+  height: ''
+  image: ''
+  money: ''
+  people: ''
+  power: ''
+  title: ''
+  url: ''
+  width: ''
 - boat: Bateau cabine
   content: Année 2019
   engine: A choix
