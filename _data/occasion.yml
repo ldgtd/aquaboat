@@ -1,15 +1,15 @@
 ---
 - boat: Bateau Cabine
-  content: Année 2010
-  engine: 'Volvo Penta 4.3 Gxi '
-  height: 2.35 m
-  image: "/forestryio/images/aquaboat_transparent interior.png"
-  money: 34'900 CHF
-  people: C 10
-  power: 230 CV
-  title: Stingray 205 CX
-  url: https://www.bateau24.ch/chfr/bateauxamoteur/stingray/stingray-205-cx/detail/390999/
-  width: '6.46 '
+  content: Année 1994
+  engine: OMC Cobra EFI
+  height: 2.70 m
+  image: "/forestryio/images/1-9.jpg"
+  money: 29'900 CHF
+  people: C 8
+  power: 2x 200 CV
+  title: Chris Craft 268 Koncept
+  url: https://www.bateau24.ch/chfr/bateauxamoteur/chris-craft/chris-craft-268-koncept/detail/402902/
+  width: 8.26 m
 - boat: Bateau sundeck
   content: Destockage au lieu de 53'560 CHF </b> Année 2018
   engine: Mercury F150 EFI
