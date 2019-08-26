@@ -9,13 +9,13 @@
     />\n<br />Liste de prix Publique (hors promotion)\n<br /> \t&#149; F4 MH-MLH 1'359
     CHF\n<br /> \t&#149; F5 MH-MLH 1'549 CHF\n<br /> \t&#149; F5 Sail MLH 1'719 CHF\n<br
     /> \t&#149; F6 MH-MLH 1'669 CHF\n<br /> \t&#149; F8 MH-MLH 2'669 CHF"
-  display: true
+  display: false
 - title: Chauffage et climatisation WEBASTO
   id: ''
   content: "Afin de vous servir au mieux nous avons intégrée dans notre offre la marque
     Webasto que nous représentons pour la Suisse.\nChauffage\n- Climatisation\n- Génératrice\n-
     Réfrigérateur "
-  display: true
+  display: false
 - title: Hivernage !
   id: "1"
   content: "\nAvec 5'000 m2 de stockage sécurisé, sous bâche thermoforé, nous sommes
