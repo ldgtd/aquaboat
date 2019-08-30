@@ -4,8 +4,8 @@
   content: "\nAvec 5'000 m2 de stockage sécurisé, sous bâche thermoforé, nous sommes
     en mesure d'assurer le gardiennage de votre bateau.\nNotre équipe vous propose
     aussi un service d'entretien sur mesure.\nVous serez ainsi prêt pour vivre une
-    nouvelle saison en toute sérénité! \n<a href=\"http://www.aquaboat.ch/shipyard.html\"
-    class=\"btn btn--primary\">Inscription></a>"
+    nouvelle saison en toute sérénité! \n<br><a href=\"http://www.aquaboat.ch/shipyard.html\"
+    class=\"btn btn--default btn--block\">Inscription</a>"
   display: true
 - title: Re-motorisation profité de la saison hivers
   id: ''
