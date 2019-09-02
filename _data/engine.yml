@@ -6,7 +6,7 @@
     <br>
   engine: Moteur hors-bord
   image: forestryio/images/Quad_Verado_350_SeaVee_390_3-1.jpg
-  power: De 175 à 400 HP
+  power: De 175 à 450 HP
   title: Moteur Mercruy Verado
 - catalogue: "/forestryio/images/8470-Evinrude-Brochure2017-A4-FR-LR.pdf"
   content: "Evinrude s'attache depuis plus d'un siècle à créer, mettre au point, repenser
@@ -37,8 +37,13 @@
   power: De 135 HP à 425 HP
   title: 'Moteur Mercruiser '
 - catalogue: ''
-  content: |
-    Volvo Penta est l'un des leaders mondiaux de la fourniture de moteurs et de systèmes de motorisation complets pour applications marines et industrielles. Les technologies et produits avancés sont conçus avec un principe clé... faire que l'expérience de navigation soit la plus facile possible. Pour résumer, ces fonctionnalités facilitent la navigation.
+  content: 'Volvo Penta est l''un des leaders mondiaux de la fourniture de moteurs
+    et de systèmes de motorisation complets pour applications marines et industrielles.
+    Les technologies et produits avancés sont conçus avec un principe clé... faire
+    que l''expérience de navigation soit la plus facile possible. Pour résumer, ces
+    fonctionnalités facilitent la navigation.
+
+'
   engine: Inboard
   image: forestryio/images/VP.jpg
   power: 135 à 900 HP
