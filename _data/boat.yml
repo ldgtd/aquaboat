@@ -4,10 +4,10 @@
   content: ''
   engine: Moteur hors-bord
   boat: 'Bateau de pêche '
-  height: 2.13 m
-  width: 5.06 m
+  height: '2.13 '
+  width: '5.06 '
   people: CE 4
-  power: max 115 HP
+  power: max 115
   money: ''
   image: ''
 - id: beneteau
