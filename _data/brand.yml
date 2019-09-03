@@ -1,4 +1,10 @@
 ---
+- id: Volzhanka
+  content: Une marque renommé avec une savoir dans le domaine de l'aluminium, la conception
+    des bateaux Volzhanka sont des bateaux allant de la pêche sportive à la plaisance
+    de quatre à dix mètres, cette gamme sera ravire les amateurs de pêche et les plaisanciers.
+  image: ''
+  catalogue: ''
 - id: supra
   content: Saisons après saisons, les bateaux Supra délivrent luxe, raffinement et
     performances sans concessions. Depuis 1981, la société vous emmène sur un nuage
@@ -6,7 +12,7 @@
     sommeille dans chacun des engins griffés Supra. Engagée avec succès dans de nombreuses
     compétitions wakeboard, la marque fait figure de référence mondiale.
   image: "/forestryio/images/logo-supra-1.jpg"
-  catalogue: 
+  catalogue: ''
 - id: rinker
   content: Rinker vous propose une gamme complète de bateaux de promenade et de loisirs.
     La gamme Rinker vous propose le loisir mais aussi l’aventure avec ses deux séries
