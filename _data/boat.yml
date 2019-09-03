@@ -1,5 +1,16 @@
 ---
 - id: Volzhanka
+  title: Volzhanka 51 Fisch
+  content: ''
+  engine: Moteur hors-bord
+  boat: 'Bateau de pêche '
+  height: "1.91"
+  width: "5.17"
+  people: CE 5
+  power: max 90
+  money: ''
+  image: ''
+- id: Volzhanka
   title: Volzhanka 53 Fisch
   content: ''
   engine: Moteur hors-bord
