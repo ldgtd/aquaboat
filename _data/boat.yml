@@ -1,5 +1,16 @@
 ---
 - id: Volzhanka
+  title: Voyager 700 Open
+  content: ''
+  engine: Moteur hors-bord
+  boat: Bateau Bowrider
+  height: "2.46"
+  width: "7.13"
+  people: CE 8
+  power: max 250
+  money: ''
+  image: ''
+- id: Volzhanka
   title: Voyager 700 Cabin
   content: ''
   engine: Moteur hors-bord
