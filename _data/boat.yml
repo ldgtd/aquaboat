@@ -1,5 +1,16 @@
 ---
 - id: Volzhanka
+  title: FischPro 54
+  content: ''
+  engine: Moteur hors-bord
+  boat: 'Bateau de pêche '
+  height: "2.16"
+  width: "5.45"
+  people: CE 4
+  power: max 150
+  money: ''
+  image: ''
+- id: Volzhanka
   title: FischPro 50
   content: ''
   engine: Moteur hors-bord
