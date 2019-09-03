@@ -1,376 +1,387 @@
 ---
+- id: Volzhanka
+  title: FischPro 50
+  content: ''
+  engine: Moteur hors-bord
+  boat: 'Bateau de pêche '
+  height: 2.13 m
+  width: 5.06 m
+  people: CE 4
+  power: max 115 HP
+  money: ''
+  image: ''
 - id: beneteau
   title: Grand Turismo 49 Fly
   content: ''
   engine: Moteur inboard
   boat: Bateau cabine
-  height: 15.73
-  width: 4.27
-  people: 12
-  power: 870
-  money: 565000
+  height: "15.73"
+  width: "4.27"
+  people: "12"
+  power: "870"
+  money: "565000"
   image: forestryio/images/%C2%A8gt49%20fly.jpg
 - id: beneteau
   title: Grand Turismo 49
   content: ''
   engine: Moteur inboard
   boat: Bateau cabine
-  height: 15.73
-  width: 4.27
-  people: 12
-  power: 870
-  money: 541750
+  height: "15.73"
+  width: "4.27"
+  people: "12"
+  power: "870"
+  money: "541750"
   image: forestryio/images/gt49.jpg
 - id: beneteau
   title: Grand Turismo 46
   content: ''
   engine: Moteur inboard
   boat: Bateau cabine
-  height: 14.78
-  width: 4.2
-  people: 12
-  power: 870
-  money: 403000
+  height: "14.78"
+  width: "4.2"
+  people: "12"
+  power: "870"
+  money: "403000"
   image: forestryio/images/gt46.jpg
 - id: beneteau
   title: Grand Tursimo 40
   content: ''
   engine: Moteur inboard
   boat: Bateau cabine
-  height: 11.5
-  width: 3.85
-  people: 10
-  power: 740
-  money: 280000
+  height: "11.5"
+  width: "3.85"
+  people: "10"
+  power: "740"
+  money: "280000"
   image: forestryio/images/beneteau-gt40.jpg
 - id: valiant
   title: '685 Classic '
   content: ''
   engine: Moteur hors-bord
   boat: Bateau semi-rigide
-  height: 6.75
-  width: 2.71
-  people: 14
-  power: 200
-  money: 43940
+  height: "6.75"
+  width: "2.71"
+  people: "14"
+  power: "200"
+  money: "43940"
   image: forestryio/images/Valiant%20Classic%20685%20Lifestyle%204-1.jpg
 - id: valiant
   title: '630 Classic '
   content: ''
   engine: Moteur hors-bord
   boat: Bateau semi-rigide
-  height: 6.3
-  width: 2.5
-  people: 13
-  power: 150
-  money: 31990
+  height: "6.3"
+  width: "2.5"
+  people: "13"
+  power: "150"
+  money: "31990"
   image: forestryio/images/Valiant%20Classic%20630%20Studio%20Picture-1.jpg
 - id: valiant
   title: 580 Classic
   content: ''
   engine: Moteur hors-bord
   boat: Bateau semi-rigide
-  height: 5.84
-  width: 2.5
-  people: 9
-  power: 150
-  money: 29750
+  height: "5.84"
+  width: "2.5"
+  people: "9"
+  power: "150"
+  money: "29750"
   image: forestryio/images/Valiant%20Classic%20580%20Studio%20Picture-1.jpg
 - id: valiant
   title: 550 Classic
   content: ''
   engine: Moteur hors-bord
   boat: Bateau semi-rigide
-  height: 5.33
-  width: 2.34
-  people: 9
-  power: 120
-  money: 23340
+  height: "5.33"
+  width: "2.34"
+  people: "9"
+  power: "120"
+  money: "23340"
   image: forestryio/images/Valiant%20Classic%20550%20Studio%20picture-1.jpg
 - id: valiant
   title: 500 Classic
   content: ''
   engine: Moteur hors-bord
   boat: Bateau semi-rigide
-  height: 5.01
-  width: 2.32
-  people: 8
-  power: 60
-  money: 18770
+  height: "5.01"
+  width: "2.32"
+  people: "8"
+  power: "60"
+  money: "18770"
   image: forestryio/images/Valiant%20Classic%20500%20Studio%20picture-1.jpg
 - id: moomba
   title: Mondo
   content: ''
   engine: Moteur V-drive
   boat: Bateau sport
-  height: 7.01
-  width: 2.51
-  people: 13
-  power: 550
-  money: 72900
+  height: "7.01"
+  width: "2.51"
+  people: "13"
+  power: "550"
+  money: "72900"
   image: forestryio/images/mondo.jpg
 - id: moomba
   title: Craz
   content: ''
   engine: Moteur V-drive
   boat: Bateau sport
-  height: 7.35
-  width: 2.51
-  people: 16
-  power: 550
-  money: 75900
+  height: "7.35"
+  width: "2.51"
+  people: "16"
+  power: "550"
+  money: "75900"
   image: forestryio/images/craz.jpg
 - id: moomba
   title: Mojo
   content: ''
   engine: Moteur V-drive
   boat: Bateau sport
-  height: 7.71
-  width: 2.54
-  people: 17
-  power: 550
-  money: 82900
+  height: "7.71"
+  width: "2.54"
+  people: "17"
+  power: "550"
+  money: "82900"
   image: forestryio/images/mojo-5.jpg
 - id: moomba
   title: 'Helix '
   content: ''
   engine: Moteur V-drive
   boat: Bateau sport
-  height: 6.52
-  width: 2.59
-  people: 5
-  power: 250
-  money: 68900
+  height: "6.52"
+  width: "2.59"
+  people: "5"
+  power: "250"
+  money: "68900"
   image: forestryio/images/helix.jpg
 - id: supra
   title: SE 450
   content: ''
   engine: Moteur V-drive
   boat: Bateau sport
-  height: 8.19
-  width: 2.59
-  people: 18
-  power: 550
-  money: 138900
+  height: "8.19"
+  width: "2.59"
+  people: "18"
+  power: "550"
+  money: "138900"
   image: forestryio/images/se450-1.jpg
 - id: supra
   title: SG 400
   content: ''
   engine: Moteur V-drive
   boat: Bateau sport
-  height: 7.95
-  width: 2.59
-  people: 17
-  power: 550
-  money: 129900
+  height: "7.95"
+  width: "2.59"
+  people: "17"
+  power: "550"
+  money: "129900"
   image: forestryio/images/sg400-1.jpg
 - id: supra
   title: SA 400
   content: ''
   engine: Moteur V-drive
   boat: Bateau sport
-  height: 7.58
-  width: 2.54
-  people: 13
-  power: 550
-  money: 124900
+  height: "7.58"
+  width: "2.54"
+  people: "13"
+  power: "550"
+  money: "124900"
   image: forestryio/images/sa400-1.jpg
 - id: supra
   title: SC 400
   content: ''
   engine: Moteur V-drive
   boat: Bateau sport
-  height: 7.32
-  width: 2.59
-  people: 14
-  power: 550
-  money: 114900
+  height: "7.32"
+  width: "2.59"
+  people: "14"
+  power: "550"
+  money: "114900"
   image: forestryio/images/sc400-2.jpg
 - id: rinker
   title: EX 290
   content: ''
   engine: Moteur inboard
   boat: Bateau cabine
-  height: 9.65
-  width: 2.77
-  people: 8
-  power: 380
-  money: 139463
+  height: "9.65"
+  width: "2.77"
+  people: "8"
+  power: "380"
+  money: "139463"
   image: forestryio/images/EX290.jpg
 - id: rinker
   title: EX 270
   content: ''
   engine: Moteur inboard
   boat: Bateau cabine
-  height: 8.79
-  width: 2.59
-  people: 8
-  power: 380
-  money: 124329
+  height: "8.79"
+  width: "2.59"
+  people: "8"
+  power: "380"
+  money: "124329"
   image: forestryio/images/EX270-1.jpg
 - id: rinker
   title: QX 29 CC
   content: ''
   engine: Moteur inboard
   boat: Bateau cabine
-  height: 8.81
-  width: 2.74
-  people: 10
-  power: 380
-  money: 98295
+  height: "8.81"
+  width: "2.74"
+  people: "10"
+  power: "380"
+  money: "98295"
   image: forestryio/images/QX29CC.jpg
 - id: rinker
   title: QX 29 BR
   content: ''
   engine: Moteur inboard
   boat: Bateau cabine
-  height: 8.81
-  width: 2.74
-  people: 10
-  power: 380
-  money: 95479
+  height: "8.81"
+  width: "2.74"
+  people: "10"
+  power: "380"
+  money: "95479"
   image: forestryio/images/QX%2029br-1.jpg
 - id: rinker
   title: QX 26 BR
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  height: 7.98
-  width: 2.59
-  people: 9
-  power: 380
-  money: 79371
+  height: "7.98"
+  width: "2.59"
+  people: "9"
+  power: "380"
+  money: "79371"
   image: forestryio/images/QX%2026-1.jpg
 - id: rinker
   title: QX 23 CC
   content: ''
   engine: Moteur inboard
   boat: Bateau cabine
-  height: 7.17
-  width: 2.59
-  people: 8
-  power: 300
-  money: 67491
+  height: "7.17"
+  width: "2.59"
+  people: "8"
+  power: "300"
+  money: "67491"
   image: forestryio/images/QX23CC-1.jpg
 - id: rinker
   title: QX 23 BR
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  height: 7.17
-  width: 2.59
-  people: 8
-  power: 300
-  money: 63780
+  height: "7.17"
+  width: "2.59"
+  people: "8"
+  power: "300"
+  money: "63780"
   image: forestryio/images/QX23BR-1.jpg
 - id: rinker
   title: 22 MTXC
   content: ''
   engine: Moteur inboard
   boat: Bateau cabine
-  height: 6.93
-  width: 2.49
-  people: 8
-  power: 300
-  money: 51049
+  height: "6.93"
+  width: "2.49"
+  people: "8"
+  power: "300"
+  money: "51049"
   image: forestryio/images/MTX%2022CC-1.jpg
 - id: rinker
   title: MTX 22
   content: ''
   engine: Moteur inboard
   boat: Bateau sport
-  height: 6.93
-  width: 2.49
-  people: 8
-  power: 300
-  money: 51049
+  height: "6.93"
+  width: "2.49"
+  people: "8"
+  power: "300"
+  money: "51049"
   image: forestryio/images/22%20MTX%20BR-1.jpg
 - id: rinker
   title: QX 21
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  height: 6.4
-  width: 2.44
-  people: 8
-  power: 300
-  money: 54210
+  height: "6.4"
+  width: "2.44"
+  people: "8"
+  power: "300"
+  money: "54210"
   image: forestryio/images/QX21.jpg
 - id: rinker
   title: 20 MTX
   content: ''
   engine: Moteur inboard
   boat: Bateau sport
-  height: 6.35
-  width: 2.41
-  people: 7
-  power: 200
-  money: 48130
+  height: "6.35"
+  width: "2.41"
+  people: "7"
+  power: "200"
+  money: "48130"
   image: forestryio/images/MTX20-1.jpg
 - id: rinker
   title: QX 19
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  height: 5.94
-  width: 2.44
-  people: 7
-  power: 250
-  money: 46567
+  height: "5.94"
+  width: "2.44"
+  people: "7"
+  power: "250"
+  money: "46567"
   image: forestryio/images/QX19%20OB%20ET%20INB-2.jpg
 - id: rinker
   title: QX 18
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  height: 5.69
-  width: 2.26
-  people: 7
-  power: 200
-  money: 41091
+  height: "5.69"
+  width: "2.26"
+  people: "7"
+  power: "200"
+  money: "41091"
   image: forestryio/images/QX18.jpg
 - id: rinker
   title: QX 19 OB
   content: ''
   engine: Moteur hors-bord
   boat: Bateau bowrider
-  height: 5.94
-  width: 2.44
-  people: 7
-  power: 200
-  money: 41556
+  height: "5.94"
+  width: "2.44"
+  people: "7"
+  power: "200"
+  money: "41556"
   image: forestryio/images/QX19%20OB%20ET%20INB-3.jpg
 - id: rinker
   title: QX 18 OB
   content: ''
   engine: Moteur hors-bord
   boat: Bateau bowrider
-  height: 5.77
-  width: 2.26
-  people: 7
-  power: 150
-  money: 41556
+  height: "5.77"
+  width: "2.26"
+  people: "7"
+  power: "150"
+  money: "41556"
   image: forestryio/images/QX18ob.jpg
 - id: rinker
   title: QX 17 OB
   content: ''
   engine: Moteur hors-bord
   boat: Bateau bowrider
-  height: 5.73
-  width: 2.16
-  people: 6
-  power: 115
-  money: 32882
+  height: "5.73"
+  width: "2.16"
+  people: "6"
+  power: "115"
+  money: "32882"
   image: forestryio/images/qx17.jpg
 - id: selection boat
   title: Classic 690 excellence
   content: ''
   engine: Moteur hors-bord
   boat: Bateau bowrider
-  height: 6.75
-  width: 2.65
-  people: 8
-  power: 140
+  height: "6.75"
+  width: "2.65"
+  people: "8"
+  power: "140"
   money: 
   image: forestryio/images/690.jpg
 - id: selection boat
@@ -378,10 +389,10 @@
   content: ''
   engine: Moteur hors-bord
   boat: Bateau bowrider
-  height: 5.7
-  width: 2.2
-  people: 6
-  power: 60
+  height: "5.7"
+  width: "2.2"
+  people: "6"
+  power: "60"
   money: 
   image: forestryio/images/c590.jpg
 - id: selection boat
@@ -389,427 +400,427 @@
   content: ''
   engine: Moteur hors-bord
   boat: Bateau bowrider
-  height: 5.3
-  width: 1.92
-  people: 5
-  power: 30
-  money: 15360
+  height: "5.3"
+  width: "1.92"
+  people: "5"
+  power: "30"
+  money: "15360"
   image: forestryio/images/c475.jpg
 - id: selection boat
   title: Classic 474 excellence
   content: ''
   engine: Moteur hors-bord
   boat: Bateau bowrider
-  height: 5.2
-  width: 1.92
-  people: 5
-  power: 30
-  money: 14850
+  height: "5.2"
+  width: "1.92"
+  people: "5"
+  power: "30"
+  money: "14850"
   image: forestryio/images/474.jpg
 - id: selection boat
   title: Bowrider 22 excellence
   content: ''
   engine: Moteur hors-bord
   boat: Bateau bowrider
-  height: 6.35
-  width: 2.5
-  people: 6
-  power: 150
-  money: 45410
+  height: "6.35"
+  width: "2.5"
+  people: "6"
+  power: "150"
+  money: "45410"
   image: forestryio/images/br22.jpg
 - id: selection boat
   title: Cruiser GT 720
   content: ''
   engine: Moteur hors-bord
   boat: Bateau cabine
-  height: 7.45
-  width: 2.55
-  people: 7
-  power: 200
-  money: 57970
+  height: "7.45"
+  width: "2.55"
+  people: "7"
+  power: "200"
+  money: "57970"
   image: forestryio/images/gt720.jpg
 - id: selection boat
   title: Cruiser 22 Excellence
   content: ''
   engine: Moteur hors-bord
   boat: Bateau cabine
-  height: 6.35
-  width: 2.5
-  people: 6
-  power: 150
-  money: 46340
+  height: "6.35"
+  width: "2.5"
+  people: "6"
+  power: "150"
+  money: "46340"
   image: forestryio/images/CR22.jpg
 - id: selection boat
   title: Sunny 23
   content: ''
   engine: Moteur hors-bord
   boat: Bateau cabine
-  height: 7.5
-  width: 2.45
-  people: 7
-  power: 200
-  money: 38270
+  height: "7.5"
+  width: "2.45"
+  people: "7"
+  power: "200"
+  money: "38270"
   image: forestryio/images/sunny23.jpg
 - id: selection boat
   title: Sunny 21
   content: ''
   engine: Moteur hors-bord
   boat: Bateau cabine
-  height: 6.3
-  width: 2.35
-  people: 6
-  power: 150
-  money: 33050
+  height: "6.3"
+  width: "2.35"
+  people: "6"
+  power: "150"
+  money: "33050"
   image: forestryio/images/sunny21.jpg
 - id: selection boat
   title: Sunny 20
   content: ''
   engine: Moteur hors-bord
   boat: Bateau cabine
-  height: 6
+  height: "6"
   width: '2.20'
-  people: 6
-  power: 115
-  money: 29550
+  people: "6"
+  power: "115"
+  money: "29550"
   image: "/forestryio/images/Sunny-20.jpg"
 - id: selection boat
   title: Aston 21
   content: ''
   engine: Moteur hors-bord
   boat: Bateau bowrider
-  height: 6.33
-  width: 2.48
-  people: 6
-  power: 150
-  money: 26680
+  height: "6.33"
+  width: "2.48"
+  people: "6"
+  power: "150"
+  money: "26680"
   image: forestryio/images/aston%2021-1.jpg
 - id: selection boat
   title: Aston 20
   content: ''
   engine: Moteur hors-bord
   boat: Bateau bowrider
-  height: 6
-  width: 2.18
-  people: 6
-  power: 115
-  money: 26940
+  height: "6"
+  width: "2.18"
+  people: "6"
+  power: "115"
+  money: "26940"
   image: forestryio/images/AS20.jpg
 - id: selection boat
   title: Aston 18
   content: ''
   engine: Moteur hors-bord
   boat: Bateau bowrider
-  height: 5.45
-  width: 2.08
-  people: 6
-  power: 100
-  money: 25520
+  height: "5.45"
+  width: "2.08"
+  people: "6"
+  power: "100"
+  money: "25520"
   image: forestryio/images/AS19.jpg
 - id: selection boat
   title: Aston 16
   content: ''
   engine: Moteur hors-bord
   boat: Bateau bowrider
-  height: 5.25
-  width: 1.95
-  people: 5
-  power: 50
-  money: 14710
+  height: "5.25"
+  width: "1.95"
+  people: "5"
+  power: "50"
+  money: "14710"
   image: forestryio/images/img.jpg
 - id: glastron
   title: GS 259 (NEW 2016)
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  height: 7.62
-  width: 2.55
-  people: 0
-  power: 300
-  money: 43670
+  height: "7.62"
+  width: "2.55"
+  people: "0"
+  power: "300"
+  money: "43670"
   image: forestryio/images/gt259.jpg
 - id: glastron
   title: GTS 229
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  height: 6.71
-  width: 2.54
-  people: 8
-  power: 300
-  money: 43670
+  height: "6.71"
+  width: "2.54"
+  people: "8"
+  power: "300"
+  money: "43670"
   image: forestryio/images/gts229.jpg
 - id: glastron
   title: GT 229
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  height: 6.71
-  width: 2.54
-  people: 8
-  power: 300
-  money: 43670
+  height: "6.71"
+  width: "2.54"
+  people: "8"
+  power: "300"
+  money: "43670"
   image: forestryio/images/gt229.jpg
 - id: glastron
   title: GTS 245
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  height: 7.32
-  width: 2.54
-  people: 11
-  power: 380
-  money: 32890
+  height: "7.32"
+  width: "2.54"
+  people: "11"
+  power: "380"
+  money: "32890"
   image: forestryio/images/gts245.jpg
 - id: glastron
   title: GT 245
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  height: 7.32
-  width: 2.54
-  people: 11
-  power: 380
-  money: 43670
+  height: "7.32"
+  width: "2.54"
+  people: "11"
+  power: "380"
+  money: "43670"
   image: forestryio/images/gt245.jpg
 - id: glastron
   title: GTS 225
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  height: 6.71
-  width: 2.54
-  people: 9
-  power: 300
-  money: 43670
+  height: "6.71"
+  width: "2.54"
+  people: "9"
+  power: "300"
+  money: "43670"
   image: "/forestryio/images/11.gif"
 - id: glastron
   title: GT 225
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  height: 6.71
-  width: 2.54
-  people: 9
-  power: 300
-  money: 43670
+  height: "6.71"
+  width: "2.54"
+  people: "9"
+  power: "300"
+  money: "43670"
   image: "/forestryio/images/2.gif"
 - id: glastron
   title: GTS 205
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  height: 7.01
-  width: 2.44
-  people: 7
-  power: 300
-  money: 43670
+  height: "7.01"
+  width: "2.44"
+  people: "7"
+  power: "300"
+  money: "43670"
   image: forestryio/images/gts205.jpg
 - id: glastron
   title: GT 205
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  height: 6.25
-  width: 2.44
-  people: 7
-  power: 300
-  money: 43670
+  height: "6.25"
+  width: "2.44"
+  people: "7"
+  power: "300"
+  money: "43670"
   image: forestryio/images/gt205.jpg
 - id: glastron
   title: GTX 185
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  height: 5.49
-  width: 2.26
-  people: 6
-  power: 135
-  money: 41970
+  height: "5.49"
+  width: "2.26"
+  people: "6"
+  power: "135"
+  money: "41970"
   image: forestryio/images/GTX185-1.jpg
 - id: glastron
   title: GTS 185
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  height: 5.49
-  width: 2.26
-  people: 6
-  power: 250
-  money: 32890
+  height: "5.49"
+  width: "2.26"
+  people: "6"
+  power: "250"
+  money: "32890"
   image: forestryio/images/gts%20185.jpg
 - id: glastron
   title: GT 185
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  height: 5.49
-  width: 2.26
-  people: 6
-  power: 25
-  money: 31590
+  height: "5.49"
+  width: "2.26"
+  people: "6"
+  power: "25"
+  money: "31590"
   image: forestryio/images/gt%20185.jpg
 - id: stingray
   title: 250 CS
   content: ''
   engine: Moteur inboard
   boat: Bateau cabine
-  height: 7.6
-  width: 2.6
-  people: 10
-  power: 350
-  money: 85470
+  height: "7.6"
+  width: "2.6"
+  people: "10"
+  power: "350"
+  money: "85470"
   image: "/forestryio/images/250cs.jpg"
 - id: stingray
   title: 250 CR
   content: ''
   engine: Moteur inboard
   boat: Bateau cabine
-  height: 7.6
-  width: 2.6
-  people: 10
-  power: 350
-  money: 62510
+  height: "7.6"
+  width: "2.6"
+  people: "10"
+  power: "350"
+  money: "62510"
   image: forestryio/images/250cr.jpg
 - id: stingray
   title: 235 CR
   content: ''
   engine: Moteur inboard
   boat: Bateau cabine
-  height: 7.29
-  width: 2.6
-  people: 12
-  power: 350
-  money: 58850
+  height: "7.29"
+  width: "2.6"
+  people: "12"
+  power: "350"
+  money: "58850"
   image: forestryio/images/235cr.jpg
 - id: stingray
   title: 225 SX
   content: ''
   engine: Moteur inboard
   boat: Bateau sport
-  height: 7
-  width: 2.5
-  people: 10
-  power: 350
-  money: 52470
+  height: "7"
+  width: "2.5"
+  people: "10"
+  power: "350"
+  money: "52470"
   image: forestryio/images/225sx-1.jpg
 - id: stingray
   title: 225 CR
   content: ''
   engine: Moteur inboard
   boat: Bateau cabine
-  height: 7
-  width: 2.5
-  people: 10
-  power: 300
-  money: 51850
+  height: "7"
+  width: "2.5"
+  people: "10"
+  power: "300"
+  money: "51850"
   image: forestryio/images/225cr-1.jpg
 - id: stingray
   title: 215 CR
   content: ''
   engine: Moteur inboard
   boat: Bateau cabine
-  height: 6.7
-  width: 2.6
-  people: 11
-  power: 250
-  money: 55290
+  height: "6.7"
+  width: "2.6"
+  people: "11"
+  power: "250"
+  money: "55290"
   image: forestryio/images/215cr.jpg
 - id: stingray
   title: 208 CR
   content: ''
   engine: Moteur inboard
   boat: Bateau cabine
-  height: 6.31
-  width: 2.5
-  people: 9
-  power: 250
-  money: 43670
+  height: "6.31"
+  width: "2.5"
+  people: "9"
+  power: "250"
+  money: "43670"
   image: forestryio/images/stingray_208_cr_5.jpg
 - id: stingray
   title: 198 RX
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  height: 6
-  width: 2.4
-  people: 9
-  power: 22
-  money: 41970
+  height: "6"
+  width: "2.4"
+  people: "9"
+  power: "22"
+  money: "41970"
   image: forestryio/images/198rx.jpg
 - id: stingray
   title: 198LX
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  height: 6
-  width: 2.4
-  people: 9
-  power: 20
-  money: 41970
+  height: "6"
+  width: "2.4"
+  people: "9"
+  power: "20"
+  money: "41970"
   image: forestryio/images/198lx-1.jpg
 - id: stingray
   title: 208 LR
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  height: 6.3
-  width: 2.5
-  people: 9
-  power: 200
-  money: 43670
+  height: "6.3"
+  width: "2.5"
+  people: "9"
+  power: "200"
+  money: "43670"
   image: forestryio/images/208LR_1.jpg
 - id: stingray
   title: 215 LR
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  height: 6.69
-  width: 2.57
-  people: 11
-  power: 280
-  money: 54220
+  height: "6.69"
+  width: "2.57"
+  people: "11"
+  power: "280"
+  money: "54220"
   image: forestryio/images/215lr-2.jpg
 - id: stingray
   title: 225 LR
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  height: 7
-  width: 2.5
-  people: 10
-  power: 300
-  money: 48940
+  height: "7"
+  width: "2.5"
+  people: "10"
+  power: "300"
+  money: "48940"
   image: forestryio/images/225lr.jpg
 - id: stingray
   title: 225 RX
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  height: 7
-  width: 2.5
-  people: 10
-  power: 250
-  money: 48620
+  height: "7"
+  width: "2.5"
+  people: "10"
+  power: "250"
+  money: "48620"
   image: "/forestryio/images/225sx.jpg"
 - id: stingray
   title: 235 LR
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  height: 7.29
-  width: 2.5
-  people: 12
-  power: 350
-  money: 57650
+  height: "7.29"
+  width: "2.5"
+  people: "12"
+  power: "350"
+  money: "57650"
   image: forestryio/images/235lr.jpg
 - id: stingray
   title: 250 LR
   content: ''
   engine: Moteur inboard
   boat: Bateau bowrider
-  height: 7.6
-  width: 2.6
-  people: 10
-  power: 350
-  money: 60220
+  height: "7.6"
+  width: "2.6"
+  people: "10"
+  power: "350"
+  money: "60220"
   image: forestryio/images/250lr.jpg
