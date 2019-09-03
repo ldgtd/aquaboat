@@ -1,5 +1,16 @@
 ---
 - id: Volzhanka
+  title: Voyager 960 Cabin
+  content: ''
+  engine: Moteur hors-bord
+  boat: Bateau cabine
+  height: "2.99"
+  width: "9.58"
+  people: CE 10
+  power: max 700
+  money: ''
+  image: ''
+- id: Volzhanka
   title: FischPro 54
   content: ''
   engine: Moteur hors-bord
