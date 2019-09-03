@@ -1,5 +1,16 @@
 ---
 - id: Volzhanka
+  title: YAVA M
+  content: ''
+  engine: Moteur hors-bord
+  boat: Bateau Bowrider et pêche
+  height: "1.85"
+  width: "4.73"
+  people: CE 5
+  power: max 70
+  money: ''
+  image: ''
+- id: Volzhanka
   title: YAVA L
   content: ''
   engine: Moteur hors-bord
