@@ -1,5 +1,16 @@
 ---
 - id: Volzhanka
+  title: Volzhanka 46 Classic
+  content: ''
+  engine: Moteur hors-bord
+  boat: Bateau cabine
+  height: "1.84"
+  width: "4.58"
+  people: CE 5
+  power: max 60
+  money: ''
+  image: ''
+- id: Volzhanka
   title: Volzhanka 46 Fisch
   content: ''
   engine: Moteur hors-bord
