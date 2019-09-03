@@ -1,5 +1,16 @@
 ---
 - id: Volzhanka
+  title: YAVA XL
+  content: ''
+  engine: Moteur hors-bord
+  boat: Bateau Bowrider et pêche
+  height: "2.15"
+  width: '5.50'
+  people: CE 6
+  power: max 150
+  money: ''
+  image: ''
+- id: Volzhanka
   title: Voyager 700 Open
   content: ''
   engine: Moteur hors-bord
