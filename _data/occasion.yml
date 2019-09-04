@@ -1,5 +1,16 @@
 ---
 - boat: Bateau de pêche / Bowrider
+  content: 'Nouveauté '
+  engine: Moteur Hors-bord
+  height: 1.84 m
+  image: ''
+  money: 12'400 CHF
+  people: C 5
+  power: Max 60 CV
+  title: V-Boats 46 Fish
+  url: https://www.bateau24.ch/chfr/bateauxamoteur/vboats/vboats-46-fish/detail/408021/
+  width: "4.58"
+- boat: Bateau de pêche / Bowrider
   content: Année 2019
   engine: Mercury F8 EL
   height: 5.0 m
