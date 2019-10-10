@@ -21,6 +21,17 @@
   title: V-Boats 50 Fisch
   url: https://www.bateau24.ch/chfr/bateauxamoteur/v-boats/v-boats-50-fisch/detail/402914/
   width: 1.94 m
+- boat: Bateau voilier
+  content: Année 1997
+  engine: 'Moteur Volvo Penta Saildrive '
+  height: 3.85 m
+  image: "/forestryio/images/aquabmb38.jpg"
+  money: 69'900 CHF
+  people: C 12
+  power: 28 CV
+  title: Bavaria 38 Holiday
+  url: https://www.bateau24.ch/chfr/voiliers/bavaria/bavaria-38-holiday/detail/375601/
+  width: 11.85 m
 - boat: Bateau de pêche
   content: Année 2019
   engine: Moteur Hors-bord
@@ -76,17 +87,6 @@
   title: Mariah 180
   url: https://www.bateau24.ch/chfr/bateauxamoteur/mariah-boats/mariah-boats-180/detail/380603/
   width: 5.53 m
-- boat: Bateau voilier
-  content: Année 1997
-  engine: 'Moteur Volvo Penta Saildrive '
-  height: 3.85 m
-  image: "/forestryio/images/aquabmb38.jpg"
-  money: 69'900 CHF
-  people: C 12
-  power: 28 CV
-  title: Bavaria 38 Holiday
-  url: https://www.bateau24.ch/chfr/voiliers/bavaria/bavaria-38-holiday/detail/375601/
-  width: 11.85 m
 - boat: Bateau open
   content: New modèle - Année 2019
   engine: New Mercury F175 EFI V6
