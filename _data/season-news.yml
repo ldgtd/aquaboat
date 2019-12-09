@@ -1,4 +1,12 @@
 ---
+- title: Fermeture vacances de Noël
+  id: ''
+  content: |-
+    Nous serons fermé du 23 décembre au 6 janvier 2020.
+
+    Nous vous souhaitons de bonne fêtes de fin d'année et vous remercions de votre fidélité.
+    Votre Team AQUABOAT
+  display: true
 - title: Hivernage !
   id: "1"
   content: "\nAvec 5'000 m2 de stockage sécurisé, sous bâche thermoforé, nous sommes
