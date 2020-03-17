@@ -1,4 +1,17 @@
 ---
+- title: COVID-19
+  id: ''
+  content: |-
+    Chers clients, chers partenaires, chers amis,
+     
+    Face à la crise sanitaire qui nous touche actuellement, notre priorité est de protéger la santé de nos collaborateurs et de nos fidèles clients tout en assurant la continuité de nos prestations.
+    Afin de minimiser le risque que nos collègues puissent contracter le virus voire le propager, nous vous informons que notre magasin et bureau de vente sera fermé jusqu'à nouvel ordre.
+    Nous avons mis en place un ensemble de mesures, outils et processus afin d’assurer la tenue normale de notre travail durant cette période.
+    Nous sommes joignables par téléphone et mail pour toutes demandes concernant  votre bateau ou/et futurs travaux.
+    L'atelier mécanique restera ouvert tant qu'aucune obligation légale ne nous oblige une fermeture, mais à titre de prévention nous vous demandons expressément pour votre santé et celle de nos collaborateurs d'organiser les futures travaux et mise à l'eau par mail ou téléphone.
+    Il est important que nous abordions cette période avec calme, solidarité et responsabilité. Nous espérons revenir à une situation normale rapidement et restons volontiers à votre disposition pour toute question.
+    Amicalement, votre Team AQUABOAT
+  display: true
 - title: Fermeture vacances de Noël
   id: ''
   content: |-
