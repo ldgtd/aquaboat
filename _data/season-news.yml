@@ -38,7 +38,7 @@
     class=\"btn btn--default\" target=\"_blank\">Inscription hivernage</a>\n  <a href=\"https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3Afdaed75c-d7cc-4310-816d-b867831c2101\"
     class=\"btn btn--default\" target=\"_blank\">Convention hivernage à télécharger
     PDF</a>\n"
-  display: false
+  display: true
 - title: Re-motorisation profité de la saison hivers
   id: ''
   content: "Re-motorisation de votre bateau ?\n\nNous vous proposons la toutes dernières
